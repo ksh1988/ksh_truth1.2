@@ -1,0 +1,3 @@
+﻿@media (min-width: 821px) {
+  .main.expanded .content { width: min(1220px, 92%); }
+}

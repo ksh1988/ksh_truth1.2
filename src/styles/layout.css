@@ -1,0 +1,29 @@
+﻿.site-shell { min-height: 100vh; }
+.main { min-height: 100vh; margin-left: 280px; transition: margin .25s ease; }
+.main.expanded { margin-left: 0; }
+.content { width: min(1180px, 90%); margin: 0 auto; padding: 64px 0 100px; }
+.scrim { display: none; }
+
+.topbar {
+  position: sticky;
+  z-index: 20;
+  top: 0;
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 5vw;
+  background: rgba(245, 241, 232, .9);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+.breadcrumb { min-width: 0; display: flex; gap: 10px; color: var(--muted); font-size: 12px; white-space: nowrap; overflow: hidden; }
+.breadcrumb strong { color: #34414c; overflow: hidden; text-overflow: ellipsis; }
+.breadcrumb b { font-weight: 400; opacity: .45; }
+.languages { display: flex; padding: 3px; border: 1px solid var(--line); background: rgba(255, 255, 255, .72); border-radius: 4px; }
+.languages button { padding: 7px 10px; border: 0; color: var(--muted); background: transparent; border-radius: 2px; cursor: pointer; font-size: 11px; }
+.languages button.active { color: #fff; background: var(--blue); }
+.mobile-menu { display: none; width: 38px; padding: 7px; border: 0; background: transparent; cursor: pointer; }
+.mobile-menu span { display: block; height: 1px; margin: 5px 0; background: #40515f; }
+.main.expanded .mobile-menu { display: block; }

@@ -1,0 +1,45 @@
+﻿@media (max-width: 820px) {
+  .sidebar, .sidebar.collapsed { width: min(84vw, 320px); transform: translateX(-102%); box-shadow: 16px 0 60px rgba(45,52,58,.2); }
+  .sidebar.open { transform: translateX(0); }
+  .collapse-button { display: none; }
+  .main, .main.expanded { margin-left: 0; }
+  .scrim { position: fixed; z-index: 25; inset: 0; display: block; background: rgba(36,43,49,.35); backdrop-filter: blur(2px); }
+  .mobile-menu { display: block; }
+  .breadcrumb { display: none; }
+  .topbar { min-height: 64px; padding: 0 5%; }
+  .languages { margin-left: auto; }
+  .languages button { padding: 7px 8px; }
+  .content { width: 90%; padding-top: 45px; }
+  .page-heading { margin-bottom: 35px; }
+  .timeline-controls { margin: 0 0 30px; padding: 15px; align-items: stretch; }
+  .timeline-controls label, .order-control { width: 100%; }
+  .year-filter select { width: 100%; }
+  .order-buttons { display: grid; grid-template-columns: 1fr 1fr; }
+  .timeline-item { grid-template-columns: 16px 1fr; gap: 14px; }
+  .timeline-card { margin-bottom: 25px; }
+  .case-meta { gap: 12px; }
+  .case-meta > div { flex-basis: 100%; min-width: 0; }
+  .facts { grid-template-columns: 1fr; }
+  .evidence-card { grid-template-columns: 1fr; padding: 22px; }
+  .card-number { width: 52px; height: 42px; margin-bottom: 14px; font-size: 18px; }
+  .media-grid, .media-grid.compact { grid-template-columns: 1fr; min-width: 0; }
+  .matrix-statement, .matrix-conclusion { padding: 15px 16px; font-size: 15px; text-align: left; }
+  .evidence-matrix th { font-size: 14px; }
+  .evidence-matrix td { padding: 13px 10px; font-size: 13px; }
+  .matrix-agency-compare .matrix-canvas { width: 960px; min-width: 960px; }
+  .matrix-agency-compare .col-category { min-width: 88px !important; }
+  .matrix-agency-compare .col-yg, .matrix-agency-compare .col-gold { width: auto !important; min-width: 0 !important; }
+  .matrix-case-essence .matrix-canvas { width: 1280px; min-width: 1280px; }
+  .matrix-case-essence .col-year,
+  .matrix-case-essence .col-perpetrator,
+  .matrix-case-essence .col-purpose,
+  .matrix-case-essence .col-timeline { width: 1% !important; min-width: 0 !important; }
+  .matrix-case-essence .col-public,
+  .matrix-case-essence .col-behind,
+  .matrix-case-essence .col-notes,
+  .matrix-case-essence .col-method,
+  .matrix-case-essence .col-photo,
+  .matrix-case-essence .col-chat,
+  .matrix-case-essence .col-letter,
+  .matrix-case-essence .col-audio { width: auto !important; min-width: 150px !important; }
+}

@@ -1,0 +1,55 @@
+﻿:root {
+  color-scheme: light;
+  font-family: "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei", "PingFang SC", "Noto Sans KR", Arial, sans-serif;
+  color: #27313b;
+  background: #f5f1e8;
+  font-synthesis: none;
+  --page-bg: #f5f1e8;
+  --panel: #fffdf8;
+  --panel-soft: #f8f5ee;
+  --panel-muted: #f0ede5;
+  --line: rgba(47, 67, 84, .14);
+  --text: #27313b;
+  --text-strong: #202b35;
+  --muted: #6e7b87;
+  --blue: #286aa6;
+  --blue-soft: #397db8;
+  --blue-pale: #e3edf5;
+  --shadow: 0 12px 36px rgba(52, 59, 65, .055);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: var(--text);
+  background: radial-gradient(circle at 85% 0%, rgba(65, 124, 174, .08) 0, transparent 32rem), var(--page-bg);
+}
+button, a { font: inherit; }
+button { color: inherit; }
+body .site-shell * { font-weight: 600; }
+body .site-shell h1,
+body .site-shell h2,
+body .site-shell h3,
+body .site-shell strong,
+body .site-shell b,
+body .site-shell th,
+body .site-shell dt,
+body .site-shell .nav-item.active,
+body .site-shell .sub-item.active,
+body .site-shell .category,
+body .site-shell .matrix-statement,
+body .site-shell .matrix-conclusion,
+body .site-shell .segment-bold { font-weight: 750; }
+
+* { scrollbar-width: thin; scrollbar-color: #8aa9c4 #eee9df; }
+*::-webkit-scrollbar { width: 9px; height: 9px; }
+*::-webkit-scrollbar-track { background: #eee9df; border-radius: 999px; }
+*::-webkit-scrollbar-thumb { background: linear-gradient(180deg, #8fb0cc, #678fac); border: 2px solid #eee9df; border-radius: 999px; }
+*::-webkit-scrollbar-thumb:hover { background: #4f7e9f; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; transition: none !important; }
+}
