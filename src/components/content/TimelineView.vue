@@ -2,6 +2,7 @@
 import { timelineFieldLabels, timelineText } from '../../config/uiText'
 import { displayFieldsFor, formatDate, itemTitle, yearLabel } from '../../utils/contentHelpers'
 import { localizeValue } from '../../utils/localization'
+import { searchKeyFor } from '../../utils/searchKeys'
 import LinkBlock from '../LinkBlock.vue'
 import MediaBlock from '../MediaBlock.vue'
 
@@ -48,7 +49,12 @@ const fieldLabel = (key, lang) => localizeValue(timelineFieldLabels[key], lang) 
       </div>
     </div>
 
-    <article v-for="(item, index) in entries" :key="item.id || index" class="timeline-item">
+    <article
+      v-for="(item, index) in entries"
+      :key="item.id || index"
+      class="timeline-item"
+      :data-search-key="searchKeyFor(item, index)"
+    >
       <div class="timeline-rail">
         <span class="dot"></span>
         <span class="line"></span>

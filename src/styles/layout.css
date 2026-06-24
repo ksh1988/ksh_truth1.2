@@ -1,6 +1,6 @@
 ﻿.site-shell { min-height: 100vh; }
 .main { min-height: 100vh; margin-left: 280px; transition: margin .25s ease; }
-.main.expanded { margin-left: 0; }
+.main.sidebar-hidden { margin-left: 0; }
 .content { width: min(1180px, 90%); margin: 0 auto; padding: 64px 0 100px; }
 .scrim { display: none; }
 
@@ -26,4 +26,4 @@
 .languages button.active { color: #fff; background: var(--blue); }
 .mobile-menu { display: none; width: 38px; padding: 7px; border: 0; background: transparent; cursor: pointer; }
 .mobile-menu span { display: block; height: 1px; margin: 5px 0; background: #40515f; }
-.main.expanded .mobile-menu { display: block; }
+.main.sidebar-hidden .mobile-menu { display: block; }

@@ -4,16 +4,16 @@ import { entriesFor } from '../utils/contentHelpers'
 
 const firstContentInTab = (tab) => {
   const category = tab.categories?.[0]
-  const subTab = tab.sub_tabs?.[0] || category?.sub_tabs?.[0]
+  const subTab = category?.sub_tabs?.[0] || tab.sub_tabs?.[0]
   return {
-    categoryId: tab.sub_tabs?.length ? null : category?.id || null,
+    categoryId: category?.sub_tabs?.length ? category.id : null,
     subTabId: subTab?.id || null,
   }
 }
 
 export const useSiteNavigation = (siteData, lang) => {
-  const sidebarOpen = ref(false)
-  const collapsed = ref(false)
+  const mobileSidebarVisible = ref(false)
+  const sidebarVisible = ref(true)
   const expandedTabs = ref(new Set())
   const timelineOrder = ref('desc')
   const selectedYear = ref('all')
@@ -34,20 +34,20 @@ export const useSiteNavigation = (siteData, lang) => {
     if (activeTab.value.layout !== 'two-level') return activeTab.value
 
     const directSubTab = activeTab.value.sub_tabs?.find((sub) => sub.id === selection.value.subTabId)
-    return directSubTab
-      || activeCategory.value?.sub_tabs?.find((sub) => sub.id === selection.value.subTabId)
-      || activeTab.value.sub_tabs?.[0]
+    return activeCategory.value?.sub_tabs?.find((sub) => sub.id === selection.value.subTabId)
+      || directSubTab
       || activeCategory.value?.sub_tabs?.[0]
+      || activeTab.value.sub_tabs?.[0]
       || activeTab.value
   })
   const pageTitle = computed(() => localize(activeContent.value.label) || localize(activeTab.value.label))
 
   const closeMobileMenu = () => {
-    sidebarOpen.value = false
+    mobileSidebarVisible.value = false
   }
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    window.scrollTo({ top: 0, behavior: 'auto' })
   }
 
   const activateSelection = (nextSelection) => {
@@ -132,7 +132,7 @@ export const useSiteNavigation = (siteData, lang) => {
     activeCategory,
     activeContent,
     activeTab,
-    collapsed,
+    sidebarVisible,
     expandedTabs,
     localize,
     navigateInternal,
@@ -142,7 +142,7 @@ export const useSiteNavigation = (siteData, lang) => {
     selectTab,
     selectedYear,
     selection,
-    sidebarOpen,
+    mobileSidebarVisible,
     timelineEntries,
     timelineOrder,
     timelineYears,

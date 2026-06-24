@@ -1,8 +1,8 @@
 ﻿@media (max-width: 820px) {
-  .sidebar, .sidebar.collapsed { width: min(84vw, 320px); transform: translateX(-102%); box-shadow: 16px 0 60px rgba(45,52,58,.2); }
+  .sidebar, .sidebar.hidden { width: min(84vw, 320px); transform: translateX(-102%); box-shadow: 16px 0 60px rgba(45,52,58,.2); }
   .sidebar.open { transform: translateX(0); }
-  .collapse-button { display: none; }
-  .main, .main.expanded { margin-left: 0; }
+  .sidebar-toggle-button { display: none; }
+  .main, .main.sidebar-hidden { margin-left: 0; }
   .scrim { position: fixed; z-index: 25; inset: 0; display: block; background: rgba(36,43,49,.35); backdrop-filter: blur(2px); }
   .mobile-menu { display: block; }
   .breadcrumb { display: none; }

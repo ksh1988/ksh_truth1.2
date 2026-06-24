@@ -3,7 +3,6 @@ import { languageNames } from '../../config/uiText'
 
 defineProps({
   activeTab: { type: Object, required: true },
-  collapsed: Boolean,
   lang: { type: String, required: true },
   localize: { type: Function, required: true },
   siteData: { type: Object, required: true },

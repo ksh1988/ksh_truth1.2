@@ -1,6 +1,7 @@
-﻿<script setup>
+<script setup>
 import { entriesFor, itemDescription, itemTitle } from '../../utils/contentHelpers'
 import { localizedHtml, localizeValue } from '../../utils/localization'
+import { searchKeyFor } from '../../utils/searchKeys'
 import LinkBlock from '../LinkBlock.vue'
 import MediaBlock from '../MediaBlock.vue'
 
@@ -26,7 +27,11 @@ defineProps({
         </tr>
       </thead>
       <tbody>
-        <tr v-for="(item, index) in entriesFor(content)" :key="item.id || index">
+        <tr
+          v-for="(item, index) in entriesFor(content)"
+          :key="item.id || index"
+          :data-search-key="searchKeyFor(item, index)"
+        >
           <td>{{ String(index + 1).padStart(2, '0') }}</td>
           <td>
             <strong>{{ itemTitle(item, lang) }}</strong>

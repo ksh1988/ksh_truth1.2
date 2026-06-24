@@ -1,6 +1,7 @@
-﻿<script setup>
+<script setup>
 import { entriesFor, itemDescription, itemTitle } from '../../utils/contentHelpers'
 import { localizedHtml, localizeValue } from '../../utils/localization'
+import { searchKeyFor } from '../../utils/searchKeys'
 import LinkBlock from '../LinkBlock.vue'
 import MediaBlock from '../MediaBlock.vue'
 
@@ -16,7 +17,12 @@ defineEmits(['navigate-internal'])
 
 <template>
   <div class="card-list">
-    <article v-for="(item, index) in entriesFor(content)" :key="item.id || index" class="evidence-card">
+    <article
+      v-for="(item, index) in entriesFor(content)"
+      :key="item.id || index"
+      class="evidence-card"
+      :data-search-key="searchKeyFor(item, index)"
+    >
       <div class="card-number">{{ String(item.index || index + 1).padStart(2, '0') }}</div>
       <div class="card-body">
         <h2>
@@ -26,7 +32,7 @@ defineEmits(['navigate-internal'])
             @click="$emit('navigate-internal', item.internal_link)"
           >
             <span>{{ itemTitle(item, lang) }}</span>
-            <b aria-hidden="true">→</b>
+            <b aria-hidden="true">&rarr;</b>
           </button>
           <template v-else>{{ itemTitle(item, lang) }}</template>
         </h2>

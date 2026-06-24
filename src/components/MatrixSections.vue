@@ -1,4 +1,6 @@
 <script setup>
+import { searchKeyForMatrixRow } from '../utils/searchKeys'
+
 const props = defineProps({
   content: { type: Object, required: true },
   lang: { type: String, required: true },
@@ -29,7 +31,12 @@ const segmentClass = (segment) => ({
     <div class="matrix-scroll matrix-all-scroll" tabindex="0">
       <div class="matrix-canvas">
         <p v-if="content.matrix_intro" class="matrix-statement">{{ localize(content.matrix_intro) }}</p>
-        <section v-for="section in content.matrix_sections" :key="section.id" class="matrix-section" :class="[`tone-${section.tone || 'cream'}`, `section-${section.id}`]">
+        <section
+          v-for="section in content.matrix_sections"
+          :key="section.id"
+          class="matrix-section"
+          :class="[`tone-${section.tone || 'cream'}`, `section-${section.id}`]"
+        >
           <table class="evidence-matrix">
             <thead>
               <tr>
@@ -37,7 +44,11 @@ const segmentClass = (segment) => ({
               </tr>
             </thead>
             <tbody>
-              <tr v-for="(row, rowIndex) in section.rows" :key="row.id || rowIndex">
+              <tr
+                v-for="(row, rowIndex) in section.rows"
+                :key="row.id || rowIndex"
+                :data-search-key="searchKeyForMatrixRow(content.id, section.id, row, rowIndex)"
+              >
                 <template v-for="column in section.columns" :key="column.key">
                   <td v-if="!row.skip_cells?.includes(column.key)" :rowspan="row.rowspans?.[column.key] || 1" :class="`col-${column.key}`">
                     <template v-for="(segment, segmentIndex) in segments(row[column.key])" :key="segmentIndex">

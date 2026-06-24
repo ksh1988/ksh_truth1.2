@@ -3073,764 +3073,746 @@
               ]
             }
           ]
+        }
+      ],
+      "sub_tabs": [
+        {
+            "id": "media-strategy",
+            "label": {
+            "zh": "遗属舆论策略",
+            "ko": "유족 여론 조작",
+            "en": "Family's Media Strategy"
+            },
+            "layout": "list",
+            "entries": [
+            {
+                "id": "row4-2",
+                "title": "“否认未成年交往“被造谣成“否认交往”",
+                "description": "**金秀贤25年**仅仅否认过“==未成年交往==”,从未否认过“交往”,然而在每次**金秀贤**否认“==未成年交往==”时,**遗属**方都会==造谣==声称“**金秀贤**撒谎,否认交往”然后放出亲密合照“打脸”,给公众塑造**金秀贤**撒谎精不可信任形象",
+                "imgs": {
+                "zh": [],
+                "ko": [],
+                "en": [],
+                "shared": [
+                    "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/de/17819364816ecd382809dc3059b13a3bbadd5c1059.jpg",
+                    "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/00/178193648269f584ff2433d679d13208d60e012f86.jpg",
+                    "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/3a/178193648174086aea0294e149fa113cfb7aff4bc8.jpg"
+                ]
+                },
+                "link": [
+                {
+                    "title": "来源链接",
+                    "url": "https://m.entertain.naver.com/article/108/0003311312"
+                }
+                ],
+                "videos": []
+            },
+            {
+                "id": "row4-3",
+                "title": "曲解未成年住处声明",
+                "description": "**遗属**将15年**金赛纶**和其他人在公寓电梯口照片栽赃给**金秀贤**,**金秀贤**说“从未去过**金赛纶**未成年时期的家”,**遗属**春秋笔法==造谣==声称“**金秀贤**不承认去过**金赛纶**家”,然后放出**金赛纶**成年后在**金牌公司**租的千万豪宅大平层员工宿舍中的场景“打脸”,给公众塑造**金秀贤**撒谎精不可信任形象",
+                "imgs": {
+                "zh": [],
+                "ko": [],
+                "en": [],
+                "shared": [
+                    "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/61/17819364824993612450f232e8e9f03f0e7907247f.jpg",
+                    "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ab/17819364820b66e106fd8590aeaab0c045fee79826.jpg",
+                    "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/bb/17819364838caacd4078e96de4858d4e36a14b500e.jpg"
+                ]
+                },
+                "link": [
+                {
+                    "title": "来源链接",
+                    "url": "https://mobile.newsis.com/view/NISX20250318_0003103390"
+                }
+                ],
+                "videos": []
+            },
+            {
+                "id": "row4-4",
+                "title": "造谣逼迫金赛纶赔偿眼泪女王损失",
+                "description": "**金牌公司24年**在**金赛纶**爆照==秒删==后发送的第二封函中,从未要求**金赛纶**赔偿眼泪女王损失,从未威胁**金赛纶**,仅仅请求**金赛纶**不要和公司艺人沟通公司债务问题,而不是阻断**金赛纶**和公司艺人其他方面的社交行为。\n被**遗属**恶意曲解为:禁止**金赛纶**与公司艺人社交和威胁**金赛纶**赔偿眼泪女王损失",
+                "imgs": {
+                "zh": [],
+                "ko": [],
+                "en": [],
+                "shared": [
+                    "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/d2/17819364835dfdfeb0ae4a6bb864fc5f74a0044038.jpg"
+                ]
+                },
+                "link": [],
+                "videos": []
+            }
+            ]
         },
         {
-          "id": "evidence",
-          "label": {
-            "zh": "证据与舆论分析",
-            "ko": "증거 및 여론 분석",
-            "en": "Evidence & Public Opinion"
-          },
-          "sub_tabs": [
+            "id": "case-essence",
+            "label": {
+            "zh": "案件本质",
+            "ko": "사건 본질",
+            "en": "Case Essence"
+            },
+            "layout": "matrix",
+            "matrix_intro": {
+            "zh": "金赛纶是家庭长期剥削利用的被害者，也是为了赖账威胁诬陷金秀贤的加害者",
+            "ko": "Kim Saeron was a victim of long-term exploitation by her family, but also a perpetrator who threatened and falsely accused Kim Soohyun to avoid repaying her debt.",
+            "en": "Kim Saeron was a victim of long-term exploitation by her family, but also a perpetrator who threatened and falsely accused Kim Soohyun to avoid repaying her debt."
+            },
+            "matrix_sections": [
             {
-              "id": "media-strategy",
-              "label": {
-                "zh": "遗属舆论策略",
-                "ko": "유족 여론 조작",
-                "en": "Family's Media Strategy"
-              },
-              "layout": "list",
-              "entries": [
+                "id": "debt-evasion-2024",
+                "tone": "cream",
+                "columns": [
                 {
-                  "id": "row4-2",
-                  "title": "“否认未成年交往“被造谣成“否认交往”",
-                  "description": "**金秀贤25年**仅仅否认过“==未成年交往==”,从未否认过“交往”,然而在每次**金秀贤**否认“==未成年交往==”时,**遗属**方都会==造谣==声称“**金秀贤**撒谎,否认交往”然后放出亲密合照“打脸”,给公众塑造**金秀贤**撒谎精不可信任形象",
-                  "imgs": {
-                    "zh": [],
-                    "ko": [],
-                    "en": [],
-                    "shared": [
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/de/17819364816ecd382809dc3059b13a3bbadd5c1059.jpg",
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/00/178193648269f584ff2433d679d13208d60e012f86.jpg",
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/3a/178193648174086aea0294e149fa113cfb7aff4bc8.jpg"
-                    ]
-                  },
-                  "link": [
-                    {
-                      "title": "来源链接",
-                      "url": "https://m.entertain.naver.com/article/108/0003311312"
+                    "key": "year",
+                    "label": {
+                    "zh": "时间",
+                    "ko": "Year",
+                    "en": "Year"
                     }
-                  ],
-                  "videos": []
                 },
                 {
-                  "id": "row4-3",
-                  "title": "曲解未成年住处声明",
-                  "description": "**遗属**将15年**金赛纶**和其他人在公寓电梯口照片栽赃给**金秀贤**,**金秀贤**说“从未去过**金赛纶**未成年时期的家”,**遗属**春秋笔法==造谣==声称“**金秀贤**不承认去过**金赛纶**家”,然后放出**金赛纶**成年后在**金牌公司**租的千万豪宅大平层员工宿舍中的场景“打脸”,给公众塑造**金秀贤**撒谎精不可信任形象",
-                  "imgs": {
-                    "zh": [],
-                    "ko": [],
-                    "en": [],
-                    "shared": [
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/61/17819364824993612450f232e8e9f03f0e7907247f.jpg",
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ab/17819364820b66e106fd8590aeaab0c045fee79826.jpg",
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/bb/17819364838caacd4078e96de4858d4e36a14b500e.jpg"
-                    ]
-                  },
-                  "link": [
-                    {
-                      "title": "来源链接",
-                      "url": "https://mobile.newsis.com/view/NISX20250318_0003103390"
+                    "key": "perpetrator",
+                    "label": {
+                    "zh": "加害者",
+                    "ko": "Perpetrator",
+                    "en": "Perpetrator"
                     }
-                  ],
-                  "videos": []
                 },
                 {
-                  "id": "row4-4",
-                  "title": "造谣逼迫金赛纶赔偿眼泪女王损失",
-                  "description": "**金牌公司24年**在**金赛纶**爆照==秒删==后发送的第二封函中,从未要求**金赛纶**赔偿眼泪女王损失,从未威胁**金赛纶**,仅仅请求**金赛纶**不要和公司艺人沟通公司债务问题,而不是阻断**金赛纶**和公司艺人其他方面的社交行为。\n被**遗属**恶意曲解为:禁止**金赛纶**与公司艺人社交和威胁**金赛纶**赔偿眼泪女王损失",
-                  "imgs": {
-                    "zh": [],
-                    "ko": [],
-                    "en": [],
-                    "shared": [
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/d2/17819364835dfdfeb0ae4a6bb864fc5f74a0044038.jpg"
-                    ]
-                  },
-                  "link": [],
-                  "videos": []
+                    "key": "purpose",
+                    "label": {
+                    "zh": "目的",
+                    "ko": "Purpose",
+                    "en": "Purpose"
+                    }
+                },
+                {
+                    "key": "timeline",
+                    "label": {
+                    "zh": "时间线",
+                    "ko": "Timeline",
+                    "en": "Timeline"
+                    }
+                },
+                {
+                    "key": "public",
+                    "label": {
+                    "zh": "表面上",
+                    "ko": "Public",
+                    "en": "Public"
+                    }
+                },
+                {
+                    "key": "behind",
+                    "label": {
+                    "zh": "背地里",
+                    "ko": "Behind the Scenes",
+                    "en": "Behind the Scenes"
+                    }
+                },
+                {
+                    "key": "notes",
+                    "label": {
+                    "zh": "注释",
+                    "ko": "Notes",
+                    "en": "Notes"
+                    }
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "overview",
-          "label": {
-            "zh": "案件概览",
-            "ko": "사건 개요",
-            "en": "Case Overview"
-          },
-          "sub_tabs": [
+                ],
+                "rows": [
+                {
+                    "id": "before-debt-evasion",
+                    "year": {
+                    "zh": "2024年",
+                    "ko": "2024",
+                    "en": "2024"
+                    },
+                    "perpetrator": {
+                    "zh": "金赛纶",
+                    "ko": "Kim Saeron",
+                    "en": "Kim Saeron"
+                    },
+                    "purpose": {
+                    "zh": [
+                        {
+                        "text": "赖掉金秀贤公司无息借出的7亿韩元",
+                        "bold": true,
+                        "italic": true
+                        }
+                    ],
+                    "ko": [
+                        {
+                        "text": "Avoid repaying the 700 million KRW interest-free loan provided by Gold Medalist",
+                        "bold": true,
+                        "italic": true
+                        }
+                    ],
+                    "en": [
+                        {
+                        "text": "Avoid repaying the 700 million KRW interest-free loan provided by Gold Medalist",
+                        "bold": true,
+                        "italic": true
+                        }
+                    ]
+                    },
+                    "timeline": {
+                    "zh": [
+                        {
+                        "text": "赖账之前",
+                        "bold": true
+                        }
+                    ],
+                    "ko": [
+                        {
+                        "text": "Before evading the debt",
+                        "bold": true,
+                        "italic": true
+                        }
+                    ],
+                    "en": [
+                        {
+                        "text": "Before evading the debt",
+                        "bold": true,
+                        "italic": true
+                        }
+                    ]
+                    },
+                    "public": {
+                    "zh": "发送“哥哥救救我”短信",
+                    "ko": "Sent the message: “Oppa, please save me.”",
+                    "en": "Sent the message: “Oppa, please save me.”"
+                    },
+                    "behind": {
+                    "zh": [
+                        {
+                        "text": "对经纪人说要让金秀贤去死，因此爆照秒删。",
+                        "color": "red",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        },
+                        {
+                        "text": "向经纪人编造17岁恋爱声明。",
+                        "color": "red",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        },
+                        {
+                        "text": "向表姐编造15岁恋爱声明。",
+                        "block": true
+                        }
+                    ],
+                    "ko": [
+                        {
+                        "text": "Told her manager that she wanted Kim Soohyun “to die,” which was why she uploaded and quickly deleted the photo.",
+                        "color": "red",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        },
+                        {
+                        "text": "Told her manager they had been dating since she was 17.",
+                        "color": "red",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        },
+                        {
+                        "text": "Told her cousin they had been dating since she was 15.",
+                        "italic": true,
+                        "block": true
+                        }
+                    ],
+                    "en": [
+                        {
+                        "text": "Told her manager that she wanted Kim Soohyun “to die,” which was why she uploaded and quickly deleted the photo.",
+                        "color": "red",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        },
+                        {
+                        "text": "Told her manager they had been dating since she was 17.",
+                        "color": "red",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        },
+                        {
+                        "text": "Told her cousin they had been dating since she was 15.",
+                        "italic": true,
+                        "block": true
+                        }
+                    ]
+                    },
+                    "notes": {
+                    "zh": [
+                        {
+                        "text": "红色文字由揭发李胜利的记者姜京允于2025年6月在个人博客曝光。",
+                        "color": "red",
+                        "block": true
+                        }
+                    ],
+                    "ko": [
+                        {
+                        "text": "The red text was disclosed in June 2025 by journalist Kang Kyungyoon, known for exposing the Burning Sun scandal.",
+                        "color": "red",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        }
+                    ],
+                    "en": [
+                        {
+                        "text": "The red text was disclosed in June 2025 by journalist Kang Kyungyoon, known for exposing the Burning Sun scandal.",
+                        "color": "red",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        }
+                    ]
+                    },
+                    "rowspans": {
+                    "perpetrator": 2,
+                    "year": 2
+                    }
+                },
+                {
+                    "id": "after-debt-evasion",
+                    "year": {
+                    "zh": "2024年",
+                    "ko": "2024",
+                    "en": "2024"
+                    },
+                    "perpetrator": {
+                    "zh": "金赛纶",
+                    "ko": "Kim Saeron",
+                    "en": "Kim Saeron"
+                    },
+                    "purpose": {
+                    "zh": [
+                        {
+                        "text": "赖掉金秀贤公司无息借出的7亿韩元",
+                        "bold": true,
+                        "italic": true
+                        }
+                    ],
+                    "ko": [
+                        {
+                        "text": "Avoid repaying the 700 million KRW interest-free loan provided by Gold Medalist",
+                        "bold": true,
+                        "italic": true
+                        }
+                    ],
+                    "en": [
+                        {
+                        "text": "Avoid repaying the 700 million KRW interest-free loan provided by Gold Medalist",
+                        "bold": true,
+                        "italic": true
+                        }
+                    ]
+                    },
+                    "timeline": {
+                    "zh": [
+                        {
+                        "text": "赖账之后",
+                        "bold": true
+                        }
+                    ],
+                    "ko": [
+                        {
+                        "text": "After successfully avoiding repayment",
+                        "bold": true,
+                        "italic": true
+                        }
+                    ],
+                    "en": [
+                        {
+                        "text": "After successfully avoiding repayment",
+                        "bold": true,
+                        "italic": true
+                        }
+                    ]
+                    },
+                    "public": {
+                    "zh": "写信给金秀贤，谎称“哥哥是我的初恋绝恋”“联系不上才爆照”。",
+                    "ko": "Wrote a letter to Kim Soohyun claiming: “Oppa was my first love and my last love. I uploaded the photo because I could not contact Gold Medalist.”",
+                    "en": "Wrote a letter to Kim Soohyun claiming: “Oppa was my first love and my last love. I uploaded the photo because I could not contact Gold Medalist.”"
+                    },
+                    "behind": {
+                    "zh": [
+                        {
+                        "text": "与此同时，她正与现任男友交往，并请经纪人购买紧急避孕药。",
+                        "color": "red",
+                        "block": true
+                        }
+                    ],
+                    "ko": [
+                        {
+                        "text": "At the same time, she was dating another boyfriend and asked her manager to buy emergency contraception for her.",
+                        "color": "red",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        }
+                    ],
+                    "en": [
+                        {
+                        "text": "At the same time, she was dating another boyfriend and asked her manager to buy emergency contraception for her.",
+                        "color": "red",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        }
+                    ]
+                    },
+                    "notes": {
+                    "zh": [
+                        {
+                        "text": "红色文字由揭发李胜利的记者姜京允于2025年6月在个人博客曝光。",
+                        "color": "red",
+                        "block": true
+                        }
+                    ],
+                    "ko": [
+                        {
+                        "text": "The red text was disclosed in June 2025 by journalist Kang Kyungyoon, known for exposing the Burning Sun scandal.",
+                        "color": "red",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        }
+                    ],
+                    "en": [
+                        {
+                        "text": "The red text was disclosed in June 2025 by journalist Kang Kyungyoon, known for exposing the Burning Sun scandal.",
+                        "color": "red",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        }
+                    ]
+                    },
+                    "skip_cells": [
+                    "perpetrator",
+                    "year"
+                    ]
+                }
+                ]
+            },
             {
-              "id": "case-essence",
-              "label": {
-                "zh": "案件本质",
-                "ko": "사건 본질",
-                "en": "Case Essence"
-              },
-              "layout": "matrix",
-              "matrix_intro": {
-                "zh": "金赛纶是家庭长期剥削利用的被害者，也是为了赖账威胁诬陷金秀贤的加害者",
-                "ko": "Kim Saeron was a victim of long-term exploitation by her family, but also a perpetrator who threatened and falsely accused Kim Soohyun to avoid repaying her debt.",
-                "en": "Kim Saeron was a victim of long-term exploitation by her family, but also a perpetrator who threatened and falsely accused Kim Soohyun to avoid repaying her debt."
-              },
-              "matrix_sections": [
+                "id": "fabricated-evidence-2025",
+                "tone": "blue",
+                "columns": [
                 {
-                  "id": "debt-evasion-2024",
-                  "tone": "cream",
-                  "columns": [
-                    {
-                      "key": "year",
-                      "label": {
-                        "zh": "时间",
-                        "ko": "Year",
-                        "en": "Year"
-                      }
-                    },
-                    {
-                      "key": "perpetrator",
-                      "label": {
-                        "zh": "加害者",
-                        "ko": "Perpetrator",
-                        "en": "Perpetrator"
-                      }
-                    },
-                    {
-                      "key": "purpose",
-                      "label": {
-                        "zh": "目的",
-                        "ko": "Purpose",
-                        "en": "Purpose"
-                      }
-                    },
-                    {
-                      "key": "timeline",
-                      "label": {
-                        "zh": "时间线",
-                        "ko": "Timeline",
-                        "en": "Timeline"
-                      }
-                    },
-                    {
-                      "key": "public",
-                      "label": {
-                        "zh": "表面上",
-                        "ko": "Public",
-                        "en": "Public"
-                      }
-                    },
-                    {
-                      "key": "behind",
-                      "label": {
-                        "zh": "背地里",
-                        "ko": "Behind the Scenes",
-                        "en": "Behind the Scenes"
-                      }
-                    },
-                    {
-                      "key": "notes",
-                      "label": {
-                        "zh": "注释",
-                        "ko": "Notes",
-                        "en": "Notes"
-                      }
+                    "key": "year",
+                    "label": {
+                    "zh": "时间",
+                    "ko": "Year",
+                    "en": "Year"
                     }
-                  ],
-                  "rows": [
-                    {
-                      "id": "before-debt-evasion",
-                      "year": {
-                        "zh": "2024年",
-                        "ko": "2024",
-                        "en": "2024"
-                      },
-                      "perpetrator": {
-                        "zh": "金赛纶",
-                        "ko": "Kim Saeron",
-                        "en": "Kim Saeron"
-                      },
-                      "purpose": {
-                        "zh": [
-                          {
-                            "text": "赖掉金秀贤公司无息借出的7亿韩元",
-                            "bold": true,
-                            "italic": true
-                          }
-                        ],
-                        "ko": [
-                          {
-                            "text": "Avoid repaying the 700 million KRW interest-free loan provided by Gold Medalist",
-                            "bold": true,
-                            "italic": true
-                          }
-                        ],
-                        "en": [
-                          {
-                            "text": "Avoid repaying the 700 million KRW interest-free loan provided by Gold Medalist",
-                            "bold": true,
-                            "italic": true
-                          }
-                        ]
-                      },
-                      "timeline": {
-                        "zh": [
-                          {
-                            "text": "赖账之前",
-                            "bold": true
-                          }
-                        ],
-                        "ko": [
-                          {
-                            "text": "Before evading the debt",
-                            "bold": true,
-                            "italic": true
-                          }
-                        ],
-                        "en": [
-                          {
-                            "text": "Before evading the debt",
-                            "bold": true,
-                            "italic": true
-                          }
-                        ]
-                      },
-                      "public": {
-                        "zh": "发送“哥哥救救我”短信",
-                        "ko": "Sent the message: “Oppa, please save me.”",
-                        "en": "Sent the message: “Oppa, please save me.”"
-                      },
-                      "behind": {
-                        "zh": [
-                          {
-                            "text": "对经纪人说要让金秀贤去死，因此爆照秒删。",
-                            "color": "red",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          },
-                          {
-                            "text": "向经纪人编造17岁恋爱声明。",
-                            "color": "red",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          },
-                          {
-                            "text": "向表姐编造15岁恋爱声明。",
-                            "block": true
-                          }
-                        ],
-                        "ko": [
-                          {
-                            "text": "Told her manager that she wanted Kim Soohyun “to die,” which was why she uploaded and quickly deleted the photo.",
-                            "color": "red",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          },
-                          {
-                            "text": "Told her manager they had been dating since she was 17.",
-                            "color": "red",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          },
-                          {
-                            "text": "Told her cousin they had been dating since she was 15.",
-                            "italic": true,
-                            "block": true
-                          }
-                        ],
-                        "en": [
-                          {
-                            "text": "Told her manager that she wanted Kim Soohyun “to die,” which was why she uploaded and quickly deleted the photo.",
-                            "color": "red",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          },
-                          {
-                            "text": "Told her manager they had been dating since she was 17.",
-                            "color": "red",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          },
-                          {
-                            "text": "Told her cousin they had been dating since she was 15.",
-                            "italic": true,
-                            "block": true
-                          }
-                        ]
-                      },
-                      "notes": {
-                        "zh": [
-                          {
-                            "text": "红色文字由揭发李胜利的记者姜京允于2025年6月在个人博客曝光。",
-                            "color": "red",
-                            "block": true
-                          }
-                        ],
-                        "ko": [
-                          {
-                            "text": "The red text was disclosed in June 2025 by journalist Kang Kyungyoon, known for exposing the Burning Sun scandal.",
-                            "color": "red",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          }
-                        ],
-                        "en": [
-                          {
-                            "text": "The red text was disclosed in June 2025 by journalist Kang Kyungyoon, known for exposing the Burning Sun scandal.",
-                            "color": "red",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          }
-                        ]
-                      },
-                      "rowspans": {
-                        "perpetrator": 2,
-                        "year": 2
-                      }
-                    },
-                    {
-                      "id": "after-debt-evasion",
-                      "year": {
-                        "zh": "2024年",
-                        "ko": "2024",
-                        "en": "2024"
-                      },
-                      "perpetrator": {
-                        "zh": "金赛纶",
-                        "ko": "Kim Saeron",
-                        "en": "Kim Saeron"
-                      },
-                      "purpose": {
-                        "zh": [
-                          {
-                            "text": "赖掉金秀贤公司无息借出的7亿韩元",
-                            "bold": true,
-                            "italic": true
-                          }
-                        ],
-                        "ko": [
-                          {
-                            "text": "Avoid repaying the 700 million KRW interest-free loan provided by Gold Medalist",
-                            "bold": true,
-                            "italic": true
-                          }
-                        ],
-                        "en": [
-                          {
-                            "text": "Avoid repaying the 700 million KRW interest-free loan provided by Gold Medalist",
-                            "bold": true,
-                            "italic": true
-                          }
-                        ]
-                      },
-                      "timeline": {
-                        "zh": [
-                          {
-                            "text": "赖账之后",
-                            "bold": true
-                          }
-                        ],
-                        "ko": [
-                          {
-                            "text": "After successfully avoiding repayment",
-                            "bold": true,
-                            "italic": true
-                          }
-                        ],
-                        "en": [
-                          {
-                            "text": "After successfully avoiding repayment",
-                            "bold": true,
-                            "italic": true
-                          }
-                        ]
-                      },
-                      "public": {
-                        "zh": "写信给金秀贤，谎称“哥哥是我的初恋绝恋”“联系不上才爆照”。",
-                        "ko": "Wrote a letter to Kim Soohyun claiming: “Oppa was my first love and my last love. I uploaded the photo because I could not contact Gold Medalist.”",
-                        "en": "Wrote a letter to Kim Soohyun claiming: “Oppa was my first love and my last love. I uploaded the photo because I could not contact Gold Medalist.”"
-                      },
-                      "behind": {
-                        "zh": [
-                          {
-                            "text": "与此同时，她正与现任男友交往，并请经纪人购买紧急避孕药。",
-                            "color": "red",
-                            "block": true
-                          }
-                        ],
-                        "ko": [
-                          {
-                            "text": "At the same time, she was dating another boyfriend and asked her manager to buy emergency contraception for her.",
-                            "color": "red",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          }
-                        ],
-                        "en": [
-                          {
-                            "text": "At the same time, she was dating another boyfriend and asked her manager to buy emergency contraception for her.",
-                            "color": "red",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          }
-                        ]
-                      },
-                      "notes": {
-                        "zh": [
-                          {
-                            "text": "红色文字由揭发李胜利的记者姜京允于2025年6月在个人博客曝光。",
-                            "color": "red",
-                            "block": true
-                          }
-                        ],
-                        "ko": [
-                          {
-                            "text": "The red text was disclosed in June 2025 by journalist Kang Kyungyoon, known for exposing the Burning Sun scandal.",
-                            "color": "red",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          }
-                        ],
-                        "en": [
-                          {
-                            "text": "The red text was disclosed in June 2025 by journalist Kang Kyungyoon, known for exposing the Burning Sun scandal.",
-                            "color": "red",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          }
-                        ]
-                      },
-                      "skip_cells": [
-                        "perpetrator",
-                        "year"
-                      ]
-                    }
-                  ]
                 },
                 {
-                  "id": "fabricated-evidence-2025",
-                  "tone": "blue",
-                  "columns": [
-                    {
-                      "key": "year",
-                      "label": {
-                        "zh": "时间",
-                        "ko": "Year",
-                        "en": "Year"
-                      }
-                    },
-                    {
-                      "key": "perpetrator",
-                      "label": {
-                        "zh": "加害者",
-                        "ko": "Perpetrator",
-                        "en": "Perpetrator"
-                      }
-                    },
-                    {
-                      "key": "purpose",
-                      "label": {
-                        "zh": "目的",
-                        "ko": "Purpose",
-                        "en": "Purpose"
-                      }
-                    },
-                    {
-                      "key": "method",
-                      "label": {
-                        "zh": "手段",
-                        "ko": "Criminal Process",
-                        "en": "Criminal Process"
-                      }
-                    },
-                    {
-                      "key": "photo",
-                      "label": {
-                        "zh": "伪证之照片",
-                        "ko": "False Photo Evidence",
-                        "en": "False Photo Evidence"
-                      }
-                    },
-                    {
-                      "key": "chat",
-                      "label": {
-                        "zh": "伪证之聊天记录",
-                        "ko": "False Chat Evidence",
-                        "en": "False Chat Evidence"
-                      }
-                    },
-                    {
-                      "key": "letter",
-                      "label": {
-                        "zh": "伪证之信件",
-                        "ko": "False Letter Evidence",
-                        "en": "False Letter Evidence"
-                      }
-                    },
-                    {
-                      "key": "audio",
-                      "label": {
-                        "zh": "伪证之语音",
-                        "ko": "False Audio Evidence",
-                        "en": "False Audio Evidence"
-                      }
+                    "key": "perpetrator",
+                    "label": {
+                    "zh": "加害者",
+                    "ko": "Perpetrator",
+                    "en": "Perpetrator"
                     }
-                  ],
-                  "rows": [
-                    {
-                      "id": "fabricated-evidence",
-                      "year": {
-                        "zh": "2025年",
-                        "ko": "2025",
-                        "en": "2025"
-                      },
-                      "perpetrator": {
-                        "zh": "金赛纶遗属",
-                        "ko": "Kim Saeron's bereaved family",
-                        "en": "Kim Saeron's bereaved family"
-                      },
-                      "purpose": {
-                        "zh": [
-                          {
-                            "text": "谋财害命",
-                            "bold": true,
-                            "italic": true
-                          }
-                        ],
-                        "ko": [
-                          {
-                            "text": "Money",
-                            "bold": true,
-                            "italic": true
-                          }
-                        ],
-                        "en": [
-                          {
-                            "text": "Money",
-                            "bold": true,
-                            "italic": true
-                          }
-                        ]
-                      },
-                      "method": {
-                        "zh": [
-                          {
-                            "text": "将金赛纶2024年为了赖账诬陷金秀贤而编造的声明中",
-                            "block": true
-                          },
-                          {
-                            "text": "“15岁交往”版本包装为遗书公开",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          },
-                          {
-                            "text": "伪造证据",
-                            "block": true
-                          }
-                        ],
-                        "ko": [
-                          {
-                            "text": "Kim Saeron’s bereaved family used her ",
-                            "block": false
-                          },
-                          {
-                            "text": "2024 debt-evasion statement",
-                            "bold": true,
-                            "italic": true
-                          },
-                          {
-                            "text": " to frame Kim Soohyun, portraying the “15-year-old” version as a suicide note.",
-                            "block": true
-                          },
-                          {
-                            "text": "Fabricated evidence",
-                            "block": true
-                          }
-                        ],
-                        "en": [
-                          {
-                            "text": "Kim Saeron’s bereaved family used her ",
-                            "block": false
-                          },
-                          {
-                            "text": "2024 debt-evasion statement",
-                            "bold": true,
-                            "italic": true
-                          },
-                          {
-                            "text": " to frame Kim Soohyun, portraying the “15-year-old” version as a suicide note.",
-                            "block": true
-                          },
-                          {
-                            "text": "Fabricated evidence",
-                            "block": true
-                          }
-                        ]
-                      },
-                      "photo": {
-                        "zh": [
-                          {
-                            "text": "只曝光照片本身，却不公开照片拍摄日期",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          },
-                          {
-                            "text": "煽动、引导网友造谣图片日期。",
-                            "block": true
-                          }
-                        ],
-                        "ko": [
-                          {
-                            "text": "Only the photos were released, not the dates they were taken.",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          }
-                        ],
-                        "en": [
-                          {
-                            "text": "Only the photos were released, not the dates they were taken.",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          }
-                        ]
-                      },
-                      "chat": {
-                        "zh": [
-                          {
-                            "text": "将金赛纶与多个真正未成年男友的聊天记录换上金秀贤头像后曝光。",
-                            "block": true
-                          }
-                        ],
-                        "ko": [
-                          {
-                            "text": "Chat records between Kim Saeron and several of her actual underage boyfriends were presented using Kim Soohyun’s profile image.",
-                            "block": true
-                          }
-                        ],
-                        "en": [
-                          {
-                            "text": "Chat records between Kim Saeron and several of her actual underage boyfriends were presented using Kim Soohyun’s profile image.",
-                            "block": true
-                          }
-                        ]
-                      },
-                      "letter": {
-                        "zh": [
-                          {
-                            "text": "将2019年信件中的“我爱你”截图嫁接到2018年军队信旁，引导网友误以为2018年信件中有“我爱你”。",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          },
-                          {
-                            "text": "2018年军队信中没有“我爱你”，金赛纶的昵称被多次写错。该军队信只是金秀贤写给多位普通朋友的许多信件之一。",
-                            "block": true
-                          },
-                          {
-                            "text": "“我爱你”只出现在2019年11月恋爱时期的明信片中。",
-                            "block": true
-                          }
-                        ],
-                        "ko": [
-                          {
-                            "text": "A 2019 “I love you” screenshot was placed beside a 2018 military letter.",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          },
-                          {
-                            "text": "Kim Saeron’s nickname was repeatedly misspelled. The letter was one of many Kim Soohyun sent to ordinary friends.",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          },
-                          {
-                            "text": "“I love you” appeared only in a November 2019 postcard.",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          }
-                        ],
-                        "en": [
-                          {
-                            "text": "A 2019 “I love you” screenshot was placed beside a 2018 military letter.",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          },
-                          {
-                            "text": "Kim Saeron’s nickname was repeatedly misspelled. The letter was one of many Kim Soohyun sent to ordinary friends.",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          },
-                          {
-                            "text": "“I love you” appeared only in a November 2019 postcard.",
-                            "bold": true,
-                            "italic": true,
-                            "block": true
-                          }
-                        ]
-                      },
-                      "audio": {
-                        "zh": [
-                          {
-                            "text": "向他人购买AI语音，并造谣金秀贤买凶杀人、抢夺录音，当场被韩国驻美大使馆辟谣。",
-                            "block": true
-                          },
-                          {
-                            "text": "又造谣元彬帮助录音举报人，被元彬本人辟谣。",
-                            "block": true
-                          }
-                        ],
-                        "ko": [
-                          {
-                            "text": "An AI-generated recording was purchased from a fraudster.",
-                            "block": true
-                          },
-                          {
-                            "text": "The same fraudster also tried to sell Gold Medalist an adult-relationship recording; the offer was rejected after it was identified as AI-generated.",
-                            "block": true
-                          }
-                        ],
-                        "en": [
-                          {
-                            "text": "An AI-generated recording was purchased from a fraudster.",
-                            "block": true
-                          },
-                          {
-                            "text": "The same fraudster also tried to sell Gold Medalist an adult-relationship recording; the offer was rejected after it was identified as AI-generated.",
-                            "block": true
-                          }
-                        ]
-                      }
+                },
+                {
+                    "key": "purpose",
+                    "label": {
+                    "zh": "目的",
+                    "ko": "Purpose",
+                    "en": "Purpose"
                     }
-                  ]
+                },
+                {
+                    "key": "method",
+                    "label": {
+                    "zh": "手段",
+                    "ko": "Criminal Process",
+                    "en": "Criminal Process"
+                    }
+                },
+                {
+                    "key": "photo",
+                    "label": {
+                    "zh": "伪证之照片",
+                    "ko": "False Photo Evidence",
+                    "en": "False Photo Evidence"
+                    }
+                },
+                {
+                    "key": "chat",
+                    "label": {
+                    "zh": "伪证之聊天记录",
+                    "ko": "False Chat Evidence",
+                    "en": "False Chat Evidence"
+                    }
+                },
+                {
+                    "key": "letter",
+                    "label": {
+                    "zh": "伪证之信件",
+                    "ko": "False Letter Evidence",
+                    "en": "False Letter Evidence"
+                    }
+                },
+                {
+                    "key": "audio",
+                    "label": {
+                    "zh": "伪证之语音",
+                    "ko": "False Audio Evidence",
+                    "en": "False Audio Evidence"
+                    }
                 }
-              ],
-              "matrix_conclusion": {
-                "zh": "金赛纶遗属吸血金赛纶整个人生，还要利用金赛纶的死亡对无辜者谋财害命，是纯粹的加害者。",
-                "ko": "Kim Saeron’s bereaved family exploited her throughout her life and then used her death to target innocent people for financial gain; they are perpetrators.",
-                "en": "Kim Saeron’s bereaved family exploited her throughout her life and then used her death to target innocent people for financial gain; they are perpetrators."
-              }
+                ],
+                "rows": [
+                {
+                    "id": "fabricated-evidence",
+                    "year": {
+                    "zh": "2025年",
+                    "ko": "2025",
+                    "en": "2025"
+                    },
+                    "perpetrator": {
+                    "zh": "金赛纶遗属",
+                    "ko": "Kim Saeron's bereaved family",
+                    "en": "Kim Saeron's bereaved family"
+                    },
+                    "purpose": {
+                    "zh": [
+                        {
+                        "text": "谋财害命",
+                        "bold": true,
+                        "italic": true
+                        }
+                    ],
+                    "ko": [
+                        {
+                        "text": "Money",
+                        "bold": true,
+                        "italic": true
+                        }
+                    ],
+                    "en": [
+                        {
+                        "text": "Money",
+                        "bold": true,
+                        "italic": true
+                        }
+                    ]
+                    },
+                    "method": {
+                    "zh": [
+                        {
+                        "text": "将金赛纶2024年为了赖账诬陷金秀贤而编造的声明中",
+                        "block": true
+                        },
+                        {
+                        "text": "“15岁交往”版本包装为遗书公开",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        },
+                        {
+                        "text": "伪造证据",
+                        "block": true
+                        }
+                    ],
+                    "ko": [
+                        {
+                        "text": "Kim Saeron’s bereaved family used her ",
+                        "block": false
+                        },
+                        {
+                        "text": "2024 debt-evasion statement",
+                        "bold": true,
+                        "italic": true
+                        },
+                        {
+                        "text": " to frame Kim Soohyun, portraying the “15-year-old” version as a suicide note.",
+                        "block": true
+                        },
+                        {
+                        "text": "Fabricated evidence",
+                        "block": true
+                        }
+                    ],
+                    "en": [
+                        {
+                        "text": "Kim Saeron’s bereaved family used her ",
+                        "block": false
+                        },
+                        {
+                        "text": "2024 debt-evasion statement",
+                        "bold": true,
+                        "italic": true
+                        },
+                        {
+                        "text": " to frame Kim Soohyun, portraying the “15-year-old” version as a suicide note.",
+                        "block": true
+                        },
+                        {
+                        "text": "Fabricated evidence",
+                        "block": true
+                        }
+                    ]
+                    },
+                    "photo": {
+                    "zh": [
+                        {
+                        "text": "只曝光照片本身，却不公开照片拍摄日期",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        },
+                        {
+                        "text": "煽动、引导网友造谣图片日期。",
+                        "block": true
+                        }
+                    ],
+                    "ko": [
+                        {
+                        "text": "Only the photos were released, not the dates they were taken.",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        }
+                    ],
+                    "en": [
+                        {
+                        "text": "Only the photos were released, not the dates they were taken.",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        }
+                    ]
+                    },
+                    "chat": {
+                    "zh": [
+                        {
+                        "text": "将金赛纶与多个真正未成年男友的聊天记录换上金秀贤头像后曝光。",
+                        "block": true
+                        }
+                    ],
+                    "ko": [
+                        {
+                        "text": "Chat records between Kim Saeron and several of her actual underage boyfriends were presented using Kim Soohyun’s profile image.",
+                        "block": true
+                        }
+                    ],
+                    "en": [
+                        {
+                        "text": "Chat records between Kim Saeron and several of her actual underage boyfriends were presented using Kim Soohyun’s profile image.",
+                        "block": true
+                        }
+                    ]
+                    },
+                    "letter": {
+                    "zh": [
+                        {
+                        "text": "将2019年信件中的“我爱你”截图嫁接到2018年军队信旁，引导网友误以为2018年信件中有“我爱你”。",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        },
+                        {
+                        "text": "2018年军队信中没有“我爱你”，金赛纶的昵称被多次写错。该军队信只是金秀贤写给多位普通朋友的许多信件之一。",
+                        "block": true
+                        },
+                        {
+                        "text": "“我爱你”只出现在2019年11月恋爱时期的明信片中。",
+                        "block": true
+                        }
+                    ],
+                    "ko": [
+                        {
+                        "text": "A 2019 “I love you” screenshot was placed beside a 2018 military letter.",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        },
+                        {
+                        "text": "Kim Saeron’s nickname was repeatedly misspelled. The letter was one of many Kim Soohyun sent to ordinary friends.",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        },
+                        {
+                        "text": "“I love you” appeared only in a November 2019 postcard.",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        }
+                    ],
+                    "en": [
+                        {
+                        "text": "A 2019 “I love you” screenshot was placed beside a 2018 military letter.",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        },
+                        {
+                        "text": "Kim Saeron’s nickname was repeatedly misspelled. The letter was one of many Kim Soohyun sent to ordinary friends.",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        },
+                        {
+                        "text": "“I love you” appeared only in a November 2019 postcard.",
+                        "bold": true,
+                        "italic": true,
+                        "block": true
+                        }
+                    ]
+                    },
+                    "audio": {
+                    "zh": [
+                        {
+                        "text": "向他人购买AI语音，并造谣金秀贤买凶杀人、抢夺录音，当场被韩国驻美大使馆辟谣。",
+                        "block": true
+                        },
+                        {
+                        "text": "又造谣元彬帮助录音举报人，被元彬本人辟谣。",
+                        "block": true
+                        }
+                    ],
+                    "ko": [
+                        {
+                        "text": "An AI-generated recording was purchased from a fraudster.",
+                        "block": true
+                        },
+                        {
+                        "text": "The same fraudster also tried to sell Gold Medalist an adult-relationship recording; the offer was rejected after it was identified as AI-generated.",
+                        "block": true
+                        }
+                    ],
+                    "en": [
+                        {
+                        "text": "An AI-generated recording was purchased from a fraudster.",
+                        "block": true
+                        },
+                        {
+                        "text": "The same fraudster also tried to sell Gold Medalist an adult-relationship recording; the offer was rejected after it was identified as AI-generated.",
+                        "block": true
+                        }
+                    ]
+                    }
+                }
+                ]
             }
-          ]
+            ],
+            "matrix_conclusion": {
+            "zh": "金赛纶遗属吸血金赛纶整个人生，还要利用金赛纶的死亡对无辜者谋财害命，是纯粹的加害者。",
+            "ko": "Kim Saeron’s bereaved family exploited her throughout her life and then used her death to target innocent people for financial gain; they are perpetrators.",
+            "en": "Kim Saeron’s bereaved family exploited her throughout her life and then used her death to target innocent people for financial gain; they are perpetrators."
+            }
         }
       ]
     }
