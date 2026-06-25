@@ -2,7 +2,7 @@
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  base: '/ksh_truth1.2/',
+  base: '/',
   plugins: [vue()],
   build: {
     target: 'es2018',
