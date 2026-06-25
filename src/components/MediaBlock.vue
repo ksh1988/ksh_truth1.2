@@ -1,5 +1,6 @@
 <script setup>
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
+import { downloadMedia, mediaFileName } from '../utils/mediaDownload'
 
 const props = defineProps({
   item: { type: Object, required: true },
@@ -34,47 +35,12 @@ const forceLoadBeforeSearchTarget = (event) => {
   if (isBeforeTarget(event.detail?.target)) loadNow()
 }
 
-const extensionFrom = (src) => {
-  const clean = String(src).split('?')[0].split('#')[0]
-  const extension = clean.match(/.([a-zA-Z0-9]{2,5})$/)?.[1]
-  return extension || 'jpg'
-}
-
-const safeTitle = () => String(props.item.title?.[props.lang] || props.item.title || props.item.event?.[props.lang] || props.item.event || 'image')
-  .replace(/[\/:*?"<>|]+/g, '-')
-  .replace(/s+/g, '-')
-  .slice(0, 60)
-
-const imageFileName = (src, index) => {
-  const title = safeTitle() || 'image'
-  return title + '-' + (index + 1) + '.' + extensionFrom(src)
-}
-
-const saveDownload = (href, filename) => {
-  const link = document.createElement('a')
-  link.href = href
-  link.download = filename
-  link.rel = 'noopener noreferrer'
-  document.body.appendChild(link)
-  link.click()
-  link.remove()
-}
-
 const downloadImage = async (event, src, index) => {
   event.preventDefault()
   event.stopPropagation()
 
-  const filename = imageFileName(src, index)
-  try {
-    const response = await fetch(src, { mode: 'cors', credentials: 'omit' })
-    if (!response.ok) throw new Error('download failed')
-    const blob = await response.blob()
-    const objectUrl = URL.createObjectURL(blob)
-    saveDownload(objectUrl, filename)
-    window.setTimeout(() => URL.revokeObjectURL(objectUrl), 1000)
-  } catch {
-    saveDownload(src, filename)
-  }
+  const filename = mediaFileName({ item: props.item, lang: props.lang, src, index })
+  await downloadMedia({ src, filename })
 }
 
 onMounted(() => {
