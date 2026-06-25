@@ -24,10 +24,20 @@ const clickDownloadLink = (href, filename) => {
   link.remove()
 }
 
+const asciiFallbackName = (filename) => String(filename || 'image')
+  .replace(/[^a-zA-Z0-9._-]+/g, '-')
+  .replace(/-+/g, '-')
+  .replace(/^-|-$/g, '') || 'image'
+
+const attachmentDisposition = (filename) => {
+  const fallback = asciiFallbackName(filename)
+  return 'attachment; filename="' + fallback + '"; filename*=UTF-8\'\'' + encodeURIComponent(filename)
+}
+
 const withAttachmentHeader = (src, filename) => {
   try {
     const url = new URL(src, window.location.href)
-    url.searchParams.set('response-content-disposition', 'attachment; filename="' + filename + '"')
+    url.searchParams.set('response-content-disposition', attachmentDisposition(filename))
     return url.toString()
   } catch {
     return src
