@@ -18,12 +18,12 @@ defineEmits(['navigate-internal'])
 <template>
   <div class="card-list">
     <article
-      v-for="(item, index) in entriesFor(content)"
+      v-for="(item, index) in entriesFor(content, lang)"
       :key="item.id || index"
       class="evidence-card"
       :data-search-key="searchKeyFor(item, index)"
     >
-      <div class="card-number">{{ String(item.index || index + 1).padStart(2, '0') }}</div>
+      <div class="card-number">{{ String(index + 1).padStart(2, '0') }}</div>
       <div class="card-body">
         <h2>
           <button

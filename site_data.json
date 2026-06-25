@@ -63,7 +63,8 @@
                   "url": "https://n.news.naver.com/article/001/0016118554?sid=102"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row8-3",
@@ -92,7 +93,8 @@
                   "url": "https://n.news.naver.com/article/422/0000870789?sid=102"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row8-4",
@@ -121,7 +123,8 @@
                   "url": "https://n.news.naver.com/article/comment/001/0016100577"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row8-5",
@@ -150,7 +153,8 @@
                   "url": "https://n.news.naver.com/article/025/0003524854?sid=102"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row8-6",
@@ -184,7 +188,8 @@
                   "title": "遗属律师酒吧放视频",
                   "src": "遗属律师酒吧放视频.mp4"
                 }
-              ]
+              ],
+              "zh_only": false
             },
             {
               "id": "row8-7",
@@ -213,7 +218,8 @@
                   "url": "https://m.entertain.naver.com/home/article/416/0000321380"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row8-8",
@@ -242,7 +248,8 @@
                   "url": "https://m.entertain.naver.com/home/article/416/0000320924"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row8-9",
@@ -271,7 +278,8 @@
                   "url": "https://m.entertain.naver.com/home/article/477/0000588096"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row8-10",
@@ -300,7 +308,8 @@
                   "url": "https://m.fmkorea.com/9224797612"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row8-11",
@@ -329,7 +338,8 @@
                   "url": "https://n.news.naver.com/article/015/0005175072?sid=102"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row8-12",
@@ -358,7 +368,8 @@
                   "url": "https://m.entertain.naver.com/home/article/382/0001198010"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row8-13",
@@ -392,7 +403,8 @@
                   "url": "https://n.news.naver.com/article/008/0005191719"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             }
           ]
         },
@@ -427,7 +439,8 @@
                   "url": "https://n.news.naver.com/article/025/0003524854?sid=102"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row3-4",
@@ -451,7 +464,8 @@
                   "url": "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/38/178193648522de437797f0459a14dcd5037bbd1014.jpg"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row3-5",
@@ -464,7 +478,8 @@
                 "shared": []
               },
               "link": [],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row3-6",
@@ -488,7 +503,8 @@
                   "url": "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ec/1781936486fb3491ccb8e816a7854da974735612ec.jpg"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row3-7",
@@ -516,7 +532,8 @@
                   "url": "https://n.news.naver.com/article/008/0005191719"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row3-8",
@@ -540,7 +557,8 @@
                   "url": "https://n.news.naver.com/article/014/0005347099"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row3-9",
@@ -564,7 +582,8 @@
                   "url": "https://m.entertain.naver.com/home/article/382/0001198010"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row3-10",
@@ -588,7 +607,8 @@
                   "url": "https://m.entertain.naver.com/home/article/408/0000264723"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row3-11",
@@ -612,7 +632,8 @@
                   "url": "https://n.news.naver.com/article/015/0005129637"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             },
             {
               "id": "row3-12",
@@ -638,7 +659,8 @@
                   "url": "https://www.mt.co.kr/society/2025/05/28/2025052805073498368"
                 }
               ],
-              "videos": []
+              "videos": [],
+              "zh_only": false
             }
           ]
         }
@@ -672,7 +694,8 @@
               "url": "https://weibo.com/5894823759/5144249419178067"
             }
           ],
-          "videos": []
+          "videos": [],
+          "zh_only": true
         },
         {
           "id": "row16-3",
@@ -697,7 +720,8 @@
               "url": "https://m.fmkorea.com/9224797612"
             }
           ],
-          "videos": []
+          "videos": [],
+          "zh_only": false
         },
         {
           "id": "row16-4",
@@ -714,7 +738,8 @@
             "shared": []
           },
           "link": [],
-          "videos": []
+          "videos": [],
+          "zh_only": false
         },
         {
           "id": "row16-5",
@@ -739,7 +764,8 @@
               "url": "https://www.ejan.co/entertain/15bb408fwz56?utm_source=chatgpt.com"
             }
           ],
-          "videos": []
+          "videos": [],
+          "zh_only": false
         },
         {
           "id": "row16-6",
@@ -764,7 +790,8 @@
               "url": "https://m.news.nate.com/view/20121025n21571"
             }
           ],
-          "videos": []
+          "videos": [],
+          "zh_only": false
         },
         {
           "id": "row16-7",
@@ -809,7 +836,8 @@
               "url": "https://www.chosun.com/english/kpop-culture-en/2025/10/14/CFHLA2XTR5ASBL6HW4TKEDHMMI/?utm_source=chatgpt.com"
             }
           ],
-          "videos": []
+          "videos": [],
+          "zh_only": false
         },
         {
           "id": "row16-8",
@@ -835,7 +863,8 @@
               "url": "https://m.blog.naver.com/PostView.naver?blogId=strongyoun-now&logNo=223912652394&navType=by"
             }
           ],
-          "videos": []
+          "videos": [],
+          "zh_only": false
         },
         {
           "id": "row16-9",
@@ -861,7 +890,8 @@
             "shared": []
           },
           "link": [],
-          "videos": []
+          "videos": [],
+          "zh_only": false
         },
         {
           "id": "row16-10",
@@ -884,7 +914,8 @@
             "shared": []
           },
           "link": [],
-          "videos": []
+          "videos": [],
+          "zh_only": false
         },
         {
           "id": "row16-11",
@@ -913,7 +944,8 @@
               "url": "https://n.news.naver.com/article/018/0005944671?sid=102"
             }
           ],
-          "videos": []
+          "videos": [],
+          "zh_only": false
         }
       ]
     },
@@ -954,7 +986,8 @@
                     "shared": []
                   },
                   "link": [],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row5-3",
@@ -981,7 +1014,8 @@
                       "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row5-4",
@@ -1009,7 +1043,8 @@
                       "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row5-5",
@@ -1033,7 +1068,8 @@
                       "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row5-6",
@@ -1057,7 +1093,8 @@
                       "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row5-7",
@@ -1081,7 +1118,8 @@
                       "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6645&cntntsId=7957"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 }
               ]
             },
@@ -1116,7 +1154,8 @@
                       "url": "https://m.entertain.naver.com/home/article/382/0001198010"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row10-4",
@@ -1140,7 +1179,8 @@
                       "url": "https://m.nocutnews.co.kr/news/5181850?utm_source=chatgpt.com"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row10-5",
@@ -1164,7 +1204,8 @@
                       "url": "https://v.daum.net/v/20180521012744134?utm_source=chatgpt.com"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row10-6",
@@ -1188,7 +1229,8 @@
                       "url": "https://www.chosun.com/culture-life/2020/12/11/MNAJEABSJNG2BLCTOJ3N3LT6GY/?utm_source=chatgpt.com"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row10-7",
@@ -1212,7 +1254,8 @@
                       "url": "https://m.newspim.com/news/view/20221222000184"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row10-8",
@@ -1236,7 +1279,8 @@
                       "url": "https://m.entertain.naver.com/home/article/018/0005441900"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row10-9",
@@ -1267,7 +1311,8 @@
                       "url": "https://n.news.naver.com/article/comment/008/0005179475"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row10-10",
@@ -1291,7 +1336,8 @@
                       "url": "https://www.yna.co.kr/view/AKR20230412066200004"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 }
               ]
             },
@@ -1326,7 +1372,8 @@
                       "url": "https://ent.sbs.co.kr/m/article.do?article_id=E10010301728"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row11-3",
@@ -1344,7 +1391,8 @@
                     "tab_id": "clarification",
                     "category_id": "facts",
                     "sub_tab_id": "deleted-posts"
-                  }
+                  },
+                  "zh_only": false
                 },
                 {
                   "id": "row11-4",
@@ -1368,7 +1416,8 @@
                       "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row11-5",
@@ -1395,7 +1444,8 @@
                       "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row11-6",
@@ -1421,7 +1471,8 @@
                       "url": "https://v.daum.net/v/20251126150746560?utm_source=chatgpt.com"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row11-7",
@@ -1452,7 +1503,8 @@
                       "url": "https://www.mt.co.kr/society/2025/04/12/2025041215045310481?utm_source=chatgpt.com"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 }
               ]
             },
@@ -1463,11 +1515,37 @@
                 "ko": "김새론 삭제 이력",
                 "en": "Sae-ron's Deleted Posts"
               },
-              "layout": "list",
+              "layout": "timeline",
               "entries": [
                 {
+                  "id": "row7-1",
+                  "time": "20240324",
+                  "title": "INS爆照秒删与金秀贤贴脸照,和经纪人解释说因为债务问题精神高度紧张要让金秀贤去死",
+                  "description": "**2024年**3月24日,**金赛纶**爆照后==秒删==。后续公开资料显示,她曾对**经纪人**称要让**金秀贤**去死,因此爆照秒删。",
+                  "imgs": {
+                    "zh": [
+                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/83/17819364772998d005f14b11a07ab1e1a2dcc2ccee.jpg"
+                    ],
+                    "ko": [
+                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/a1/1781936475cd1ab621443b444084d984b79706e96d.jpg"
+                    ],
+                    "en": [
+                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/37/178193647790324665bcede61a96d7c3120c0c7b67.jpg"
+                    ],
+                    "shared": []
+                  },
+                  "link": [
+                    {
+                      "title": "姜京允记者博客",
+                      "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
+                    }
+                  ],
+                  "videos": [],
+                  "zh_only": false
+                },
+                {
                   "id": "row7-2",
-                  "title": "24年4月20日秒删",
+                  "title": "在话剧《冬泡菜》下车后发INS限时动态秒删",
                   "description": "**24年**4月20日,**金赛纶**在话剧剧组下车后发INS限时动态又==秒删==",
                   "imgs": {
                     "zh": [
@@ -1487,11 +1565,13 @@
                       "url": "https://www.chosun.com/national/national_general/2024/04/20/JXVHMXQDHZGW3GOVQ7K54FPHEM/"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false,
+                  "time": "20240420"
                 },
                 {
                   "id": "row7-3",
-                  "title": "24年7月17日秒删",
+                  "title": "INS爆照秒删海钓照片,向经纪人解释说母亲登录自己的INS发送",
                   "description": "1.**24年**7月17日,**金赛纶**==秒删==海钓照片\n2.对**经纪人**说是母亲==秒删==",
                   "imgs": {
                     "zh": [
@@ -1515,11 +1595,13 @@
                       "url": "https://m.blog.naver.com/PostView.naver?blogId=strongyoun-now&logNo=223907299676&navType=by"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false,
+                  "time": "20240717"
                 },
                 {
                   "id": "row7-4",
-                  "title": "24年8月7日秒删",
+                  "title": "INS爆照秒删猎犬剧组合照,对经纪人解释说母亲登录自己的INS发送",
                   "description": "1.**24年**8月7日,**金赛纶**==秒删==猎犬剧组剧照\n2.对**经纪人**声称母亲==秒删==",
                   "imgs": {
                     "zh": [
@@ -1543,21 +1625,23 @@
                       "url": "https://m.blog.naver.com/PostView.naver?blogId=strongyoun-now&logNo=223907299676&navType=by"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false,
+                  "time": "20240807"
                 },
                 {
                   "id": "row7-5",
-                  "title": "25年1月6日秒删",
+                  "title": "INS爆照秒删与美国老公合照，对前男友与经纪人解释是老公登录自己的INS发送",
                   "description": "1.对**前男友**声称老公==秒删==\n2.**2025年**1月6日,**金赛纶**==秒删==与老公合照",
                   "imgs": {
                     "zh": [
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/02/17819363852c4fa0eaccf30381afaba6486aea8fd1.jpg"
+                      "https://kshtruth.oss-cn-beijing.aliyuncs.com/%E9%87%91%E8%B5%9B%E7%BA%B6%E7%A7%92%E5%88%A0%E5%8E%86%E5%8F%B2/%E8%80%81%E5%85%AC%E7%A7%92%E5%88%A0%E4%B8%AD"
                     ],
                     "ko": [
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/5a/1781936381a371a966f02a828e119ce949c67b0704.jpg"
+                      "https://kshtruth.oss-cn-beijing.aliyuncs.com/%E9%87%91%E8%B5%9B%E7%BA%B6%E7%A7%92%E5%88%A0%E5%8E%86%E5%8F%B2/%E8%80%81%E5%85%AC%E7%A7%92%E5%88%A0%E9%9F%A9"
                     ],
                     "en": [
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/04/1781936391a932a0a7726f0422748e9840e54a19b6.jpg"
+                      "https://kshtruth.oss-cn-beijing.aliyuncs.com/%E9%87%91%E8%B5%9B%E7%BA%B6%E7%A7%92%E5%88%A0%E5%8E%86%E5%8F%B2/%E8%80%81%E5%85%AC%E7%A7%92%E5%88%A0%E8%8B%B1"
                     ],
                     "shared": []
                   },
@@ -1571,9 +1655,12 @@
                       "url": "https://biz.chosun.com/entertainment/enter_general/2025/01/08/MN6OL4EUPVFP5ZUJA2CLFHPCZQ/"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false,
+                  "time": "20250106"
                 }
-              ]
+              ],
+              "show_year_filter": false
             }
           ]
         },
@@ -1626,7 +1713,8 @@
                       "url": "https://n.news.naver.com/article/008/0005177051?sid=102"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row12-9",
@@ -1665,7 +1753,8 @@
                       "url": "https://m.entertain.naver.com/home/article/629/0000375534"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 }
               ]
             },
@@ -1700,7 +1789,8 @@
                       "url": "https://www.mt.co.kr/entertainment/2014/02/03/2014020309135181251?utm_source=chatgpt.com"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row13-3",
@@ -1724,7 +1814,8 @@
                       "url": "https://realty.chosun.com/site/data/html_dir/2022/05/22/2022052200136.html?utm_source=chatgpt.com"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row13-4",
@@ -1753,7 +1844,8 @@
                       "url": "https://m.entertain.naver.com/home/article/018/0005441900"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row13-5",
@@ -1784,7 +1876,8 @@
                       "url": "https://www.chosun.com/national/national_general/2025/02/16/I53ESSKEG5CSZM7YITFY6VBP7I/?outputType=amp"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row13-6",
@@ -1808,7 +1901,8 @@
                       "url": "https://www.mt.co.kr/society/2025/05/23/2025052312414587931"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row13-7",
@@ -1827,7 +1921,8 @@
                     "shared": []
                   },
                   "link": [],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row13-8",
@@ -1846,7 +1941,8 @@
                     "shared": []
                   },
                   "link": [],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row13-9",
@@ -1865,7 +1961,8 @@
                     "shared": []
                   },
                   "link": [],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row13-10",
@@ -1885,7 +1982,8 @@
                       "title": "金赛纶酒吧蹦迪",
                       "src": "金赛纶酒吧蹦迪.mp4"
                     }
-                  ]
+                  ],
+                  "zh_only": false
                 }
               ]
             },
@@ -1971,7 +2069,8 @@
                             "bold": true
                           }
                         ]
-                      }
+                      },
+                      "zh_only": false
                     },
                     {
                       "id": "company-type",
@@ -1989,7 +2088,8 @@
                         "zh": "2020年成立、员工仅有20余名的小型公司",
                         "ko": "A small company founded in 2020 with only about 20 employees",
                         "en": "A small company founded in 2020 with only about 20 employees"
-                      }
+                      },
+                      "zh_only": false
                     },
                     {
                       "id": "housing",
@@ -2052,7 +2152,8 @@
                             "block": true
                           }
                         ]
-                      }
+                      },
+                      "zh_only": false
                     },
                     {
                       "id": "resources",
@@ -2247,7 +2348,8 @@
                             "block": true
                           }
                         ]
-                      }
+                      },
+                      "zh_only": false
                     },
                     {
                       "id": "crisis-response",
@@ -2391,7 +2493,8 @@
                             "block": true
                           }
                         ]
-                      }
+                      },
+                      "zh_only": false
                     }
                   ]
                 }
@@ -2428,7 +2531,8 @@
                       "url": "https://naver.me/F9N2FDFX"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row15-3",
@@ -2452,7 +2556,8 @@
                       "url": "https://naver.me/5V8zArlu"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row15-4",
@@ -2471,7 +2576,8 @@
                     "shared": []
                   },
                   "link": [],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row15-5",
@@ -2490,7 +2596,8 @@
                     "shared": []
                   },
                   "link": [],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row15-6",
@@ -2522,7 +2629,8 @@
                       "url": "https://m.nocutnews.co.kr/news/6308467?utm_source=chatgpt.com"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row15-7",
@@ -2540,7 +2648,8 @@
                       "title": "金赛纶遗属记者会承认已婚",
                       "src": "金赛纶遗属记者会承认已婚.mp4"
                     }
-                  ]
+                  ],
+                  "zh_only": false
                 }
               ]
             }
@@ -2585,7 +2694,8 @@
                       "url": "https://ko.wikipedia.org/wiki/김영수_%281935년%29?"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row2-3",
@@ -2614,7 +2724,8 @@
                       "title": "挑衅警察",
                       "src": "挑衅警察.mp4"
                     }
-                  ]
+                  ],
+                  "zh_only": false
                 },
                 {
                   "id": "row2-4",
@@ -2638,7 +2749,8 @@
                       "url": "https://news.jtbc.co.kr/article/NB12269326"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row2-5",
@@ -2662,7 +2774,8 @@
                       "url": "https://n.news.naver.com/article/056/0011565371?sid=102"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row2-6",
@@ -2686,7 +2799,8 @@
                       "url": "https://www.pennmike.com/news/articleView.html?idxno=115331"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row2-7",
@@ -2710,7 +2824,8 @@
                       "url": "https://m.mbn.co.kr/news/society/4742748"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row2-8",
@@ -2734,7 +2849,8 @@
                       "url": "https://naver.me/xS19KlVG"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row2-9",
@@ -2758,7 +2874,8 @@
                       "url": "https://www.ggilbo.com/news/articleView.html?idxno=841203"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row2-10",
@@ -2782,7 +2899,8 @@
                       "url": "https://naver.me/FNm0WRcA"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row2-11",
@@ -2806,7 +2924,8 @@
                       "url": "https://www.lawissue.co.kr/view.php?ud=202406281620579490b50722e900_12"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row2-12",
@@ -2830,7 +2949,8 @@
                       "url": "https://m.news.nate.com/view/20200613n03598?mid=e01"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row2-13",
@@ -2854,7 +2974,8 @@
                       "url": "http://www.srtimes.kr/news/articleView.html?idxno=52953"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row2-14",
@@ -2878,7 +2999,8 @@
                       "url": "https://mbiz.heraldcorp.com/article/10558023"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row2-15",
@@ -2902,7 +3024,8 @@
                       "url": "https://naver.me/FM9AXh8R"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row2-16",
@@ -2921,7 +3044,8 @@
                     "shared": []
                   },
                   "link": [],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row2-17",
@@ -2945,7 +3069,8 @@
                       "url": "https://www.ziksir.com/news/articleView.html?idxno=7130"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row2-18",
@@ -2963,7 +3088,8 @@
                       "title": "金世义网暴金赛纶",
                       "src": "金世义网暴金赛纶.mp4"
                     }
-                  ]
+                  ],
+                  "zh_only": false
                 }
               ]
             },
@@ -2989,7 +3115,8 @@
                     "shared": []
                   },
                   "link": [],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row6-3",
@@ -3013,7 +3140,8 @@
                       "url": "https://www.pennmike.com/news/articleView.html?idxno=115331"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row6-4",
@@ -3040,7 +3168,8 @@
                       "url": "https://n.news.naver.com/article/018/0005944671?sid=102"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 },
                 {
                   "id": "row6-5",
@@ -3068,7 +3197,8 @@
                       "url": "https://m.entertain.naver.com/home/article/382/0001198010"
                     }
                   ],
-                  "videos": []
+                  "videos": [],
+                  "zh_only": false
                 }
               ]
             }
@@ -3077,742 +3207,748 @@
       ],
       "sub_tabs": [
         {
-            "id": "media-strategy",
-            "label": {
+          "id": "media-strategy",
+          "label": {
             "zh": "遗属舆论策略",
             "ko": "유족 여론 조작",
             "en": "Family's Media Strategy"
-            },
-            "layout": "list",
-            "entries": [
+          },
+          "layout": "list",
+          "entries": [
             {
-                "id": "row4-2",
-                "title": "“否认未成年交往“被造谣成“否认交往”",
-                "description": "**金秀贤25年**仅仅否认过“==未成年交往==”,从未否认过“交往”,然而在每次**金秀贤**否认“==未成年交往==”时,**遗属**方都会==造谣==声称“**金秀贤**撒谎,否认交往”然后放出亲密合照“打脸”,给公众塑造**金秀贤**撒谎精不可信任形象",
-                "imgs": {
+              "id": "row4-2",
+              "title": "“否认未成年交往“被造谣成“否认交往”",
+              "description": "**金秀贤25年**仅仅否认过“==未成年交往==”,从未否认过“交往”,然而在每次**金秀贤**否认“==未成年交往==”时,**遗属**方都会==造谣==声称“**金秀贤**撒谎,否认交往”然后放出亲密合照“打脸”,给公众塑造**金秀贤**撒谎精不可信任形象",
+              "imgs": {
                 "zh": [],
                 "ko": [],
                 "en": [],
                 "shared": [
-                    "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/de/17819364816ecd382809dc3059b13a3bbadd5c1059.jpg",
-                    "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/00/178193648269f584ff2433d679d13208d60e012f86.jpg",
-                    "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/3a/178193648174086aea0294e149fa113cfb7aff4bc8.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/de/17819364816ecd382809dc3059b13a3bbadd5c1059.jpg",
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/00/178193648269f584ff2433d679d13208d60e012f86.jpg",
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/3a/178193648174086aea0294e149fa113cfb7aff4bc8.jpg"
                 ]
-                },
-                "link": [
+              },
+              "link": [
                 {
-                    "title": "来源链接",
-                    "url": "https://m.entertain.naver.com/article/108/0003311312"
+                  "title": "来源链接",
+                  "url": "https://m.entertain.naver.com/article/108/0003311312"
                 }
-                ],
-                "videos": []
+              ],
+              "videos": [],
+              "zh_only": false
             },
             {
-                "id": "row4-3",
-                "title": "曲解未成年住处声明",
-                "description": "**遗属**将15年**金赛纶**和其他人在公寓电梯口照片栽赃给**金秀贤**,**金秀贤**说“从未去过**金赛纶**未成年时期的家”,**遗属**春秋笔法==造谣==声称“**金秀贤**不承认去过**金赛纶**家”,然后放出**金赛纶**成年后在**金牌公司**租的千万豪宅大平层员工宿舍中的场景“打脸”,给公众塑造**金秀贤**撒谎精不可信任形象",
-                "imgs": {
+              "id": "row4-3",
+              "title": "曲解未成年住处声明",
+              "description": "**遗属**将15年**金赛纶**和其他人在公寓电梯口照片栽赃给**金秀贤**,**金秀贤**说“从未去过**金赛纶**未成年时期的家”,**遗属**春秋笔法==造谣==声称“**金秀贤**不承认去过**金赛纶**家”,然后放出**金赛纶**成年后在**金牌公司**租的千万豪宅大平层员工宿舍中的场景“打脸”,给公众塑造**金秀贤**撒谎精不可信任形象",
+              "imgs": {
                 "zh": [],
                 "ko": [],
                 "en": [],
                 "shared": [
-                    "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/61/17819364824993612450f232e8e9f03f0e7907247f.jpg",
-                    "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ab/17819364820b66e106fd8590aeaab0c045fee79826.jpg",
-                    "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/bb/17819364838caacd4078e96de4858d4e36a14b500e.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/61/17819364824993612450f232e8e9f03f0e7907247f.jpg",
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ab/17819364820b66e106fd8590aeaab0c045fee79826.jpg",
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/bb/17819364838caacd4078e96de4858d4e36a14b500e.jpg"
                 ]
-                },
-                "link": [
+              },
+              "link": [
                 {
-                    "title": "来源链接",
-                    "url": "https://mobile.newsis.com/view/NISX20250318_0003103390"
+                  "title": "来源链接",
+                  "url": "https://mobile.newsis.com/view/NISX20250318_0003103390"
                 }
-                ],
-                "videos": []
+              ],
+              "videos": [],
+              "zh_only": false
             },
             {
-                "id": "row4-4",
-                "title": "造谣逼迫金赛纶赔偿眼泪女王损失",
-                "description": "**金牌公司24年**在**金赛纶**爆照==秒删==后发送的第二封函中,从未要求**金赛纶**赔偿眼泪女王损失,从未威胁**金赛纶**,仅仅请求**金赛纶**不要和公司艺人沟通公司债务问题,而不是阻断**金赛纶**和公司艺人其他方面的社交行为。\n被**遗属**恶意曲解为:禁止**金赛纶**与公司艺人社交和威胁**金赛纶**赔偿眼泪女王损失",
-                "imgs": {
+              "id": "row4-4",
+              "title": "造谣逼迫金赛纶赔偿眼泪女王损失",
+              "description": "**金牌公司24年**在**金赛纶**爆照==秒删==后发送的第二封函中,从未要求**金赛纶**赔偿眼泪女王损失,从未威胁**金赛纶**,仅仅请求**金赛纶**不要和公司艺人沟通公司债务问题,而不是阻断**金赛纶**和公司艺人其他方面的社交行为。\n被**遗属**恶意曲解为:禁止**金赛纶**与公司艺人社交和威胁**金赛纶**赔偿眼泪女王损失",
+              "imgs": {
                 "zh": [],
                 "ko": [],
                 "en": [],
                 "shared": [
-                    "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/d2/17819364835dfdfeb0ae4a6bb864fc5f74a0044038.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/d2/17819364835dfdfeb0ae4a6bb864fc5f74a0044038.jpg"
                 ]
-                },
-                "link": [],
-                "videos": []
+              },
+              "link": [],
+              "videos": [],
+              "zh_only": false
             }
-            ]
+          ]
         },
         {
-            "id": "case-essence",
-            "label": {
+          "id": "case-essence",
+          "label": {
             "zh": "案件本质",
             "ko": "사건 본질",
             "en": "Case Essence"
-            },
-            "layout": "matrix",
-            "matrix_intro": {
+          },
+          "layout": "matrix",
+          "matrix_intro": {
             "zh": "金赛纶是家庭长期剥削利用的被害者，也是为了赖账威胁诬陷金秀贤的加害者",
             "ko": "Kim Saeron was a victim of long-term exploitation by her family, but also a perpetrator who threatened and falsely accused Kim Soohyun to avoid repaying her debt.",
             "en": "Kim Saeron was a victim of long-term exploitation by her family, but also a perpetrator who threatened and falsely accused Kim Soohyun to avoid repaying her debt."
-            },
-            "matrix_sections": [
+          },
+          "matrix_sections": [
             {
-                "id": "debt-evasion-2024",
-                "tone": "cream",
-                "columns": [
+              "id": "debt-evasion-2024",
+              "tone": "cream",
+              "columns": [
                 {
-                    "key": "year",
-                    "label": {
+                  "key": "year",
+                  "label": {
                     "zh": "时间",
                     "ko": "Year",
                     "en": "Year"
-                    }
+                  }
                 },
                 {
-                    "key": "perpetrator",
-                    "label": {
+                  "key": "perpetrator",
+                  "label": {
                     "zh": "加害者",
                     "ko": "Perpetrator",
                     "en": "Perpetrator"
-                    }
+                  }
                 },
                 {
-                    "key": "purpose",
-                    "label": {
+                  "key": "purpose",
+                  "label": {
                     "zh": "目的",
                     "ko": "Purpose",
                     "en": "Purpose"
-                    }
+                  }
                 },
                 {
-                    "key": "timeline",
-                    "label": {
+                  "key": "timeline",
+                  "label": {
                     "zh": "时间线",
                     "ko": "Timeline",
                     "en": "Timeline"
-                    }
+                  }
                 },
                 {
-                    "key": "public",
-                    "label": {
+                  "key": "public",
+                  "label": {
                     "zh": "表面上",
                     "ko": "Public",
                     "en": "Public"
-                    }
+                  }
                 },
                 {
-                    "key": "behind",
-                    "label": {
+                  "key": "behind",
+                  "label": {
                     "zh": "背地里",
                     "ko": "Behind the Scenes",
                     "en": "Behind the Scenes"
-                    }
+                  }
                 },
                 {
-                    "key": "notes",
-                    "label": {
+                  "key": "notes",
+                  "label": {
                     "zh": "注释",
                     "ko": "Notes",
                     "en": "Notes"
-                    }
+                  }
                 }
-                ],
-                "rows": [
+              ],
+              "rows": [
                 {
-                    "id": "before-debt-evasion",
-                    "year": {
+                  "id": "before-debt-evasion",
+                  "year": {
                     "zh": "2024年",
                     "ko": "2024",
                     "en": "2024"
-                    },
-                    "perpetrator": {
+                  },
+                  "perpetrator": {
                     "zh": "金赛纶",
                     "ko": "Kim Saeron",
                     "en": "Kim Saeron"
-                    },
-                    "purpose": {
+                  },
+                  "purpose": {
                     "zh": [
-                        {
+                      {
                         "text": "赖掉金秀贤公司无息借出的7亿韩元",
                         "bold": true,
                         "italic": true
-                        }
+                      }
                     ],
                     "ko": [
-                        {
+                      {
                         "text": "Avoid repaying the 700 million KRW interest-free loan provided by Gold Medalist",
                         "bold": true,
                         "italic": true
-                        }
+                      }
                     ],
                     "en": [
-                        {
+                      {
                         "text": "Avoid repaying the 700 million KRW interest-free loan provided by Gold Medalist",
                         "bold": true,
                         "italic": true
-                        }
+                      }
                     ]
-                    },
-                    "timeline": {
+                  },
+                  "timeline": {
                     "zh": [
-                        {
+                      {
                         "text": "赖账之前",
                         "bold": true
-                        }
+                      }
                     ],
                     "ko": [
-                        {
+                      {
                         "text": "Before evading the debt",
                         "bold": true,
                         "italic": true
-                        }
+                      }
                     ],
                     "en": [
-                        {
+                      {
                         "text": "Before evading the debt",
                         "bold": true,
                         "italic": true
-                        }
+                      }
                     ]
-                    },
-                    "public": {
+                  },
+                  "public": {
                     "zh": "发送“哥哥救救我”短信",
                     "ko": "Sent the message: “Oppa, please save me.”",
                     "en": "Sent the message: “Oppa, please save me.”"
-                    },
-                    "behind": {
+                  },
+                  "behind": {
                     "zh": [
-                        {
+                      {
                         "text": "对经纪人说要让金秀贤去死，因此爆照秒删。",
                         "color": "red",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "向经纪人编造17岁恋爱声明。",
                         "color": "red",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "向表姐编造15岁恋爱声明。",
                         "block": true
-                        }
+                      }
                     ],
                     "ko": [
-                        {
+                      {
                         "text": "Told her manager that she wanted Kim Soohyun “to die,” which was why she uploaded and quickly deleted the photo.",
                         "color": "red",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "Told her manager they had been dating since she was 17.",
                         "color": "red",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "Told her cousin they had been dating since she was 15.",
                         "italic": true,
                         "block": true
-                        }
+                      }
                     ],
                     "en": [
-                        {
+                      {
                         "text": "Told her manager that she wanted Kim Soohyun “to die,” which was why she uploaded and quickly deleted the photo.",
                         "color": "red",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "Told her manager they had been dating since she was 17.",
                         "color": "red",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "Told her cousin they had been dating since she was 15.",
                         "italic": true,
                         "block": true
-                        }
+                      }
                     ]
-                    },
-                    "notes": {
+                  },
+                  "notes": {
                     "zh": [
-                        {
+                      {
                         "text": "红色文字由揭发李胜利的记者姜京允于2025年6月在个人博客曝光。",
                         "color": "red",
                         "block": true
-                        }
+                      }
                     ],
                     "ko": [
-                        {
+                      {
                         "text": "The red text was disclosed in June 2025 by journalist Kang Kyungyoon, known for exposing the Burning Sun scandal.",
                         "color": "red",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        }
+                      }
                     ],
                     "en": [
-                        {
+                      {
                         "text": "The red text was disclosed in June 2025 by journalist Kang Kyungyoon, known for exposing the Burning Sun scandal.",
                         "color": "red",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        }
+                      }
                     ]
-                    },
-                    "rowspans": {
+                  },
+                  "rowspans": {
                     "perpetrator": 2,
                     "year": 2
-                    }
+                  },
+                  "zh_only": false
                 },
                 {
-                    "id": "after-debt-evasion",
-                    "year": {
+                  "id": "after-debt-evasion",
+                  "year": {
                     "zh": "2024年",
                     "ko": "2024",
                     "en": "2024"
-                    },
-                    "perpetrator": {
+                  },
+                  "perpetrator": {
                     "zh": "金赛纶",
                     "ko": "Kim Saeron",
                     "en": "Kim Saeron"
-                    },
-                    "purpose": {
+                  },
+                  "purpose": {
                     "zh": [
-                        {
+                      {
                         "text": "赖掉金秀贤公司无息借出的7亿韩元",
                         "bold": true,
                         "italic": true
-                        }
+                      }
                     ],
                     "ko": [
-                        {
+                      {
                         "text": "Avoid repaying the 700 million KRW interest-free loan provided by Gold Medalist",
                         "bold": true,
                         "italic": true
-                        }
+                      }
                     ],
                     "en": [
-                        {
+                      {
                         "text": "Avoid repaying the 700 million KRW interest-free loan provided by Gold Medalist",
                         "bold": true,
                         "italic": true
-                        }
+                      }
                     ]
-                    },
-                    "timeline": {
+                  },
+                  "timeline": {
                     "zh": [
-                        {
+                      {
                         "text": "赖账之后",
                         "bold": true
-                        }
+                      }
                     ],
                     "ko": [
-                        {
+                      {
                         "text": "After successfully avoiding repayment",
                         "bold": true,
                         "italic": true
-                        }
+                      }
                     ],
                     "en": [
-                        {
+                      {
                         "text": "After successfully avoiding repayment",
                         "bold": true,
                         "italic": true
-                        }
+                      }
                     ]
-                    },
-                    "public": {
+                  },
+                  "public": {
                     "zh": "写信给金秀贤，谎称“哥哥是我的初恋绝恋”“联系不上才爆照”。",
                     "ko": "Wrote a letter to Kim Soohyun claiming: “Oppa was my first love and my last love. I uploaded the photo because I could not contact Gold Medalist.”",
                     "en": "Wrote a letter to Kim Soohyun claiming: “Oppa was my first love and my last love. I uploaded the photo because I could not contact Gold Medalist.”"
-                    },
-                    "behind": {
+                  },
+                  "behind": {
                     "zh": [
-                        {
+                      {
                         "text": "与此同时，她正与现任男友交往，并请经纪人购买紧急避孕药。",
                         "color": "red",
                         "block": true
-                        }
+                      }
                     ],
                     "ko": [
-                        {
+                      {
                         "text": "At the same time, she was dating another boyfriend and asked her manager to buy emergency contraception for her.",
                         "color": "red",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        }
+                      }
                     ],
                     "en": [
-                        {
+                      {
                         "text": "At the same time, she was dating another boyfriend and asked her manager to buy emergency contraception for her.",
                         "color": "red",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        }
+                      }
                     ]
-                    },
-                    "notes": {
+                  },
+                  "notes": {
                     "zh": [
-                        {
+                      {
                         "text": "红色文字由揭发李胜利的记者姜京允于2025年6月在个人博客曝光。",
                         "color": "red",
                         "block": true
-                        }
+                      }
                     ],
                     "ko": [
-                        {
+                      {
                         "text": "The red text was disclosed in June 2025 by journalist Kang Kyungyoon, known for exposing the Burning Sun scandal.",
                         "color": "red",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        }
+                      }
                     ],
                     "en": [
-                        {
+                      {
                         "text": "The red text was disclosed in June 2025 by journalist Kang Kyungyoon, known for exposing the Burning Sun scandal.",
                         "color": "red",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        }
+                      }
                     ]
-                    },
-                    "skip_cells": [
+                  },
+                  "skip_cells": [
                     "perpetrator",
                     "year"
-                    ]
+                  ],
+                  "zh_only": false
                 }
-                ]
+              ]
             },
             {
-                "id": "fabricated-evidence-2025",
-                "tone": "blue",
-                "columns": [
+              "id": "fabricated-evidence-2025",
+              "tone": "blue",
+              "columns": [
                 {
-                    "key": "year",
-                    "label": {
+                  "key": "year",
+                  "label": {
                     "zh": "时间",
                     "ko": "Year",
                     "en": "Year"
-                    }
+                  }
                 },
                 {
-                    "key": "perpetrator",
-                    "label": {
+                  "key": "perpetrator",
+                  "label": {
                     "zh": "加害者",
                     "ko": "Perpetrator",
                     "en": "Perpetrator"
-                    }
+                  }
                 },
                 {
-                    "key": "purpose",
-                    "label": {
+                  "key": "purpose",
+                  "label": {
                     "zh": "目的",
                     "ko": "Purpose",
                     "en": "Purpose"
-                    }
+                  }
                 },
                 {
-                    "key": "method",
-                    "label": {
+                  "key": "method",
+                  "label": {
                     "zh": "手段",
                     "ko": "Criminal Process",
                     "en": "Criminal Process"
-                    }
+                  }
                 },
                 {
-                    "key": "photo",
-                    "label": {
+                  "key": "photo",
+                  "label": {
                     "zh": "伪证之照片",
                     "ko": "False Photo Evidence",
                     "en": "False Photo Evidence"
-                    }
+                  }
                 },
                 {
-                    "key": "chat",
-                    "label": {
+                  "key": "chat",
+                  "label": {
                     "zh": "伪证之聊天记录",
                     "ko": "False Chat Evidence",
                     "en": "False Chat Evidence"
-                    }
+                  }
                 },
                 {
-                    "key": "letter",
-                    "label": {
+                  "key": "letter",
+                  "label": {
                     "zh": "伪证之信件",
                     "ko": "False Letter Evidence",
                     "en": "False Letter Evidence"
-                    }
+                  }
                 },
                 {
-                    "key": "audio",
-                    "label": {
+                  "key": "audio",
+                  "label": {
                     "zh": "伪证之语音",
                     "ko": "False Audio Evidence",
                     "en": "False Audio Evidence"
-                    }
+                  }
                 }
-                ],
-                "rows": [
+              ],
+              "rows": [
                 {
-                    "id": "fabricated-evidence",
-                    "year": {
+                  "id": "fabricated-evidence",
+                  "year": {
                     "zh": "2025年",
                     "ko": "2025",
                     "en": "2025"
-                    },
-                    "perpetrator": {
+                  },
+                  "perpetrator": {
                     "zh": "金赛纶遗属",
                     "ko": "Kim Saeron's bereaved family",
                     "en": "Kim Saeron's bereaved family"
-                    },
-                    "purpose": {
+                  },
+                  "purpose": {
                     "zh": [
-                        {
+                      {
                         "text": "谋财害命",
                         "bold": true,
                         "italic": true
-                        }
+                      }
                     ],
                     "ko": [
-                        {
+                      {
                         "text": "Money",
                         "bold": true,
                         "italic": true
-                        }
+                      }
                     ],
                     "en": [
-                        {
+                      {
                         "text": "Money",
                         "bold": true,
                         "italic": true
-                        }
+                      }
                     ]
-                    },
-                    "method": {
+                  },
+                  "method": {
                     "zh": [
-                        {
+                      {
                         "text": "将金赛纶2024年为了赖账诬陷金秀贤而编造的声明中",
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "“15岁交往”版本包装为遗书公开",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "伪造证据",
                         "block": true
-                        }
+                      }
                     ],
                     "ko": [
-                        {
+                      {
                         "text": "Kim Saeron’s bereaved family used her ",
                         "block": false
-                        },
-                        {
+                      },
+                      {
                         "text": "2024 debt-evasion statement",
                         "bold": true,
                         "italic": true
-                        },
-                        {
+                      },
+                      {
                         "text": " to frame Kim Soohyun, portraying the “15-year-old” version as a suicide note.",
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "Fabricated evidence",
                         "block": true
-                        }
+                      }
                     ],
                     "en": [
-                        {
+                      {
                         "text": "Kim Saeron’s bereaved family used her ",
                         "block": false
-                        },
-                        {
+                      },
+                      {
                         "text": "2024 debt-evasion statement",
                         "bold": true,
                         "italic": true
-                        },
-                        {
+                      },
+                      {
                         "text": " to frame Kim Soohyun, portraying the “15-year-old” version as a suicide note.",
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "Fabricated evidence",
                         "block": true
-                        }
+                      }
                     ]
-                    },
-                    "photo": {
+                  },
+                  "photo": {
                     "zh": [
-                        {
+                      {
                         "text": "只曝光照片本身，却不公开照片拍摄日期",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "煽动、引导网友造谣图片日期。",
                         "block": true
-                        }
+                      }
                     ],
                     "ko": [
-                        {
+                      {
                         "text": "Only the photos were released, not the dates they were taken.",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        }
+                      }
                     ],
                     "en": [
-                        {
+                      {
                         "text": "Only the photos were released, not the dates they were taken.",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        }
+                      }
                     ]
-                    },
-                    "chat": {
+                  },
+                  "chat": {
                     "zh": [
-                        {
+                      {
                         "text": "将金赛纶与多个真正未成年男友的聊天记录换上金秀贤头像后曝光。",
                         "block": true
-                        }
+                      }
                     ],
                     "ko": [
-                        {
+                      {
                         "text": "Chat records between Kim Saeron and several of her actual underage boyfriends were presented using Kim Soohyun’s profile image.",
                         "block": true
-                        }
+                      }
                     ],
                     "en": [
-                        {
+                      {
                         "text": "Chat records between Kim Saeron and several of her actual underage boyfriends were presented using Kim Soohyun’s profile image.",
                         "block": true
-                        }
+                      }
                     ]
-                    },
-                    "letter": {
+                  },
+                  "letter": {
                     "zh": [
-                        {
+                      {
                         "text": "将2019年信件中的“我爱你”截图嫁接到2018年军队信旁，引导网友误以为2018年信件中有“我爱你”。",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "2018年军队信中没有“我爱你”，金赛纶的昵称被多次写错。该军队信只是金秀贤写给多位普通朋友的许多信件之一。",
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "“我爱你”只出现在2019年11月恋爱时期的明信片中。",
                         "block": true
-                        }
+                      }
                     ],
                     "ko": [
-                        {
+                      {
                         "text": "A 2019 “I love you” screenshot was placed beside a 2018 military letter.",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "Kim Saeron’s nickname was repeatedly misspelled. The letter was one of many Kim Soohyun sent to ordinary friends.",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "“I love you” appeared only in a November 2019 postcard.",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        }
+                      }
                     ],
                     "en": [
-                        {
+                      {
                         "text": "A 2019 “I love you” screenshot was placed beside a 2018 military letter.",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "Kim Saeron’s nickname was repeatedly misspelled. The letter was one of many Kim Soohyun sent to ordinary friends.",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "“I love you” appeared only in a November 2019 postcard.",
                         "bold": true,
                         "italic": true,
                         "block": true
-                        }
+                      }
                     ]
-                    },
-                    "audio": {
+                  },
+                  "audio": {
                     "zh": [
-                        {
+                      {
                         "text": "向他人购买AI语音，并造谣金秀贤买凶杀人、抢夺录音，当场被韩国驻美大使馆辟谣。",
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "又造谣元彬帮助录音举报人，被元彬本人辟谣。",
                         "block": true
-                        }
+                      }
                     ],
                     "ko": [
-                        {
+                      {
                         "text": "An AI-generated recording was purchased from a fraudster.",
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "The same fraudster also tried to sell Gold Medalist an adult-relationship recording; the offer was rejected after it was identified as AI-generated.",
                         "block": true
-                        }
+                      }
                     ],
                     "en": [
-                        {
+                      {
                         "text": "An AI-generated recording was purchased from a fraudster.",
                         "block": true
-                        },
-                        {
+                      },
+                      {
                         "text": "The same fraudster also tried to sell Gold Medalist an adult-relationship recording; the offer was rejected after it was identified as AI-generated.",
                         "block": true
-                        }
+                      }
                     ]
-                    }
+                  },
+                  "zh_only": false
                 }
-                ]
+              ]
             }
-            ],
-            "matrix_conclusion": {
+          ],
+          "matrix_conclusion": {
             "zh": "金赛纶遗属吸血金赛纶整个人生，还要利用金赛纶的死亡对无辜者谋财害命，是纯粹的加害者。",
             "ko": "Kim Saeron’s bereaved family exploited her throughout her life and then used her death to target innocent people for financial gain; they are perpetrators.",
             "en": "Kim Saeron’s bereaved family exploited her throughout her life and then used her death to target innocent people for financial gain; they are perpetrators."
-            }
+          }
         }
       ]
     }

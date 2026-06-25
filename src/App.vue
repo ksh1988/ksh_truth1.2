@@ -8,6 +8,7 @@ import SearchResultsView from './components/content/SearchResultsView.vue'
 import TimelineView from './components/content/TimelineView.vue'
 import MatrixSections from './components/MatrixSections.vue'
 import FloatingReturnButton from './components/navigation/FloatingReturnButton.vue'
+import PageNodeNavigator from './components/navigation/PageNodeNavigator.vue'
 import SidebarNavigation from './components/navigation/SidebarNavigation.vue'
 import TopBar from './components/navigation/TopBar.vue'
 
@@ -71,6 +72,7 @@ const app = useAppController(siteData)
             :lang="app.lang"
             :source-label="app.uiText[app.lang].sources"
             :years="app.timelineYears"
+            :show-year-filter="app.activeContent.show_year_filter !== false"
           />
 
           <MatrixSections
@@ -100,6 +102,13 @@ const app = useAppController(siteData)
         </template>
       </section>
     </main>
+
+    <PageNodeNavigator
+      v-if="!app.activeSearchQuery"
+      :content="app.activeContent"
+      :lang="app.lang"
+      :timeline-entries="app.timelineEntries"
+    />
 
     <FloatingReturnButton
       v-if="app.canReturn"

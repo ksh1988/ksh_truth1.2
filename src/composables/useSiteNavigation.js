@@ -100,12 +100,12 @@ export const useSiteNavigation = (siteData, lang) => {
     expandedTabs.value = next
   }
 
-  const timelineYears = computed(() => [...new Set(entriesFor(activeContent.value)
+  const timelineYears = computed(() => [...new Set(entriesFor(activeContent.value, lang.value)
     .map((item) => String(item.time || '').slice(0, 4))
     .filter((year) => /^\d{4}$/.test(year)))]
     .sort((a, b) => Number(b) - Number(a)))
 
-  const timelineEntries = computed(() => entriesFor(activeContent.value)
+  const timelineEntries = computed(() => entriesFor(activeContent.value, lang.value)
     .filter((item) => selectedYear.value === 'all' || String(item.time || '').startsWith(selectedYear.value))
     .slice()
     .sort((a, b) => {

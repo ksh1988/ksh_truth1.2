@@ -28,7 +28,7 @@ defineProps({
       </thead>
       <tbody>
         <tr
-          v-for="(item, index) in entriesFor(content)"
+          v-for="(item, index) in entriesFor(content, lang)"
           :key="item.id || index"
           :data-search-key="searchKeyFor(item, index)"
         >

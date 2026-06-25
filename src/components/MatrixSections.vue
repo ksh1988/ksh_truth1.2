@@ -1,4 +1,5 @@
 <script setup>
+import { visibleRowsFor } from '../utils/contentHelpers'
 import { searchKeyForMatrixRow } from '../utils/searchKeys'
 
 const props = defineProps({
@@ -27,7 +28,7 @@ const segmentClass = (segment) => ({
 </script>
 
 <template>
-  <div class="matrix-sections" :class="`matrix-${content.id}`">
+  <div class="matrix-sections" :class="`matrix-${content.id}`" :data-search-key="content.id">
     <div class="matrix-scroll matrix-all-scroll" tabindex="0">
       <div class="matrix-canvas">
         <p v-if="content.matrix_intro" class="matrix-statement">{{ localize(content.matrix_intro) }}</p>
@@ -45,7 +46,7 @@ const segmentClass = (segment) => ({
             </thead>
             <tbody>
               <tr
-                v-for="(row, rowIndex) in section.rows"
+                v-for="(row, rowIndex) in visibleRowsFor(section, lang)"
                 :key="row.id || rowIndex"
                 :data-search-key="searchKeyForMatrixRow(content.id, section.id, row, rowIndex)"
               >

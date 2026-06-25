@@ -1,7 +1,8 @@
+import { entriesFor, isVisibleForLanguage, visibleRowsFor } from './contentHelpers'
 import { localizeValue } from './localization'
 import { searchKeyFor, searchKeyForMatrixRow } from './searchKeys'
 
-const SKIPPED_KEYS = new Set(['imgs', 'url', 'src', 'link', 'videos', 'internal_link'])
+const SKIPPED_KEYS = new Set(['imgs', 'url', 'src', 'link', 'videos', 'internal_link', 'zh_only'])
 const LOCALIZED_KEYS = new Set(['zh', 'ko', 'en', 'shared'])
 
 const normalize = (value) => String(value || '').trim().toLowerCase()
@@ -12,7 +13,7 @@ const cleanText = (value) => String(value || '')
   .replace(/\*/g, '')
 
 const collectText = (value, lang, bucket = []) => {
-  if (value == null) return bucket
+  if (value == null || !isVisibleForLanguage(value, lang)) return bucket
 
   if (typeof value === 'string' || typeof value === 'number') {
     bucket.push(cleanText(value))
@@ -55,12 +56,9 @@ const firstSnippet = (content, lang, query) => {
   return `${prefix}${source.slice(start, end)}${suffix}`
 }
 
-const mediaSourceFor = (content) => {
+const mediaSourceFor = (content, lang) => {
   if (content?.imgs) return content
-  const firstWithImages = [content?.entries, content?.items, content?.events]
-    .filter(Array.isArray)
-    .flat()
-    .find((item) => item?.imgs)
+  const firstWithImages = entriesFor(content, lang).find((item) => item?.imgs)
   return firstWithImages || content
 }
 
@@ -83,14 +81,14 @@ const resultFrom = ({ tab, category = null, subTab = null, item = null, itemInde
     path,
     title: cleanText(title),
     snippet: firstSnippet(content, lang, query),
-    mediaItem: mediaSourceFor(item || content),
+    mediaItem: mediaSourceFor(item || content, lang),
   }
 }
 
 const pushMatrixResults = ({ results, tab, category = null, subTab, content, lang, query }) => {
   let matched = false
   ;(content.matrix_sections || []).forEach((section) => {
-    ;(section.rows || []).forEach((row, rowIndex) => {
+    ;visibleRowsFor(section, lang).forEach((row, rowIndex) => {
       if (contentMatches(row, lang, query)) {
         matched = true
         results.push(resultFrom({
@@ -113,7 +111,7 @@ const pushContentResults = ({ results, tab, category = null, subTab = null, cont
   const matchedMatrix = content?.matrix_sections
     ? pushMatrixResults({ results, tab, category, subTab, content, lang, query })
     : false
-  const entries = [content?.entries, content?.items, content?.events].filter(Array.isArray).flat()
+  const entries = entriesFor(content, lang)
   let matchedChild = false
 
   entries.forEach((item, index) => {

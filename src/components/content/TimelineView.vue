@@ -1,4 +1,5 @@
 <script setup>
+import { computed, ref } from 'vue'
 import { timelineFieldLabels, timelineText } from '../../config/uiText'
 import { displayFieldsFor, formatDate, itemTitle, yearLabel } from '../../utils/contentHelpers'
 import { localizeValue } from '../../utils/localization'
@@ -6,38 +7,71 @@ import { searchKeyFor } from '../../utils/searchKeys'
 import LinkBlock from '../LinkBlock.vue'
 import MediaBlock from '../MediaBlock.vue'
 
-defineProps({
+const props = defineProps({
   emptyText: { type: String, required: true },
   entries: { type: Array, required: true },
   lang: { type: String, required: true },
   order: { type: String, required: true },
   selectedYear: { type: String, required: true },
+  showYearFilter: { type: Boolean, default: true },
   sourceLabel: { type: String, required: true },
   years: { type: Array, required: true },
 })
 
-defineEmits(['update:order', 'update:selectedYear'])
+const emit = defineEmits(['update:order', 'update:selectedYear'])
+
+const yearMenuOpen = ref(false)
 
 const fieldLabel = (key, lang) => localizeValue(timelineFieldLabels[key], lang) || key
+
+const selectedYearLabel = computed(() => {
+  if (props.selectedYear === 'all') return timelineText[props.lang].all
+  return yearLabel(props.selectedYear, props.lang)
+})
+
+const selectYear = (year) => {
+  emit('update:selectedYear', year)
+  yearMenuOpen.value = false
+}
 </script>
 
 <template>
   <div class="timeline">
     <div class="timeline-controls">
-      <label class="year-filter">
-        <span>{{ timelineText[lang].year }}</span>
-        <select
-          :value="selectedYear"
-          :aria-label="timelineText[lang].year"
-          @change="$emit('update:selectedYear', $event.target.value)"
-        >
-          <option value="all">{{ timelineText[lang].all }}</option>
-          <option v-for="year in years" :key="year" :value="year">{{ yearLabel(year, lang) }}</option>
-        </select>
-      </label>
+      <div v-if="showYearFilter" class="year-filter">
+        <div class="year-dropdown" :class="{ open: yearMenuOpen }">
+          <button
+            class="year-trigger"
+            type="button"
+            :aria-label="timelineText[lang].year"
+            :aria-expanded="yearMenuOpen"
+            @click="yearMenuOpen = !yearMenuOpen"
+          >
+            <span>{{ selectedYearLabel }}</span>
+            <b aria-hidden="true"></b>
+          </button>
+          <div v-if="yearMenuOpen" class="year-menu">
+            <button
+              type="button"
+              :class="{ active: selectedYear === 'all' }"
+              @click="selectYear('all')"
+            >
+              {{ timelineText[lang].all }}
+            </button>
+            <button
+              v-for="year in years"
+              :key="year"
+              type="button"
+              :class="{ active: selectedYear === year }"
+              @click="selectYear(year)"
+            >
+              {{ yearLabel(year, lang) }}
+            </button>
+          </div>
+        </div>
+      </div>
 
       <div class="order-control" role="group" :aria-label="timelineText[lang].order">
-        <span>{{ timelineText[lang].order }}</span>
         <div class="order-buttons">
           <button :class="{ active: order === 'desc' }" @click="$emit('update:order', 'desc')">
             {{ timelineText[lang].desc }}

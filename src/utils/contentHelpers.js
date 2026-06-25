@@ -1,6 +1,9 @@
 import { localizeValue } from './localization'
 
-export const entriesFor = (content) => content?.entries || content?.items || content?.events || []
+export const isVisibleForLanguage = (item, lang) => lang === 'zh' || item?.zh_only !== true
+
+export const entriesFor = (content, lang = 'zh') => (content?.entries || content?.items || content?.events || [])
+  .filter((item) => isVisibleForLanguage(item, lang))
 
 export const itemTitle = (item, lang) => localizeValue(item.title || item.event || item.label, lang)
 
@@ -12,10 +15,13 @@ export const formatDate = (date) => {
 }
 
 export const displayFieldsFor = (item) => Object.entries(item).filter(([key, value]) =>
-  !['id', 'time', 'title', 'event', 'description', 'imgs', 'link', 'videos', 'extras', 'index'].includes(key)
+  !['id', 'time', 'title', 'event', 'description', 'imgs', 'link', 'videos', 'extras', 'index', 'zh_only'].includes(key)
   && value !== ''
   && value != null
 )
+
+export const visibleRowsFor = (section, lang = 'zh') => (section?.rows || [])
+  .filter((row) => isVisibleForLanguage(row, lang))
 
 export const yearLabel = (year, lang) => {
   if (lang === 'zh') return `${year}年`
