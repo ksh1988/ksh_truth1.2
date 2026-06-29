@@ -1,6 +1,6 @@
-import { computed, onMounted, reactive, ref } from 'vue'
+import { computed, reactive, ref } from 'vue'
 import { uiText } from '../config/uiText'
-import { clearSavedLanguage, detectInitialLanguage, detectLanguageFromIp } from '../utils/languageDetection'
+import { clearSavedLanguage, detectInitialLanguage } from '../utils/languageDetection'
 import { searchSiteSections } from '../utils/siteSearch'
 import { useSearchFocus } from './useSearchFocus'
 import { useSearchNavigation } from './useSearchNavigation'
@@ -13,8 +13,8 @@ import { useSiteNavigation } from './useSiteNavigation'
  */
 export const useAppController = (siteData) => {
   const supportedLanguages = siteData.meta.languages || ['zh', 'ko', 'en']
+  clearSavedLanguage()
   const lang = ref(detectInitialLanguage(supportedLanguages))
-  const languageSelectedByUser = ref(false)
   const searchQuery = ref('')
   const submittedSearchQuery = ref('')
 
@@ -48,22 +48,9 @@ export const useAppController = (siteData) => {
  */
   const setLanguage = (nextLang) => {
     if (!supportedLanguages.includes(nextLang)) return
-    languageSelectedByUser.value = true
     lang.value = nextLang
   }
 
-  /**
- * Applies automatic IP-based language detection on every page load.
- * @returns {Promise<void>} Updates language after the IP country lookup completes.
- */
-  const applyAutoLanguage = async () => {
-    clearSavedLanguage()
-    const detectedLang = await detectLanguageFromIp(supportedLanguages)
-    if (languageSelectedByUser.value) return
-    if (supportedLanguages.includes(detectedLang)) lang.value = detectedLang
-  }
-
-  onMounted(applyAutoLanguage)
 
   /**
  * Selects a root tab from the sidebar menu and clears jump state.

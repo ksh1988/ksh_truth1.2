@@ -70,8 +70,8 @@ export const visibleRowsFor = (section, lang = 'zh') => (section?.rows || [])
  * @returns {*} The computed result or the documented side effect.
  */
 export const yearLabel = (year, lang) => {
-  if (lang === 'zh') return year + '?'
-  if (lang === 'ko') return year + '?'
+  if (lang === 'zh') return year + '年'
+  if (lang === 'ko') return year
   return year
 }
 

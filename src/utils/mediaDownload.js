@@ -41,6 +41,15 @@ const isMobileBrowser = () => window.matchMedia?.('(max-width: 820px)').matches
   || /Android|iPhone|iPad|iPod|Mobile/i.test(window.navigator.userAgent || '')
 
 /**
+ * Detects Android WeChat, where script-triggered image downloads are blocked.
+ * @returns {boolean} True when the current browser should use preview-and-long-press saving.
+ */
+export const shouldUsePreviewSaveFallback = () => {
+  const ua = window.navigator.userAgent || ''
+  return /Android/i.test(ua) && /MicroMessenger/i.test(ua)
+}
+
+/**
  * Creates a temporary link and triggers browser download.
  * @param {string} href - Blob URL or remote URL.
  * @param {string} filename - Suggested filename.

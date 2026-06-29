@@ -5,7 +5,7 @@
  * @returns {void} Renders media UI for one content entity.
  */
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
-import { downloadMedia, mediaFileName } from '../utils/mediaDownload'
+import { downloadMedia, mediaFileName, shouldUsePreviewSaveFallback } from '../utils/mediaDownload'
 
 const props = defineProps({
   item: { type: Object, required: true },
@@ -18,6 +18,8 @@ const failed = ref(new Set())
 const container = ref(null)
 const shouldLoad = ref(false)
 const previewIndex = ref(-1)
+const saveHintVisible = ref(false)
+const previewZoomed = ref(false)
 const touchStartX = ref(0)
 let observer
 
@@ -26,13 +28,15 @@ const images = computed(() => [
   ...(props.item.imgs?.shared || []),
 ])
 const loadingText = computed(() => ({ zh: 'Images load as you scroll', ko: 'Images load as you scroll', en: 'Images load as you scroll' })[props.lang] || 'Images load as you scroll')
-const downloadLabel = computed(() => ({ zh: 'Download image', ko: 'Download image', en: 'Download image' })[props.lang] || 'Download image')
+const downloadLabel = computed(() => ({ zh: '保存图片', ko: 'Save image', en: 'Save image' })[props.lang] || 'Save image')
 const closeLabel = computed(() => ({ zh: 'Close image preview', ko: 'Close image preview', en: 'Close image preview' })[props.lang] || 'Close image preview')
 const previousLabel = computed(() => ({ zh: 'Previous image', ko: 'Previous image', en: 'Previous image' })[props.lang] || 'Previous image')
 const nextLabel = computed(() => ({ zh: 'Next image', ko: 'Next image', en: 'Next image' })[props.lang] || 'Next image')
+const saveHintLabel = computed(() => ({ zh: '安卓微信请长按图片保存到手机', ko: 'In Android WeChat, long press the image to save it', en: 'In Android WeChat, long press the image to save it' })[props.lang] || 'Long press the image to save it')
 const previewOpen = computed(() => previewIndex.value >= 0 && images.value[previewIndex.value])
 const previewSrc = computed(() => previewOpen.value ? images.value[previewIndex.value] : '')
 const hasMultipleImages = computed(() => images.value.length > 1)
+const zoomLabel = computed(() => ({ zh: '放大图片', ko: '이미지 확대', en: 'Zoom image' })[props.lang] || 'Zoom image')
 
 /**
  * Forces the media block to load immediately.
@@ -73,6 +77,12 @@ const downloadImage = async (event, src, index) => {
   event.preventDefault()
   event.stopPropagation()
 
+  if (shouldUsePreviewSaveFallback()) {
+    saveHintVisible.value = true
+    openPreview(index)
+    return
+  }
+
   const filename = mediaFileName({ item: props.item, lang: props.lang, src, index })
   await downloadMedia({ src, filename })
 }
@@ -84,6 +94,7 @@ const downloadImage = async (event, src, index) => {
  */
 const openPreview = (index) => {
   previewIndex.value = index
+  previewZoomed.value = false
   document.body.classList.add('media-preview-open')
 }
 
@@ -93,6 +104,8 @@ const openPreview = (index) => {
  */
 const closePreview = () => {
   previewIndex.value = -1
+  saveHintVisible.value = false
+  previewZoomed.value = false
   document.body.classList.remove('media-preview-open')
 }
 
@@ -103,7 +116,16 @@ const closePreview = () => {
  */
 const movePreview = (step) => {
   if (!previewOpen.value || !images.value.length) return
+  previewZoomed.value = false
   previewIndex.value = (previewIndex.value + step + images.value.length) % images.value.length
+}
+
+/**
+ * Toggles between fit-to-screen preview and scrollable original-size preview.
+ * @returns {void} Updates preview zoom state.
+ */
+const togglePreviewZoom = () => {
+  previewZoomed.value = !previewZoomed.value
 }
 
 /**
@@ -114,8 +136,9 @@ const movePreview = (step) => {
 const handlePreviewKeydown = (event) => {
   if (!previewOpen.value) return
   if (event.key === 'Escape') closePreview()
-  if (event.key === 'ArrowLeft') movePreview(-1)
-  if (event.key === 'ArrowRight') movePreview(1)
+  if (event.key === 'Enter' || event.key === ' ') togglePreviewZoom()
+  if (!previewZoomed.value && event.key === 'ArrowLeft') movePreview(-1)
+  if (!previewZoomed.value && event.key === 'ArrowRight') movePreview(1)
 }
 
 /**
@@ -133,6 +156,7 @@ const handleTouchStart = (event) => {
  * @returns {void} Moves the preview when swipe distance is large enough.
  */
 const handleTouchEnd = (event) => {
+  if (previewZoomed.value) return
   const endX = event.changedTouches?.[0]?.clientX || 0
   const delta = endX - touchStartX.value
   if (Math.abs(delta) < 42) return
@@ -197,6 +221,7 @@ const markFailed = (src) => { failed.value = new Set([...failed.value, src]) }
     <Teleport to="body">
       <div
         v-if="previewOpen"
+        :class="{ zoomed: previewZoomed }"
         class="media-preview-layer"
         role="dialog"
         aria-modal="true"
@@ -205,9 +230,11 @@ const markFailed = (src) => { failed.value = new Set([...failed.value, src]) }
         @touchend.passive="handleTouchEnd"
       >
         <button type="button" class="media-preview-close" :aria-label="closeLabel" @click="closePreview"></button>
+        <button type="button" class="media-preview-zoom" :class="{ active: previewZoomed }" :aria-label="zoomLabel" @click="togglePreviewZoom"></button>
         <button v-if="hasMultipleImages" type="button" class="media-preview-nav previous" :aria-label="previousLabel" @click="movePreview(-1)"></button>
-        <figure class="media-preview-frame">
-          <img :src="previewSrc" alt="" class="media-preview-image" referrerpolicy="no-referrer">
+        <div v-if="saveHintVisible" class="media-save-hint">{{ saveHintLabel }}</div>
+        <figure class="media-preview-frame" :class="{ zoomed: previewZoomed }">
+          <img :src="previewSrc" alt="" class="media-preview-image" :class="{ zoomed: previewZoomed }" referrerpolicy="no-referrer" @click.stop="togglePreviewZoom">
           <figcaption v-if="hasMultipleImages" class="media-preview-count">{{ previewIndex + 1 }} / {{ images.length }}</figcaption>
         </figure>
         <button v-if="hasMultipleImages" type="button" class="media-preview-nav next" :aria-label="nextLabel" @click="movePreview(1)"></button>
