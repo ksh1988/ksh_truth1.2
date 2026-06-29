@@ -47,18 +47,24 @@
   }
   .media-preview-layer.zoomed {
     align-items: start;
-    justify-items: start;
-    padding: max(68px, env(safe-area-inset-top)) 14px max(44px, env(safe-area-inset-bottom));
+    justify-items: center;
+    padding: max(68px, env(safe-area-inset-top)) 10px max(44px, env(safe-area-inset-bottom));
   }
   .media-preview-frame,
   .media-preview-image {
     max-width: 96vw;
     max-height: 84vh;
   }
-  .media-preview-frame.zoomed,
-  .media-preview-image.zoomed {
-    max-width: none;
+  .media-preview-frame.zoomed {
+    width: 96vw;
+    max-width: 96vw;
     max-height: none;
+  }
+  .media-preview-image.zoomed {
+    width: 100%;
+    max-width: 100%;
+    max-height: none;
+    height: auto;
   }
   .media-preview-close {
     width: 48px;
