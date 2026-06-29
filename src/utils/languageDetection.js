@@ -11,6 +11,8 @@ const CHINA_TIME_ZONES = new Set([
 ])
 
 const KOREA_TIME_ZONES = new Set(['Asia/Seoul'])
+const CHINA_COUNTRY_CODES = new Set(['CN', 'HK', 'MO', 'TW'])
+const KOREA_COUNTRY_CODES = new Set(['KR'])
 
 /**
  * Checks whether browser storage can be used safely.
@@ -41,6 +43,19 @@ const browserLanguages = () => {
 }
 
 /**
+ * Maps a country code to the site language rule.
+ * @param {string} countryCode - ISO country code returned by an IP geolocation service.
+ * @param {string[]} supportedLanguages - Languages declared by site_data.json.
+ * @returns {string} zh for China-related regions, ko for Korea, en for all others.
+ */
+const languageFromCountryCode = (countryCode, supportedLanguages) => {
+  const code = String(countryCode || '').toUpperCase()
+  if (CHINA_COUNTRY_CODES.has(code) && isSupported('zh', supportedLanguages)) return 'zh'
+  if (KOREA_COUNTRY_CODES.has(code) && isSupported('ko', supportedLanguages)) return 'ko'
+  return isSupported('en', supportedLanguages) ? 'en' : supportedLanguages[0] || 'en'
+}
+
+/**
  * Checks whether a language code exists in the site config.
  * @param {string} lang - Candidate language code.
  * @param {string[]} supportedLanguages - Languages declared by site_data.json.
@@ -49,35 +64,19 @@ const browserLanguages = () => {
 const isSupported = (lang, supportedLanguages) => supportedLanguages.includes(lang)
 
 /**
- * Reads the language manually selected by the user.
- * @param {string[]} supportedLanguages - Languages declared by site_data.json.
- * @returns {string} Saved language code or an empty string.
+ * Clears any language choice saved by older site versions.
+ * @returns {void} Removes the legacy language key from browser storage.
  */
-export const savedLanguage = (supportedLanguages) => {
-  const saved = storage()?.getItem(LANGUAGE_STORAGE_KEY) || ''
-  return isSupported(saved, supportedLanguages) ? saved : ''
+export const clearSavedLanguage = () => {
+  storage()?.removeItem(LANGUAGE_STORAGE_KEY)
 }
 
 /**
- * Persists a user-selected language.
- * @param {string} lang - Selected language code.
- * @param {string[]} supportedLanguages - Languages declared by site_data.json.
- * @returns {void} Saves the language when it is supported.
- */
-export const saveLanguage = (lang, supportedLanguages) => {
-  if (!isSupported(lang, supportedLanguages)) return
-  storage()?.setItem(LANGUAGE_STORAGE_KEY, lang)
-}
-
-/**
- * Detects the best initial language from saved choice, time zone, and browser language.
+ * Detects the best initial language from time zone and browser language.
  * @param {string[]} supportedLanguages - Languages declared by site_data.json.
  * @returns {string} zh for China, ko for Korea, and en for all other visitors.
  */
 export const detectInitialLanguage = (supportedLanguages = []) => {
-  const saved = savedLanguage(supportedLanguages)
-  if (saved) return saved
-
   const timeZone = browserTimeZone()
   if (CHINA_TIME_ZONES.has(timeZone) && isSupported('zh', supportedLanguages)) return 'zh'
   if (KOREA_TIME_ZONES.has(timeZone) && isSupported('ko', supportedLanguages)) return 'ko'
@@ -88,4 +87,20 @@ export const detectInitialLanguage = (supportedLanguages = []) => {
   if (langs.some((lang) => lang === 'ko' || lang.startsWith('ko-')) && isSupported('ko', supportedLanguages)) return 'ko'
 
   return isSupported('en', supportedLanguages) ? 'en' : supportedLanguages[0] || 'en'
+}
+
+/**
+ * Detects visitor language from public IP country and falls back to time zone rules.
+ * @param {string[]} supportedLanguages - Languages declared by site_data.json.
+ * @returns {Promise<string>} Language selected by IP country or local fallback.
+ */
+export const detectLanguageFromIp = async (supportedLanguages = []) => {
+  try {
+    const response = await fetch('https://ipapi.co/json/', { cache: 'no-store' })
+    if (!response.ok) throw new Error('ip lookup failed')
+    const data = await response.json()
+    return languageFromCountryCode(data.country_code || data.country, supportedLanguages)
+  } catch {
+    return detectInitialLanguage(supportedLanguages)
+  }
 }
