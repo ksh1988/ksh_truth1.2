@@ -15,6 +15,7 @@ import MatrixSections from './components/MatrixSections.vue'
 import FloatingReturnButton from './components/navigation/FloatingReturnButton.vue'
 import PageNodeNavigator from './components/navigation/PageNodeNavigator.vue'
 import SidebarNavigation from './components/navigation/SidebarNavigation.vue'
+import SiteFooter from './components/SiteFooter.vue'
 import TopBar from './components/navigation/TopBar.vue'
 
 const app = useAppController(siteData)
@@ -109,6 +110,8 @@ const app = useAppController(siteData)
           />
         </template>
       </section>
+
+      <SiteFooter />
     </main>
 
     <PageNodeNavigator

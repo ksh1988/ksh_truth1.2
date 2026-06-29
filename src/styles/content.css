@@ -255,8 +255,8 @@
   cursor: zoom-in;
 }
 .media-preview-frame.zoomed {
-  width: min(94vw, 1280px);
-  max-width: min(94vw, 1280px);
+  width: min(72vw, 960px);
+  max-width: min(72vw, 960px);
   max-height: none;
   cursor: zoom-out;
 }
@@ -392,6 +392,12 @@
   font-weight: 850;
   line-height: 1.45;
   text-align: center;
+}
+@media (max-width: 1180px) {
+  .media-preview-frame.zoomed {
+    width: 86vw;
+    max-width: 86vw;
+  }
 }
 body.media-preview-open { overflow: hidden; }
 @supports (height: 100svh) {

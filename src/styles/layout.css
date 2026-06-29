@@ -27,3 +27,27 @@
 .mobile-menu { display: none; width: 38px; padding: 7px; border: 0; background: transparent; cursor: pointer; }
 .mobile-menu span { display: block; height: 1px; margin: 5px 0; background: #40515f; }
 .main.sidebar-hidden .mobile-menu { display: block; }
+
+.site-footer {
+  width: min(1180px, 90%);
+  margin: -54px auto 34px;
+  padding: 14px 0 0;
+  color: #6f7f8b;
+  border-top: 1px solid rgba(47, 67, 84, .1);
+  font-size: 13px;
+  font-weight: 800;
+  text-align: center;
+}
+.site-views {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  padding: 7px 13px;
+  background: rgba(255, 255, 255, .72);
+  border: 1px solid rgba(47, 67, 84, .1);
+  border-radius: 999px;
+}
+#busuanzi_value_site_pv {
+  color: #245f91;
+  font-weight: 900;
+}
