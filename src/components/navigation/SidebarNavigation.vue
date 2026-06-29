@@ -1,13 +1,22 @@
 <script setup>
+/**
+ * Vue component that renders a focused part of the site UI.
+ * @param {object} props - Component props declared below when this is a Vue component.
+ * @returns {void} Renders UI or exports module helpers.
+ */
 import { ref } from 'vue'
 import NavigationTreePanel from './NavigationTreePanel.vue'
+import SidebarTreeNode from './SidebarTreeNode.vue'
 
 const treeOpen = ref(false)
 
 const props = defineProps({
+  activeNavigationNodeId: { type: String, default: '' },
+  activeNavigationPathIds: { type: Array, default: () => [] },
   activeTab: { type: Object, required: true },
   sidebarVisible: Boolean,
   expandedTabs: { type: Object, required: true },
+  navigationTree: { type: Array, required: true },
   lang: { type: String, required: true },
   localize: { type: Function, required: true },
   searchQuery: { type: String, default: '' },
@@ -28,10 +37,43 @@ const emit = defineEmits([
   'toggle-expanded',
 ])
 
-const tabIndex = (tab) => String(props.siteData.tabs.findIndex((item) => item.id === tab.id) + 1).padStart(2, '0')
+/**
+ * Forwards a direct sub-tab selection from the full tree panel.
+ * @param {*} tab - Input value used by forwardDirectSubTab.
+ * @param {*} subTab - Input value used by forwardDirectSubTab.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const forwardDirectSubTab = (tab, subTab) => emit('select-direct-sub-tab', tab, subTab)
+/**
+ * Forwards a category sub-tab selection from the full tree panel.
+ * @param {*} tab - Input value used by forwardSubTab.
+ * @param {*} category - Input value used by forwardSubTab.
+ * @param {*} subTab - Input value used by forwardSubTab.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const forwardSubTab = (tab, category, subTab) => emit('select-sub-tab', tab, category, subTab)
+/**
+ * Forwards a root tab selection from the full tree panel.
+ * @param {*} tab - Input value used by forwardTab.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const forwardTab = (tab) => emit('select-tab', tab)
+/**
+ * Dispatches a recursive sidebar node selection to the correct event.
+ * @param {*} node - Input value used by selectNavigationNode.
+ * @returns {*} The computed result or the documented side effect.
+ */
+const selectNavigationNode = (node) => {
+  if (node.kind === 'tab') {
+    emit('select-tab', node.tab)
+    return
+  }
+  if (node.kind === 'subTab' && node.category) {
+    emit('select-sub-tab', node.tab, node.category, node.subTab)
+    return
+  }
+  if (node.kind === 'subTab') emit('select-direct-sub-tab', node.tab, node.subTab)
+}
 </script>
 
 <template>
@@ -54,25 +96,25 @@ const forwardTab = (tab) => emit('select-tab', tab)
       </button>
     </div>
 
-    <div v-if="sidebarVisible" class="site-search">
+    <form v-if="sidebarVisible" class="site-search" role="search" @submit.prevent="$emit('submit-search')">
       <label class="site-search-box">
         <input
           :value="searchQuery"
           type="search"
           :placeholder="ui[lang].searchPlaceholder"
           aria-label="Search site text"
+          enterkeyhint="search"
           @input="$emit('search-change', $event.target.value)"
         >
         <button
           class="search-submit"
-          type="button"
+          type="submit"
           aria-label="Search"
-          @click="$emit('submit-search')"
         >
           <span class="search-icon" aria-hidden="true"></span>
         </button>
       </label>
-    </div>
+    </form>
 
     <NavigationTreePanel
       v-if="sidebarVisible && treeOpen"
@@ -84,60 +126,17 @@ const forwardTab = (tab) => emit('select-tab', tab)
     />
 
     <nav aria-label="Main navigation">
-      <div v-for="tab in siteData.tabs" :key="tab.id" class="nav-group">
-        <button
-          class="nav-item top"
-          :class="{ active: activeTab.id === tab.id }"
-          @click="tab.layout === 'two-level' ? $emit('toggle-expanded', tab.id) : $emit('select-tab', tab)"
-        >
-          <span class="nav-index">{{ tabIndex(tab) }}</span>
-          <span v-if="sidebarVisible" class="nav-text">{{ localize(tab.label) }}</span>
-          <span v-if="sidebarVisible && tab.layout === 'two-level'" class="chevron">
-            {{ expandedTabs.has(tab.id) ? '-' : '+' }}
-          </span>
-        </button>
-
-        <div v-if="sidebarVisible && tab.layout === 'two-level' && expandedTabs.has(tab.id)" class="subnav">
-          <div v-for="category in tab.categories || []" :key="category.id">
-            <button
-              v-if="category.sub_tabs?.length === 1"
-              class="sub-item category-single"
-              :class="{ active: selection.subTabId === category.sub_tabs[0].id }"
-              @click="$emit('select-sub-tab', tab, category, category.sub_tabs[0])"
-            >
-              {{ localize(category.sub_tabs[0].label) }}
-            </button>
-
-            <template v-else>
-              <button class="category" @click="$emit('toggle-expanded', category.id)">
-                <span>{{ localize(category.label) }}</span>
-                <span>{{ expandedTabs.has(category.id) ? '-' : '+' }}</span>
-              </button>
-              <div v-if="expandedTabs.has(category.id)">
-                <button
-                  v-for="sub in category.sub_tabs"
-                  :key="sub.id"
-                  class="sub-item"
-                  :class="{ active: selection.subTabId === sub.id }"
-                  @click="$emit('select-sub-tab', tab, category, sub)"
-                >
-                  {{ localize(sub.label) }}
-                </button>
-              </div>
-            </template>
-          </div>
-
-          <button
-            v-for="sub in tab.sub_tabs || []"
-            :key="sub.id"
-            class="sub-item direct-sub-item"
-            :class="{ active: selection.subTabId === sub.id }"
-            @click="$emit('select-direct-sub-tab', tab, sub)"
-          >
-            {{ localize(sub.label) }}
-          </button>
-        </div>
-      </div>
+      <SidebarTreeNode
+        v-for="node in navigationTree"
+        :key="node.id"
+        :active-node-id="activeNavigationNodeId"
+        :active-path-ids="activeNavigationPathIds"
+        :expanded-ids="expandedTabs"
+        :localize="localize"
+        :node="node"
+        @select-node="selectNavigationNode"
+        @toggle-expanded="$emit('toggle-expanded', $event)"
+      />
     </nav>
 
     <button

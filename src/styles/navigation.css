@@ -6,7 +6,8 @@
   display: flex;
   flex-direction: column;
   overflow-y: auto;
-  background: rgba(255, 253, 248, .98);
+  background: rgba(255, 255, 255, .88);
+  backdrop-filter: blur(16px);
   border-right: 1px solid var(--line);
   box-shadow: 8px 0 30px rgba(47, 54, 61, .04);
   transition: width .25s ease, transform .25s ease;
@@ -31,7 +32,7 @@
   height: 38px;
   padding: 0 42px 0 12px;
   color: #2d3d49;
-  background: #fffaf1;
+  background: rgba(248, 251, 253, .92);
   border: 1px solid rgba(47, 67, 84, .18);
   border-radius: 6px;
   outline: none;
@@ -99,7 +100,7 @@
   margin: 12px 8px;
   padding: 12px 10px;
   color: #6c7d89;
-  background: #f7f4ed;
+  background: #f2f6f9;
   border: 1px solid rgba(47, 67, 84, .1);
   border-radius: 6px;
   font-size: 13px;
@@ -158,4 +159,5 @@ nav { flex: 1; padding: 6px 10px 24px; }
 .sub-item:hover, .sub-item.active { color: #215f96; background: rgba(40,106,166,.09); }
 .direct-sub-item { margin: 6px 0 3px; padding: 9px 8px 8px 10px; color: #3f6078; font-size: 15px; font-weight: 760; letter-spacing: .2px; }
 .category-single { margin: 6px 0 3px; padding: 9px 8px 8px 10px; color: #3f6078; font-size: 15px; font-weight: 760; letter-spacing: .2px; }
-.sidebar-toggle-button { position: sticky; bottom: 0; min-height: 51px; display: flex; align-items: center; justify-content: center; gap: 8px; color: var(--blue); background: #f8f5ee; border-top: 1px solid var(--line); font-size: 12px; }
+.sidebar-toggle-button { position: sticky; bottom: 0; min-height: 51px; display: flex; align-items: center; justify-content: center; gap: 8px; color: var(--blue); background: rgba(248, 251, 253, .94);
+  backdrop-filter: blur(12px); border-top: 1px solid var(--line); font-size: 12px; }

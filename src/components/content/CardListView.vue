@@ -1,9 +1,15 @@
 <script setup>
+/**
+ * Vue component that renders a focused part of the site UI.
+ * @param {object} props - Component props declared below when this is a Vue component.
+ * @returns {void} Renders UI or exports module helpers.
+ */
 import { entriesFor, itemDescription, itemTitle } from '../../utils/contentHelpers'
 import { localizedHtml, localizeValue } from '../../utils/localization'
 import { searchKeyFor } from '../../utils/searchKeys'
 import LinkBlock from '../LinkBlock.vue'
 import MediaBlock from '../MediaBlock.vue'
+import VideoBlock from '../VideoBlock.vue'
 
 defineProps({
   content: { type: Object, required: true },
@@ -51,7 +57,8 @@ defineEmits(['navigate-internal'])
         </div>
 
         <MediaBlock :item="item" :lang="lang" :empty-text="emptyText" />
-        <LinkBlock :links="item.link" :label="sourceLabel" />
+        <VideoBlock :item="item" :lang="lang" />
+        <LinkBlock :links="item.link" :label="sourceLabel" :lang="lang" />
       </div>
     </article>
   </div>

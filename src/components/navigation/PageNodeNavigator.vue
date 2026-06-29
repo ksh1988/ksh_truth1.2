@@ -1,4 +1,9 @@
 <script setup>
+/**
+ * Vue component that renders a focused part of the site UI.
+ * @param {object} props - Component props declared below when this is a Vue component.
+ * @returns {void} Renders UI or exports module helpers.
+ */
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { nodesForContent } from '../../utils/pageNodes'
 import { cssEscape } from '../../utils/searchKeys'
@@ -21,13 +26,28 @@ const nodes = computed(() => nodesForContent({
   timelineEntries: props.timelineEntries,
 }))
 
+/**
+ * Stops the active IntersectionObserver.
+ * @param {...*} args - Inputs are the values declared by the function signature.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const disconnectObserver = () => {
   observer?.disconnect()
   observer = null
 }
 
+/**
+ * Finds a content node by search key.
+ * @param {*} key - Input value used by targetFor.
+ * @returns {Promise<*>} The computed result or the documented side effect.
+ */
 const targetFor = (key) => document.querySelector('[data-search-key="' + cssEscape(key) + '"]')
 
+/**
+ * Observes content nodes and updates the active right-side node.
+ * @param {...*} args - Inputs are the values declared by the function signature.
+ * @returns {Promise<*>} The computed result or the documented side effect.
+ */
 const observeNodes = async () => {
   disconnectObserver()
   await nextTick()
@@ -53,20 +73,39 @@ const observeNodes = async () => {
   activeKey.value = nodes.value[0]?.key || ''
 }
 
+/**
+ * Checks whether the current viewport is in the mobile breakpoint.
+ * @param {...*} args - Inputs are the values declared by the function signature.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const isMobileViewport = () => window.matchMedia('(max-width: 820px)').matches
 
-const closeMobileNavigatorOnOutsideClick = (event) => {
+/**
+ * Dims the mobile page-node navigator when tapping outside while keeping it expanded.
+ * @param {PointerEvent} event - Global pointer event used to detect outside taps.
+ * @returns {void} Only lowers opacity state; closing still requires the toggle button.
+ */
+const dimMobileNavigatorOnOutsideClick = (event) => {
   if (!isMobileViewport()) return
   if (navigatorRef.value?.contains(event.target)) return
   mobileActive.value = false
-  expanded.value = false
 }
 
+/**
+ * Toggles the page-node navigator open or closed.
+ * @param {...*} args - Inputs are the values declared by the function signature.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const toggleNavigator = () => {
   expanded.value = !expanded.value
   mobileActive.value = expanded.value
 }
 
+/**
+ * Scrolls to the content entity represented by a page-node button.
+ * @param {*} node - Input value used by scrollToNode.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const scrollToNode = (node) => {
   mobileActive.value = true
   activeKey.value = node.key
@@ -84,12 +123,12 @@ watch(
 )
 
 onMounted(() => {
-  document.addEventListener('pointerdown', closeMobileNavigatorOnOutsideClick, true)
+  document.addEventListener('pointerdown', dimMobileNavigatorOnOutsideClick, true)
 })
 
 onBeforeUnmount(() => {
   disconnectObserver()
-  document.removeEventListener('pointerdown', closeMobileNavigatorOnOutsideClick, true)
+  document.removeEventListener('pointerdown', dimMobileNavigatorOnOutsideClick, true)
 })
 </script>
 

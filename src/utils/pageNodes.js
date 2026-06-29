@@ -1,6 +1,11 @@
 import { entriesFor, itemTitle } from './contentHelpers'
-import { searchKeyFor } from './searchKeys'
+import { searchKeyFor, searchKeyForMatrixRow } from './searchKeys'
 
+/**
+ * Builds right-side page-node navigation entries for current content.
+ * @param {...*} args - Inputs are the values declared by the function signature.
+ * @returns {*} The computed result or the documented side effect.
+ */
 export const nodesForContent = ({ content, lang, timelineEntries = [] }) => {
   if (!content) return []
 
@@ -23,3 +28,4 @@ export const nodesForContent = ({ content, lang, timelineEntries = [] }) => {
     label: itemTitle(item, lang) || String(index + 1),
   }))
 }
+

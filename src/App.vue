@@ -1,4 +1,9 @@
 <script setup>
+/**
+ * Root shell component that wires global app state into layout components.
+ * @param {object} props - Component props declared below when this is a Vue component.
+ * @returns {void} Renders UI or exports module helpers.
+ */
 import siteData from '../site_data.json'
 import { useAppController } from './composables/useAppController'
 import CardListView from './components/content/CardListView.vue'
@@ -18,6 +23,8 @@ const app = useAppController(siteData)
 <template>
   <div class="site-shell">
     <SidebarNavigation
+      :active-navigation-node-id="app.activeNavigationNodeId"
+      :active-navigation-path-ids="app.activeNavigationPathIds"
       :active-tab="app.activeTab"
       :sidebar-visible="app.sidebarVisible"
       :expanded-tabs="app.expandedTabs"
@@ -26,9 +33,10 @@ const app = useAppController(siteData)
       :search-query="app.searchQuery"
       :selection="app.selection"
       :mobile-sidebar-visible="app.mobileSidebarVisible"
+      :navigation-tree="app.navigationTree"
       :site-data="siteData"
       :ui="app.uiText"
-      @close-menu="app.mobileSidebarVisible = false"
+      @close-menu="app.closeSidebar"
       @search-change="app.updateSearch"
       @submit-search="app.submitSearch"
       @select-direct-sub-tab="app.selectDirectSubTabFromMenu"
@@ -46,8 +54,8 @@ const app = useAppController(siteData)
         :site-data="siteData"
         :title="app.activeTitle"
         :ui="app.uiText"
-        @open-menu="app.openMenu"
-        @update:lang="app.lang = $event"
+        @open-menu="app.openSidebar"
+        @update:lang="app.setLanguage"
       />
 
       <section class="content">

@@ -2,8 +2,8 @@
   "meta": {
     "title": {
       "zh": "金秀贤事件澄清",
-      "ko": "김수현 사건 해명",
-      "en": "Kim Soo-hyun Case Clarification"
+      "en": "Kim Soo Hyun incident clarified",
+      "ko": "김수현 사건 해명"
     },
     "languages": [
       "zh",
@@ -12,7 +12,7 @@
     ],
     "default_language": "zh",
     "i18n_notes": {
-      "ui_labels": "所有 *.label 字段是 {zh,ko,en} 对象,前端按当前语言取",
+      "ui_labels": "所有 .label 字段是 {zh,ko,en} 对象,前端按当前语言取",
       "content_text": "title/description 等正文目前以中文为单一语言;后续可扩展为 {zh,ko,en} 对象",
       "imgs": "imgs 已按 languages 前缀分组到 zh/ko/en/shared; shared 在所有语言下都展示"
     }
@@ -39,12 +39,28 @@
             {
               "id": "row8-2",
               "time": "20260604",
-              "event": "警方认定金世义诽谤、性暴力、恐吓、强迫未遂等嫌疑成立，以拘留状态移交给检察机关",
-              "nature": "刑事进展",
+              "event": {
+                "zh": "警方认定金世义诽谤、性暴力、恐吓、强迫未遂等嫌疑成立，以拘留状态移交给检察机关",
+                "en": "The police determined that Jin Shiyi was guilty of defamation, sexual violence, intimidation, attempted coercion, etc., and transferred him to the prosecutor's office in a state of detention",
+                "ko": "경찰은 진시이에게 명예훼손, 성폭력, 협박, 강요미수 등의 혐의가 있다고 판단하고 구속된 상태로 검찰에 송치했다."
+              },
+              "nature": {
+                "zh": "刑事进展",
+                "en": "Criminal Case Progress",
+                "ko": "범죄 진행"
+              },
               "plaintiff": "",
               "defendant": "",
-              "charge": "诽谤造谣、强迫未遂、恐吓",
-              "result": "警方移交至检察院",
+              "charge": {
+                "zh": "诽谤造谣、强迫未遂、恐吓",
+                "en": "Defamation, attempted coercion, and intimidation",
+                "ko": "명예훼손 및 루머, 강요미수, 협박"
+              },
+              "result": {
+                "zh": "警方移交至检察院",
+                "en": "Police referred the case to the prosecutors office",
+                "ko": "경찰에서 검찰로 송치됨"
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/c3/1781936458c55f5223e1582300e7f127d156531a8a.jpg"
@@ -59,7 +75,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://n.news.naver.com/article/001/0016118554?sid=102"
                 }
               ],
@@ -69,12 +89,28 @@
             {
               "id": "row8-3",
               "time": "20260602",
-              "event": "法院驳回金世义对逮捕令的申诉",
-              "nature": "刑事进展",
+              "event": {
+                "zh": "法院驳回金世义对逮捕令的申诉",
+                "en": "Court rejects Kim Se-yi's appeal against arrest warrant",
+                "ko": "법원, 김세이 구속영장 청구 기각"
+              },
+              "nature": {
+                "zh": "刑事进展",
+                "en": "Criminal Case Progress",
+                "ko": "범죄 진행"
+              },
               "plaintiff": "",
               "defendant": "",
-              "charge": "诽谤造谣、强迫未遂、恐吓",
-              "result": "法院驳回金世义对逮捕的申诉",
+              "charge": {
+                "zh": "诽谤造谣、强迫未遂、恐吓",
+                "en": "Defamation, attempted coercion, and intimidation",
+                "ko": "명예훼손 및 루머, 강요미수, 협박"
+              },
+              "result": {
+                "zh": "法院驳回金世义对逮捕的申诉",
+                "en": "The court rejected Kim Se-ui's appeal against the arrest",
+                "ko": "법원, 김세이의 구속 불복 항소 기각"
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/f4/1781936460e4401ebe394c005fba97fc345d10a712.jpg"
@@ -89,7 +125,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://n.news.naver.com/article/422/0000870789?sid=102"
                 }
               ],
@@ -99,12 +139,28 @@
             {
               "id": "row8-4",
               "time": "20260526",
-              "event": "法院通过警方检方对金世义申请的逮捕令",
-              "nature": "刑事进展",
+              "event": {
+                "zh": "法院通过警方检方对金世义申请的逮捕令",
+                "en": "The court approved the arrest warrant applied by the police prosecutor for Jin Shiyi",
+                "ko": "법원, 경찰 검사 진스이(Jin Shiyi)에 대해 신청한 체포영장 승인"
+              },
+              "nature": {
+                "zh": "刑事进展",
+                "en": "Criminal Case Progress",
+                "ko": "범죄 진행"
+              },
               "plaintiff": "",
               "defendant": "",
-              "charge": "诽谤造谣、强迫未遂、恐吓",
-              "result": "法院批准逮捕金世义",
+              "charge": {
+                "zh": "诽谤造谣、强迫未遂、恐吓",
+                "en": "Defamation, attempted coercion, and intimidation",
+                "ko": "명예훼손 및 루머, 강요미수, 협박"
+              },
+              "result": {
+                "zh": "法院批准逮捕金世义",
+                "en": "The court approved the arrest of Kim Se-ui",
+                "ko": "법원, 김세이 구속영장 승인"
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/e8/17819364620ca958ffd748105abc493cb3513421a0.jpg"
@@ -119,7 +175,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://n.news.naver.com/article/comment/001/0016100577"
                 }
               ],
@@ -129,12 +189,28 @@
             {
               "id": "row8-5",
               "time": "20260520",
-              "event": "韩警方检方认定未成年交往以及逼债致死均为恶意诽谤，遗属方伪造聊天记录，AI模拟语音，犯下恶意诽谤罪行\n警方申请逮捕令经检方通过，向法院申请逮捕金赛纶遗属代理人金世义",
-              "nature": "刑事进展",
+              "event": {
+                "zh": "韩警方检方认定未成年交往以及逼债致死均为恶意诽谤，遗属方伪造聊天记录，AI模拟语音，犯下恶意诽谤罪行\n警方申请逮捕令经检方通过，向法院申请逮捕金赛纶遗属代理人金世义",
+                "en": "South Korean police prosecutors determined that underage dating and debt extortion leading to death were malicious slander. The surviving family members forged chat records and AI simulated voices, committing the crime of malicious slander.\nThe police applied for an arrest warrant, which was approved by the prosecutor, and applied to the court to arrest Kim Sae-ron’s representative, Kim Se-yi.",
+                "ko": "경찰 검찰은 미성년자 교제와 사망에 이르는 빚갈취를 악의적 비방으로 판단했다. 유가족들은 채팅 기록과 AI 모의 음성을 위조해 악의적인 비방죄를 범했다.\n경찰은 검찰의 승인을 받아 구속영장을 신청했고, 김새론 측 대표인 김세이 씨에 대한 구속영장을 법원에 신청했다."
+              },
+              "nature": {
+                "zh": "刑事进展",
+                "en": "Criminal Case Progress",
+                "ko": "범죄 진행"
+              },
               "plaintiff": "韩警方、检方",
               "defendant": "金赛纶遗属",
-              "charge": "诽谤造谣、强迫未遂、恐吓",
-              "result": "警方与检方确认金赛纶遗属犯罪嫌疑成立，向法院申请羁押",
+              "charge": {
+                "zh": "诽谤造谣、强迫未遂、恐吓",
+                "en": "Defamation, attempted coercion, and intimidation",
+                "ko": "명예훼손 및 루머, 강요미수, 협박"
+              },
+              "result": {
+                "zh": "警方与检方确认金赛纶遗属犯罪嫌疑成立，向法院申请羁押",
+                "en": "Police and prosecutors found criminal suspicion against Kim Sae-ron's bereaved family side and requested detention from the court",
+                "ko": "경찰과 검찰은 김새론 가족이 범죄 혐의를 받고 있는 것을 확인하고 법원에 구속영장을 신청했다."
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/63/1781936485333a01f07579d7ab26ae60f725c2f889.jpg"
@@ -149,7 +225,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://n.news.naver.com/article/025/0003524854?sid=102"
                 }
               ],
@@ -159,12 +239,28 @@
             {
               "id": "row8-6",
               "time": "20260409",
-              "event": "金赛纶遗属代理律师因在夜店等场所进行律师宣传(包括播放金赛纶遗属记者会视频）被法务部律师惩戒委员会惩戒\n金赛纶遗属代理律师不服惩戒提出上诉,被法院驳回",
-              "nature": "司法裁定",
+              "event": {
+                "zh": "金赛纶遗属代理律师因在夜店等场所进行律师宣传(包括播放金赛纶遗属记者会视频）被法务部律师惩戒委员会惩戒\n金赛纶遗属代理律师不服惩戒提出上诉,被法院驳回",
+                "en": "The lawyer representing Kim Sae-ron’s family was punished by the Lawyers Disciplinary Committee of the Ministry of Justice for promoting the lawyer in nightclubs and other places (including broadcasting the video of Kim Sae-ron’s family’s press conference).\nThe lawyer representing Kim Sae-ron’s family refused to accept the punishment and appealed, but the appeal was rejected by the court",
+                "ko": "김새론 가족을 대리하는 변호사는 나이트클럽 등에서 변호사를 홍보한 혐의(김새론 가족의 기자회견 영상 방송 등)로 법무부 변호사징계위원회로부터 징계를 받았다.\n김새론 가족을 대리한 변호사는 형벌을 받아들이지 않고 항소했지만 법원은 항소를 기각했다."
+              },
+              "nature": {
+                "zh": "司法裁定",
+                "en": "Judicial Ruling",
+                "ko": "사법 판결"
+              },
               "plaintiff": "",
               "defendant": "",
-              "charge": "行为不当",
-              "result": "金赛纶遗属代理律师被惩戒停止处分一个月",
+              "charge": {
+                "zh": "行为不当",
+                "en": "Improper conduct",
+                "ko": "부적절한 행동"
+              },
+              "result": {
+                "zh": "金赛纶遗属代理律师被惩戒停止处分一个月",
+                "en": "The lawyer representing Kim Sae-ron's bereaved family received a one-month disciplinary suspension",
+                "ko": "김새론 가족 변호인, 징역 1개월 징계"
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/18/1781936463afc1515b019747decbfa8ffc5f59a45c.jpg"
@@ -179,14 +275,22 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://www.pennmike.com/news/articleView.html?idxno=118410"
                 }
               ],
               "videos": [
                 {
-                  "title": "遗属律师酒吧放视频",
-                  "src": "遗属律师酒吧放视频.mp4"
+                  "title": {
+                    "zh": "遗属律师酒吧放视频",
+                    "en": "Survivor lawyer bar video",
+                    "ko": "생존자 변호사 바 비디오"
+                  },
+                  "src": "https://video.ltwebstatic.com/video/2026/06/28/17826487711466906148.mp4"
                 }
               ],
               "zh_only": false
@@ -194,12 +298,28 @@
             {
               "id": "row8-7",
               "time": "20260226",
-              "event": "韩警方受理金赛纶在RUN公司的经纪人起诉金赛纶遗属代理人权英灿造谣诬陷其贪污医疗费，并且将金赛纶遗属代理人权英灿移交检方",
-              "nature": "刑事进展",
+              "event": {
+                "zh": "韩警方受理金赛纶在RUN公司的经纪人起诉金赛纶遗属代理人权英灿造谣诬陷其贪污医疗费，并且将金赛纶遗属代理人权英灿移交检方",
+                "en": "The South Korean police accepted the lawsuit filed by Kim Sae-ron's manager at RUN Company against Kwon Young-chan, the representative of Kim Sae-ron's survivors, for spreading rumors and falsely accusing him of embezzling medical expenses, and handed over Kwon Young-chan, the representative of Kim Sae-ron's survivors, to the prosecutor.",
+                "ko": "경찰이 김새론 유족 대표 권영찬 씨를 상대로 루머 유포 및 의료비 횡령 혐의로 제기한 런컴퍼니 매니저의 소송을 받아들이고, 김새론 유족 대표 권영찬 씨를 검찰에 송치했습니다."
+              },
+              "nature": {
+                "zh": "刑事进展",
+                "en": "Criminal Case Progress",
+                "ko": "범죄 진행"
+              },
               "plaintiff": "金赛纶在RUN公司的经纪人",
               "defendant": "金赛纶遗属代理人权英灿",
-              "charge": "诽谤造谣",
-              "result": "受理并移交检方",
+              "charge": {
+                "zh": "诽谤造谣",
+                "en": "Defamation and false allegations",
+                "ko": "중상"
+              },
+              "result": {
+                "zh": "受理并移交检方",
+                "en": "Accepted and referred to prosecutors",
+                "ko": "수락하고 검찰에 송치"
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/e2/1781936467bed0ca94cb5fef3997c0aed0312105c4.jpg"
@@ -214,7 +334,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://m.entertain.naver.com/home/article/416/0000321380"
                 }
               ],
@@ -224,12 +348,28 @@
             {
               "id": "row8-8",
               "time": "20260206",
-              "event": "韩警方受理金秀贤粉丝联盟起诉REAL前导演造谣诽谤金秀贤，并且将REAL前导演移交检方",
-              "nature": "刑事进展",
+              "event": {
+                "zh": "韩警方受理金秀贤粉丝联盟起诉REAL前导演造谣诽谤金秀贤，并且将REAL前导演移交检方",
+                "en": "The Korean police accepted the lawsuit filed by the Kim Soo Hyun Fans Association against the former director of REAL for spreading rumors and slandering Kim Soo Hyun, and handed over the former director of REAL to the prosecutor.",
+                "ko": "경찰이 REAL 전 이사를 김수현에 대한 루머 유포 및 비방 혐의로 김수현 팬연합회가 제기한 소송을 받아들이고, REAL 전 이사를 검찰에 송치했습니다."
+              },
+              "nature": {
+                "zh": "刑事进展",
+                "en": "Criminal Case Progress",
+                "ko": "범죄 진행"
+              },
               "plaintiff": "金秀贤粉丝联盟",
               "defendant": "REAL前导演",
-              "charge": "诽谤造谣",
-              "result": "受理并移交检方",
+              "charge": {
+                "zh": "诽谤造谣",
+                "en": "Defamation and false allegations",
+                "ko": "중상"
+              },
+              "result": {
+                "zh": "受理并移交检方",
+                "en": "Accepted and referred to prosecutors",
+                "ko": "수락하고 검찰에 송치"
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/37/17819364679cd0d0ab65c7ff906a59e29ce6dc6f92.jpg"
@@ -244,7 +384,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://m.entertain.naver.com/home/article/416/0000320924"
                 }
               ],
@@ -254,12 +398,28 @@
             {
               "id": "row8-9",
               "time": "20260107",
-              "event": "韩警方将金赛纶遗属代理人金世义起诉金秀贤粉丝联盟诽谤置为\"无嫌疑“结案",
-              "nature": "刑事进展",
+              "event": {
+                "zh": "韩警方将金赛纶遗属代理人金世义起诉金秀贤粉丝联盟诽谤置为\"无嫌疑“结案",
+                "en": "The South Korean police closed the case of Kim Sae-ron's surviving agent Kim Se-yi suing the Kim Soo-hyun Fans Association for defamation as \"no suspicion\"",
+                "ko": "경찰이 김새론의 생존요원 김세이가 김수현 팬협회를 명예훼손 혐의로 고소한 사건을 '무혐의'로 종결했다."
+              },
+              "nature": {
+                "zh": "刑事进展",
+                "en": "Criminal Case Progress",
+                "ko": "범죄 진행"
+              },
               "plaintiff": "金赛纶遗属代理人金世义",
               "defendant": "金秀贤粉丝联盟",
-              "charge": "诽谤造谣",
-              "result": "无嫌疑结案",
+              "charge": {
+                "zh": "诽谤造谣",
+                "en": "Defamation and false allegations",
+                "ko": "중상"
+              },
+              "result": {
+                "zh": "无嫌疑结案",
+                "en": "Closed with no suspicion found",
+                "ko": "혐의 없이 사건 종결"
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ae/17819364694571b51ddc20918f365514b463d8f13a.jpg"
@@ -274,7 +434,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://m.entertain.naver.com/home/article/477/0000588096"
                 }
               ],
@@ -284,12 +448,28 @@
             {
               "id": "row8-10",
               "time": "20251129",
-              "event": "城东税务局驳回韩国黑粉对金秀贤公司偷税漏税的举报",
-              "nature": "官方机构",
+              "event": {
+                "zh": "城东税务局驳回韩国黑粉对金秀贤公司偷税漏税的举报",
+                "en": "Seongdong Taxation Bureau rejects Korean black fans’ report on tax evasion of Kim Soo Hyun’s company",
+                "ko": "성동국세청, 김수현 소속사 탈세 의혹 국내 흑인팬 신고 기각"
+              },
+              "nature": {
+                "zh": "官方机构",
+                "en": "Official Agency",
+                "ko": "공식 에이전시"
+              },
               "plaintiff": "",
               "defendant": "",
-              "charge": "",
-              "result": "",
+              "charge": {
+                "zh": "",
+                "en": "",
+                "ko": ""
+              },
+              "result": {
+                "zh": "",
+                "en": "",
+                "ko": ""
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/7f/1781936470fa40782c2a636ce59e1485ff4bbeeece.jpg"
@@ -304,7 +484,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://m.fmkorea.com/9224797612"
                 }
               ],
@@ -314,12 +498,28 @@
             {
               "id": "row8-11",
               "time": "20250821",
-              "event": "韩警方将金赛纶遗属代理人权英灿起诉金赛纶在RUN公司的经纪人贪污医疗费置为“无嫌疑”结案",
-              "nature": "刑事进展",
+              "event": {
+                "zh": "韩警方将金赛纶遗属代理人权英灿起诉金赛纶在RUN公司的经纪人贪污医疗费置为“无嫌疑”结案",
+                "en": "South Korean police concluded the case of Kim Sae-ron's survivor Kwon Young-chan's lawsuit against Kim Sae-ron's agent at RUN for embezzling medical expenses as \"no suspicion\"",
+                "ko": "경찰은 김새론의 생존자 권영찬이 의료비를 횡령한 혐의로 김새론의 대리인 RUN을 상대로 제기한 소송에 대해 '무혐의'로 결론 내렸다."
+              },
+              "nature": {
+                "zh": "刑事进展",
+                "en": "Criminal Case Progress",
+                "ko": "범죄 진행"
+              },
               "plaintiff": "金赛纶遗属代理人权英灿",
               "defendant": "金赛纶在RUN公司的经纪人",
-              "charge": "贪污医疗费",
-              "result": "无嫌疑结案",
+              "charge": {
+                "zh": "贪污医疗费",
+                "en": "Alleged embezzlement of medical expenses",
+                "ko": "의료비 횡령"
+              },
+              "result": {
+                "zh": "无嫌疑结案",
+                "en": "Closed with no suspicion found",
+                "ko": "혐의 없이 사건 종결"
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/33/1781936472f50101716507eaf33750b3f08ec58a38.jpg"
@@ -334,7 +534,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://n.news.naver.com/article/015/0005175072?sid=102"
                 }
               ],
@@ -344,12 +548,28 @@
             {
               "id": "row8-12",
               "time": "20250519",
-              "event": "韩国驻美大使馆辟谣\"买凶杀人\"不存在",
-              "nature": "官方机构",
+              "event": {
+                "zh": "韩国驻美大使馆辟谣\"买凶杀人\"不存在",
+                "en": "The South Korean Embassy in the United States refutes rumors that \"buying a murderer to kill someone\" does not exist",
+                "ko": "주미 한국대사관이 '살인자를 사서 사람을 죽이는 것'은 존재하지 않는다는 루머를 반박했다."
+              },
+              "nature": {
+                "zh": "官方机构",
+                "en": "Official Agency",
+                "ko": "공식 에이전시"
+              },
               "plaintiff": "",
               "defendant": "",
-              "charge": "",
-              "result": "",
+              "charge": {
+                "zh": "",
+                "en": "",
+                "ko": ""
+              },
+              "result": {
+                "zh": "",
+                "en": "",
+                "ko": ""
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/19/1781936474a9bf45ecd237adbab2692c95ce24b92f.jpg"
@@ -364,7 +584,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://m.entertain.naver.com/home/article/382/0001198010"
                 }
               ],
@@ -374,12 +598,28 @@
             {
               "id": "row8-13",
               "time": "20250509",
-              "event": "元彬本人辟谣称\"没有给金赛纶钱\"\"没有在买凶杀人案中帮助金赛纶录音举报人\"",
-              "nature": "明星辟谣",
+              "event": {
+                "zh": "元彬本人辟谣称\"没有给金赛纶钱\"\"没有在买凶杀人案中帮助金赛纶录音举报人\"",
+                "en": "Won Bin himself refuted the rumors and said that he \"did not give money to Kim Sae-ron\" and \"did not help Kim Sae-ron record the whistleblower in the murder case.\"",
+                "ko": "원빈은 스스로 \"김새론에게 돈을 준 적이 없다\"며 \"김새론이 살인 사건의 내부고발자를 기록하도록 도와주지 않았다\"고 루머를 반박했다."
+              },
+              "nature": {
+                "zh": "明星辟谣",
+                "en": "Public Denial by Celebrity",
+                "ko": "연예인들이 루머를 반박했다"
+              },
               "plaintiff": "",
               "defendant": "",
-              "charge": "",
-              "result": "",
+              "charge": {
+                "zh": "",
+                "en": "",
+                "ko": ""
+              },
+              "result": {
+                "zh": "",
+                "en": "",
+                "ko": ""
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/9a/17819364889cf93e3f2f87ccfa460367e3d8b90af2.jpg"
@@ -395,11 +635,19 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "元彬方面回应：“‘除参加金赛纶葬礼外，与此案并无其他关联’……就意外被卷入作出回应",
+                    "en": "Won Bin responded: \"'Except for attending Kim Sae-ron's funeral, he has no other connection with the case'... Responding to his accidental involvement",
+                    "ko": "원빈은 \"'김새론의 장례식에 참석한 것 외에는 이 사건과 아무런 연관이 없다'\"고 밝혔다."
+                  },
                   "url": "https://m.entertain.naver.com/article/311/0001862873"
                 },
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "元彬本人辟谣说从未见过所谓金赛纶录音举报者,不明白为什么要感谢他",
+                    "en": "Won Bin himself refuted the rumors and said that he had never met the so-called whistleblower of Kim Sae-ron's recording and did not understand why he should be thanked.",
+                    "ko": "원빈 스스로도 김새론 녹음의 내부고발자로 불리는 자를 만난 적이 없으며 왜 감사를 받아야 하는지 모르겠다고 루머를 반박했다."
+                  },
                   "url": "https://n.news.naver.com/article/008/0005191719"
                 }
               ],
@@ -419,8 +667,16 @@
           "entries": [
             {
               "id": "row3-2",
-              "title": "警方调查结果",
-              "description": "韩**警方检方**认定==未成年交往==以及==逼债致死==均为==恶意诽谤==，**遗属**方将他人聊天记录安上**金秀贤**头像，==AI模拟语音==，犯下==恶意诽谤==罪行\n**警方**申请逮捕令经**检方**通过，向**法院**申请逮捕**金赛纶遗属**代理人**金世义**",
+              "title": {
+                "zh": "警方调查结果",
+                "en": "Police investigation results",
+                "ko": "경찰 조사 결과"
+              },
+              "description": {
+                "zh": "韩警方检方认定未成年交往以及逼债致死均为恶意诽谤，遗属方将他人聊天记录安上金秀贤头像，AI模拟语音，犯下恶意诽谤罪行\n警方申请逮捕令经检方通过，向法院申请逮捕金赛纶遗属代理人金世义",
+                "en": "South Korean police prosecutors determined that underage dating and debt extortion leading to death were malicious slander. The bereaved party installed other people's chat records with Kim Soo Hyun's profile picture and AI simulated voice, committing the crime of malicious slander.\nThe police applied for an arrest warrant, which was approved by the prosecutor, and applied to the court to arrest Kim Sae-ron’s representative, Kim Se-yi.",
+                "ko": "경찰 검찰은 미성년자 교제와 사망에 이르는 빚갈취를 악의적 비방으로 판단했다. 유족은 김수현의 프로필 사진과 AI 모의 음성이 포함된 타인의 채팅기록을 설치해 악의적 비방죄를 범했다.\n경찰은 검찰의 승인을 받아 구속영장을 신청했고, 김새론 측 대표인 김세이 씨에 대한 구속영장을 법원에 신청했다."
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/63/1781936485333a01f07579d7ab26ae60f725c2f889.jpg"
@@ -435,7 +691,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://n.news.naver.com/article/025/0003524854?sid=102"
                 }
               ],
@@ -444,8 +704,16 @@
             },
             {
               "id": "row3-4",
-              "title": "聊天记录造假：",
-              "description": "",
+              "title": {
+                "zh": "聊天记录造假：",
+                "en": "Chat history fraud:",
+                "ko": "채팅 기록 사기:"
+              },
+              "description": {
+                "zh": "",
+                "en": "",
+                "ko": ""
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/38/178193648522de437797f0459a14dcd5037bbd1014.jpg"
@@ -460,7 +728,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/38/178193648522de437797f0459a14dcd5037bbd1014.jpg"
                 }
               ],
@@ -469,8 +741,16 @@
             },
             {
               "id": "row3-5",
-              "title": "AI语音造假：",
-              "description": "**金赛纶遗属**代理人开记者会曝光==AI语音==的5月7日，还编造了**金秀贤**联合高律师、**姜京允记者**等人==买凶杀人==抢夺录音，被**FBI**调查，**元彬**帮助录音举报人的故事\n当天遭到了多人起诉称自己没有参与==买凶杀人==，**金世义**所展示的伤口图被揭发其实是==网络图片==\n**韩国驻美大使馆**辟谣不存在==买凶杀人==\n**元彬**辟谣压根不知道录音举报人，也并没有借给**金赛纶**钱，只是参加过葬礼，与**遗属**划清界限\n录音举报人还联系了**金秀贤**公司、李镇浩记者等人给出“成年后交往”的**金赛纶**AI录音，并索要钱财，均被识破为==AI模拟语音诈骗==，结果此人又联系了**金赛纶遗属**，与**金赛纶遗属**合作定制了初中X关系AI录音，并且==编造出买凶杀人==抢夺录音的故事\n由于==编造的买凶杀人故事==太离谱，韩国人发起**金赛纶遗属**代理人防治法，在**25年**6月达到7万人请愿",
+              "title": {
+                "zh": "AI语音造假：",
+                "en": "AI voice fraud:",
+                "ko": "AI 음성 사기:"
+              },
+              "description": {
+                "zh": "金赛纶遗属代理人开记者会曝光AI语音的5月7日，还编造了金秀贤联合高律师、姜京允记者等人买凶杀人抢夺录音，被FBI调查，元彬帮助录音举报人的故事\n当天遭到了多人起诉称自己没有参与买凶杀人，金世义所展示的伤口图被揭发其实是网络图片\n韩国驻美大使馆辟谣不存在买凶杀人\n元彬辟谣压根不知道录音举报人，也并没有借给金赛纶钱，只是参加过葬礼，与遗属划清界限\n录音举报人还联系了金秀贤公司、李镇浩记者等人给出“成年后交往”的金赛纶AI录音，并索要钱财，均被识破为AI模拟语音诈骗，结果此人又联系了金赛纶遗属，与金赛纶遗属合作定制了初中X关系AI录音，并且编造出买凶杀人抢夺录音的故事\n由于编造的买凶杀人故事太离谱，韩国人发起金赛纶遗属代理人防治法，在25年6月达到7万人请愿",
+                "en": "On May 7, the attorney for Kim Sae-ron's family held a press conference to expose AI voice. He also fabricated the story that Kim Soo-hyun teamed up with lawyer Go, reporter Kang Kyung-yoon and others to pay for the murder and rob the recording, and was investigated by the FBI. Won Bin helped record the whistleblower.\nOn that day, he was sued by many people and claimed that he was not involved in the murder. The wound picture shown by Jin Shiyi was revealed to be an Internet picture.\nThe South Korean Embassy in the United States refuted rumors that there was no paid murder.\nWon Bin refuted the rumor that he did not know the person who made the recording and did not lend money to Kim Sae-ron. He only attended the funeral and drew a clear line with the bereaved family.\nThe recording whistleblower also contacted Kim Soo-hyun's company, reporter Lee Jin-ho and others to give Kim Sae-ron's AI recording of \"dating as an adult\" and asked for money, which was found to be an AI simulated voice fraud. As a result, the person contacted Kim Sae-ron's family and cooperated with Kim Sae-ron's family to customize the AI recording of a junior high school\nBecause the fabricated story of paid murder was so outrageous, Koreans initiated the Act to Prevent and Control Agents of Kim Sae-ron’s Survivors, and the number of petitions reached 70,000 in June 25",
+                "ko": "김새론 가족 측 변호사가 지난 5월 7일 기자간담회를 열어 AI 목소리를 폭로했다. 또 김수현이 고 변호사, 강경윤 기자 등과 팀을 이뤄 살인 혐의를 지불하고 녹음 파일을 강탈했다는 이야기도 조작해 FBI의 조사를 받았다. 원빈은 제보자 녹음을 도왔다.\n그날 그는 많은 사람들로부터 자신이 살인에 연루되지 않았다고 고소했다. 진시이가 보여준 상처 사진은 인터넷 사진인 것으로 드러났다.\n주미 한국대사관이 유료 살인은 없었다는 루머를 반박했다.\n원빈은 녹화를 한 사람을 모르고, 김새론에게 돈을 빌려주지 않았다는 루머에 대해 반박했다. 그는 장례식에만 참석해 유족들과 선을 그었다.\n또한 녹음 제보자는 김새론의 '성인연애' AI 녹음을 김수현의 소속사 이진호 기자 등에게 연락해 금전을 요구한 것으로 확인됐는데, 이는 AI 모의 음성사기인 것으로 드러났다. 이에 해당 인물은 김새론 가족에게 연락해 김새론 가족과 협력해 중학교 AI 녹화를 맞춤화했다.\n유료살인 조작설이 너무 충격적이어서 국민들은 김새론 생존자 방지 및 통제에 관한 법률을 발의했고, 6월 25일 청원이 7만 건에 달했다."
+              },
               "imgs": {
                 "zh": [],
                 "ko": [],
@@ -483,8 +763,16 @@
             },
             {
               "id": "row3-6",
-              "title": "网络图片冒充伤口图",
-              "description": "1.**金赛纶遗属**代理人拿网络上的伤口图冒充**金秀贤**==买凶杀人==导致的伤口",
+              "title": {
+                "zh": "网络图片冒充伤口图",
+                "en": "Internet pictures pretending to be pictures of wounds",
+                "ko": "상처 사진을 사칭한 인터넷 사진들"
+              },
+              "description": {
+                "zh": "1.金赛纶遗属代理人拿网络上的伤口图冒充金秀贤买凶杀人导致的伤口",
+                "en": "1. The agent of Kim Sae-ron’s family used the wound pictures on the Internet to pretend that the wounds were caused by Kim Soo-hyun’s paid murder.",
+                "ko": "1. 김새론 가족의 대리인은 인터넷에 떠도는 상처 사진을 이용해 상처가 김수현의 유급살인으로 발생한 것처럼 가장했다."
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ec/1781936486fb3491ccb8e816a7854da974735612ec.jpg"
@@ -499,7 +787,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ec/1781936486fb3491ccb8e816a7854da974735612ec.jpg"
                 }
               ],
@@ -508,8 +800,16 @@
             },
             {
               "id": "row3-7",
-              "title": "编造元彬帮忙被打假",
-              "description": "**金赛纶遗属**编造的**元彬**帮助录音举报人故事被**元彬**打假",
+              "title": {
+                "zh": "编造元彬帮忙被打假",
+                "en": "He was caught for fabricating Won Bin's help",
+                "ko": "원빈의 도움을 조작했다는 혐의로 체포됐다"
+              },
+              "description": {
+                "zh": "金赛纶遗属编造的元彬帮助录音举报人故事被元彬打假",
+                "en": "The story fabricated by Kim Sae-ron’s family that Won Bin helped record the whistleblower was suppressed by Won Bin",
+                "ko": "원빈이 제보자 기록을 도왔다는 김새론 가족의 조작된 이야기가 원빈에 의해 진압됐다."
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/71/1781936487f7e11d343bdf33207ecbc1ab804c4edc.jpg",
@@ -524,11 +824,19 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "编造元彬帮忙被打假 - Naver",
+                    "en": "Fake news that Won Bin helped get caught - Naver",
+                    "ko": "원빈이 적발되도록 도운 가짜뉴스 - 네이버"
+                  },
                   "url": "https://m.entertain.naver.com/article/311/0001862873"
                 },
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "编造元彬帮忙被打假 - MoneyToday",
+                    "en": "Won Bin was caught for fabricating a fake job - MoneyToday",
+                    "ko": "원빈, 가짜 직업 조작 혐의로 적발돼 - 머니투데이"
+                  },
                   "url": "https://n.news.naver.com/article/008/0005191719"
                 }
               ],
@@ -537,8 +845,16 @@
             },
             {
               "id": "row3-8",
-              "title": "编记者协助杀人被起诉",
-              "description": "3.**金赛纶遗属**购买AI录音同时编造**姜京允**出境前往新泽西协助==买凶杀人==,被**姜京允**起诉",
+              "title": {
+                "zh": "编记者协助杀人被起诉",
+                "en": "Editor charged with assisting in murder",
+                "ko": "편집자는 살인 방조 혐의로 기소"
+              },
+              "description": {
+                "zh": "3.金赛纶遗属购买AI录音同时编造姜京允出境前往新泽西协助买凶杀人,被姜京允起诉",
+                "en": "3. Kim Sae-ron’s family purchased AI recordings and fabricated the story that Jiang Kyung-yoon left the country and went to New Jersey to help hire a murderer, and was prosecuted by Kang Kyung-yun.",
+                "ko": "3. 김새론 가족은 AI 녹음물을 구입해 장경윤이 살인범 고용을 돕기 위해 출국해 뉴저지로 갔다가 강경윤에게 기소됐다는 이야기를 조작했다."
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/2c/1781936442b82c49deff3ec2dfa55c3bf1dce5af82.jpg"
@@ -553,7 +869,11 @@
               },
               "link": [
                 {
-                  "title": "姜京允记者晒出未出境记录，起诉金世义",
+                  "title": {
+                    "zh": "姜京允记者晒出未出境记录，起诉金世义",
+                    "en": "Reporter Kang Kyung-yoon exposed her non-exit records and sued Kim Se-yi",
+                    "ko": "강경윤 기자가 자신의 불출국 기록을 폭로하고 김세이를 고소했다."
+                  },
                   "url": "https://n.news.naver.com/article/014/0005347099"
                 }
               ],
@@ -562,8 +882,16 @@
             },
             {
               "id": "row3-9",
-              "title": "被韩国驻美大使馆辟谣",
-              "description": "4.**韩国驻美大使馆**辟谣没有==买凶杀人==案件",
+              "title": {
+                "zh": "被韩国驻美大使馆辟谣",
+                "en": "The rumor was refuted by the Korean Embassy in the United States",
+                "ko": "해당 루머는 주미 한국대사관에 의해 반박됐다."
+              },
+              "description": {
+                "zh": "4.韩国驻美大使馆辟谣没有买凶杀人案件",
+                "en": "4. The Korean Embassy in the United States refuted rumors that there was no paid murder case.",
+                "ko": "4. 주미 한국대사관은 유료 살인 사건은 없었다는 루머를 반박했다."
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/d4/17819364909d98ec6a25c58e2d34a4f76743c646b9.jpg"
@@ -578,7 +906,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://m.entertain.naver.com/home/article/382/0001198010"
                 }
               ],
@@ -587,8 +919,16 @@
             },
             {
               "id": "row3-10",
-              "title": "多版录音只有金赛纶遗属购买",
-              "description": "5.**金秀贤**所属公司也收到同一个录音举报人的录音，对方提供成年后交往录音并索要金钱，被识破为AI诈骗犯。随后该录音举报人又和**金赛纶遗属**合作，==编造未成年==性关系录音并公开，因此**金秀贤**公司早已知道该录音是==AI生成==，并且在**金赛纶遗属**曝光录音的5月7日当天报警提起诉讼",
+              "title": {
+                "zh": "多版录音只有金赛纶遗属购买",
+                "en": "Multiple versions of recordings can only be purchased by Kim Sae-ron’s surviving family members",
+                "ko": "여러 버전의 녹음은 김새론의 유족들만 구매하실 수 있습니다"
+              },
+              "description": {
+                "zh": "5.金秀贤所属公司也收到同一个录音举报人的录音，对方提供成年后交往录音并索要金钱，被识破为AI诈骗犯。随后该录音举报人又和金赛纶遗属合作，编造未成年性关系录音并公开，因此金秀贤公司早已知道该录音是AI生成，并且在金赛纶遗属曝光录音的5月7日当天报警提起诉讼",
+                "en": "5. Kim Soo Hyun’s company also received a recording from the same recording informant. The other party provided recordings of their adult interactions and asked for money, and was found to be an AI fraudster. Later, the reporter of the recording cooperated with Kim Sae-ron’s family to fabricate a recording of underage sexual relations and made it public. Therefore, Kim Soo-hyun’s company already knew that the recording was generated by AI, and called the police and filed a lawsuit on May 7, the day when Kim Sae-ron’s family exposed the recording.",
+                "ko": "5. 김수현 소속사에서도 같은 녹화 제보자로부터 녹음 내용을 전달받았습니다. 상대방은 성인 상호작용 녹취록을 제공하고 돈을 요구한 결과 AI 사기꾼으로 밝혀졌다. 이후 녹화 기자는 김새론 가족과 협력해 미성년자 성관계 녹취록을 조작해 공개했다. 이에 김수현 소속사는 해당 녹음 파일이 AI에 의해 생성된 것임을 이미 알고 있었고, 김새론 가족이 녹음 파일을 폭로한 날인 5월 7일 경찰에 신고해 소송을 제기했다."
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/3f/1781936491bc02e9d9b3a58c80b7acbc6ac62b064d.jpg"
@@ -603,7 +943,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://m.entertain.naver.com/home/article/408/0000264723"
                 }
               ],
@@ -612,8 +956,16 @@
             },
             {
               "id": "row3-11",
-              "title": "多人被编故事起诉金赛纶遗属",
-              "description": "6.多人被编入==买凶杀人==抢夺==AI语音==故事中，都报警了",
+              "title": {
+                "zh": "多人被编故事起诉金赛纶遗属",
+                "en": "Many people were accused of making up stories to sue Kim Sae-ron’s family",
+                "ko": "김새론 가족을 고소하기 위해 허위사실을 조작했다는 의혹이 제기됐다."
+              },
+              "description": {
+                "zh": "6.多人被编入买凶杀人抢夺AI语音故事中，都报警了",
+                "en": "6. Many people were included in the AI ​​voice story of paying to kill and rob, and they all called the police.",
+                "ko": "6. 살인과 도둑질에 돈을 지불한다는 AI 음성 이야기에 많은 사람들이 포함되었고, 그들은 모두 경찰에 신고했습니다."
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ca/1781936493d76e7648d7bd73703f1fc1b9350a2bac.jpg"
@@ -628,7 +980,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://n.news.naver.com/article/015/0005129637"
                 }
               ],
@@ -637,8 +993,16 @@
             },
             {
               "id": "row3-12",
-              "title": "遗属只曝光照片并且造谣是未成年",
-              "description": "通过==只曝光照片本身==,==不曝光照片拍摄时间==的方式,将成年后照片说成未成年时期\n**金赛纶遗属**代理人权英灿直播中泄露了一张拿着**19年**上市的苹果11pro的照片,和**遗属**之前曝光的照片是同一天拍摄的,揭穿了所谓\"**16年**红色羽绒服\"的谎言",
+              "title": {
+                "zh": "遗属只曝光照片并且造谣是未成年",
+                "en": "The bereaved family only exposed photos and spread rumors that they were underage.",
+                "ko": "유족들은 사진만 공개하고 미성년자라는 루머를 퍼뜨렸다."
+              },
+              "description": {
+                "zh": "通过只曝光照片本身,不曝光照片拍摄时间的方式,将成年后照片说成未成年时期\n金赛纶遗属代理人权英灿直播中泄露了一张拿着19年上市的苹果11pro的照片,和遗属之前曝光的照片是同一天拍摄的,揭穿了所谓\"16年红色羽绒服\"的谎言",
+                "en": "By exposing only the photo itself and not the time when the photo was taken, the photos of adulthood are described as minors.\nKwon Young-chan, the representative of Kim Sae-ron's family, leaked a photo during a live broadcast of holding an Apple 11pro that was launched in 2019. It was taken on the same day as the photo previously exposed by the family, exposing the lie of the so-called \"16 red down jacket\"",
+                "ko": "사진 촬영 시간을 밝히지 않고 사진 자체만 노출해 성인 사진을 미성년자 취급하고 있다.\n김새론 가족 대표 권영찬이 2019년 출시한 애플 11pro를 들고 있는 생방송 중 사진을 유출했다. 앞서 가족들이 폭로한 사진과 같은 날 촬영해 일명 '16 레드 다운 재킷'의 거짓말을 폭로했다."
+              },
               "imgs": {
                 "zh": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/51/178193649489445f457dfa5a23b9223871ec46675f.jpg"
@@ -655,7 +1019,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://www.mt.co.kr/society/2025/05/28/2025052805073498368"
                 }
               ],
@@ -678,8 +1046,16 @@
         {
           "id": "row16-2",
           "index": 1,
-          "title": "发布会阴阳雪莉",
-          "description": "【中文圈限定谣言】豆瓣谣棍将成东日说的话移花接木安到金秀贤头上栽赃金秀贤阴阳雪莉，迅速登上微博热搜",
+          "title": {
+            "zh": "发布会阴阳雪莉",
+            "en": "Press conference Yin Yang Shirley",
+            "ko": "기자간담회 ​​음양셜리"
+          },
+          "description": {
+            "zh": "【中文圈限定谣言】豆瓣谣棍将成东日说的话移花接木安到金秀贤头上栽赃金秀贤阴阳雪莉，迅速登上微博热搜",
+            "en": "[Rumors restricted to the Chinese community] Douban rumor stick changed Sung Dong-il’s words and placed them on Kim Soo-hyun’s head to frame Kim Soo-hyun’s Yin Yang Sulli, which quickly became a trending topic on Weibo",
+            "ko": "[중국 커뮤니티 한정 루머] 도우반 루머 스틱은 성동일의 말을 바꿔 김수현의 머리에 얹어 김수현의 음양설리를 모함, 웨이보에서 순식간에 화제가 됐다."
+          },
           "imgs": {
             "zh": [
               "https://kshtruth.com/%E8%A1%8D%E7%94%9F%E8%B0%A3%E8%A8%80%E6%BE%84%E6%B8%85/%E9%98%B4%E9%98%B3%E9%9B%AA%E8%8E%89.jpg"
@@ -690,7 +1066,11 @@
           },
           "link": [
             {
-              "title": "雪莉粉丝辟谣：",
+              "title": {
+                "zh": "雪莉粉丝辟谣：",
+                "en": "Sulli fans refuted rumors:",
+                "ko": "설리 팬들은 루머에 대해 반박했다."
+              },
               "url": "https://weibo.com/5894823759/5144249419178067"
             }
           ],
@@ -700,8 +1080,16 @@
         {
           "id": "row16-3",
           "index": 2,
-          "title": "偷税漏税",
-          "description": "国税厅驳回了韩国网友针对金秀贤偷税漏税的举报，该网友在DC上传了举报和被驳回的截图，被人转载到fmk论坛成为热帖",
+          "title": {
+            "zh": "偷税漏税",
+            "en": "tax evasion",
+            "ko": "탈세"
+          },
+          "description": {
+            "zh": "国税厅驳回了韩国网友针对金秀贤偷税漏税的举报，该网友在DC上传了举报和被驳回的截图，被人转载到fmk论坛成为热帖",
+            "en": "The National Tax Service rejected a Korean netizen’s report against Kim Soo Hyun for tax evasion. The netizen uploaded the report and the screenshot of the rejection in DC, which was reposted on the fmk forum and became a hot post.",
+            "ko": "국세청은 김수현을 탈세했다는 네티즌의 신고를 기각했다. 네티즌들은 디씨에 신고서와 거절 인증샷을 올렸고, 이는 fmk 포럼에 다시 게재돼 화제가 됐다."
+          },
           "imgs": {
             "zh": [
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ae/1781936389f5ff910c58e00803d128fa5687c9a722.jpg"
@@ -716,7 +1104,11 @@
           },
           "link": [
             {
-              "title": "来源链接",
+              "title": {
+                "zh": "来源链接",
+                "en": "Source link",
+                "ko": "소스 링크"
+              },
               "url": "https://m.fmkorea.com/9224797612"
             }
           ],
@@ -726,8 +1118,16 @@
         {
           "id": "row16-4",
           "index": 3,
-          "title": "营销号活体复读机搬运推特上冒充金秀贤的账号发布不当言论",
-          "description": "金秀贤没有推特账号，有人在推特上冒充金秀贤发布不当言论，昵称随时都可以改（当时临时改成了金秀贤），ID无法更改",
+          "title": {
+            "zh": "营销号活体复读机搬运推特上冒充金秀贤的账号发布不当言论",
+            "en": "Marketing account live repeater moved Twitter account pretending to be Kim Soo Hyun to post inappropriate remarks",
+            "ko": "마케팅 계정 라이브 리피터가 김수현을 사칭한 트위터 계정을 옮겨 부적절한 발언을 올렸다."
+          },
+          "description": {
+            "zh": "金秀贤没有推特账号，有人在推特上冒充金秀贤发布不当言论，昵称随时都可以改（当时临时改成了金秀贤），ID无法更改",
+            "en": "Kim Soo-hyun does not have a Twitter account. Someone pretended to be Kim Soo-hyun on Twitter and posted inappropriate remarks. The nickname can be changed at any time (it was temporarily changed to Kim Soo-hyun at the time), and the ID cannot be changed.",
+            "ko": "김수현은 트위터 계정이 없다. 누군가 트위터에 김수현을 사칭해 부적절한 글을 올렸다. 닉네임은 언제든지 변경이 가능하며(당시 임시로 김수현으로 변경되었습니다), 아이디는 변경이 불가능합니다."
+          },
           "imgs": {
             "zh": [
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/25/1781936391cd13cb72118bb653f2b7ee6c2ce75cc6.jpg",
@@ -744,8 +1144,16 @@
         {
           "id": "row16-5",
           "index": 4,
-          "title": "外网造谣金秀贤见面会期间要求拆除座位打羽毛球",
-          "description": "被主办方官方辟谣",
+          "title": {
+            "zh": "外网造谣金秀贤见面会期间要求拆除座位打羽毛球",
+            "en": "External networks spread rumors that Kim Soo Hyun asked to remove the seats to play badminton during the meeting",
+            "ko": "외부 네트워크에서는 김수현이 회의 중 배드민턴 경기를 위해 자리를 비워달라고 요청했다는 루머가 퍼졌다."
+          },
+          "description": {
+            "zh": "被主办方官方辟谣",
+            "en": "Officially refuted by the organizer",
+            "ko": "주최 측 공식 반박"
+          },
           "imgs": {
             "zh": [
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/8a/1781936393d4f2c3e3367e56d4188a4797230c81df.jpg"
@@ -760,7 +1168,11 @@
           },
           "link": [
             {
-              "title": "来源链接",
+              "title": {
+                "zh": "来源链接",
+                "en": "Source link",
+                "ko": "소스 링크"
+              },
               "url": "https://www.ejan.co/entertain/15bb408fwz56?utm_source=chatgpt.com"
             }
           ],
@@ -770,8 +1182,16 @@
         {
           "id": "row16-6",
           "index": 5,
-          "title": "造谣金秀贤经纪人是性犯罪者",
-          "description": "2012年钥匙公司负责其他艺人的经纪人涉嫌犯罪，被张冠李戴成负责金秀贤的经纪人",
+          "title": {
+            "zh": "造谣金秀贤经纪人是性犯罪者",
+            "en": "Spreading rumors that Kim Soo Hyun’s manager is a sex offender",
+            "ko": "김수현 매니저가 성범죄자라는 루머 유포"
+          },
+          "description": {
+            "zh": "2012年钥匙公司负责其他艺人的经纪人涉嫌犯罪，被张冠李戴成负责金秀贤的经纪人",
+            "en": "In 2012, Key Company's manager for other artists was suspected of committing crimes, and Zhang Guan and Li Daicheng were responsible for Kim Soo Hyun's manager.",
+            "ko": "2012년 키컴퍼니의 다른 아티스트 매니저가 범죄 혐의를 받았고, 장관과 리다청이 김수현의 매니저를 책임지게 됐다."
+          },
           "imgs": {
             "zh": [
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/fa/17819363930501d8be01a5762893836b7ac052cf74.jpg"
@@ -786,7 +1206,11 @@
           },
           "link": [
             {
-              "title": "来源链接",
+              "title": {
+                "zh": "来源链接",
+                "en": "Source link",
+                "ko": "소스 링크"
+              },
               "url": "https://m.news.nate.com/view/20121025n21571"
             }
           ],
@@ -796,8 +1220,16 @@
         {
           "id": "row16-7",
           "index": 6,
-          "title": "雪莉哥哥蹭热度造谣逼迫雪莉拍床戏",
-          "description": "电影Real剧组在15年招募演员时就明确告知需要拍摄大尺度戏份并且出了新闻，剧组副导演、剧本统筹实名作证不存在逼迫，雪莉哥哥滑跪承认不存在强迫",
+          "title": {
+            "zh": "雪莉哥哥蹭热度造谣逼迫雪莉拍床戏",
+            "en": "Sulli's brother took advantage of the popularity and spread rumors to force Sulli to film sex scenes",
+            "ko": "설리 동생, 인기를 틈타 루머를 퍼뜨려 설리에게 성관계 장면을 촬영하도록 강요했다."
+          },
+          "description": {
+            "zh": "电影Real剧组在15年招募演员时就明确告知需要拍摄大尺度戏份并且出了新闻，剧组副导演、剧本统筹实名作证不存在逼迫，雪莉哥哥滑跪承认不存在强迫",
+            "en": "When the crew of the movie Real was recruiting actors in 2015, they were clearly informed that they needed to shoot large-scale scenes and news broke. The crew's deputy director and script coordinator testified in real names that there was no coercion. Brother Shirley knelt down and admitted that there was no coercion.",
+            "ko": "2015년 영화 리얼 제작진이 배우를 모집할 때 대규모 장면을 촬영해야 한다는 사실을 분명히 통보받았고 뉴스가 터졌다. 제작진의 부국장과 대본 코디네이터는 강요가 없었다고 실명으로 증언했다. 셜리 형제는 무릎을 꿇고 강요가 없었다고 인정했습니다."
+          },
           "imgs": {
             "zh": [
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/e3/178193639403e77016b1f8f2b1f758a1779b639dcd.jpg",
@@ -820,19 +1252,35 @@
           },
           "link": [
             {
-              "title": "雪莉哥哥滑跪",
+              "title": {
+                "zh": "雪莉哥哥滑跪",
+                "en": "Brother Shirley slides and kneels",
+                "ko": "셜리 형제는 미끄러져 무릎을 꿇는다"
+              },
               "url": "https://m.news.nate.com/view/20250403n04236&&mid=e01"
             },
             {
-              "title": "15年电影开拍之前出新闻告知有大尺度床戏",
+              "title": {
+                "zh": "15年电影开拍之前出新闻告知有大尺度床戏",
+                "en": "Before the filming of the 2015 movie started, there was news that there would be a large-scale sex scene.",
+                "ko": "2015년 영화 촬영이 시작되기 전부터 대규모 섹스신이 나올 것이라는 소식이 전해졌다."
+              },
               "url": "https://m.mk.co.kr/news/hot-issues/7126044?utm_source=chatgpt.com"
             },
             {
-              "title": "电影副导演和剧本统筹实名作证不存在逼迫床戏，剧本分镜可证",
-              "url": "https://www.yna.co.kr/view/AKR20250402"
+              "title": {
+                "zh": "电影副导演和剧本统筹实名作证不存在逼迫床戏，剧本分镜可证",
+                "en": "The film's deputy director and script coordinator testified with their real names that there was no forced sex scene, and the script footage proved it",
+                "ko": "해당 영화의 부감독과 대본 코디네이터는 강제 성행위 장면이 없었다고 실명으로 증언했고, 대본 영상을 통해 이를 입증했다."
+              },
+              "url": "https://www.xportsnews.com/article/1981243"
             },
             {
-              "title": "雪莉哥哥在25年雪莉祭日纪念美国右翼引发争议",
+              "title": {
+                "zh": "雪莉哥哥在25年雪莉祭日纪念美国右翼引发争议",
+                "en": "Shirley’s brother’s commemoration of Shirley’s 25th Anniversary caused controversy by the American right wing",
+                "ko": "셜리 동생의 셜리 탄생 25주년 기념식, 미국 우파 논란 불러일으키다"
+              },
               "url": "https://www.chosun.com/english/kpop-culture-en/2025/10/14/CFHLA2XTR5ASBL6HW4TKEDHMMI/?utm_source=chatgpt.com"
             }
           ],
@@ -842,8 +1290,16 @@
         {
           "id": "row16-8",
           "index": 7,
-          "title": "转发金赛纶短信给记者",
-          "description": "金秀贤没有动机自爆与金赛纶的关系，而且接到短信的记者承认并不是从金秀贤那里收来的，揭发李胜利的姜京允记者调查后发现是金秀贤截图转发给金牌公司之后，公司拿去咨询他人的时候被背刺泄露",
+          "title": {
+            "zh": "转发金赛纶短信给记者",
+            "en": "Forward Kim Sae-ron’s text message to reporters",
+            "ko": "김새론의 문자 메시지를 기자들에게 전달"
+          },
+          "description": {
+            "zh": "金秀贤没有动机自爆与金赛纶的关系，而且接到短信的记者承认并不是从金秀贤那里收来的，揭发李胜利的姜京允记者调查后发现是金秀贤截图转发给金牌公司之后，公司拿去咨询他人的时候被背刺泄露",
+            "en": "Kim Soo-hyun had no motive to expose her relationship with Kim Sae-ron, and the reporter who received the text message admitted that he did not receive it from Kim Soo-hyun. After investigating, reporter Jiang Kyung-yun who exposed Li Shengli found that it was Kim Soo-hyun's screenshot and forwarded it to Gold Medal Company. When the company took it to consult others, it was leaked in the back.",
+            "ko": "김수현은 김새론과의 관계를 폭로할 동기가 없었고, 문자 메시지를 받은 기자는 김수현에게서 받은 것이 아니라고 인정했다. 이성리를 폭로한 장경윤 기자는 조사 끝에 김수현의 스크린샷임을 알아내고 이를 골드메달컴퍼니에 전달했다. 회사가 다른 사람과 협의하기 위해 가져 갔을 때 뒤에서 유출되었습니다."
+          },
           "imgs": {
             "zh": [
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/57/178193639951fab7c8019e0ef480746c1b69f1a84c.jpg",
@@ -859,7 +1315,11 @@
           },
           "link": [
             {
-              "title": "姜京允记者博客",
+              "title": {
+                "zh": "姜京允记者博客",
+                "en": "Journalist Kang Kyung-yoon’s blog",
+                "ko": "강경윤 기자의 블로그"
+              },
               "url": "https://m.blog.naver.com/PostView.naver?blogId=strongyoun-now&logNo=223912652394&navType=by"
             }
           ],
@@ -869,8 +1329,16 @@
         {
           "id": "row16-9",
           "index": 8,
-          "title": "为了给金赛纶的赖账声明圆谎造谣金秀贤点痣",
-          "description": "从来没有点过痣",
+          "title": {
+            "zh": "为了给金赛纶的赖账声明圆谎造谣金秀贤点痣",
+            "en": "In order to make up for Kim Sae-ron's repudiation statement and spread rumors, Kim Soo-hyun had a mole",
+            "ko": "김새론의 부인 발언을 만회하고 루머를 퍼뜨리기 위해 김수현에게 점을 찍어줬다."
+          },
+          "description": {
+            "zh": "从来没有点过痣",
+            "en": "I've never had a mole",
+            "ko": "나는 두더지를 본 적이 없습니다"
+          },
           "imgs": {
             "zh": [
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/6f/1781936402a5016dc5b699be3d71379113fbc81514.jpg",
@@ -896,8 +1364,16 @@
         {
           "id": "row16-10",
           "index": 9,
-          "title": "金赛纶爆照秒删的照片中的耐克T恤是16年上市19年再版",
-          "description": "造谣者拿着AI回复造谣T恤上市时间，按货号搜索和询问客服的结果是中日韩19年上市，美国18年首发",
+          "title": {
+            "zh": "金赛纶爆照秒删的照片中的耐克T恤是16年上市19年再版",
+            "en": "The Nike T-shirt in Kim Sae-ron's instantly deleted photo was released in 2016 and reprinted in 19 years.",
+            "ko": "김새론의 즉석삭제 사진 속 나이키 티셔츠는 2016년 출시돼 19년 만에 재인쇄됐다."
+          },
+          "description": {
+            "zh": "造谣者拿着AI回复造谣T恤上市时间，按货号搜索和询问客服的结果是中日韩19年上市，美国18年首发",
+            "en": "The rumor maker used AI to reply to the rumored T-shirt's release date. Searching by item number and asking customer service showed that it was released in China, Japan and South Korea in 2019, and it was first released in the United States in 2018.",
+            "ko": "소문 제작자는 AI를 사용해 소문난 티셔츠 출시일에 답변했습니다. 품번으로 검색해 고객센터에 문의해보니 2019년 중국, 일본, 한국에 출시됐고, 미국에서는 2018년에 첫 출시됐다."
+          },
           "imgs": {
             "zh": [
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/e6/178193640388fe35f2b45c1652c8b2bd998ce74616.jpg",
@@ -920,8 +1396,16 @@
         {
           "id": "row16-11",
           "index": 10,
-          "title": "金赛纶去世之后金秀贤立刻上传了礼物照片",
-          "description": "金秀贤早上感谢粉丝，晚上8点50新闻通报金赛纶下午5时左右被发现去世的消息",
+          "title": {
+            "zh": "金赛纶去世之后金秀贤立刻上传了礼物照片",
+            "en": "After Kim Sae-ron passed away, Kim Soo-hyun immediately uploaded a photo of the gift",
+            "ko": "김새론 사망 직후 김수현이 선물 사진을 올렸다."
+          },
+          "description": {
+            "zh": "金秀贤早上感谢粉丝，晚上8点50新闻通报金赛纶下午5时左右被发现去世的消息",
+            "en": "Kim Soo-hyun thanked fans in the morning, and at 8:50 p.m. the news reported that Kim Sae-ron was found dead at about 5 p.m.",
+            "ko": "김수현은 오전과 오후 8시 50분에 팬들에게 감사 인사를 전했다. 뉴스에 따르면 김새론은 오후 5시쯤 숨진 채 발견됐다."
+          },
           "imgs": {
             "zh": [
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/e8/1781936405facd1401c1b3e2d4591a9ba964b5b58b.jpg"
@@ -936,11 +1420,19 @@
           },
           "link": [
             {
-              "title": "金秀贤感谢粉丝新闻",
+              "title": {
+                "zh": "金秀贤感谢粉丝新闻",
+                "en": "Kim Soo Hyun thanks fans for news",
+                "ko": "김수현이 소식을 전해 팬들에게 감사 인사를 전했다."
+              },
               "url": "https://m.entertain.naver.com/home/article/112/0003747166"
             },
             {
-              "title": "naver按时间搜索最早的金赛纶死亡新闻",
+              "title": {
+                "zh": "naver按时间搜索最早的金赛纶死亡新闻",
+                "en": "naver searches the earliest Kim Sae-ron death news by time",
+                "ko": "네이버에서 김새론 사망 소식을 시간별로 검색해 보니"
+              },
               "url": "https://n.news.naver.com/article/018/0005944671?sid=102"
             }
           ],
@@ -977,8 +1469,16 @@
               "entries": [
                 {
                   "id": "row5-2",
-                  "title": "真实债务情况",
-                  "description": "**2022年金赛纶**醉驾后猎犬剧组索赔**7亿韩元**，**金牌公司**垫付后，与**金赛纶**签了**0利息**的借贷合同，**三年时间**，**金赛纶**==一分没还==。\n**2024年金牌公司**为防止法人渎职和**金赛纶**被追缴**1.5亿韩元**赠与税，向**金赛纶**发函，==被金赛纶报复威胁==。**金赛纶**表面上发短信求救“哥哥救救我”，背地里==要让金秀贤去死==爆照==秒删==，==秒删==次日==编造了15岁恋爱==发给表姐，17岁恋爱发给**经纪人**。后得知**金牌公司**仅为走形式，确实==不需要还钱==，**金赛纶**又写信欺骗**金秀贤**“哥哥是我的初恋绝恋”“联系不上才爆照”\n**金赛纶**醉驾后还找其他人借**5亿**,三年全部花完",
+                  "title": {
+                    "zh": "真实债务情况",
+                    "en": "real debt situation",
+                    "ko": "실제 부채 상황"
+                  },
+                  "description": {
+                    "zh": "2022年金赛纶醉驾后猎犬剧组索赔7亿韩元，金牌公司垫付后，与金赛纶签了0利息的借贷合同，三年时间，金赛纶一分没还。\n2024年金牌公司为防止法人渎职和金赛纶被追缴1.5亿韩元赠与税，向金赛纶发函，被金赛纶报复威胁。金赛纶表面上发短信求救“哥哥救救我”，背地里要让金秀贤去死爆照秒删，秒删次日编造了15岁恋爱发给表姐，17岁恋爱发给经纪人。后得知金牌公司仅为走形式，确实不需要还钱，金赛纶又写信欺骗金秀贤“哥哥是我的初恋绝恋”“联系不上才爆照”\n金赛纶醉驾后还找其他人借5亿,三年全部花完",
+                    "en": "In 2022, the crew of Hound Dog claimed 700 million won after Kim Sae-ron drove drunk. After Gold Medal Company advanced the payment, it signed a loan contract with 0 interest with Kim Sae-ron. In three years, Kim Sae-ron has not paid back a cent.\nIn 2024, Gold Medal Company sent a letter to Kim Sae-ron to prevent corporate malfeasance and Kim Sae-ron's gift tax of 150 million won, but was threatened with retaliation by Kim Sae-ron. On the surface, Kim Sae-ron sent a text message asking for help, \"Brother, save me.\" But secretly, she wanted Kim Soo-hyun to die. The photo was deleted instantly. The next day, she made up a 15-year-old love story and sent it to her cousin, and a 17-year-old love story and sent it to her manager. Later, he learned that the gold medal company was just a formality and did not need to pay back the money. Kim Sae-ron wrote another letter to deceive Kim Soo-hyun, \"My brother is my first love\" and \"I only posted the photo after I couldn't contact him.\"\nAfter driving drunk, Kim Sae-ron asked others to borrow 500 million and spent it all in three years",
+                    "ko": "2022년 하운드독 제작진은 김새론이 음주운전을 했다는 이유로 7억 원을 청구했다. 금메달컴퍼니는 대금을 선지급한 뒤 김새론과 무이자 대출 계약을 체결했다. 김새론은 3년 동안 한 푼도 갚지 못했다.\n2024년 금메달컴퍼니는 김새론에게 기업의 불법행위와 증여세 1억5000만원을 막기 위해 편지를 보냈으나 김새론에게 보복 위협을 받았다. 표면적으로는 김새론이 \"형님, 살려주세요\"라며 도움을 요청하는 문자 메시지를 보냈다. 하지만 속으로는 김수현이 죽기를 바랐다. 사진은 즉시 삭제되었습니다. 다음날 그녀는 15살 러브스토리를 만들어 사촌에게 보냈고, 17살 러브스토리를 매니저에게 보냈다. 나중에 그는 금메달 회사가 단지 형식일 뿐이며 돈을 갚을 필요가 없다는 것을 알게 되었습니다. 김새론은 김수현을 속이기 위해 또 \"오빠가 내 첫사랑이다\", \"연락이 안 된 뒤에야 사진을 올렸다\"고 또 편지를 썼다.\n김새론은 음주운전을 한 뒤 남에게 5억을 빌려달라고 했고 3년 만에 다 썼다."
+                  },
                   "imgs": {
                     "zh": [],
                     "ko": [],
@@ -991,8 +1491,16 @@
                 },
                 {
                   "id": "row5-3",
-                  "title": "0利息借出7亿三年收回0元",
-                  "description": "**0利息**合同,且随时间变化金额没有任何变化,可见**金赛纶**==一分没还==",
+                  "title": {
+                    "zh": "0利息借出7亿三年收回0元",
+                    "en": "Lend 700 million with 0 interest and get 0 yuan back in three years",
+                    "ko": "7억을 이자 없이 빌려주고 3년 안에 0위안을 돌려받다"
+                  },
+                  "description": {
+                    "zh": "0利息合同,且随时间变化金额没有任何变化,可见金赛纶一分没还",
+                    "en": "0 interest contract, and the amount has not changed over time. It can be seen that Jin Sailun has not paid back a cent.",
+                    "ko": "0이자 계약이며 시간이 지나도 금액이 변경되지 않았습니다. 진사륜은 한 푼도 갚지 않은 것을 알 수 있다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/44/1781936451e13e2b2a8e0535633f28e5cf210e5834.jpg",
@@ -1010,7 +1518,11 @@
                   },
                   "link": [
                     {
-                      "title": "金赛纶遗属自爆,姜京允记者博客",
+                      "title": {
+                        "zh": "金赛纶遗属自爆,姜京允记者博客",
+                        "en": "Kim Sae-ron’s family self-destructs, reporter Kang Kyung-yoon’s blog",
+                        "ko": "김새론 가족 자폭, 강경윤 기자 블로그"
+                      },
                       "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
                     }
                   ],
@@ -1019,8 +1531,16 @@
                 },
                 {
                   "id": "row5-4",
-                  "title": "另找他人借5亿",
-                  "description": "**金赛纶**找其他多人借钱,记者调查至少**5亿韩元**",
+                  "title": {
+                    "zh": "另找他人借5亿",
+                    "en": "Find another person to borrow 500 million",
+                    "ko": "5억 빌려줄 사람 찾아보세요"
+                  },
+                  "description": {
+                    "zh": "金赛纶找其他多人借钱,记者调查至少5亿韩元",
+                    "en": "Kim Sae-ron asked many others to borrow money. Reporters investigated at least 500 million won",
+                    "ko": "김새론은 많은 사람들에게 돈을 빌려달라고 부탁했다. 기자들 최소 5억원 조사"
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/31/17819364764ede08749ea72c16d64f74aef8c2638b.jpg"
@@ -1035,11 +1555,19 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "另找他人借5亿 - MoneyToday",
+                        "en": "Find someone else to borrow 500 million - MoneyToday",
+                        "ko": "5억을 빌릴 다른 사람을 찾으세요 - MoneyToday"
+                      },
                       "url": "https://www.mt.co.kr/society/2025/05/23/2025052312414587931"
                     },
                     {
-                      "title": "姜京允记者博客",
+                      "title": {
+                        "zh": "姜京允记者博客",
+                        "en": "Journalist Kang Kyung-yoon’s blog",
+                        "ko": "강경윤 기자의 블로그"
+                      },
                       "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
                     }
                   ],
@@ -1048,8 +1576,16 @@
                 },
                 {
                   "id": "row5-5",
-                  "title": "爆照秒删真实目的",
-                  "description": "**金赛纶**向**经纪人**说的爆照==秒删==真实目的",
+                  "title": {
+                    "zh": "爆照秒删真实目的",
+                    "en": "The real purpose of deleting explosive photos instantly",
+                    "ko": "폭발적인 사진을 즉시 삭제하는 진짜 목적"
+                  },
+                  "description": {
+                    "zh": "金赛纶向经纪人说的爆照秒删真实目的",
+                    "en": "What Kim Sae-ron told her manager about the real purpose of deleting the explosive photos instantly",
+                    "ko": "김새론이 매니저에게 폭발물 사진을 즉각 삭제하는 진짜 목적에 대해 말한 내용"
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/83/17819364772998d005f14b11a07ab1e1a2dcc2ccee.jpg"
@@ -1064,7 +1600,11 @@
                   },
                   "link": [
                     {
-                      "title": "姜京允记者博客",
+                      "title": {
+                        "zh": "姜京允记者博客",
+                        "en": "Journalist Kang Kyung-yoon’s blog",
+                        "ko": "강경윤 기자의 블로그"
+                      },
                       "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
                     }
                   ],
@@ -1073,8 +1613,16 @@
                 },
                 {
                   "id": "row5-6",
-                  "title": "爆照秒删次日的声明",
-                  "description": "**金赛纶**爆照==秒删==次日对不同人==编造的2个版本声明==",
+                  "title": {
+                    "zh": "爆照秒删次日的声明",
+                    "en": "The explosive photo was deleted instantly and the statement the next day",
+                    "ko": "폭발물 사진은 즉각 삭제됐고 다음날 성명"
+                  },
+                  "description": {
+                    "zh": "金赛纶爆照秒删次日对不同人编造的2个版本声明",
+                    "en": "Kim Sae-ron deleted the two versions of the statement he made up to different people the next day",
+                    "ko": "김새론은 다음날 다른 사람들에게 했던 두 가지 진술을 삭제했다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/c6/1781936478c8f75993ea995de2add3dc382ad203cc.jpg"
@@ -1089,7 +1637,11 @@
                   },
                   "link": [
                     {
-                      "title": "姜京允记者博客",
+                      "title": {
+                        "zh": "姜京允记者博客",
+                        "en": "Journalist Kang Kyung-yoon’s blog",
+                        "ko": "강경윤 기자의 블로그"
+                      },
                       "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
                     }
                   ],
@@ -1098,8 +1650,16 @@
                 },
                 {
                   "id": "row5-7",
-                  "title": "韩国赠与税",
-                  "description": "**韩国国税厅**对赠与税的定义",
+                  "title": {
+                    "zh": "韩国赠与税",
+                    "en": "Korean gift tax",
+                    "ko": "한국 증여세"
+                  },
+                  "description": {
+                    "zh": "韩国国税厅对赠与税的定义",
+                    "en": "The Korean National Tax Service’s definition of gift tax",
+                    "ko": "국세청의 증여세 정의"
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/73/1781936480b84ddc1b9583f979f2e31c06d0e7c86a.jpg",
@@ -1114,7 +1674,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6645&cntntsId=7957"
                     }
                   ],
@@ -1134,8 +1698,16 @@
               "entries": [
                 {
                   "id": "row10-3",
-                  "title": "25年男演员酒驾后自尽",
-                  "description": "**25年**韩国男演员宋英奎酒驾后作品下车受到舆论谴责之后自尽",
+                  "title": {
+                    "zh": "25年男演员酒驾后自尽",
+                    "en": "Actor committed suicide after 25 years of drunk driving",
+                    "ko": "배우 25년 음주운전 끝에 자살"
+                  },
+                  "description": {
+                    "zh": "25年韩国男演员宋英奎酒驾后作品下车受到舆论谴责之后自尽",
+                    "en": "Korean actor Song Young-gyu committed suicide after getting off the work after drunk driving in 25 years and being condemned by public opinion.",
+                    "ko": "배우 송영규가 25년 만에 음주운전을 하다 여론의 질타를 받고 직장을 그만둔 뒤 스스로 목숨을 끊었다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/0a/1781936445a194577ad992407109d5e522a1212e3c.jpg"
@@ -1150,7 +1722,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://m.entertain.naver.com/home/article/382/0001198010"
                     }
                   ],
@@ -1159,8 +1735,16 @@
                 },
                 {
                   "id": "row10-4",
-                  "title": "19年男演员协助酒驾作品下车",
-                  "description": "**2019年**男演员吴胜允因协助酒驾从《melot体质》下车",
+                  "title": {
+                    "zh": "19年男演员协助酒驾作品下车",
+                    "en": "19-year-old actor helped get off the bus in a drunk driving production",
+                    "ko": "19세 배우, 음주운전 제작에 버스 하차 도와줬다"
+                  },
+                  "description": {
+                    "zh": "2019年男演员吴胜允因协助酒驾从《melot体质》下车",
+                    "en": "In 2019, actor Oh Seung-yoon got off the show \"Melot Physique\" for assisting drunk driving.",
+                    "ko": "지난 2019년 배우 오승윤이 음주운전 방조 혐의로 '멜로피지크'에서 하차한 바 있다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/b7/1781936447705f80733bf6523e0aa21fdc40abe0d7.jpg"
@@ -1175,7 +1759,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://m.nocutnews.co.kr/news/5181850?utm_source=chatgpt.com"
                     }
                   ],
@@ -1184,8 +1772,16 @@
                 },
                 {
                   "id": "row10-5",
-                  "title": "18年男演员酒驾后下车",
-                  "description": "**2018年**男演员尹泰荣因酒驾从《百日的郎君》下车",
+                  "title": {
+                    "zh": "18年男演员酒驾后下车",
+                    "en": "18-year-old actor gets out of car after drunk driving",
+                    "ko": "18세 배우, 음주운전하다 차에서 내려"
+                  },
+                  "description": {
+                    "zh": "2018年男演员尹泰荣因酒驾从《百日的郎君》下车",
+                    "en": "In 2018, actor Yoon Tae-young got off the show \"The 100-Day Husband\" due to drunk driving.",
+                    "ko": "지난 2018년 배우 윤태영이 음주운전으로 '백일의 남편'에서 하차한 바 있다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/e6/1781936448c9da87d68fe440418a551bce5b258b4d.jpg"
@@ -1200,7 +1796,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://v.daum.net/v/20180521012744134?utm_source=chatgpt.com"
                     }
                   ],
@@ -1209,8 +1809,16 @@
                 },
                 {
                   "id": "row10-6",
-                  "title": "20年男演员酒驾后下车",
-                  "description": "**2020年**男演员裴晟佑因酒驾从《飞吧开天龙》下车",
+                  "title": {
+                    "zh": "20年男演员酒驾后下车",
+                    "en": "20-year-old actor gets out of car after drunk driving",
+                    "ko": "20대 배우, 음주운전하다 차에서 내려"
+                  },
+                  "description": {
+                    "zh": "2020年男演员裴晟佑因酒驾从《飞吧开天龙》下车",
+                    "en": "In 2020, actor Bae Sung-woo got off the train from \"Let's Fly\" due to drunk driving.",
+                    "ko": "2020년 배우 배성우가 '플라이하라'에서 음주운전으로 열차에서 하차했다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/b9/17819364497773d9287966dd2a6349211f3c08ba59.jpg"
@@ -1225,7 +1833,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://www.chosun.com/culture-life/2020/12/11/MNAJEABSJNG2BLCTOJ3N3LT6GY/?utm_source=chatgpt.com"
                     }
                   ],
@@ -1234,8 +1846,16 @@
                 },
                 {
                   "id": "row10-7",
-                  "title": "KBS禁止酒驾人员出演",
-                  "description": "**2022年KBS**电视台将三名酒驾艺人列为禁止出演名单",
+                  "title": {
+                    "zh": "KBS禁止酒驾人员出演",
+                    "en": "KBS bans drunk driving actors from appearing",
+                    "ko": "KBS, 음주운전 배우 출연 금지"
+                  },
+                  "description": {
+                    "zh": "2022年KBS电视台将三名酒驾艺人列为禁止出演名单",
+                    "en": "KBS TV station lists three drunk driving artists as prohibited from appearing in 2022",
+                    "ko": "KBS는 음주운전 연예인 3명을 2022년 출연금지 대상으로 지정했다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/6d/178193645107974770e9cafefe299e0d753c13ef8e.jpg"
@@ -1250,7 +1870,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://m.newspim.com/news/view/20221222000184"
                     }
                   ],
@@ -1259,8 +1883,16 @@
                 },
                 {
                   "id": "row10-8",
-                  "title": "金赛纶醉驾有六个律师打官司",
-                  "description": "醉驾后**六个律师**打官司,其中**四名律师**是**金牌公司**提供,两个是**金赛纶**额外聘请",
+                  "title": {
+                    "zh": "金赛纶醉驾有六个律师打官司",
+                    "en": "Kim Sae-ron's drunk driving lawsuit has six lawyers",
+                    "ko": "김새론 음주운전 소송 변호사 6명"
+                  },
+                  "description": {
+                    "zh": "醉驾后六个律师打官司,其中四名律师是金牌公司提供,两个是金赛纶额外聘请",
+                    "en": "Six lawyers litigated the case after drunk driving. Four of them were provided by Gold Medal Company and two were hired by Kim Sae-ron.",
+                    "ko": "음주운전 혐의로 변호사 6명이 소송을 제기했다. 그 중 4명은 골드메달컴퍼니에서 제공했고, 2명은 김새론이 고용했다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/1e/17819364193387a91c23a2c281d741c0d7d0ebc27d.jpg"
@@ -1275,7 +1907,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://m.entertain.naver.com/home/article/018/0005441900"
                     }
                   ],
@@ -1284,8 +1920,16 @@
                 },
                 {
                   "id": "row10-9",
-                  "title": "金赛纶酒驾经过",
-                  "description": "**金赛纶**与歌手男友分手后在酒吧找女性朋友通宵酗酒,于清晨开路虎卫士醉驾,==酒精浓度0.227==,==撞上变压器导致街区停电==,事发后==逃离现场==\n**金赛纶**和协助酒驾的女伴均被**法院**判罚金刑",
+                  "title": {
+                    "zh": "金赛纶酒驾经过",
+                    "en": "Kim Sae-ron drunk driving",
+                    "ko": "김새론 음주운전"
+                  },
+                  "description": {
+                    "zh": "金赛纶与歌手男友分手后在酒吧找女性朋友通宵酗酒,于清晨开路虎卫士醉驾,酒精浓度0.227,撞上变压器导致街区停电,事发后逃离现场\n金赛纶和协助酒驾的女伴均被法院判罚金刑",
+                    "en": "After Kim Sae-ron broke up with her singer boyfriend, she spent the night drinking with female friends in a bar. She drove drunk in a Land Rover Defender early in the morning with an alcohol concentration of 0.227. She hit a transformer and caused a power outage in the neighborhood. She fled the scene after the incident.\nKim Sae-ron and his female companion who assisted in drunk driving were both sentenced to fines by the court",
+                    "ko": "김새론은 가수 남자친구와 헤어진 후 술집에서 여자 친구들과 술을 마시며 밤새도록 지냈다. 그녀는 이른 아침, 알코올 농도 0.227의 랜드로버 디펜더를 타고 만취 상태로 운전했습니다. 그녀는 변압기에 부딪혀 동네에 정전을 일으켰습니다. 그녀는 사건 이후 현장에서 도주했다.\n음주운전 방조한 김새론과 동거녀 모두 법원에서 벌금형을 선고받았다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/05/17819364535967274011ab725a6e501d24bf99a2b9.jpg",
@@ -1303,11 +1947,19 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "金赛纶酒驾经过 - MoneyToday",
+                        "en": "Kim Sae-ron’s drunk driving incident - MoneyToday",
+                        "ko": "김새론 음주운전 사건 - 머니투데이"
+                      },
                       "url": "https://www.mt.co.kr/society/2023/03/09/2023030911451668587?utm_source=chatgpt.com"
                     },
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "金赛纶酒驾经过 - Naver comments",
+                        "en": "Kim Sae-ron’s drunk driving incident - Naver comments",
+                        "ko": "김새론 음주운전 사건 - 네이버 코멘트"
+                      },
                       "url": "https://n.news.naver.com/article/comment/008/0005179475"
                     }
                   ],
@@ -1316,8 +1968,16 @@
                 },
                 {
                   "id": "row10-10",
-                  "title": "金赛纶酒驾同乘女性被判刑",
-                  "description": "21岁素人女性协助**金赛纶**醉驾,被判500万罚金刑",
+                  "title": {
+                    "zh": "金赛纶酒驾同乘女性被判刑",
+                    "en": "Kim Sae-ron sentenced to death for drunk driving with female passenger",
+                    "ko": "김새론, 여성 동승자와 음주운전 혐의로 사형 선고"
+                  },
+                  "description": {
+                    "zh": "21岁素人女性协助金赛纶醉驾,被判500万罚金刑",
+                    "en": "A 21-year-old amateur woman was sentenced to a fine of NT$5 million for assisting Kim Sae-ron in drunk driving.",
+                    "ko": "김새론의 음주운전을 방조한 21세 아마추어 여성에게 벌금 500만엔이 선고됐다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/78/1781936456348f93593ac13238371f1df70da88f44.jpg"
@@ -1332,7 +1992,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://www.yna.co.kr/view/AKR20230412066200004"
                     }
                   ],
@@ -1352,8 +2016,16 @@
               "entries": [
                 {
                   "id": "row11-2",
-                  "title": "24年9月尝试自尽留下遗书",
-                  "description": "**金赛纶24年**9月8日尝试自尽，当时发INS限时动态当做遗书，被朋友看到后救下，她当时的遗书内容是：“我的酒精浓度是0，也没有导致停电”",
+                  "title": {
+                    "zh": "24年9月尝试自尽留下遗书",
+                    "en": "In September 24, he attempted suicide and left a suicide note.",
+                    "ko": "9월 24일에는 자살을 시도하고 유서를 남겼다."
+                  },
+                  "description": {
+                    "zh": "金赛纶24年9月8日尝试自尽，当时发INS限时动态当做遗书，被朋友看到后救下，她当时的遗书内容是：“我的酒精浓度是0，也没有导致停电”",
+                    "en": "Kim Sae-ron tried to commit suicide on September 8, 2024. At that time, she posted a limited-time Instagram update as a suicide note. She was saved by a friend after seeing it. The content of her suicide note at the time was: \"My alcohol concentration is 0, and it did not cause a blackout.\"",
+                    "ko": "김새론은 2024년 9월 8일 자살을 시도했다. 당시 유서처럼 기간 한정 인스타그램 글을 올렸다. 그녀는 그것을 본 후 친구에 의해 구해졌습니다. 당시 유서 내용은 '알코올농도는 0이며, 정전을 일으키지 않았다'였다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/33/1781936438c2e063173802876a136b88bc404bf7b1.jpg"
@@ -1368,7 +2040,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://ent.sbs.co.kr/m/article.do?article_id=E10010301728"
                     }
                   ],
@@ -1377,8 +2053,16 @@
                 },
                 {
                   "id": "row11-3",
-                  "title": "金赛纶秒删历史",
-                  "description": "**金赛纶**==秒删==历史",
+                  "title": {
+                    "zh": "金赛纶秒删历史",
+                    "en": "Kim Sae-ron deletes history instantly",
+                    "ko": "김새론, 기록 즉시 삭제"
+                  },
+                  "description": {
+                    "zh": "金赛纶秒删历史",
+                    "en": "Kim Sae-ron deletes history instantly",
+                    "ko": "김새론, 기록 즉시 삭제"
+                  },
                   "imgs": {
                     "zh": [],
                     "ko": [],
@@ -1396,8 +2080,16 @@
                 },
                 {
                   "id": "row11-4",
-                  "title": "2个版本未成年恋爱声明",
-                  "description": "**金赛纶**爆照==秒删==次日对不同人==编造的2个版本声明==",
+                  "title": {
+                    "zh": "2个版本未成年恋爱声明",
+                    "en": "2 versions of underage love statement",
+                    "ko": "미성년자 사랑문 2가지 버전"
+                  },
+                  "description": {
+                    "zh": "金赛纶爆照秒删次日对不同人编造的2个版本声明",
+                    "en": "Kim Sae-ron deleted the two versions of the statement he made up to different people the next day",
+                    "ko": "김새론은 다음날 다른 사람들에게 했던 두 가지 진술을 삭제했다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/c6/1781936478c8f75993ea995de2add3dc382ad203cc.jpg"
@@ -1412,7 +2104,11 @@
                   },
                   "link": [
                     {
-                      "title": "姜京允记者博客",
+                      "title": {
+                        "zh": "姜京允记者博客",
+                        "en": "Journalist Kang Kyung-yoon’s blog",
+                        "ko": "강경윤 기자의 블로그"
+                      },
                       "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
                     }
                   ],
@@ -1421,8 +2117,16 @@
                 },
                 {
                   "id": "row11-5",
-                  "title": "爆照秒删真实目的",
-                  "description": "**金赛纶**爆照==秒删==真实目的以及她写给**金秀贤**的信件对比",
+                  "title": {
+                    "zh": "爆照秒删真实目的",
+                    "en": "The real purpose of deleting explosive photos instantly",
+                    "ko": "폭발적인 사진을 즉시 삭제하는 진짜 목적"
+                  },
+                  "description": {
+                    "zh": "金赛纶爆照秒删真实目的以及她写给金秀贤的信件对比",
+                    "en": "Comparison of the real purpose of Kim Sae-ron’s instant deletion of the explosive photos and the letter she wrote to Kim Soo-hyun",
+                    "ko": "김새론이 폭발물 사진 즉석 삭제한 진짜 목적과 김수현에게 쓴 편지 비교"
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/83/17819364772998d005f14b11a07ab1e1a2dcc2ccee.jpg",
@@ -1440,7 +2144,11 @@
                   },
                   "link": [
                     {
-                      "title": "姜京允记者博客",
+                      "title": {
+                        "zh": "姜京允记者博客",
+                        "en": "Journalist Kang Kyung-yoon’s blog",
+                        "ko": "강경윤 기자의 블로그"
+                      },
                       "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
                     }
                   ],
@@ -1449,8 +2157,16 @@
                 },
                 {
                   "id": "row11-6",
-                  "title": "“哥哥是我的初恋”",
-                  "description": "**金赛纶遗属**自爆**金赛纶17年**备忘录并谎称备忘录是写给**金秀贤**的，备忘录中**金赛纶**写到“受到前任伤害“。\n按**遗属**说法备忘录是写给**金秀贤**的，则说明**金秀贤**并非**金赛纶**的初恋，**金赛纶**在撒谎欺骗**金秀贤**是她的初恋\n实际上备忘录并非写给**金秀贤**的，**金秀贤**也不是**金赛纶**的初恋",
+                  "title": {
+                    "zh": "“哥哥是我的初恋”",
+                    "en": "\"Brother is my first love\"",
+                    "ko": "\"오빠는 내 첫사랑이에요\""
+                  },
+                  "description": {
+                    "zh": "金赛纶遗属自爆金赛纶17年备忘录并谎称备忘录是写给金秀贤的，备忘录中金赛纶写到“受到前任伤害“。\n按遗属说法备忘录是写给金秀贤的，则说明金秀贤并非金赛纶的初恋，金赛纶在撒谎欺骗金秀贤是她的初恋\n实际上备忘录并非写给金秀贤的，金秀贤也不是金赛纶的初恋",
+                    "en": "Kim Sae-ron's family revealed a memo from 17 years ago and falsely claimed that the memo was addressed to Kim Soo-hyun. In the memo, Kim Sae-ron wrote that he was \"hurt by his ex.\"\nAccording to the bereaved family, the memo was written to Kim Soo Hyun, which means that Kim Soo Hyun was not Kim Sae Ron’s first love. Kim Sae Ron was lying and deceiving that Kim Soo Hyun was her first love.\nIn fact, the memo was not written to Kim Soo Hyun, and Kim Soo Hyun was not Kim Sae Ron’s first love.",
+                    "ko": "김새론 가족이 17년 전 메모를 공개하며 그 메모가 김수현에게 전달됐다고 허위 주장했다. 메모에는 김새론이 \"전 애인에게 상처받았다\"고 적었다.\n유족에 따르면 해당 메모는 김수현에게 작성됐다. 이는 김수현이 김새론의 첫사랑이 아니라는 의미다. 김새론은 김수현이 자신의 첫사랑이라고 거짓말을 하고 속였다.\n사실 그 메모는 김수현에게 쓴 것이 아니고, 김수현은 김새론의 첫사랑도 아니었다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/cc/17819364427dcff21bc21d0581ead432c0393bf7e6.jpg",
@@ -1467,7 +2183,11 @@
                   },
                   "link": [
                     {
-                      "title": "遗属自爆自相矛盾的证据",
+                      "title": {
+                        "zh": "遗属自爆自相矛盾的证据",
+                        "en": "Family members self-explode conflicting evidence",
+                        "ko": "가족 구성원, 상충되는 증거 자폭"
+                      },
                       "url": "https://v.daum.net/v/20251126150746560?utm_source=chatgpt.com"
                     }
                   ],
@@ -1476,8 +2196,16 @@
                 },
                 {
                   "id": "row11-7",
-                  "title": "“哥哥是我最后的爱情”",
-                  "description": "**金赛纶**在爆照==秒删==后写信给**金秀贤**谎称联系不上才爆照，因此写信时间在**2024年**3月之后。\n但是记者曝光她在当时有男友，且**24年**2月还在叫**经纪人**买避孕药，**金赛纶22年**醉驾时的男友也被韩媒曝光\n因此信中“**金秀贤**是最后的爱情”是**金赛纶**欺骗**金秀贤**",
+                  "title": {
+                    "zh": "“哥哥是我最后的爱情”",
+                    "en": "\"Brother is my last love\"",
+                    "ko": "\"오빠는 내 마지막 사랑이에요\""
+                  },
+                  "description": {
+                    "zh": "金赛纶在爆照秒删后写信给金秀贤谎称联系不上才爆照，因此写信时间在2024年3月之后。\n但是记者曝光她在当时有男友，且24年2月还在叫经纪人买避孕药，金赛纶22年醉驾时的男友也被韩媒曝光\n因此信中“金秀贤是最后的爱情”是金赛纶欺骗金秀贤",
+                    "en": "Kim Sae-ron wrote to Kim Soo-hyun and lied about not being able to contact her before deleting the photo, so the letter was written after March 2024.\nHowever, reporters revealed that she had a boyfriend at the time, and she was still asking her agent to buy birth control pills in February 2024. Kim Sae-ron’s boyfriend when she drove drunk in 2022 was also exposed by Korean media\nTherefore, the letter \"Kim Soo Hyun is the last love\" means that Kim Sae Ron deceived Kim Soo Hyun.",
+                    "ko": "김새론이 김수현에게 편지를 쓰고 사진을 삭제하기 전 연락이 안 된다고 거짓말을 해서 2024년 3월 이후에 쓴 글이다.\n하지만 취재진에 따르면 그녀는 당시 남자친구가 있었고, 2024년 2월에도 여전히 대리인에게 피임약을 사달라고 요구하고 있었다. 김새론이 2022년 음주운전을 했을 때 남자친구가 국내 언론에도 노출됐다.\n따라서 '김수현이 마지막 사랑이다'라는 글자는 김새론이 김수현을 속였다는 뜻이다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/8f/1781936444cb17f67ddbfbdc246a118c7677741e14.jpg",
@@ -1495,11 +2223,19 @@
                   },
                   "link": [
                     {
-                      "title": "姜京允记者博客\n曝光金赛纶和经纪人聊天记录",
+                      "title": {
+                        "zh": "姜京允记者博客\n曝光金赛纶和经纪人聊天记录",
+                        "en": "Journalist Kang Kyung-yoon’s blog\nExposed chat records between Kim Sae-ron and her agent",
+                        "ko": "강경윤 기자의 블로그\n김새론과 에이전트의 채팅 기록이 공개됐다."
+                      },
                       "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
                     },
                     {
-                      "title": "报道和曹承衍分手后醉驾逃逸",
+                      "title": {
+                        "zh": "报道和曹承衍分手后醉驾逃逸",
+                        "en": "Reportedly driving drunk and escaping after breaking up with Cho Seung-yeon",
+                        "ko": "조승연과 이별 후 음주운전, 도주한 것으로 전해졌다"
+                      },
                       "url": "https://www.mt.co.kr/society/2025/04/12/2025041215045310481?utm_source=chatgpt.com"
                     }
                   ],
@@ -1520,8 +2256,16 @@
                 {
                   "id": "row7-1",
                   "time": "20240324",
-                  "title": "INS爆照秒删与金秀贤贴脸照,和经纪人解释说因为债务问题精神高度紧张要让金秀贤去死",
-                  "description": "**2024年**3月24日,**金赛纶**爆照后==秒删==。后续公开资料显示,她曾对**经纪人**称要让**金秀贤**去死,因此爆照秒删。",
+                  "title": {
+                    "zh": "INS爆照秒删与金秀贤贴脸照,和经纪人解释说因为债务问题精神高度紧张要让金秀贤去死",
+                    "en": "INS exploded the photo and immediately deleted the photo with Kim Soo Hyun's face. He explained to his manager that he was very nervous because of the debt problem and wanted Kim Soo Hyun to die.",
+                    "ko": "INS는 해당 사진을 폭발시킨 뒤 김수현의 얼굴이 나온 사진을 즉각 삭제했다. 그는 매니저에게 빚 문제 때문에 너무 불안하고 김수현이 죽기를 바랐다고 설명했다."
+                  },
+                  "description": {
+                    "zh": "2024年3月24日,金赛纶爆照后秒删。后续公开资料显示,她曾对经纪人称要让金秀贤去死,因此爆照秒删。",
+                    "en": "On March 24, 2024, Kim Sae-ron deleted the photo immediately after it went viral. Subsequent public information showed that she once told her manager that she wanted Kim Soo Hyun to die, so she deleted the photos immediately.",
+                    "ko": "김새론은 2024년 3월 24일 해당 사진이 입소문이 난 직후 삭제했다. 이후 공개된 바에 따르면 그녀는 매니저에게 김수현이 죽기를 바란다는 말을 한 뒤 즉시 사진을 삭제한 것으로 알려졌다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/83/17819364772998d005f14b11a07ab1e1a2dcc2ccee.jpg"
@@ -1536,7 +2280,11 @@
                   },
                   "link": [
                     {
-                      "title": "姜京允记者博客",
+                      "title": {
+                        "zh": "姜京允记者博客",
+                        "en": "Journalist Kang Kyung-yoon’s blog",
+                        "ko": "강경윤 기자의 블로그"
+                      },
                       "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
                     }
                   ],
@@ -1545,8 +2293,16 @@
                 },
                 {
                   "id": "row7-2",
-                  "title": "在话剧《冬泡菜》下车后发INS限时动态秒删",
-                  "description": "**24年**4月20日,**金赛纶**在话剧剧组下车后发INS限时动态又==秒删==",
+                  "title": {
+                    "zh": "在话剧《冬泡菜》下车后发INS限时动态秒删",
+                    "en": "After getting off the train from the drama \"Winter Kimchi\", I posted a limited time Instagram update and it was deleted instantly.",
+                    "ko": "드라마 '겨울김치' 하차 후 기간 한정 인스타그램 업데이트를 올렸는데 바로 삭제됐습니다."
+                  },
+                  "description": {
+                    "zh": "24年4月20日,金赛纶在话剧剧组下车后发INS限时动态又秒删",
+                    "en": "On April 20, 2024, Kim Sae-ron posted a limited-time Instagram update after getting off the train on the drama set and deleted it instantly.",
+                    "ko": "김새론은 2024년 4월 20일 드라마 촬영장에서 기차에서 내린 후 기간 한정 인스타그램 업데이트를 게시했다가 즉시 삭제했다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/7c/1781936432849f8522af18e2531bbd3730fe8d9ff6.jpg"
@@ -1561,7 +2317,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://www.chosun.com/national/national_general/2024/04/20/JXVHMXQDHZGW3GOVQ7K54FPHEM/"
                     }
                   ],
@@ -1571,8 +2331,16 @@
                 },
                 {
                   "id": "row7-3",
-                  "title": "INS爆照秒删海钓照片,向经纪人解释说母亲登录自己的INS发送",
-                  "description": "1.**24年**7月17日,**金赛纶**==秒删==海钓照片\n2.对**经纪人**说是母亲==秒删==",
+                  "title": {
+                    "zh": "INS爆照秒删海钓照片,向经纪人解释说母亲登录自己的INS发送",
+                    "en": "INS deleted the sea fishing photo after it exploded, and explained to her agent that her mother logged into her INS to send it",
+                    "ko": "INS는 바다낚시 사진이 폭발한 후 삭제했으며, 어머니가 INS에 로그인해 사진을 보냈다고 대리인에게 설명했다."
+                  },
+                  "description": {
+                    "zh": "1.24年7月17日,金赛纶秒删海钓照片\n2.对经纪人说是母亲秒删",
+                    "en": "1. On July 17, 2024, Kim Sae-ron deleted the sea fishing photos instantly\n2. Tell the agent that she is my mother and delete it instantly",
+                    "ko": "1. 김새론은 2024년 7월 17일 바다낚시 사진을 즉각 삭제했습니다.\n2. 상담원에게 내 어머니라고 알리고 즉시 삭제"
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/5a/1781936485c58e682735be064a658ad474178358b0.jpg"
@@ -1587,11 +2355,19 @@
                   },
                   "link": [
                     {
-                      "title": "海钓秒删:",
+                      "title": {
+                        "zh": "海钓秒删:",
+                        "en": "Sea fishing can be deleted instantly:",
+                        "ko": "바다 낚시는 즉시 삭제할 수 있습니다:"
+                      },
                       "url": "https://www.chosun.com/entertainments/broadcast/2024/07/17/OD4PFJRHZA3URMQXVWZDID6ITE/?outputType=amp"
                     },
                     {
-                      "title": "金赛纶与经纪人聊天记录:",
+                      "title": {
+                        "zh": "金赛纶与经纪人聊天记录:",
+                        "en": "Chat record between Kim Sae-ron and her agent:",
+                        "ko": "김새론과 에이전트의 대화 기록:"
+                      },
                       "url": "https://m.blog.naver.com/PostView.naver?blogId=strongyoun-now&logNo=223907299676&navType=by"
                     }
                   ],
@@ -1601,8 +2377,16 @@
                 },
                 {
                   "id": "row7-4",
-                  "title": "INS爆照秒删猎犬剧组合照,对经纪人解释说母亲登录自己的INS发送",
-                  "description": "1.**24年**8月7日,**金赛纶**==秒删==猎犬剧组剧照\n2.对**经纪人**声称母亲==秒删==",
+                  "title": {
+                    "zh": "INS爆照秒删猎犬剧组合照,对经纪人解释说母亲登录自己的INS发送",
+                    "en": "INS exploded photos and instantly deleted the photos from the series \"Hound Dog\". She explained to her agent that her mother logged into her INS to send them.",
+                    "ko": "INS는 사진을 폭발시키고 '하운드독' 시리즈의 사진을 즉시 삭제했다. 그녀는 그녀의 어머니가 INS를 보내기 위해 로그인했다고 대리인에게 설명했습니다."
+                  },
+                  "description": {
+                    "zh": "1.24年8月7日,金赛纶秒删猎犬剧组剧照\n2.对经纪人声称母亲秒删",
+                    "en": "1. On August 7, 24, Kim Sae-ron deleted the stills of the Hound crew in seconds\n2. Claimed to the agent that my mother would delete it immediately",
+                    "ko": "1. 김새론은 24년 8월 7일 하운드 크루의 스틸컷을 초 만에 삭제했다.\n2. 어머니가 즉시 삭제하겠다고 대리인에게 주장함"
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/fe/178193650009b3ee305599196064b0e3da80c75e53.jpg"
@@ -1617,11 +2401,19 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "INS爆照秒删猎犬剧组合照,对经纪人解释说母亲登录自己的INS发送 - Heraldmuse",
+                        "en": "INS explodes the photos and deletes the photos from the set of \"Hound Dog\" in seconds, explaining to the agent that the mother logged into her INS to send them - Heraldmuse",
+                        "ko": "INS는 몇 초 만에 사진을 폭파하고 \"Hound Dog\" 세트에서 사진을 삭제하며, 어머니가 사진을 보내기 위해 INS에 로그인했다고 요원에게 설명합니다. - Heraldmuse"
+                      },
                       "url": "https://m.heraldmuse.com/article/3449206"
                     },
                     {
-                      "title": "金赛纶与经纪人聊天记录:",
+                      "title": {
+                        "zh": "金赛纶与经纪人聊天记录:",
+                        "en": "Chat record between Kim Sae-ron and her agent:",
+                        "ko": "김새론과 에이전트의 대화 기록:"
+                      },
                       "url": "https://m.blog.naver.com/PostView.naver?blogId=strongyoun-now&logNo=223907299676&navType=by"
                     }
                   ],
@@ -1631,8 +2423,16 @@
                 },
                 {
                   "id": "row7-5",
-                  "title": "INS爆照秒删与美国老公合照，对前男友与经纪人解释是老公登录自己的INS发送",
-                  "description": "1.对**前男友**声称老公==秒删==\n2.**2025年**1月6日,**金赛纶**==秒删==与老公合照",
+                  "title": {
+                    "zh": "INS爆照秒删与美国老公合照，对前男友与经纪人解释是老公登录自己的INS发送",
+                    "en": "The photo of her and her American husband was deleted instantly from INS. She explained to her ex-boyfriend and manager that her husband logged into his own INS to send it.",
+                    "ko": "그녀와 미국인 남편의 사진은 INS에서 즉시 삭제되었습니다. 그녀는 전 남자친구이자 매니저에게 남편이 자신의 INS에 로그인하여 이를 보냈다고 설명했습니다."
+                  },
+                  "description": {
+                    "zh": "1.对前男友声称老公秒删\n2.2025年1月6日,金赛纶秒删与老公合照",
+                    "en": "1. Claim to your ex-boyfriend that your husband will delete it instantly\n2. On January 6, 2025, Kim Sae-ron deleted the photo with her husband instantly",
+                    "ko": "1. 전 남자친구에게 남편이 즉시 삭제할 것이라고 주장하세요.\n2. 김새론은 2025년 1월 6일 남편과 함께 찍은 사진을 즉석에서 삭제했다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://kshtruth.com/%E5%A4%9A%E6%AC%A1%E7%A7%92%E5%88%A0%E7%94%A9%E9%94%85/25%E7%94%A9%E9%94%85%E8%80%81%E5%85%AC%E4%B8%AD.jpg"
@@ -1647,11 +2447,19 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "INS爆照秒删与美国老公合照，对前男友与经纪人解释是老公登录自己的INS发送 - The Fact",
+                        "en": "The photo of her and her American husband was deleted instantly from INS. She explained to her ex-boyfriend and manager that her husband logged into his own INS to send it - The Fact",
+                        "ko": "그녀와 미국인 남편의 사진은 INS에서 즉시 삭제되었습니다. 그녀는 전 남자친구이자 매니저에게 남편이 자신의 INS에 로그인하여 INS를 보냈다고 설명했습니다. - The Fact"
+                      },
                       "url": "https://m.entertain.naver.com/article/629/0000375534"
                     },
                     {
-                      "title": "金赛纶秒删和老公合照韩网：",
+                      "title": {
+                        "zh": "金赛纶秒删和老公合照韩网：",
+                        "en": "Kim Sae-ron deleted the photo with her husband in seconds from the Korean website:",
+                        "ko": "김새론은 남편과 함께 찍은 사진을 한국 홈페이지에서 몇 초 만에 삭제했다."
+                      },
                       "url": "https://biz.chosun.com/entertainment/enter_general/2025/01/08/MN6OL4EUPVFP5ZUJA2CLFHPCZQ/"
                     }
                   ],
@@ -1683,12 +2491,24 @@
               "entries": [
                 {
                   "id": "row12-6",
-                  "title": "老公晒出金赛纶手写信",
-                  "description": "**美国老公**没出席葬礼,但晒出**金赛纶**写的信,信中**金赛纶**为自己和**前男友**藕断丝连道歉,并表达了对**美国老公**的爱意\n**金赛纶25年**1月6日==秒删==与老公合照,对外谎称老公上号==秒删==",
+                  "title": {
+                    "zh": "老公晒出金赛纶手写信",
+                    "en": "Husband posts Kim Sae-ron’s handwritten letter",
+                    "ko": "남편이 김새론의 자필 편지를 올렸다."
+                  },
+                  "description": {
+                    "zh": "美国老公没出席葬礼,但晒出金赛纶写的信,信中金赛纶为自己和前男友藕断丝连道歉,并表达了对美国老公的爱意\n金赛纶25年1月6日秒删与老公合照,对外谎称老公上号秒删",
+                    "en": "The American husband did not attend the funeral, but posted a letter written by Kim Sae-ron, in which Kim Sae-ron apologized for the breakup with her ex-boyfriend and expressed her love for her American husband.\nKim Sae-ron deleted a photo with her husband instantly on January 6, 2025, and lied to the public about her husband’s account and deleted it instantly",
+                    "ko": "미국인 남편은 장례식에 참석하지 않았지만, 김새론이 전 남자친구와의 이별에 대해 사과하고 미국인 남편에 대한 사랑을 표현한 편지를 김새론이 올렸다.\n김새론은 2025년 1월 6일 남편과 함께 찍은 사진을 즉시 삭제했고, 남편의 계정에 대해 대중에게 거짓말을 해 즉시 삭제했다."
+                  },
                   "member": [
                     {
                       "name": "金赛纶美国老公",
-                      "description": "**金赛纶**的现任丈夫，美国人，曾在韩国留学，后在美国工作。两人于**2024年**结婚，但婚姻关系一直备受争议和质疑。"
+                      "description": {
+                        "zh": "金赛纶的现任丈夫，美国人，曾在韩国留学，后在美国工作。两人于2024年结婚，但婚姻关系一直备受争议和质疑。",
+                        "en": "Kim Sae-ron’s current husband is an American. He studied in South Korea and later worked in the United States. The two got married in 2024, but their marriage relationship has been controversial and questioned.",
+                        "ko": "김새론의 현재 남편은 미국인이다. 그는 한국에서 공부하고 나중에 미국에서 일했습니다. 두 사람은 2024년 결혼했으나 결혼 관계에 대해 논란이 일고 있다."
+                      }
                     }
                   ],
                   "imgs": {
@@ -1709,7 +2529,11 @@
                   },
                   "link": [
                     {
-                      "title": "横竖研直播间",
+                      "title": {
+                        "zh": "横竖研直播间",
+                        "en": "Hengverticalyan live broadcast room",
+                        "ko": "Hengverticalyan 라이브 방송실"
+                      },
                       "url": "https://n.news.naver.com/article/008/0005177051?sid=102"
                     }
                   ],
@@ -1718,12 +2542,24 @@
                 },
                 {
                   "id": "row12-9",
-                  "title": "练习生前任晒出金赛纶聊天记录",
-                  "description": "**前男友**指控**美国老公**==家暴==**金赛纶**,并且晒出**金赛纶**的聊天记录,在聊天记录中**金赛纶**为自己“因被==家暴==被迫和**美国老公**在一起”向**前男友**道歉,且表达了对**前男友**的爱意。\n**金赛纶**老公还曾登录**金赛纶**个人私密INS辱骂**前男友**,让**前男友**不要插足婚姻",
+                  "title": {
+                    "zh": "练习生前任晒出金赛纶聊天记录",
+                    "en": "Trainee’s ex reveals Kim Sae-ron’s chat history",
+                    "ko": "연습생 전남편이 김새론의 채팅 이력을 폭로했다."
+                  },
+                  "description": {
+                    "zh": "前男友指控美国老公家暴金赛纶,并且晒出金赛纶的聊天记录,在聊天记录中金赛纶为自己“因被家暴被迫和美国老公在一起”向前男友道歉,且表达了对前男友的爱意。\n金赛纶老公还曾登录金赛纶个人私密INS辱骂前男友,让前男友不要插足婚姻",
+                    "en": "The ex-boyfriend accused her American husband of domestic violence against Kim Sae-ron and posted Kim Sae-ron's chat records. In the chat records, Kim Sae-ron apologized for being \"forced to be with her American husband due to domestic violence\" and expressed her love for her ex-boyfriend.\nKim Sae-ron's husband also logged into Kim Sae-ron's private INS to insult her ex-boyfriend and asked her ex-boyfriend not to interfere in the marriage.",
+                    "ko": "전 남자친구는 미국인 남편을 가정폭력 혐의로 김새론을 고소하며 김새론의 채팅 기록을 올렸다. 채팅 기록에는 김새론이 \"가정폭력으로 인해 미국인 남편과 함께 있어야 했다\"고 사과하며 전 남자친구에 대한 사랑을 표현했다.\n김새론의 남편 역시 김새론의 개인 INS에 접속해 전 남자친구를 모욕하고 결혼에 간섭하지 말라고 부탁했다."
+                  },
                   "member": [
                     {
                       "name": "金赛纶前男友",
-                      "description": "**金赛纶**的**前男友**，曾与**金赛纶**有过恋爱关系。两人分手后，**前男友**公开指控**美国老公**==家暴==**金赛纶**，并晒出**金赛纶**的聊天记录，揭露了**金赛纶**在与**美国老公**的关系中的困境和痛苦。"
+                      "description": {
+                        "zh": "金赛纶的前男友，曾与金赛纶有过恋爱关系。两人分手后，前男友公开指控美国老公家暴金赛纶，并晒出金赛纶的聊天记录，揭露了金赛纶在与美国老公的关系中的困境和痛苦。",
+                        "en": "Kim Sae-ron's ex-boyfriend, who once had a relationship with Kim Sae-ron. After the two broke up, her ex-boyfriend publicly accused her American husband of domestic violence against Kim Sae-ron and posted Kim Sae-ron's chat records, revealing Kim Sae-ron's difficulties and pain in her relationship with her American husband.",
+                        "ko": "김새론과 한때 인연을 맺은 김새론의 전 남자친구. 두 사람이 헤어진 후 전 남자친구는 미국인 남편을 가정폭력 혐의로 김새론을 공개적으로 고발하고 김새론의 채팅 기록을 올리며 김새론이 미국인 남편과의 관계에서 겪는 어려움과 아픔을 폭로했다."
+                      }
                     }
                   ],
                   "imgs": {
@@ -1749,7 +2585,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://m.entertain.naver.com/home/article/629/0000375534"
                     }
                   ],
@@ -1769,8 +2609,16 @@
               "entries": [
                 {
                   "id": "row13-2",
-                  "title": "13岁参加有烟酒的聚会",
-                  "description": "",
+                  "title": {
+                    "zh": "13岁参加有烟酒的聚会",
+                    "en": "Attended a party with alcohol and tobacco at the age of 13",
+                    "ko": "13세에 술과 담배를 즐기며 파티에 참석함"
+                  },
+                  "description": {
+                    "zh": "",
+                    "en": "",
+                    "ko": ""
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/d2/178193641552edfe253d9ae13de85ac1490da3cd3f.jpg"
@@ -1785,7 +2633,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://www.mt.co.kr/entertainment/2014/02/03/2014020309135181251?utm_source=chatgpt.com"
                     }
                   ],
@@ -1794,8 +2646,16 @@
                 },
                 {
                   "id": "row13-3",
-                  "title": "金牌公司提供豪宅宿舍",
-                  "description": "在**金牌公司**住价值千万的大平层公寓作为员工宿舍,开路虎卫士醉驾",
+                  "title": {
+                    "zh": "金牌公司提供豪宅宿舍",
+                    "en": "Gold Medal Company provides luxury dormitories",
+                    "ko": "Gold Medal Company는 고급 기숙사를 제공합니다."
+                  },
+                  "description": {
+                    "zh": "在金牌公司住价值千万的大平层公寓作为员工宿舍,开路虎卫士醉驾",
+                    "en": "Live in a large flat apartment worth tens of millions of dollars as a staff dormitory in a gold medal company, and drive a Land Rover Defender while drunk",
+                    "ko": "금메달 회사의 직원 기숙사로 수천만 달러 상당의 대형 아파트에 거주하고, 술에 취한 채 랜드로버 디펜더를 운전합니다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/a4/17819364178256a2c6572736b9c76dad374d5823c6.jpg"
@@ -1810,7 +2670,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://realty.chosun.com/site/data/html_dir/2022/05/22/2022052200136.html?utm_source=chatgpt.com"
                     }
                   ],
@@ -1819,8 +2683,16 @@
                 },
                 {
                   "id": "row13-4",
-                  "title": "醉驾后六个律师打官司",
-                  "description": "醉驾后**六个律师**打官司,其中**四名律师**是**金牌公司**提供,两个是**金赛纶**额外聘请",
+                  "title": {
+                    "zh": "醉驾后六个律师打官司",
+                    "en": "Six lawyers file lawsuit after drunk driving",
+                    "ko": "변호사 6명, 음주운전 혐의로 소송 제기"
+                  },
+                  "description": {
+                    "zh": "醉驾后六个律师打官司,其中四名律师是金牌公司提供,两个是金赛纶额外聘请",
+                    "en": "Six lawyers litigated the case after drunk driving. Four of them were provided by Gold Medal Company and two were hired by Kim Sae-ron.",
+                    "ko": "음주운전 혐의로 변호사 6명이 소송을 제기했다. 그 중 4명은 골드메달컴퍼니에서 제공했고, 2명은 김새론이 고용했다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/cd/17819364178aa3496d4ec8cf52697b3ff90a79e3f4.jpg",
@@ -1836,11 +2708,19 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "醉驾后六个律师打官司 - Kookmin Ilbo",
+                        "en": "Six lawyers fight lawsuit after drunk driving - Kookmin Ilbo",
+                        "ko": "변호사 6명, 음주운전 소송…국민일보"
+                      },
                       "url": "https://www.kmib.co.kr/article/view.asp?arcid=0018037940&utm_source=chatgpt.com"
                     },
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "醉驾后六个律师打官司 - Edaily",
+                        "en": "Six lawyers file lawsuit after drunk driving - Edaily",
+                        "ko": "음주운전 변호사 6명 소송 제기 - 이데일리"
+                      },
                       "url": "https://m.entertain.naver.com/home/article/018/0005441900"
                     }
                   ],
@@ -1849,8 +2729,16 @@
                 },
                 {
                   "id": "row13-5",
-                  "title": "准备创业开咖啡店",
-                  "description": "1.**24年**7月2日新闻:**金赛纶**在咖啡店做经理\n2.**25年**2月17日朋友称**金赛纶**生前打算开咖啡店",
+                  "title": {
+                    "zh": "准备创业开咖啡店",
+                    "en": "Preparing to start a business and open a coffee shop",
+                    "ko": "창업과 커피숍 오픈을 준비 중입니다."
+                  },
+                  "description": {
+                    "zh": "1.24年7月2日新闻:金赛纶在咖啡店做经理\n2.25年2月17日朋友称金赛纶生前打算开咖啡店",
+                    "en": "1. News on July 2, 24: Kim Sae-ron works as a manager in a coffee shop\nOn February 17, 2025, a friend said that Kim Sae-ron planned to open a coffee shop before his death.",
+                    "ko": "1. 24일 7월 2일자 뉴스 : 김새론이 커피숍 매니저로 일하고 있다.\n2025년 2월 17일, 한 친구는 김새론이 죽기 전에 커피숍을 열 계획이었다고 말했다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/45/1781936422d24f9a292fbe1e7791378b86e7adda10.jpg",
@@ -1868,11 +2756,19 @@
                   },
                   "link": [
                     {
-                      "title": "咖啡店经理:",
+                      "title": {
+                        "zh": "咖啡店经理:",
+                        "en": "Coffee shop manager:",
+                        "ko": "커피숍 매니저:"
+                      },
                       "url": "https://www.joongang.co.kr/article/25260559#"
                     },
                     {
-                      "title": "朋友说金赛纶生前打算开咖啡店:",
+                      "title": {
+                        "zh": "朋友说金赛纶生前打算开咖啡店:",
+                        "en": "Friends said that Kim Sae-ron planned to open a coffee shop before his death:",
+                        "ko": "친구들은 김새론이 죽기 전에 커피숍을 열 계획이었다고 말했다."
+                      },
                       "url": "https://www.chosun.com/national/national_general/2025/02/16/I53ESSKEG5CSZM7YITFY6VBP7I/?outputType=amp"
                     }
                   ],
@@ -1881,8 +2777,16 @@
                 },
                 {
                   "id": "row13-6",
-                  "title": "向多人借钱共计5亿韩元",
-                  "description": "醉驾后**金赛纶**找很多人借钱一共超过**5亿**",
+                  "title": {
+                    "zh": "向多人借钱共计5亿韩元",
+                    "en": "Borrowed money from multiple people totaling 500 million won",
+                    "ko": "여러 사람으로부터 총액 5억 원을 빌린 경우"
+                  },
+                  "description": {
+                    "zh": "醉驾后金赛纶找很多人借钱一共超过5亿",
+                    "en": "After driving drunk, Kim Sae-ron asked many people to borrow money, totaling more than 500 million",
+                    "ko": "김새론은 음주운전을 한 뒤 여러 사람에게 돈을 빌려달라고 부탁해 총 5억이 넘었다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/40/1781936423aa4325c2a2958e9407556d935400c29b.jpg"
@@ -1897,7 +2801,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://www.mt.co.kr/society/2025/05/23/2025052312414587931"
                     }
                   ],
@@ -1906,8 +2814,16 @@
                 },
                 {
                   "id": "row13-7",
-                  "title": "身着奢牌欧美旅游",
-                  "description": "醉驾后**金赛纶**身穿**23年**最新款miumiu在加州迪士尼",
+                  "title": {
+                    "zh": "身着奢牌欧美旅游",
+                    "en": "Traveling in Europe and America wearing luxury brands",
+                    "ko": "명품 브랜드를 입고 유럽과 미국 여행"
+                  },
+                  "description": {
+                    "zh": "醉驾后金赛纶身穿23年最新款miumiu在加州迪士尼",
+                    "en": "After drunk driving, Kim Sae-ron wore the latest 23-year-old Miumiu model at Disneyland in California.",
+                    "ko": "음주운전을 한 김새론은 캘리포니아 디즈니랜드에서 최신 23세 미우미우 모델을 착용했다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/36/1781936425110458b2961049b4889cb6eafe71ef42.jpg"
@@ -1926,8 +2842,16 @@
                 },
                 {
                   "id": "row13-8",
-                  "title": "身着奢牌欧美旅游",
-                  "description": "醉驾后**金赛纶**穿轻奢品牌GANNI**23年**新款针织衫在全美最贵的超市EREWHON采购",
+                  "title": {
+                    "zh": "身着奢牌欧美旅游",
+                    "en": "Traveling in Europe and America wearing luxury brands",
+                    "ko": "명품 브랜드를 입고 유럽과 미국 여행"
+                  },
+                  "description": {
+                    "zh": "醉驾后金赛纶穿轻奢品牌GANNI23年新款针织衫在全美最贵的超市EREWHON采购",
+                    "en": "After driving drunk, Kim Sae-ron wore the new 23-year-old sweater of the affordable luxury brand GANNI and purchased it at EREWHON, the most expensive supermarket in the United States.",
+                    "ko": "음주운전을 한 김새론은 23년 된 저렴한 명품 브랜드 GANNI의 새 스웨터를 입고 미국에서 가장 비싼 슈퍼마켓인 EREWHON에서 구입했다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/35/178193642645de6fd20a6c8b01cfb87972b9232bdd.jpg"
@@ -1946,8 +2870,16 @@
                 },
                 {
                   "id": "row13-9",
-                  "title": "和美国老公的合照",
-                  "description": "**金赛纶25年**==秒删==和**美国老公**在纽约布鲁克林大桥旁拍的合照",
+                  "title": {
+                    "zh": "和美国老公的合照",
+                    "en": "Photo with my American husband",
+                    "ko": "미국인 남편과 함께 찍은 사진"
+                  },
+                  "description": {
+                    "zh": "金赛纶25年秒删和美国老公在纽约布鲁克林大桥旁拍的合照",
+                    "en": "Kim Sae-ron deleted the photo she took with her American husband next to the Brooklyn Bridge in New York in 25 years",
+                    "ko": "김새론이 25년 만에 뉴욕 브루클린 다리 옆에서 미국인 남편과 함께 찍은 사진을 삭제했다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/e6/1781936428d6902533e57f53fffe891ec277c30913.jpg"
@@ -1966,8 +2898,16 @@
                 },
                 {
                   "id": "row13-10",
-                  "title": "24年后在酒吧",
-                  "description": "",
+                  "title": {
+                    "zh": "24年后在酒吧",
+                    "en": "At the bar 24 years later",
+                    "ko": "24년 후 술집에서"
+                  },
+                  "description": {
+                    "zh": "",
+                    "en": "",
+                    "ko": ""
+                  },
                   "imgs": {
                     "zh": [],
                     "ko": [
@@ -1979,8 +2919,12 @@
                   "link": [],
                   "videos": [
                     {
-                      "title": "金赛纶酒吧蹦迪",
-                      "src": "金赛纶酒吧蹦迪.mp4"
+                      "title": {
+                        "zh": "金赛纶酒吧蹦迪",
+                        "en": "Kim Sae-lon Bar Disco",
+                        "ko": "김새론 바 디스코"
+                      },
+                      "src": "https://video.ltwebstatic.com/video/2026/06/28/1782648771510245597.mp4"
                     }
                   ],
                   "zh_only": false
@@ -2511,8 +3455,16 @@
               "entries": [
                 {
                   "id": "row15-2",
-                  "title": "父亲在金赛纶去世后立刻去取租房保证金",
-                  "description": "父亲在**金赛纶**去世后立刻去取租房保证金，发现不是**金赛纶**付的保证金，是其他人帮**金赛纶**垫付的，取不出来",
+                  "title": {
+                    "zh": "父亲在金赛纶去世后立刻去取租房保证金",
+                    "en": "After Kim Sae-ron passed away, his father immediately went to collect the rental deposit.",
+                    "ko": "김새론이 세상을 떠난 뒤 아버지는 곧바로 임대보증금을 ​​받으러 갔다."
+                  },
+                  "description": {
+                    "zh": "父亲在金赛纶去世后立刻去取租房保证金，发现不是金赛纶付的保证金，是其他人帮金赛纶垫付的，取不出来",
+                    "en": "After Kim Sae-ron's death, his father immediately went to collect the rental deposit. He found that the security deposit was not paid by Kim Sae-ron, but was advanced by someone else for Kim Sae-ron. He could not withdraw it.",
+                    "ko": "김새론의 아버지는 사망 후 곧바로 임대보증금을 ​​받으러 갔다. 그는 보증금을 김새론이 낸 것이 아니고, 김새론을 위해 다른 사람이 선지급한 사실을 발견했다. 그는 그것을 철회할 수 없었다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ab/1781936406210c6427626088edacb66d808a339f28.jpg"
@@ -2527,7 +3479,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://naver.me/F9N2FDFX"
                     }
                   ],
@@ -2536,8 +3492,16 @@
                 },
                 {
                   "id": "row15-3",
-                  "title": "父亲问金赛纶借钱不还",
-                  "description": "父亲在**金赛纶**十四岁的时候问**金赛纶**借了**5亿**，**20年**做生意失败申请破产==赖账==",
+                  "title": {
+                    "zh": "父亲问金赛纶借钱不还",
+                    "en": "Father asked Kim Sae-ron if he wanted to pay back the money he borrowed",
+                    "ko": "아버지는 김새론에게 빌린 돈을 갚고 싶은지 물었다."
+                  },
+                  "description": {
+                    "zh": "父亲在金赛纶十四岁的时候问金赛纶借了5亿，20年做生意失败申请破产赖账",
+                    "en": "When Kim Sae-ron was fourteen years old, his father asked Kim Sae-ron to borrow 500 million. After 20 years of business failure, he filed for bankruptcy and defaulted on the debt.",
+                    "ko": "김새론이 열네 살이 되던 해, 아버지는 김새론에게 5억을 빌려달라고 부탁했다. 20년 동안 사업이 실패하자 그는 파산 신청을 했고 빚을 갚지 못했습니다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/c6/1781936407d6e7cb4d90e5548070ef7165e49cd393.jpg"
@@ -2552,7 +3516,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://naver.me/5V8zArlu"
                     }
                   ],
@@ -2561,8 +3529,16 @@
                 },
                 {
                   "id": "row15-4",
-                  "title": "母亲要带孩子自尽",
-                  "description": "母亲在**金赛纶**儿时要带着三个孩子自尽，被**金赛纶**哀求拦下了",
+                  "title": {
+                    "zh": "母亲要带孩子自尽",
+                    "en": "Mother wants to take her child to commit suicide",
+                    "ko": "아이를 데리고 자살하려는 엄마"
+                  },
+                  "description": {
+                    "zh": "母亲在金赛纶儿时要带着三个孩子自尽，被金赛纶哀求拦下了",
+                    "en": "When Kim Sae-ron was a child, his mother wanted to take her three children to commit suicide, but Kim Sae-ron begged to stop her.",
+                    "ko": "김새론이 어렸을 때 어머니는 세 아이를 데리고 자살하려 했으나 김새론은 이를 막아달라고 애원했다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/90/1781936408691298526b56ce370ef0c2b54db19916.jpg"
@@ -2581,8 +3557,16 @@
                 },
                 {
                   "id": "row15-5",
-                  "title": "从小出演过多成人电影",
-                  "description": "**金赛纶**的童演作品多是19禁电影，因为大部分家长不愿意让孩子从小接触黑暗血腥暴力色情，但是**金赛纶**父母并不介意",
+                  "title": {
+                    "zh": "从小出演过多成人电影",
+                    "en": "He has appeared in many adult movies since he was a child.",
+                    "ko": "그는 어렸을 때부터 많은 성인 영화에 출연했습니다."
+                  },
+                  "description": {
+                    "zh": "金赛纶的童演作品多是19禁电影，因为大部分家长不愿意让孩子从小接触黑暗血腥暴力色情，但是金赛纶父母并不介意",
+                    "en": "Most of Kim Sae-ron's children's acting works are movies banned in 1999, because most parents are not willing to let their children be exposed to dark, bloody and violent pornography from an early age, but Kim Sae-ron's parents don't mind",
+                    "ko": "김새론의 아역 연기 작품 대부분은 1999년 금지된 영화들이다. 대부분의 부모들이 자녀들이 어릴 때부터 어둡고 피비린내 나는 폭력적인 음란물에 노출되는 것을 원하지 않기 때문이지만, 김새론의 부모들은 개의치 않는다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/fc/178193640900c742d4355adc3a912cb3d7b00cf91f.jpg"
@@ -2601,8 +3585,16 @@
                 },
                 {
                   "id": "row15-6",
-                  "title": "金赛纶是“少女家长”吗？",
-                  "description": "**金赛纶**醉驾后请的律师在酒驾庭审中说**金赛纶**作为少女家长要养活一家人，**金赛纶**父母在她去世后否认**金赛纶**是少女家长",
+                  "title": {
+                    "zh": "金赛纶是“少女家长”吗？",
+                    "en": "Is Kim Sae-ron a \"girl parent\"?",
+                    "ko": "김새론은 '여자부모'인가?"
+                  },
+                  "description": {
+                    "zh": "金赛纶醉驾后请的律师在酒驾庭审中说金赛纶作为少女家长要养活一家人，金赛纶父母在她去世后否认金赛纶是少女家长",
+                    "en": "The lawyer hired by Kim Sae-ron after drunk driving said in the drunk driving trial that Kim Sae-ron was the parent of a girl and had to support her family. After her death, Kim Sae-ron's parents denied that Kim Sae-ron was the parent of a girl.",
+                    "ko": "음주운전 후 김새론이 고용한 변호사는 음주운전 재판에서 김새론이 딸의 부모였으며 가족을 부양해야 했다고 말했다. 김새론의 사망 이후, 김새론의 부모는 김새론이 딸의 부모라는 사실을 부인했다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/d4/1781936412914c37158e1e50d0dde822a169ce4f2c.jpg",
@@ -2621,11 +3613,19 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "金赛纶是“少女家长”吗？ - Kookmin Ilbo",
+                        "en": "Is Kim Sae-ron a \"girl parent\"? - Kookmin Ilbo",
+                        "ko": "김새론은 '여자부모'인가? - 국민일보"
+                      },
                       "url": "https://www.kmib.co.kr/article/view.asp?arcid=0018030242&utm_source=chatgpt.com"
                     },
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "金赛纶是“少女家长”吗？ - NoCutNews",
+                        "en": "Is Kim Sae-ron a \"girl parent\"? -NoCutNews",
+                        "ko": "김새론은 '여자부모'인가? -노컷뉴스"
+                      },
                       "url": "https://m.nocutnews.co.kr/news/6308467?utm_source=chatgpt.com"
                     }
                   ],
@@ -2634,8 +3634,16 @@
                 },
                 {
                   "id": "row15-7",
-                  "title": "遗属不知道金赛纶已婚",
-                  "description": "**金赛纶遗属**翻遍了**金赛纶**手机,却声称自己不知道**金赛纶**已婚,在**遗属2025年**3月27日记者会上,**金赛纶遗属**律师回答记者问“为什么不知道**金赛纶**结婚了”,回答说\"**金赛纶**==故意隐瞒==\" \n其实就算**金赛纶**隐瞒了,翻遍手机的**遗属**也会知道一切,**遗属**是==故意隐瞒==**金赛纶**除了**金秀贤**之外的全部人生,给公众塑造出**金赛纶**人生只有**金秀贤**的印象",
+                  "title": {
+                    "zh": "遗属承认金赛纶已婚但自己不知道",
+                    "en": "The bereaved family admitted that Kim Sae-ron was married but they didn’t know it",
+                    "ko": "유족들은 김새론이 결혼했다고 인정했지만 몰랐다."
+                  },
+                  "description": {
+                    "zh": "金赛纶遗属翻遍了金赛纶手机,却声称自己不知道金赛纶已婚,在遗属2025年3月27日记者会上,金赛纶遗属律师回答记者问“为什么不知道金赛纶结婚了”,回答说\"金赛纶故意隐瞒\" \n其实就算金赛纶隐瞒了,翻遍手机的遗属也会知道一切,遗属是故意隐瞒金赛纶除了金秀贤之外的全部人生,给公众塑造出金赛纶人生只有金秀贤的印象",
+                    "en": "Kim Sae-ron's family went through Kim Sae-ron's mobile phone, but claimed that they did not know that Kim Sae-ron was married. At the press conference of the family on March 27, 2025, the lawyer of Kim Sae-ron's family responded to a reporter's question \"Why didn't they know that Kim Sae-ron was married?\" and replied, \"Kim Sae-ron deliberately concealed it.\"\nIn fact, even if Kim Sae-ron concealed it, the bereaved family members who searched through their mobile phones would know everything. The bereaved family deliberately concealed Kim Sae-ron's entire life except Kim Soo-hyun, and created the impression to the public that Kim Sae-ron only had Kim Soo-hyun in his life.",
+                    "ko": "김새론 가족은 김새론의 휴대전화를 통해 김새론의 결혼 사실을 몰랐다고 주장했다. 2025년 3월 27일 유족 기자간담회에서 김새론 유족 측 변호사는 “김새론 유족이 결혼한 사실을 왜 몰랐느냐”는 기자의 질문에 답했다. \"라며 \"김새론이 일부러 숨겼다\"고 답했다.\n사실 김새론이 숨겨도 휴대폰으로 검색한 유족들은 다 알고 있을 터였다. 유족들은 고의로 김새론의 김수현을 제외한 전 생애를 숨겨 대중에게 김새론에게는 평생 김수현밖에 없다는 인상을 심어줬다."
+                  },
                   "imgs": {
                     "zh": [],
                     "ko": [],
@@ -2645,8 +3653,12 @@
                   "link": [],
                   "videos": [
                     {
-                      "title": "金赛纶遗属记者会承认已婚",
-                      "src": "金赛纶遗属记者会承认已婚.mp4"
+                      "title": {
+                        "zh": "金赛纶遗属记者会承认已婚",
+                        "en": "Kim Sae-ron's family admitted at press conference that they were married",
+                        "ko": "김새론 가족이 기자간담회에서 결혼 사실을 인정했다."
+                      },
+                      "src": "https://video.ltwebstatic.com/video/2026/06/28/1782648836939078685.mp4"
                     }
                   ],
                   "zh_only": false
@@ -2674,8 +3686,16 @@
               "entries": [
                 {
                   "id": "row2-2",
-                  "title": "家庭背景",
-                  "description": "父亲是国会议员,前MBC电视台台长",
+                  "title": {
+                    "zh": "家庭背景",
+                    "en": "family background",
+                    "ko": "가족 배경"
+                  },
+                  "description": {
+                    "zh": "父亲是国会议员,前MBC电视台台长",
+                    "en": "His father is a congressman and former director of MBC TV station",
+                    "ko": "아버지는 국회의원이자 전 MBC TV국장이다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/e9/1781936497f4a2d4cb59bb3dd8362db05db2525bf9.jpg"
@@ -2690,7 +3710,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://ko.wikipedia.org/wiki/김영수_%281935년%29?"
                     }
                   ],
@@ -2699,8 +3723,16 @@
                 },
                 {
                   "id": "row2-3",
-                  "title": "公然漠视司法",
-                  "description": "**金世义**挑衅警察,自爆警察中有订阅者,自爆接受200次警察调查轻车熟路",
+                  "title": {
+                    "zh": "公然漠视司法",
+                    "en": "blatant disregard for justice",
+                    "ko": "노골적인 정의 무시"
+                  },
+                  "description": {
+                    "zh": "金世义挑衅警察,自爆警察中有订阅者,自爆接受200次警察调查轻车熟路",
+                    "en": "Jin Shiyi provoked the police, revealed that there were subscribers among the police, and revealed that he had been investigated by the police 200 times.",
+                    "ko": "진시이는 경찰을 도발하며, 경찰 중에 구독자가 있다는 사실을 폭로하고, 경찰 조사를 200차례나 받았다고 폭로했다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/96/17819364983008620799b46d0ca1cfe5625c609eb3.jpg"
@@ -2715,13 +3747,21 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://www.mt.co.kr/society/2025/11/03/2025110315291790013"
                     }
                   ],
                   "videos": [
                     {
-                      "title": "挑衅警察",
+                      "title": {
+                        "zh": "挑衅警察",
+                        "en": "Provoke the police",
+                        "ko": "경찰을 도발하다"
+                      },
                       "src": "挑衅警察.mp4"
                     }
                   ],
@@ -2729,8 +3769,16 @@
                 },
                 {
                   "id": "row2-4",
-                  "title": "警方承认拖延调查",
-                  "description": "**警方**承认对**金世义**拖延调查,并且设立集中调查组调查**金世义**",
+                  "title": {
+                    "zh": "警方承认拖延调查",
+                    "en": "Police admit delays in investigation",
+                    "ko": "경찰, 수사 지연 인정"
+                  },
+                  "description": {
+                    "zh": "警方承认对金世义拖延调查,并且设立集中调查组调查金世义",
+                    "en": "The police admitted to delaying the investigation of Jin Shiyi and set up a centralized investigation team to investigate Jin Shiyi",
+                    "ko": "경찰은 진시이에 대한 수사 지연을 인정하고 진시이 수사를 위해 중앙수사팀을 꾸렸다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/14/1781936499e5681e9b08a074e83ba069b1ade86801.jpg"
@@ -2745,7 +3793,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://news.jtbc.co.kr/article/NB12269326"
                     }
                   ],
@@ -2754,8 +3806,16 @@
                 },
                 {
                   "id": "row2-5",
-                  "title": "23年将女性照片谎称为裸照被判刑",
-                  "description": "**23年金世义**年因谎称女性议员高旼廷照片是==裸照==并曝光被判赔偿",
+                  "title": {
+                    "zh": "23年将女性照片谎称为裸照被判刑",
+                    "en": "Sentenced to 23 years for falsely claiming photos of women as nudes",
+                    "ko": "여성 누드 사진 허위 주장한 혐의로 23년형 선고"
+                  },
+                  "description": {
+                    "zh": "23年金世义年因谎称女性议员高旼廷照片是裸照并曝光被判赔偿",
+                    "en": "In 2023, Kim Se Yi-nyeon was sentenced to compensation for falsely claiming that the photos of female congressman Ko Min-ting were nude and then exposed them.",
+                    "ko": "2023년 김세이년은 고민팅 여의원의 누드 사진을 허위로 주장해 이를 폭로한 혐의로 배상을 선고받았다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/0d/17819365015e703d78601f2a4bd50b524e20cfea3a.jpg"
@@ -2770,7 +3830,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://n.news.naver.com/article/056/0011565371?sid=102"
                     }
                   ],
@@ -2779,8 +3843,16 @@
                 },
                 {
                   "id": "row2-6",
-                  "title": "污蔑BurningSun事件举报人被公诉",
-                  "description": "**25年金世义**因直播公开burningSun事件(李胜利、郑俊英==被判刑==)公益举报人身份,并且==造谣==污蔑对方,涉嫌违反《公益举报人保护法》被**检方**==提起公诉==,审判进行中",
+                  "title": {
+                    "zh": "污蔑BurningSun事件举报人被公诉",
+                    "en": "The whistleblower who slandered the BurningSun incident was prosecuted",
+                    "ko": "버닝썬 사건 비방한 내부고발자 기소"
+                  },
+                  "description": {
+                    "zh": "25年金世义因直播公开burningSun事件(李胜利、郑俊英被判刑)公益举报人身份,并且造谣污蔑对方,涉嫌违反《公益举报人保护法》被检方提起公诉,审判进行中",
+                    "en": "In 2025, Jin Shiyi was prosecuted by the prosecutor for violating the \"Public Welfare Whistleblower Protection Act\" for disclosing his identity as a public welfare whistleblower in the BurningSun incident (Lee Shengli and Zheng Junying were sentenced) through live broadcast, and spreading rumors and slandering the other party. The trial is in progress.",
+                    "ko": "2025년 진시이는 생방송을 통해 버닝썬 사건(이성리, 정준영 형 선고) 당시 공익신고자 신분을 폭로하고, 루머를 유포하고 상대방을 비방한 혐의로 '공익신고자 보호법' 위반 혐의로 검찰에 기소됐다. 재판이 진행 중입니다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/9b/17819364055b22dfc026addda855519f9e1b668d6f.jpg"
@@ -2795,17 +3867,38 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://www.pennmike.com/news/articleView.html?idxno=115331"
                     }
                   ],
-                  "videos": [],
+                  "videos": [
+                    {
+                      "title": {
+                        "zh": "BurningSun事件公益举报人控诉金赛纶遗属代理人",
+                        "en": "Public welfare whistleblower in BurningSun incident accuses Kim Sae-ron’s family representative",
+                        "ko": "버닝썬 사건 공익제보자, 김새론 가족 대표 고발"
+                      },
+                      "src": "https://video.ltwebstatic.com/video/2026/06/28/1782650335744257311.mp4"
+                    }
+                  ],
                   "zh_only": false
                 },
                 {
                   "id": "row2-7",
-                  "title": "诽谤韩艺瑟曹国李仁荣被起诉",
-                  "description": "**22年金世义**因诽谤韩艺瑟在burningSun夜店吸毒，诽谤曹国，李仁荣被移交至**检方**起诉",
+                  "title": {
+                    "zh": "诽谤韩艺瑟曹国李仁荣被起诉",
+                    "en": "Lee In-young was sued for defaming Han Ye-seul, Cho Gook, and Lee In-young",
+                    "ko": "이인영, 한예슬·조국·이인영 명예훼손 혐의로 고소"
+                  },
+                  "description": {
+                    "zh": "22年金世义因诽谤韩艺瑟在burningSun夜店吸毒，诽谤曹国，李仁荣被移交至检方起诉",
+                    "en": "In 2022, Kim Se-yi slandered Han Ye-seul for taking drugs at BurningSun nightclub and slandered Cho Kook. Lee In-young was handed over to the prosecutor for prosecution.",
+                    "ko": "김세이는 2022년 버닝썬 나이트클럽에서 마약을 복용한 한예슬과 조국을 비방했다. 이인영이 검찰에 기소로 넘겨졌다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/23/178193650353ba8721df9f8b838ad3832754049ce2.jpg"
@@ -2820,7 +3913,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://m.mbn.co.kr/news/society/4742748"
                     }
                   ],
@@ -2829,8 +3926,16 @@
                 },
                 {
                   "id": "row2-8",
-                  "title": "诬陷金建模",
-                  "description": "**19年金世义**==诬陷==金建模性侵,被驳回",
+                  "title": {
+                    "zh": "诬陷金建模",
+                    "en": "Framed Kim Modeling",
+                    "ko": "액자 김 모델링"
+                  },
+                  "description": {
+                    "zh": "19年金世义诬陷金建模性侵,被驳回",
+                    "en": "In 2019, Kim Se-yi falsely accused Kim Soo-mo of sexual assault, but it was dismissed",
+                    "ko": "2019년 김세이가 김수모를 성폭행 혐의로 무고했지만 기각됐다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/bb/17819365053dddd62de1baf5308b850749e84441e5.jpg"
@@ -2845,7 +3950,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://naver.me/xS19KlVG"
                     }
                   ],
@@ -2854,8 +3963,16 @@
                 },
                 {
                   "id": "row2-9",
-                  "title": "诬陷朴秀洪",
-                  "description": "**21年**==造谣====诬陷==朴秀洪",
+                  "title": {
+                    "zh": "诬陷朴秀洪",
+                    "en": "Framing Park Soo-hong",
+                    "ko": "프레이밍 박수홍"
+                  },
+                  "description": {
+                    "zh": "21年造谣诬陷朴秀洪",
+                    "en": "21 years of spreading rumors and framed Park Soo-hong",
+                    "ko": "21년간 루머 유포하고 박수홍 모함"
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/02/1781936506827aaf82e496854c56935e21a5cc9f60.jpg"
@@ -2870,7 +3987,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://www.ggilbo.com/news/articleView.html?idxno=841203"
                     }
                   ],
@@ -2879,8 +4000,16 @@
                 },
                 {
                   "id": "row2-10",
-                  "title": "造谣全智贤离婚",
-                  "description": "**21年**==造谣==全智贤离婚",
+                  "title": {
+                    "zh": "造谣全智贤离婚",
+                    "en": "Rumors spread about Jun Ji Hyun’s divorce",
+                    "ko": "전지현 이혼설이 퍼졌다."
+                  },
+                  "description": {
+                    "zh": "21年造谣全智贤离婚",
+                    "en": "Rumors spread about Jun Ji Hyun’s divorce after 21 years",
+                    "ko": "전지현, 21년 만에 이혼 루머 돌았다"
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/09/17819365080e3b5a8aec8d560e8a7775f018b638f8.jpg"
@@ -2895,7 +4024,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://naver.me/FNm0WRcA"
                     }
                   ],
@@ -2904,8 +4037,16 @@
                 },
                 {
                   "id": "row2-11",
-                  "title": "造谣宋永吉被判刑",
-                  "description": "**21年**==造谣==宋永吉嫖娼被判罚金刑",
+                  "title": {
+                    "zh": "造谣宋永吉被判刑",
+                    "en": "Song Yongji was sentenced for spreading rumors",
+                    "ko": "송용지가 루머 유포 혐의로 징역형을 선고받았다."
+                  },
+                  "description": {
+                    "zh": "21年造谣宋永吉嫖娼被判罚金刑",
+                    "en": "Song Yongji, who spread rumors for 21 years and engaged in prostitution, was sentenced to a fine",
+                    "ko": "21년 동안 성매매 루머 유포한 송용지, 벌금형 선고"
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/90/178193651068dc674e0796c0302d313db1fb03cfa7.jpg"
@@ -2920,7 +4061,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://www.lawissue.co.kr/view.php?ud=202406281620579490b50722e900_12"
                     }
                   ],
@@ -2929,8 +4074,16 @@
                 },
                 {
                   "id": "row2-12",
-                  "title": "造谣宋仲基",
-                  "description": "**20年**==造谣==宋仲基与女律师恋爱",
+                  "title": {
+                    "zh": "造谣宋仲基",
+                    "en": "Spreading rumors about Song Joong-ki",
+                    "ko": "송중기 관련 루머 유포"
+                  },
+                  "description": {
+                    "zh": "20年造谣宋仲基与女律师恋爱",
+                    "en": "Rumors have spread for 20 years that Song Joong-ki is in love with a female lawyer",
+                    "ko": "송중기가 여자 변호사와 열애 중이라는 루머가 20년 동안 퍼졌다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/48/1781936381b150a68f3be138b57c449ce41e1af29a.jpg"
@@ -2945,7 +4098,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://m.news.nate.com/view/20200613n03598?mid=e01"
                     }
                   ],
@@ -2954,8 +4111,16 @@
                 },
                 {
                   "id": "row2-13",
-                  "title": "造谣刘在石金泰浩",
-                  "description": "**19年**==造谣==刘在石操控股价,==造谣==无限挑战PD金泰浩收黑钱",
+                  "title": {
+                    "zh": "造谣刘在石金泰浩",
+                    "en": "Rumor-mongering by Yoo Jae-seok and Kim Tae-ho",
+                    "ko": "유재석과 김태호의 루머 유포"
+                  },
+                  "description": {
+                    "zh": "19年造谣刘在石操控股价,造谣无限挑战PD金泰浩收黑钱",
+                    "en": "In 19 years, he spread rumors that Yoo Jae Suk controlled the stock price and challenged PD Kim Tae Ho to collect illegal money.",
+                    "ko": "19년 만에 유재석이 주가를 조작했다는 루머를 퍼뜨리고 김태호 PD에게 불법 자금을 모아달라고 도전한 것."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ef/17819363833f9ef30a3a2840fe437e72ac46550cb9.jpg"
@@ -2970,7 +4135,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "http://www.srtimes.kr/news/articleView.html?idxno=52953"
                     }
                   ],
@@ -2979,8 +4148,16 @@
                 },
                 {
                   "id": "row2-14",
-                  "title": "造谣李在明被判刑",
-                  "description": "**25年**==造谣==李在明外遇被刑事起诉判罚金刑",
+                  "title": {
+                    "zh": "造谣李在明被判刑",
+                    "en": "Lee Jae-myung was sentenced for spreading rumors",
+                    "ko": "이재명, 루머 유포 혐의로 징역형 선고"
+                  },
+                  "description": {
+                    "zh": "25年造谣李在明外遇被刑事起诉判罚金刑",
+                    "en": "Lee Jae-myung, who spread rumors for 25 years and had an affair, was criminally prosecuted and sentenced to a fine",
+                    "ko": "25년간 루머 유포하고 외도한 이재명, 형사고소해 벌금형 선고"
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/51/178193638342fe6e124d05373eb58976fd94f57cf4.jpg"
@@ -2995,7 +4172,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://mbiz.heraldcorp.com/article/10558023"
                     }
                   ],
@@ -3004,8 +4185,16 @@
                 },
                 {
                   "id": "row2-15",
-                  "title": "阴谋论李在明",
-                  "description": "**25年**阴谋论==造谣==李在明害死油管主大图书馆",
+                  "title": {
+                    "zh": "阴谋论李在明",
+                    "en": "Conspiracy theory Lee Jae-myung",
+                    "ko": "음모론 이재명"
+                  },
+                  "description": {
+                    "zh": "25年阴谋论造谣李在明害死油管主大图书馆",
+                    "en": "25 Years of Conspiracy Theories and Rumors: Lee Jae-myung Killed YouTuber Big Library",
+                    "ko": "25년간의 음모론과 루머: 이재명이 유튜버 대도서관을 죽였다"
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/f3/178193638517960dee26baf6b6acb645e868d644b8.jpg"
@@ -3020,7 +4209,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://naver.me/FM9AXh8R"
                     }
                   ],
@@ -3029,8 +4222,16 @@
                 },
                 {
                   "id": "row2-16",
-                  "title": "诬陷吸毒逼死了李善均",
-                  "description": "==诬陷==李善均吸毒，曝光私密录音后第二天李善均自尽",
+                  "title": {
+                    "zh": "诬陷吸毒逼死了李善均",
+                    "en": "False accusation of drug abuse drove Lee Sun-kyun to death",
+                    "ko": "이선균, 마약 투약 혐의로 무고로 사망"
+                  },
+                  "description": {
+                    "zh": "诬陷李善均吸毒，曝光私密录音后第二天李善均自尽",
+                    "en": "Lee Sun Kyun was falsely accused of taking drugs and committed suicide the next day after the private recording was exposed.",
+                    "ko": "이선균은 마약 투약 혐의로 누명을 쓴 뒤 사생활이 공개된 다음날 스스로 목숨을 끊었다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ca/17819363861d875d072e918db7f4bd530ca29622fa.jpg"
@@ -3049,8 +4250,16 @@
                 },
                 {
                   "id": "row2-17",
-                  "title": "做MBC记者时造假被开除",
-                  "description": "在MBC做记者期间==捏造假新闻==，被MBC电视台开除",
+                  "title": {
+                    "zh": "做MBC记者时造假被开除",
+                    "en": "He was fired for making false claims while working as an MBC reporter",
+                    "ko": "MBC 기자로 활동하던 중 허위 주장을 했다는 이유로 해고됐다."
+                  },
+                  "description": {
+                    "zh": "在MBC做记者期间捏造假新闻，被MBC电视台开除",
+                    "en": "While working as a reporter at MBC, he fabricated fake news and was fired from MBC TV station",
+                    "ko": "MBC 기자로 활동하던 중 가짜뉴스를 조작해 MBC에서 해고됐다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/0e/178193639086376f3850a59d6dd491b9b58b2bca00.jpg"
@@ -3065,7 +4274,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://www.ziksir.com/news/articleView.html?idxno=7130"
                     }
                   ],
@@ -3074,8 +4287,16 @@
                 },
                 {
                   "id": "row2-18",
-                  "title": "造谣金赛纶通过猎犬复出",
-                  "description": "**金赛纶**去世前，在直播中==造谣==**金赛纶**酒驾后通过猎犬复出",
+                  "title": {
+                    "zh": "造谣金赛纶通过猎犬复出",
+                    "en": "Rumors spread that Kim Sae-ron is making a comeback through Hounds",
+                    "ko": "김새론이 하운즈를 통해 컴백한다는 소문이 퍼졌다."
+                  },
+                  "description": {
+                    "zh": "金赛纶去世前，在直播中造谣金赛纶酒驾后通过猎犬复出",
+                    "en": "Before Kim Sae-ron's death, he spread rumors on live broadcast that Kim Sae-ron made a comeback through drunken driving.",
+                    "ko": "그는 김새론이 사망하기 전 생방송을 통해 김새론이 음주운전으로 복귀했다는 루머를 퍼뜨렸다."
+                  },
                   "imgs": {
                     "zh": [],
                     "ko": [],
@@ -3085,8 +4306,12 @@
                   "link": [],
                   "videos": [
                     {
-                      "title": "金世义网暴金赛纶",
-                      "src": "金世义网暴金赛纶.mp4"
+                      "title": {
+                        "zh": "金世义造谣网暴金赛纶",
+                        "en": "Kim Se-yi spreads rumors against Kim Sae-ron",
+                        "ko": "김세이가 김새론에 대한 루머를 퍼트렸다."
+                      },
+                      "src": "https://video.ltwebstatic.com/video/2026/06/28/17826503101439367516.mp4"
                     }
                   ],
                   "zh_only": false
@@ -3104,8 +4329,16 @@
               "entries": [
                 {
                   "id": "row6-2",
-                  "title": "长期骚扰姜京允",
-                  "description": "**金赛纶遗属**代理人**金世义**因**姜京允**等人揭发李胜利burningSun事件怀恨在心，数年来不断折磨==诬陷==**姜京允记者**和李胜利事件的公益举报人",
+                  "title": {
+                    "zh": "长期骚扰姜京允",
+                    "en": "Long-term harassment of Jiang Kyung-yoon",
+                    "ko": "장경윤에 대한 장기간의 괴롭힘"
+                  },
+                  "description": {
+                    "zh": "金赛纶遗属代理人金世义因姜京允等人揭发李胜利burningSun事件怀恨在心，数年来不断折磨诬陷姜京允记者和李胜利事件的公益举报人",
+                    "en": "The attorney for Kim Sae-ron’s family, Kim Se-yi, holds a grudge against Kang Kyung-yoon and others for exposing Lee Seung-ri’s burning Sun incident. For several years, he has been torturing the public welfare whistleblower who falsely accused Jiang Kyung-yun and Lee Seung-ri’s incident.",
+                    "ko": "김새론 가족의 변호사 김세이가 이승리의 버닝썬 사건을 폭로한 강경윤 등에게 원한을 품고 있다. 그는 장경윤과 이승리 사건을 무고한 공익제보자를 수년째 고문해 왔다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/06/178193639654e894c21db3f27a5355a76f8e138f13.jpg"
@@ -3120,8 +4353,16 @@
                 },
                 {
                   "id": "row6-3",
-                  "title": "因骚扰李胜利事件举报人被公诉",
-                  "description": "**金赛纶遗属**代理人**金世义**骚扰曝光李胜利事件匿名举报人，**检方**以**金世义**涉嫌违反《公益举报人保护法》==提起公诉==,审判进行中",
+                  "title": {
+                    "zh": "因骚扰李胜利事件举报人被公诉",
+                    "en": "The whistleblower in the Li Shengli incident was prosecuted for harassment",
+                    "ko": "리성리(Li Shengli) 사건 내부고발자는 괴롭힘 혐의로 기소됐다."
+                  },
+                  "description": {
+                    "zh": "金赛纶遗属代理人金世义骚扰曝光李胜利事件匿名举报人，检方以金世义涉嫌违反《公益举报人保护法》提起公诉,审判进行中",
+                    "en": "The attorney of Kim Sae-ron's family, Kim Se-yi, harassed and exposed the anonymous whistleblower in the Li Shengli incident. The prosecutors prosecuted Kim Se-yi for allegedly violating the \"Public Welfare Whistleblower Protection Act\" and the trial is in progress.",
+                    "ko": "김새론 가족의 변호사 김세이가 이승리 사건의 익명의 내부고발자를 괴롭혀 폭로했다. 검찰은 김세이를 '공익신고자 보호에 관한 법률' 위반 혐의로 기소해 재판이 진행 중이다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/9b/17819364055b22dfc026addda855519f9e1b668d6f.jpg"
@@ -3136,7 +4377,11 @@
                   },
                   "link": [
                     {
-                      "title": "来源链接",
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source link",
+                        "ko": "소스 링크"
+                      },
                       "url": "https://www.pennmike.com/news/articleView.html?idxno=115331"
                     }
                   ],
@@ -3145,8 +4390,16 @@
                 },
                 {
                   "id": "row6-4",
-                  "title": "金赛纶去世新闻通报1小时后将死亡武器化",
-                  "description": "**金赛纶遗属**代理人在**金赛纶**去世被报道（晚上8点50分）仅仅1小时后（晚上10点）就公开直播==诬陷==**姜京允记者**，声称由于**姜京允**报道过**金赛纶**的酒驾事故，造成**金赛纶**精神紧张，间接导致了**金赛纶**的死亡",
+                  "title": {
+                    "zh": "金赛纶去世新闻通报1小时后将死亡武器化",
+                    "en": "Kim Sae-ron’s death was weaponized 1 hour after the news report",
+                    "ko": "김새론 사망, 보도 1시간 만에 무기화됐다"
+                  },
+                  "description": {
+                    "zh": "金赛纶遗属代理人在金赛纶去世被报道（晚上8点50分）仅仅1小时后（晚上10点）就公开直播诬陷姜京允记者，声称由于姜京允报道过金赛纶的酒驾事故，造成金赛纶精神紧张，间接导致了金赛纶的死亡",
+                    "en": "Just one hour after Kim Sae-ron's death was reported (8:50 p.m.) (10 p.m.), the attorney for Kim Sae-ron's family publicly framed reporter Kang Kyung-yoon in a live broadcast, claiming that because Kang Kyung-yoon reported on Kim Sae-ron's drunk driving accident, Kim Sae-ron was mentally stressed, which indirectly led to Kim Sae-ron's death.",
+                    "ko": "김새론의 사망 소식이 보도된 지 1시간여(오후 8시 50분)(오후 10시) 김새론 유족 측 변호사는 생방송에서 강경윤 기자에게 공개적으로 누명을 씌워 강경윤이 김새론의 음주운전 사고를 보도했기 때문에 김새론이 정신적 스트레스를 받아 간접적으로 김새론의 죽음을 초래했다고 주장했다."
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/b8/17819364210bb119fd0a0ce2d72aa9afde542279ee.jpg"
@@ -3164,7 +4417,11 @@
                   },
                   "link": [
                     {
-                      "title": "naver按时间搜索最早的金赛纶死亡新闻",
+                      "title": {
+                        "zh": "naver按时间搜索最早的金赛纶死亡新闻",
+                        "en": "naver searches the earliest Kim Sae-ron death news by time",
+                        "ko": "네이버에서 김새론 사망 소식을 시간별로 검색해 보니"
+                      },
                       "url": "https://n.news.naver.com/article/018/0005944671?sid=102"
                     }
                   ],
@@ -3173,8 +4430,16 @@
                 },
                 {
                   "id": "row6-5",
-                  "title": "编入协助买凶杀人故事中",
-                  "description": "**金世义**在**2025年**5月7日记者会上，公开==诬陷==**姜京允记者**出国前往新泽西帮助**金秀贤**买凶杀害“录音举报人”，**姜京允记者**晒出从未在当时出境的记录，并且向警察局提起刑事诉讼\n**金秀贤**==买凶杀人==也被**韩国驻美大使馆**打假",
+                  "title": {
+                    "zh": "编入协助买凶杀人故事中",
+                    "en": "Integrated into the story of assisting in hiring a murderer",
+                    "ko": "살인자를 고용하는 데 도움을 주는 이야기에 통합되었습니다."
+                  },
+                  "description": {
+                    "zh": "金世义在2025年5月7日记者会上，公开诬陷姜京允记者出国前往新泽西帮助金秀贤买凶杀害“录音举报人”，姜京允记者晒出从未在当时出境的记录，并且向警察局提起刑事诉讼\n金秀贤买凶杀人也被韩国驻美大使馆打假",
+                    "en": "At the press conference on May 7, 2025, Kim Se-yi publicly falsely accused reporter Kang Kyung-yun of going abroad to New Jersey to help Kim Soo-hyun pay for the murder of the \"recording whistleblower.\" Journalist Kang Kyung-yun posted a record of never leaving the country at that time, and filed a criminal complaint with the police station\nKim Soo-hyun paid to kill someone, but the South Korean Embassy in the United States cracked down on it",
+                    "ko": "김세이는 2025년 5월 7일 기자간담회에서 강경윤 기자가 김수현의 '녹음제보자' 살해 혐의를 갚기 위해 뉴저지로 해외로 나갔다고 공개적으로 거짓 비난을 했다. 강경윤 기자는 당시 한 번도 출국하지 않았다는 기록을 올리고 경찰에 형사고발했다.\n김수현이 돈 내고 사람 죽였는데, 주미 한국대사관 단속"
+                  },
                   "imgs": {
                     "zh": [
                       "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/2c/1781936442b82c49deff3ec2dfa55c3bf1dce5af82.jpg"
@@ -3189,11 +4454,19 @@
                   },
                   "link": [
                     {
-                      "title": "姜京允记者晒出未出境记录，起诉金世义",
+                      "title": {
+                        "zh": "姜京允记者晒出未出境记录，起诉金世义",
+                        "en": "Reporter Kang Kyung-yoon exposed her non-exit records and sued Kim Se-yi",
+                        "ko": "강경윤 기자가 자신의 불출국 기록을 폭로하고 김세이를 고소했다."
+                      },
                       "url": "https://n.news.naver.com/article/014/0005347099"
                     },
                     {
-                      "title": "韩国驻美大使馆辟谣不存在买凶鲨人",
+                      "title": {
+                        "zh": "韩国驻美大使馆辟谣不存在买凶鲨人",
+                        "en": "The Korean Embassy in the United States refutes rumors that there are no shark buyers",
+                        "ko": "주미 한국대사관이 상어 구매자가 없다는 소문을 반박했다."
+                      },
                       "url": "https://m.entertain.naver.com/home/article/382/0001198010"
                     }
                   ],
@@ -3217,8 +4490,16 @@
           "entries": [
             {
               "id": "row4-2",
-              "title": "“否认未成年交往“被造谣成“否认交往”",
-              "description": "**金秀贤25年**仅仅否认过“==未成年交往==”,从未否认过“交往”,然而在每次**金秀贤**否认“==未成年交往==”时,**遗属**方都会==造谣==声称“**金秀贤**撒谎,否认交往”然后放出亲密合照“打脸”,给公众塑造**金秀贤**撒谎精不可信任形象",
+              "title": {
+                "zh": "“否认未成年交往“被造谣成“否认交往”",
+                "en": "\"Denying underage dating\" was rumored to be \"denying dating\"",
+                "ko": "'미성년자 열애 거부'는 '연애 거부'로 소문이 났다."
+              },
+              "description": {
+                "zh": "金秀贤25年仅仅否认过“未成年交往”,从未否认过“交往”,然而在每次金秀贤否认“未成年交往”时,遗属方都会造谣声称“金秀贤撒谎,否认交往”然后放出亲密合照“打脸”,给公众塑造金秀贤撒谎精不可信任形象",
+                "en": "Kim Soo Hyun has only denied \"underage dating\" in the past 25 years and has never denied \"dating\". However, every time Kim Soo Hyun denies \"underage dating\", the family will spread rumors and claim that \"Kim Soo Hyun lied and denied dating\" and then releases intimate photos to \"slap\" the public, creating an image of Kim Soo Hyun as a liar who cannot be trusted by the public.",
+                "ko": "김수현은 지난 25년 동안 '미성년자 열애'만 부인해왔고, 단 한 번도 '열애'를 부인한 적이 없다. 그러나 김수현이 '미성년자 열애설'을 부인할 때마다 가족들은 '김수현이 거짓말을 하고 연애를 부인했다'는 루머를 퍼뜨린 뒤 은밀한 사진을 공개해 대중을 '뺨때리기'해 김수현을 대중이 믿을 수 없는 거짓말쟁이라는 이미지를 형성하게 된다."
+              },
               "imgs": {
                 "zh": [],
                 "ko": [],
@@ -3231,7 +4512,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://m.entertain.naver.com/article/108/0003311312"
                 }
               ],
@@ -3240,8 +4525,16 @@
             },
             {
               "id": "row4-3",
-              "title": "曲解未成年住处声明",
-              "description": "**遗属**将15年**金赛纶**和其他人在公寓电梯口照片栽赃给**金秀贤**,**金秀贤**说“从未去过**金赛纶**未成年时期的家”,**遗属**春秋笔法==造谣==声称“**金秀贤**不承认去过**金赛纶**家”,然后放出**金赛纶**成年后在**金牌公司**租的千万豪宅大平层员工宿舍中的场景“打脸”,给公众塑造**金秀贤**撒谎精不可信任形象",
+              "title": {
+                "zh": "曲解未成年住处声明",
+                "en": "Misinterpretation of statement of minor’s residence",
+                "ko": "미성년자 거주지 기재사항에 대한 오해"
+              },
+              "description": {
+                "zh": "遗属将15年金赛纶和其他人在公寓电梯口照片栽赃给金秀贤,金秀贤说“从未去过金赛纶未成年时期的家”,遗属春秋笔法造谣声称“金秀贤不承认去过金赛纶家”,然后放出金赛纶成年后在金牌公司租的千万豪宅大平层员工宿舍中的场景“打脸”,给公众塑造金秀贤撒谎精不可信任形象",
+                "en": "The bereaved family framed a 15-year-old photo of Kim Sae-ron and others at the elevator entrance of the apartment to Kim Soo-hyun. Kim Soo-hyun said that he had \"never been to Kim Sae-ron's home when he was a minor.\" The bereaved family spread the rumor and claimed that \"Kim Soo-hyun did not admit to having been to Kim Sae-ron's house.\" Then they released the scene of Kim Sae-ron in the large flat-floor employee dormitory of the multi-million-dollar mansion rented by Gold Medal Company as an adult. It created an image of Kim Soo-hyun as a liar and untrustworthy to the public.",
+                "ko": "유족들은 아파트 엘리베이터 입구에서 김새론 일행의 15년 전 사진을 액자에 담아 김수현에게 건넸다. 김수현은 \"김새론이 미성년자였을 때 집에 가본 적이 없다\"고 말했다. 유족들은 “김수현이 김새론의 집에 방문한 사실을 인정하지 않았다”고 주장하며 루머를 퍼뜨렸다. 이어 골드메달컴퍼니가 임대한 수백만 달러 대저택의 대형 평면 직원 기숙사에서 성인이 된 김새론의 모습을 공개했다. 김수현을 거짓말쟁이로 대중에게 신뢰할 수 없는 이미지로 만들었다."
+              },
               "imgs": {
                 "zh": [],
                 "ko": [],
@@ -3254,7 +4547,11 @@
               },
               "link": [
                 {
-                  "title": "来源链接",
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "소스 링크"
+                  },
                   "url": "https://mobile.newsis.com/view/NISX20250318_0003103390"
                 }
               ],
@@ -3263,14 +4560,30 @@
             },
             {
               "id": "row4-4",
-              "title": "造谣逼迫金赛纶赔偿眼泪女王损失",
-              "description": "**金牌公司24年**在**金赛纶**爆照==秒删==后发送的第二封函中,从未要求**金赛纶**赔偿眼泪女王损失,从未威胁**金赛纶**,仅仅请求**金赛纶**不要和公司艺人沟通公司债务问题,而不是阻断**金赛纶**和公司艺人其他方面的社交行为。\n被**遗属**恶意曲解为:禁止**金赛纶**与公司艺人社交和威胁**金赛纶**赔偿眼泪女王损失",
-              "imgs": {
-                "zh": ["https://kshtruth.com/%E9%81%97%E5%B1%9E%E6%98%A5%E7%A7%8B%E7%AC%94%E6%B3%95%E7%85%BD%E5%8A%A8%E8%88%86%E8%AE%BA/%E7%AC%AC%E4%BA%8C%E5%B0%81%E5%86%85%E5%AE%B9%E8%AF%81%E6%98%8E%E4%B8%AD.jpeg"],
-                "ko": ["https://kshtruth.com/%E9%81%97%E5%B1%9E%E6%98%A5%E7%A7%8B%E7%AC%94%E6%B3%95%E7%85%BD%E5%8A%A8%E8%88%86%E8%AE%BA/%E7%AC%AC%E4%BA%8C%E5%B0%81%E5%86%85%E5%AE%B9%E8%AF%81%E6%98%8E%E9%9F%A9.jpeg"],
-                "en": ["https://kshtruth.com/%E9%81%97%E5%B1%9E%E6%98%A5%E7%A7%8B%E7%AC%94%E6%B3%95%E7%85%BD%E5%8A%A8%E8%88%86%E8%AE%BA/%E7%AC%AC%E4%BA%8C%E5%B0%81%E5%86%85%E5%AE%B9%E8%AF%81%E6%98%8E%E8%8B%B1.jpeg"]
+              "title": {
+                "zh": "造谣逼迫金赛纶赔偿眼泪女王损失",
+                "en": "Spreading rumors to force Kim Sae-ron to compensate the Queen of Tears for her losses",
+                "ko": "김새론이 눈물의 여왕에게 손해배상을 하라고 강요한다는 루머를 퍼트렸다."
               },
-              "link": ["https://www.asiaartistawards.com/news/detail/126133/all?utm_source=chatgpt.com"],
+              "description": {
+                "zh": "金牌公司24年在金赛纶爆照秒删后发送的第二封函中,从未要求金赛纶赔偿眼泪女王损失,从未威胁金赛纶,仅仅请求金赛纶不要和公司艺人沟通公司债务问题,而不是阻断金赛纶和公司艺人其他方面的社交行为。\n被遗属恶意曲解为:禁止金赛纶与公司艺人社交和威胁金赛纶赔偿眼泪女王损失",
+                "en": "In the second letter sent by Gold Medal Company in 2024 after Kim Sae-ron's explosive photo was deleted, it never asked Kim Sae-ron to compensate for the loss of the Queen of Tears, and never threatened Kim Sae-ron. It only asked Kim Sae-ron not to communicate with the company's artists about the company's debt issues, but not to block other social activities between Kim Sae-ron and the company's artists.\nIt was maliciously misinterpreted by the bereaved family as: prohibiting Kim Sae-ron from socializing with the company’s artists and threatening Kim Sae-ron to compensate the Queen of Tears for her losses.",
+                "ko": "김새론의 폭발물 사진이 삭제된 후 2024년 골드메달컴퍼니가 보낸 두 번째 편지에는 김새론에게 눈물의 여왕을 잃은 배상을 요구한 적도, 김새론을 협박한 적도 없다. 다만 김새론 측에 회사 채무 문제에 대해 소속 아티스트들과 소통하지 말아달라는 요청은 있었을 뿐, 김새론과 소속 아티스트 사이의 다른 사회 활동을 막지는 말아달라는 요청을 했을 뿐입니다.\n유족들은 김새론의 소속 아티스트와의 교류를 금지하고 김새론에게 눈물의 여왕에게 피해를 배상하라고 협박했다는 악의적인 해석을 내놨다."
+              },
+              "imgs": {
+                "zh": [
+                  "https://kshtruth.com/%E9%81%97%E5%B1%9E%E6%98%A5%E7%A7%8B%E7%AC%94%E6%B3%95%E7%85%BD%E5%8A%A8%E8%88%86%E8%AE%BA/%E7%AC%AC%E4%BA%8C%E5%B0%81%E5%86%85%E5%AE%B9%E8%AF%81%E6%98%8E%E4%B8%AD.jpeg"
+                ],
+                "ko": [
+                  "https://kshtruth.com/%E9%81%97%E5%B1%9E%E6%98%A5%E7%A7%8B%E7%AC%94%E6%B3%95%E7%85%BD%E5%8A%A8%E8%88%86%E8%AE%BA/%E7%AC%AC%E4%BA%8C%E5%B0%81%E5%86%85%E5%AE%B9%E8%AF%81%E6%98%8E%E9%9F%A9.jpeg"
+                ],
+                "en": [
+                  "https://kshtruth.com/%E9%81%97%E5%B1%9E%E6%98%A5%E7%A7%8B%E7%AC%94%E6%B3%95%E7%85%BD%E5%8A%A8%E8%88%86%E8%AE%BA/%E7%AC%AC%E4%BA%8C%E5%B0%81%E5%86%85%E5%AE%B9%E8%AF%81%E6%98%8E%E8%8B%B1.jpeg"
+                ]
+              },
+              "link": [
+                "https://www.asiaartistawards.com/news/detail/126133/all?utm_source=chatgpt.com"
+              ],
               "videos": [],
               "zh_only": false
             }

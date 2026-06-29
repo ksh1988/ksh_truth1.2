@@ -2,6 +2,12 @@ import { nextTick } from 'vue'
 import { wait, waitForImagesBeforeTarget, waitForRender, scrollToCenter } from '../utils/domPosition'
 import { cssEscape } from '../utils/searchKeys'
 
+/**
+ * Waits for a search target element to appear in the rendered content.
+ * @param {*} root - Input value used by waitForTarget.
+ * @param {*} focusKey - Input value used by waitForTarget.
+ * @returns {Promise<*>} The computed result or the documented side effect.
+ */
 const waitForTarget = async (root, focusKey) => {
   if (!focusKey) return root
   const selector = '[data-search-key="' + cssEscape(focusKey) + '"]'
@@ -16,7 +22,17 @@ const waitForTarget = async (root, focusKey) => {
   return null
 }
 
+/**
+ * Creates search target focusing and text highlighting helpers.
+ * @param {...*} args - Inputs are the values declared by the function signature.
+ * @returns {*} The computed result or the documented side effect.
+ */
 export const useSearchFocus = () => {
+  /**
+ * Removes search highlights from the document.
+ * @param {...*} args - Inputs are the values declared by the function signature.
+ * @returns {*} The computed result or the documented side effect.
+ */
   const clearSearchHighlight = () => {
     document.querySelectorAll('mark.search-focus-hit').forEach((node) => {
       const parent = node.parentNode
@@ -30,6 +46,12 @@ export const useSearchFocus = () => {
     })
   }
 
+  /**
+ * Finds the first text node that contains the search keyword.
+ * @param {*} root - Input value used by findTextNode.
+ * @param {*} keyword - Input value used by findTextNode.
+ * @returns {*} The computed result or the documented side effect.
+ */
   const findTextNode = (root, keyword) => {
     const needle = keyword.toLowerCase()
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
@@ -47,6 +69,11 @@ export const useSearchFocus = () => {
     return walker.nextNode()
   }
 
+  /**
+ * Scrolls to a search target and highlights the matching text.
+ * @param {...*} args - Inputs are the values declared by the function signature.
+ * @returns {Promise<*>} The computed result or the documented side effect.
+ */
   const focusSearchText = async ({ query, focusKey }) => {
     const keyword = String(query || '').trim()
     if (!keyword) return false
@@ -93,3 +120,4 @@ export const useSearchFocus = () => {
     focusSearchText,
   }
 }
+

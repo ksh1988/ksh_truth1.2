@@ -1,4 +1,9 @@
 <script setup>
+/**
+ * Vue component that renders a focused part of the site UI.
+ * @param {object} props - Component props declared below when this is a Vue component.
+ * @returns {void} Renders UI or exports module helpers.
+ */
 import { visibleRowsFor } from '../utils/contentHelpers'
 import { searchKeyForMatrixRow } from '../utils/searchKeys'
 
@@ -7,6 +12,11 @@ const props = defineProps({
   lang: { type: String, required: true },
 })
 
+/**
+ * Returns the current-language value for a localized field.
+ * @param {*} value - Input value used by localize.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const localize = (value) => {
   if (value && typeof value === 'object' && !Array.isArray(value)) {
     return value[props.lang] ?? value.en ?? value.zh ?? ''
@@ -14,11 +24,21 @@ const localize = (value) => {
   return value ?? ''
 }
 
+/**
+ * Normalizes matrix cell content into renderable text segments.
+ * @param {*} value - Input value used by segments.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const segments = (value) => {
   const localized = localize(value)
   return Array.isArray(localized) ? localized : [{ text: localized }]
 }
 
+/**
+ * Builds CSS class flags for one matrix text segment.
+ * @param {*} segment - Input value used by segmentClass.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const segmentClass = (segment) => ({
   'segment-red': segment.color === 'red',
   'segment-bold': segment.bold,

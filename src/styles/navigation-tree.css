@@ -45,7 +45,8 @@
 .nav-tree-panel {
   margin: 0 10px 14px;
   padding: 12px 12px 14px;
-  background: #fffaf1;
+  background: rgba(248, 251, 253, .94);
+  backdrop-filter: blur(14px);
   border: 1px solid rgba(47, 67, 84, .13);
   border-radius: 8px;
   box-shadow: 0 8px 24px rgba(52, 59, 65, .045);

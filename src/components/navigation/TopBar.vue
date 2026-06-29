@@ -1,4 +1,9 @@
 <script setup>
+/**
+ * Vue component that renders a focused part of the site UI.
+ * @param {object} props - Component props declared below when this is a Vue component.
+ * @returns {void} Renders UI or exports module helpers.
+ */
 import { languageNames } from '../../config/uiText'
 
 defineProps({

@@ -1,4 +1,9 @@
 <script setup>
+/**
+ * Vue component that renders a focused part of the site UI.
+ * @param {object} props - Component props declared below when this is a Vue component.
+ * @returns {void} Renders UI or exports module helpers.
+ */
 import { computed, ref } from 'vue'
 import { timelineFieldLabels, timelineText } from '../../config/uiText'
 import { displayFieldsFor, formatDate, itemTitle, yearLabel } from '../../utils/contentHelpers'
@@ -6,6 +11,7 @@ import { localizeValue } from '../../utils/localization'
 import { searchKeyFor } from '../../utils/searchKeys'
 import LinkBlock from '../LinkBlock.vue'
 import MediaBlock from '../MediaBlock.vue'
+import VideoBlock from '../VideoBlock.vue'
 
 const props = defineProps({
   emptyText: { type: String, required: true },
@@ -22,13 +28,29 @@ const emit = defineEmits(['update:order', 'update:selectedYear'])
 
 const yearMenuOpen = ref(false)
 
+/**
+ * Returns the localized label for one timeline detail field.
+ * @param {*} key - Input value used by fieldLabel.
+ * @param {*} lang - Input value used by fieldLabel.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const fieldLabel = (key, lang) => localizeValue(timelineFieldLabels[key], lang) || key
 
+/**
+ * Returns the visible label for the current year filter.
+ * @param {*} computed(() - Input value used by selectedYearLabel.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const selectedYearLabel = computed(() => {
   if (props.selectedYear === 'all') return timelineText[props.lang].all
   return yearLabel(props.selectedYear, props.lang)
 })
 
+/**
+ * Selects a year filter and closes the year menu.
+ * @param {*} year - Input value used by selectYear.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const selectYear = (year) => {
   emit('update:selectedYear', year)
   yearMenuOpen.value = false
@@ -103,7 +125,8 @@ const selectYear = (year) => {
           </div>
         </div>
         <MediaBlock :item="item" :lang="lang" :empty-text="emptyText" />
-        <LinkBlock :links="item.link" :label="sourceLabel" />
+        <VideoBlock :item="item" :lang="lang" />
+        <LinkBlock :links="item.link" :label="sourceLabel" :lang="lang" />
       </div>
     </article>
   </div>

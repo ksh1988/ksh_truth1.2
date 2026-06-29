@@ -1,4 +1,9 @@
 ﻿<script setup>
+/**
+ * Module documentation.
+ * @param {...*} args - Inputs are declared by the following code.
+ * @returns {*} The computed result or side effect.
+ */
 defineProps({
   localize: { type: Function, required: true },
   siteData: { type: Object, required: true },

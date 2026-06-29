@@ -2,16 +2,33 @@ import { entriesFor, isVisibleForLanguage, visibleRowsFor } from './contentHelpe
 import { localizeValue } from './localization'
 import { searchKeyFor, searchKeyForMatrixRow } from './searchKeys'
 
-const SKIPPED_KEYS = new Set(['imgs', 'url', 'src', 'link', 'videos', 'internal_link', 'zh_only'])
+const SKIPPED_KEYS = new Set(['imgs', 'url', 'src', 'link', 'internal_link', 'zh_only'])
 const LOCALIZED_KEYS = new Set(['zh', 'ko', 'en', 'shared'])
 
+/**
+ * Normalizes a value for case-insensitive search comparison.
+ * @param {*} value - Input value used by normalize.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const normalize = (value) => String(value || '').trim().toLowerCase()
 
+/**
+ * Removes lightweight formatting marks from text before display or search.
+ * @param {*} value - Input value used by cleanText.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const cleanText = (value) => String(value || '')
   .replace(/\*\*(.+?)\*\*/g, '$1')
   .replace(/==(.+?)==/g, '$1')
   .replace(/\*/g, '')
 
+/**
+ * Recursively collects searchable text from a content value.
+ * @param {*} value - Input value used by collectText.
+ * @param {*} lang - Input value used by collectText.
+ * @param {*} bucket - Input value used by collectText.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const collectText = (value, lang, bucket = []) => {
   if (value == null || !isVisibleForLanguage(value, lang)) return bucket
 
@@ -37,12 +54,26 @@ const collectText = (value, lang, bucket = []) => {
   return bucket
 }
 
+/**
+ * Checks whether a content block contains the current search query.
+ * @param {*} content - Input value used by contentMatches.
+ * @param {*} lang - Input value used by contentMatches.
+ * @param {*} query - Input value used by contentMatches.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const contentMatches = (content, lang, query) => {
   const needle = normalize(query)
   if (!needle) return false
   return collectText(content, lang).some((text) => normalize(text).includes(needle))
 }
 
+/**
+ * Builds a short search-result snippet around the first matching text.
+ * @param {*} content - Input value used by firstSnippet.
+ * @param {*} lang - Input value used by firstSnippet.
+ * @param {*} query - Input value used by firstSnippet.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const firstSnippet = (content, lang, query) => {
   const needle = normalize(query)
   const source = collectText(content, lang).find((text) => normalize(text).includes(needle)) || ''
@@ -53,17 +84,34 @@ const firstSnippet = (content, lang, query) => {
   const end = Math.min(source.length, index + query.length + 46)
   const prefix = start > 0 ? '...' : ''
   const suffix = end < source.length ? '...' : ''
-  return `${prefix}${source.slice(start, end)}${suffix}`
+  return prefix + source.slice(start, end) + suffix
 }
 
+/**
+ * Finds the entity that should provide preview media for a search result.
+ * @param {*} content - Input value used by mediaSourceFor.
+ * @param {*} lang - Input value used by mediaSourceFor.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const mediaSourceFor = (content, lang) => {
-  if (content?.imgs) return content
-  const firstWithImages = entriesFor(content, lang).find((item) => item?.imgs)
-  return firstWithImages || content
+  if (content?.imgs || content?.videos) return content
+  const firstWithMedia = entriesFor(content, lang).find((item) => item?.imgs || item?.videos)
+  return firstWithMedia || content
 }
 
+/**
+ * Returns the localized display label for an item.
+ * @param {*} item - Input value used by itemLabel.
+ * @param {*} lang - Input value used by itemLabel.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const itemLabel = (item, lang) => localizeValue(item?.title || item?.event || item?.label, lang)
 
+/**
+ * Builds one normalized search result object.
+ * @param {...*} args - Inputs are the values declared by the function signature.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const resultFrom = ({ tab, category = null, subTab = null, item = null, itemIndex = 0, content, lang, query, focusKey = null, titleOverride = '' }) => {
   const path = [tab.label, category?.label, subTab?.label]
     .filter(Boolean)
@@ -85,6 +133,11 @@ const resultFrom = ({ tab, category = null, subTab = null, item = null, itemInde
   }
 }
 
+/**
+ * Adds matching matrix rows into the search result list.
+ * @param {...*} args - Inputs are the values declared by the function signature.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const pushMatrixResults = ({ results, tab, category = null, subTab, content, lang, query }) => {
   let matched = false
   ;(content.matrix_sections || []).forEach((section) => {
@@ -107,6 +160,11 @@ const pushMatrixResults = ({ results, tab, category = null, subTab, content, lan
   return matched
 }
 
+/**
+ * Adds matching entries or page-level content into the search result list.
+ * @param {...*} args - Inputs are the values declared by the function signature.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const pushContentResults = ({ results, tab, category = null, subTab = null, content, lang, query }) => {
   const matchedMatrix = content?.matrix_sections
     ? pushMatrixResults({ results, tab, category, subTab, content, lang, query })
@@ -127,6 +185,13 @@ const pushContentResults = ({ results, tab, category = null, subTab = null, cont
   }
 }
 
+/**
+ * Searches all tabs and returns de-duplicated site search results.
+ * @param {*} tabs - Input value used by searchSiteSections.
+ * @param {*} lang - Input value used by searchSiteSections.
+ * @param {*} query - Input value used by searchSiteSections.
+ * @returns {*} The computed result or the documented side effect.
+ */
 export const searchSiteSections = (tabs, lang, query) => {
   const needle = normalize(query)
   if (!needle) return []
@@ -162,3 +227,4 @@ export const searchSiteSections = (tabs, lang, query) => {
 
   return uniqueResults
 }
+

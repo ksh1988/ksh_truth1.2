@@ -1,5 +1,11 @@
 <script setup>
+/**
+ * Vue component that renders a focused part of the site UI.
+ * @param {object} props - Component props declared below when this is a Vue component.
+ * @returns {void} Renders UI or exports module helpers.
+ */
 import MediaBlock from '../MediaBlock.vue'
+import VideoBlock from '../VideoBlock.vue'
 
 const props = defineProps({
   emptyText: { type: String, default: '' },
@@ -10,11 +16,21 @@ const props = defineProps({
 
 defineEmits(['open-result'])
 
+/**
+ * Removes lightweight formatting marks from text before display or search.
+ * @param {*} value - Input value used by cleanText.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const cleanText = (value) => String(value || '')
   .replace(/\*\*(.+?)\*\*/g, '$1')
   .replace(/==(.+?)==/g, '$1')
   .replace(/\*/g, '')
 
+/**
+ * Splits text into highlighted and normal search-result parts.
+ * @param {*} value - Input value used by highlightedParts.
+ * @returns {*} The computed result or the documented side effect.
+ */
 const highlightedParts = (value) => {
   const text = cleanText(value)
   const keyword = props.query.trim()
@@ -77,6 +93,12 @@ const highlightedParts = (value) => {
           :item="result.mediaItem"
           :lang="lang"
           :empty-text="emptyText"
+          compact
+        />
+        <VideoBlock
+          v-if="result.mediaItem?.videos"
+          :item="result.mediaItem"
+          :lang="lang"
           compact
         />
       </article>
