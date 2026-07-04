@@ -22,6 +22,7 @@
 .evidence-matrix { width: 100%; min-width: 100%; border-collapse: collapse; table-layout: auto; color: #20262b; }
 .evidence-matrix th, .evidence-matrix td { width: auto; min-width: 0; padding: 17px 15px; border: 1px solid rgba(70,87,101,.2); vertical-align: middle; text-align: center; overflow-wrap: break-word; word-break: normal; writing-mode: horizontal-tb; text-orientation: mixed; }
 .evidence-matrix th { color: #263b4d; background: #e5edf2; font-size: 15px; font-weight: 750; line-height: 1.35; }
+
 .evidence-matrix td { color: #34414b; background: #ffffff; font-size: 14px; line-height: 1.75; white-space: pre-line; }
 .evidence-matrix td > span { white-space: pre-line; }
 .evidence-matrix .segment-block { display: block; margin: 0 0 10px; }

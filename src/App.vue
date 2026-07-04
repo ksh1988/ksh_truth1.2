@@ -70,7 +70,14 @@ const app = useAppController(siteData)
         />
 
         <template v-else>
-          <PageHeading :active-tab="app.activeTab" :localize="app.localize" :title="app.pageTitle" />
+          <PageHeading
+            :active-tab="app.activeTab"
+            :intro="app.activeContent.intro"
+            :intro-links="app.activeContent.intro_links"
+            :localize="app.localize"
+            :title="app.pageTitle"
+            @navigate-internal="app.openInternalLink"
+          />
 
           <TimelineView
             v-if="app.activeContent.layout === 'timeline'"

@@ -6,6 +6,7 @@
  */
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { downloadMedia, mediaFileName, shouldUsePreviewSaveFallback } from '../utils/mediaDownload'
+import { resolveMediaSrc } from '../utils/mediaSource'
 
 const props = defineProps({
   item: { type: Object, required: true },
@@ -26,7 +27,7 @@ let observer
 const images = computed(() => [
   ...(props.item.imgs?.[props.lang] || []),
   ...(props.item.imgs?.shared || []),
-])
+].map(resolveMediaSrc).filter(Boolean))
 const loadingText = computed(() => ({ zh: 'Images load as you scroll', ko: 'Images load as you scroll', en: 'Images load as you scroll' })[props.lang] || 'Images load as you scroll')
 const downloadLabel = computed(() => ({ zh: '保存图片', ko: 'Save image', en: 'Save image' })[props.lang] || 'Save image')
 const closeLabel = computed(() => ({ zh: 'Close image preview', ko: 'Close image preview', en: 'Close image preview' })[props.lang] || 'Close image preview')
@@ -219,6 +220,10 @@ const markFailed = (src) => { failed.value = new Set([...failed.value, src]) }
       <span>{{ loadingText }}</span>
     </div>
     <Teleport to="body">
+      <div v-if="previewOpen" class="media-preview-actions">
+        <button type="button" class="media-preview-zoom" :class="{ active: previewZoomed }" :aria-label="zoomLabel" @click="togglePreviewZoom"></button>
+        <button type="button" class="media-preview-close" :aria-label="closeLabel" @click="closePreview"></button>
+      </div>
       <div
         v-if="previewOpen"
         :class="{ zoomed: previewZoomed }"
@@ -229,8 +234,6 @@ const markFailed = (src) => { failed.value = new Set([...failed.value, src]) }
         @touchstart.passive="handleTouchStart"
         @touchend.passive="handleTouchEnd"
       >
-        <button type="button" class="media-preview-close" :aria-label="closeLabel" @click="closePreview"></button>
-        <button type="button" class="media-preview-zoom" :class="{ active: previewZoomed }" :aria-label="zoomLabel" @click="togglePreviewZoom"></button>
         <button v-if="hasMultipleImages" type="button" class="media-preview-nav previous" :aria-label="previousLabel" @click="movePreview(-1)"></button>
         <div v-if="saveHintVisible" class="media-save-hint">{{ saveHintLabel }}</div>
         <figure class="media-preview-frame" :class="{ zoomed: previewZoomed }">

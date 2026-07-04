@@ -4,11 +4,13 @@
  * @param {object} props - Component props declared below when this is a Vue component.
  * @returns {void} Renders UI or exports module helpers.
  */
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
+import { resolveMediaSrc } from '../../utils/mediaSource'
 import NavigationTreePanel from './NavigationTreePanel.vue'
 import SidebarTreeNode from './SidebarTreeNode.vue'
 
 const treeOpen = ref(false)
+const pressConferenceVideoUrl = 'images/金秀贤记者会节选.mp4'
 
 const props = defineProps({
   activeNavigationNodeId: { type: String, default: '' },
@@ -25,6 +27,9 @@ const props = defineProps({
   mobileSidebarVisible: Boolean,
   ui: { type: Object, required: true },
 })
+
+// Keeps the press conference button text in sync with the active language.
+const pressConferenceButtonLabel = computed(() => props.ui[props.lang]?.pressConferenceButton || props.ui.zh.pressConferenceButton)
 
 const emit = defineEmits([
   'close-menu',
@@ -59,6 +64,16 @@ const forwardSubTab = (tab, category, subTab) => emit('select-sub-tab', tab, cat
  */
 const forwardTab = (tab) => emit('select-tab', tab)
 /**
+ * Opens the KSH press conference video from the sidebar brand button.
+ * @param {MouseEvent} event - Click event from the press conference brand button.
+ * @returns {void} Opens a new browser tab when the video URL has been configured.
+ */
+const openPressConferenceVideo = (event) => {
+  event.preventDefault()
+  if (!pressConferenceVideoUrl) return
+  window.open(resolveMediaSrc(pressConferenceVideoUrl), '_blank', 'noopener,noreferrer')
+}
+/**
  * Dispatches a recursive sidebar node selection to the correct event.
  * @param {*} node - Input value used by selectNavigationNode.
  * @returns {*} The computed result or the documented side effect.
@@ -80,11 +95,16 @@ const selectNavigationNode = (node) => {
   <div v-if="mobileSidebarVisible" class="scrim" @click="$emit('close-menu')" />
   <aside class="sidebar" :class="{ open: mobileSidebarVisible, hidden: !sidebarVisible }">
     <div class="brand">
-      <div class="brand-mark">KSH</div>
-      <div v-if="sidebarVisible" class="brand-copy">
-        <strong>{{ localize(siteData.meta.title) }}</strong>
-        <span>{{ ui[lang].progress }}</span>
-      </div>
+      <button
+        class="brand-mark"
+        type="button"
+        :aria-label="pressConferenceButtonLabel"
+        :title="pressConferenceButtonLabel"
+        @click="openPressConferenceVideo"
+      >
+        <span class="brand-mark-text">{{ pressConferenceButtonLabel }}</span>
+        <span class="brand-mark-arrow" aria-hidden="true"></span>
+      </button>
       <button
         v-if="sidebarVisible"
         class="tree-icon-button"

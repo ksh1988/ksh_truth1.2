@@ -10,6 +10,7 @@ export const uiText = {
     searchNoResults: '没有找到相关目录',
     searchResultTitle: '搜索结果',
     returnPrevious: '返回上一页面',
+    pressConferenceButton: '金秀贤记者会',
   },
   ko: {
     progress: '법적 진행',
@@ -22,6 +23,7 @@ export const uiText = {
     searchNoResults: '관련 목차가 없습니다',
     searchResultTitle: '검색 결과',
     returnPrevious: '이전 화면으로',
+    pressConferenceButton: '김수현 기자회견',
   },
   en: {
     progress: 'Legal progress',
@@ -34,6 +36,7 @@ export const uiText = {
     searchNoResults: 'No matching sections',
     searchResultTitle: 'Search Results',
     returnPrevious: 'Back to previous view',
+    pressConferenceButton: 'KSH Press Conference',
   },
 }
 

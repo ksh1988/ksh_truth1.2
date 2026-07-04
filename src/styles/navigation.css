@@ -13,10 +13,22 @@
   transition: width .25s ease, transform .25s ease;
 }
 .sidebar.hidden { width: 280px; transform: translateX(-101%); box-shadow: none; }
-.brand { position: relative; min-height: 104px; display: flex; align-items: center; gap: 13px; padding: 22px 58px 22px 20px; border-bottom: 1px solid var(--line); }
-.brand-mark { flex: 0 0 42px; width: 42px; height: 42px; display: grid; place-items: center; border: 1px solid rgba(40,106,166,.42); color: var(--blue); font-weight: 700; font-size: 13px; letter-spacing: 1px; }
+.brand { position: relative; min-height: 92px; display: flex; align-items: center; gap: 0; padding: 18px 52px 18px 18px; border-bottom: 1px solid var(--line); background: linear-gradient(180deg, #fff, rgba(227,237,245,.36)); }
+.brand-mark { flex: 1 1 auto; width: min(184px, calc(100% - 10px)); max-width: 184px; min-height: 42px; display: inline-flex; align-items: center; justify-content: space-between; gap: 7px; padding: 4px 5px 4px 14px; border: 2px solid var(--blue); border-radius: 999px; color: var(--blue); background: rgba(255,255,255,.94); box-shadow: none; font-weight: 850; cursor: pointer; transition: color .18s ease, background .18s ease, border-color .18s ease, box-shadow .18s ease, transform .18s ease; }
+.brand-mark-text { flex: 1; min-width: 0; font-size: clamp(8px, 3.6vw, 12px); line-height: 1; letter-spacing: 0; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: clip; }
+.brand-mark-arrow { position: relative; flex: 0 0 30px; width: 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; background: var(--blue); transition: background .18s ease, transform .18s ease; }
+.brand-mark-arrow::before { content: ""; width: 10px; height: 10px; border-top: 3px solid #fff; border-right: 3px solid #fff; transform: rotate(45deg) translate(-1px, 1px); }
+.brand-mark-arrow::after { content: ""; position: absolute; width: 13px; height: 3px; background: #fff; transform: translateX(-2px); }
+.brand-mark:hover, .brand-mark:focus-visible { color: #fff; background: var(--blue); border-color: var(--blue); box-shadow: none; outline: none; transform: translateY(-1px); }
+.brand-mark:hover .brand-mark-arrow, .brand-mark:focus-visible .brand-mark-arrow { background: #fff; transform: translateX(2px); }
+.brand-mark:hover .brand-mark-arrow::before, .brand-mark:focus-visible .brand-mark-arrow::before { border-color: var(--blue); }
+.brand-mark:hover .brand-mark-arrow::after, .brand-mark:focus-visible .brand-mark-arrow::after { background: var(--blue); }
+.brand-mark:active { color: #fff; background: #174f82; border-color: #174f82; box-shadow: none; transform: translateY(0); }
+.brand-mark:active .brand-mark-arrow { background: #fff; transform: translateX(1px); }
+.brand-mark:active .brand-mark-arrow::before { border-color: #174f82; }
+.brand-mark:active .brand-mark-arrow::after { background: #174f82; }
 .brand-copy { min-width: 0; display: grid; gap: 5px; }
-.brand-copy strong { font-size: 15px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.brand-copy strong { display: block; padding: 7px 9px; color: #245f91; background: rgba(227,237,245,.72); border: 1px solid rgba(40,106,166,.16); border-radius: 6px; font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", Arial, sans-serif; font-size: 12.5px; font-weight: 750; overflow: visible; white-space: normal; text-overflow: clip; line-height: 1.38; letter-spacing: .05px; }
 .brand-copy span, .nav-label { color: #526272; font-size: 12px; font-weight: 700; letter-spacing: 1.2px; }
 .nav-label { padding: 25px 24px 10px; }
 .site-search {

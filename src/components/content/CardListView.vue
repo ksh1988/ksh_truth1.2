@@ -8,6 +8,7 @@ import { entriesFor, itemDescription, itemTitle } from '../../utils/contentHelpe
 import { localizedHtml, localizeValue } from '../../utils/localization'
 import { searchKeyFor } from '../../utils/searchKeys'
 import LinkBlock from '../LinkBlock.vue'
+import FanClarificationBlock from '../FanClarificationBlock.vue'
 import MediaBlock from '../MediaBlock.vue'
 import VideoBlock from '../VideoBlock.vue'
 
@@ -57,8 +58,9 @@ defineEmits(['navigate-internal'])
         </div>
 
         <MediaBlock :item="item" :lang="lang" :empty-text="emptyText" />
-        <VideoBlock :item="item" :lang="lang" />
         <LinkBlock :links="item.link" :label="sourceLabel" :lang="lang" />
+        <FanClarificationBlock :fan="item.fan_clarification" :lang="lang" :empty-text="emptyText" />
+        <VideoBlock :item="item" :lang="lang" />
       </div>
     </article>
   </div>

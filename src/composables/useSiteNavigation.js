@@ -1,7 +1,9 @@
-import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
+import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue'
 import { localizeValue } from '../utils/localization'
 import { entriesFor } from '../utils/contentHelpers'
 import { buildNavigationTree, expandedIdsForPath, navigationPathForSelection } from '../utils/navigationTree'
+import { scrollToCenter, waitForImagesBeforeTarget, waitForRender } from '../utils/domPosition'
+import { cssEscape } from '../utils/searchKeys'
 
 /**
  * Finds the default child content for a root tab.
@@ -140,11 +142,37 @@ export const useSiteNavigation = (siteData, lang) => {
   }
 
   /**
- * Navigates to a page described by an internal_link target.
- * @param {*} target - Input value used by navigateInternal.
- * @returns {*} The computed result or the documented side effect.
+ * Scrolls to a specific entity after an internal page jump finishes rendering.
+ * @param {string} entryId - Target entity id that is also rendered as data-search-key.
+ * @returns {Promise<void>} Scrolls to the target entity when it exists.
  */
-  const navigateInternal = (target) => {
+  const scrollToInternalEntry = async (entryId) => {
+    if (!entryId) {
+      scrollToTop()
+      return
+    }
+
+    await nextTick()
+    await waitForRender()
+
+    const selector = '[data-search-key="' + cssEscape(entryId) + '"]'
+    const target = document.querySelector(selector)
+    if (!target) {
+      scrollToTop()
+      return
+    }
+
+    const root = document.querySelector('.content') || document.body
+    await waitForImagesBeforeTarget(root, target)
+    scrollToCenter(target)
+  }
+
+  /**
+ * Navigates to a page described by an internal_link target.
+ * @param {object} target - Target tab/category/sub-tab ids, with optional entry_id for entity focus.
+ * @returns {Promise<void>} Updates the active page and scrolls to the requested place.
+ */
+  const navigateInternal = async (target) => {
     const tab = siteData.tabs.find((item) => item.id === target.tab_id)
     const category = tab?.categories?.find((item) => item.id === target.category_id)
     const subTab = category?.sub_tabs?.find((item) => item.id === target.sub_tab_id)
@@ -159,7 +187,7 @@ export const useSiteNavigation = (siteData, lang) => {
     }
     expandActiveNavigationPath()
     closeMobileMenu()
-    scrollToTop()
+    await scrollToInternalEntry(target.entry_id)
   }
 
   /**
@@ -204,7 +232,8 @@ export const useSiteNavigation = (siteData, lang) => {
 
   watch(activeContent, () => {
     selectedYear.value = 'all'
-  })
+    timelineOrder.value = activeContent.value?.default_order === 'asc' ? 'asc' : 'desc'
+  }, { immediate: true })
 
   watch(selection, expandActiveNavigationPath, { immediate: true, deep: true })
 
