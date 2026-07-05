@@ -1,6 +1,6 @@
 import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue'
 import { localizeValue } from '../utils/localization'
-import { entriesFor } from '../utils/contentHelpers'
+import { entriesFor, isVisibleContent } from '../utils/contentHelpers'
 import { buildNavigationTree, expandedIdsForPath, navigationPathForSelection } from '../utils/navigationTree'
 import { scrollToCenter, waitForImagesBeforeTarget, waitForRender } from '../utils/domPosition'
 import { cssEscape } from '../utils/searchKeys'
@@ -11,8 +11,11 @@ import { cssEscape } from '../utils/searchKeys'
  * @returns {*} The computed result or the documented side effect.
  */
 const firstContentInTab = (tab) => {
-  const category = tab.categories?.[0]
-  const subTab = category?.sub_tabs?.[0] || tab.sub_tabs?.[0]
+  const category = tab.categories?.filter(isVisibleContent)[0]
+  const subTab = category?.sub_tabs?.filter(isVisibleContent)[0] || tab.sub_tabs?.filter(isVisibleContent)[0]
+  if (category && !category.sub_tabs?.length) {
+    return { categoryId: category.id, subTabId: null }
+  }
   return {
     categoryId: category?.sub_tabs?.length ? category.id : null,
     subTabId: subTab?.id || null,
@@ -32,7 +35,8 @@ export const useSiteNavigation = (siteData, lang) => {
   const timelineOrder = ref('desc')
   const selectedYear = ref('all')
 
-  const defaultTab = siteData.tabs.find((tab) => tab.id === 'rights') || siteData.tabs[0]
+  const visibleTabs = siteData.tabs.filter(isVisibleContent)
+  const defaultTab = visibleTabs.find((tab) => tab.id === 'rights') || visibleTabs[0] || siteData.tabs[0]
   const defaultContent = firstContentInTab(defaultTab)
   const selection = ref({
     tabId: defaultTab.id,
@@ -47,16 +51,17 @@ export const useSiteNavigation = (siteData, lang) => {
  */
   const localize = (value) => localizeValue(value, lang.value)
 
-  const activeTab = computed(() => siteData.tabs.find((tab) => tab.id === selection.value.tabId) || defaultTab)
-  const activeCategory = computed(() => activeTab.value.categories?.find((cat) => cat.id === selection.value.categoryId))
+  const activeTab = computed(() => visibleTabs.find((tab) => tab.id === selection.value.tabId) || defaultTab)
+  const activeCategory = computed(() => activeTab.value.categories?.filter(isVisibleContent).find((cat) => cat.id === selection.value.categoryId))
   const activeContent = computed(() => {
     if (activeTab.value.layout !== 'two-level') return activeTab.value
 
-    const directSubTab = activeTab.value.sub_tabs?.find((sub) => sub.id === selection.value.subTabId)
-    return activeCategory.value?.sub_tabs?.find((sub) => sub.id === selection.value.subTabId)
+    const directSubTab = activeTab.value.sub_tabs?.filter(isVisibleContent).find((sub) => sub.id === selection.value.subTabId)
+    return activeCategory.value?.sub_tabs?.filter(isVisibleContent).find((sub) => sub.id === selection.value.subTabId)
       || directSubTab
-      || activeCategory.value?.sub_tabs?.[0]
-      || activeTab.value.sub_tabs?.[0]
+      || (!activeCategory.value?.sub_tabs?.length ? activeCategory.value : null)
+      || activeCategory.value?.sub_tabs?.filter(isVisibleContent)[0]
+      || activeTab.value.sub_tabs?.filter(isVisibleContent)[0]
       || activeTab.value
   })
   const pageTitle = computed(() => localize(activeContent.value.label) || localize(activeTab.value.label))
@@ -131,6 +136,16 @@ export const useSiteNavigation = (siteData, lang) => {
   }
 
   /**
+ * Selects a leaf page represented directly by a category without sub-tabs.
+ * @param {*} tab - Parent root tab.
+ * @param {*} category - Category object that also owns page content.
+ * @returns {void} Activates the category page.
+ */
+  const selectCategory = (tab, category) => {
+    activateSelection({ tabId: tab.id, categoryId: category.id, subTabId: null })
+  }
+
+  /**
  * Selects a leaf page under a category.
  * @param {*} tab - Input value used by selectSubTab.
  * @param {*} category - Input value used by selectSubTab.
@@ -173,17 +188,18 @@ export const useSiteNavigation = (siteData, lang) => {
  * @returns {Promise<void>} Updates the active page and scrolls to the requested place.
  */
   const navigateInternal = async (target) => {
-    const tab = siteData.tabs.find((item) => item.id === target.tab_id)
-    const category = tab?.categories?.find((item) => item.id === target.category_id)
-    const subTab = category?.sub_tabs?.find((item) => item.id === target.sub_tab_id)
-      || tab?.sub_tabs?.find((item) => item.id === target.sub_tab_id)
+    const tab = siteData.tabs.filter(isVisibleContent).find((item) => item.id === target.tab_id)
+    const category = tab?.categories?.filter(isVisibleContent).find((item) => item.id === target.category_id)
+    const subTab = category?.sub_tabs?.filter(isVisibleContent).find((item) => item.id === target.sub_tab_id)
+      || tab?.sub_tabs?.filter(isVisibleContent).find((item) => item.id === target.sub_tab_id)
+    const categoryPage = category && !category.sub_tabs?.length ? category : null
 
-    if (!tab || !subTab) return
+    if (!tab || (!subTab && !categoryPage)) return
 
     selection.value = {
       tabId: tab.id,
       categoryId: category?.id || null,
-      subTabId: subTab.id,
+      subTabId: subTab?.id || null,
     }
     expandActiveNavigationPath()
     closeMobileMenu()
@@ -250,6 +266,7 @@ export const useSiteNavigation = (siteData, lang) => {
     navigateInternal,
     navigationTree,
     pageTitle,
+    selectCategory,
     selectDirectSubTab,
     selectSubTab,
     selectTab,

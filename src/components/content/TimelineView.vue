@@ -5,8 +5,8 @@
  * @returns {void} Renders UI or exports module helpers.
  */
 import { computed, ref } from 'vue'
-import { timelineFieldLabels, timelineText } from '../../config/uiText'
-import { displayFieldsFor, formatDate, itemTitle, yearLabel } from '../../utils/contentHelpers'
+import { timelineText } from '../../config/uiText'
+import { formatDate, itemTitle, yearLabel } from '../../utils/contentHelpers'
 import { localizeValue } from '../../utils/localization'
 import { searchKeyFor } from '../../utils/searchKeys'
 import LinkBlock from '../LinkBlock.vue'
@@ -28,13 +28,14 @@ const emit = defineEmits(['update:order', 'update:selectedYear'])
 
 const yearMenuOpen = ref(false)
 
+
 /**
- * Returns the localized label for one timeline detail field.
- * @param {*} key - Input value used by fieldLabel.
- * @param {*} lang - Input value used by fieldLabel.
- * @returns {*} The computed result or the documented side effect.
+ * Returns the localized subtitle for one timeline entry.
+ * @param {object} item - Timeline entry object from site_data.json.
+ * @param {string} lang - Current language code.
+ * @returns {string} Localized details or description text used as the subtitle.
  */
-const fieldLabel = (key, lang) => localizeValue(timelineFieldLabels[key], lang) || key
+const subtitleText = (item, lang) => localizeValue(item.details || item.description, lang)
 
 /**
  * Returns the visible label for the current year filter.
@@ -118,12 +119,7 @@ const selectYear = (year) => {
       <div class="timeline-card">
         <time>{{ formatDate(item.time) }}</time>
         <h2>{{ itemTitle(item, lang) }}</h2>
-        <div v-if="displayFieldsFor(item).length" class="case-meta">
-          <div v-for="([key, value]) in displayFieldsFor(item)" :key="key">
-            <span>{{ fieldLabel(key, lang) }}</span>
-            <strong>{{ localizeValue(value, lang) }}</strong>
-          </div>
-        </div>
+        <p v-if="subtitleText(item, lang)" class="timeline-subtitle">{{ subtitleText(item, lang) }}</p>
         <MediaBlock :item="item" :lang="lang" :empty-text="emptyText" />
         <VideoBlock :item="item" :lang="lang" />
         <LinkBlock :links="item.link" :label="sourceLabel" :lang="lang" />

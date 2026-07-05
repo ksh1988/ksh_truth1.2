@@ -49,8 +49,8 @@
 .matrix-case-essence .matrix-canvas { width: 100%; min-width: 0; }
 .matrix-case-essence .col-year,
 .matrix-case-essence .col-perpetrator,
-.matrix-case-essence .col-purpose,
 .matrix-case-essence .col-timeline { width: 1% !important; min-width: 0 !important; white-space: nowrap; }
+.matrix-case-essence .col-purpose { width: 15em !important; min-width: 15em !important; white-space: normal; }
 .matrix-case-essence .col-public,
 .matrix-case-essence .col-behind,
 .matrix-case-essence .col-notes,

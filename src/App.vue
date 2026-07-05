@@ -40,6 +40,7 @@ const app = useAppController(siteData)
       @close-menu="app.closeSidebar"
       @search-change="app.updateSearch"
       @submit-search="app.submitSearch"
+      @select-category="app.selectCategoryFromMenu"
       @select-direct-sub-tab="app.selectDirectSubTabFromMenu"
       @select-sub-tab="app.selectSubTabFromMenu"
       @select-tab="app.selectTabFromMenu"
@@ -118,7 +119,7 @@ const app = useAppController(siteData)
         </template>
       </section>
 
-      <SiteFooter />
+      <SiteFooter :lang="app.lang" :ui="app.uiText" />
     </main>
 
     <PageNodeNavigator

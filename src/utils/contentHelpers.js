@@ -9,13 +9,20 @@ import { localizeValue } from './localization'
 export const isVisibleForLanguage = (item, lang) => lang === 'zh' || item?.zh_only !== true
 
 /**
+ * Checks whether a content node should be rendered in navigation and search.
+ * @param {object} item - Content node from site_data.json.
+ * @returns {boolean} True unless the node explicitly sets visible to false.
+ */
+export const isVisibleContent = (item) => item?.visible !== false
+
+/**
  * Documents the entriesFor helper.
  * @param {*} content - Input value used by entriesFor.
  * @param {*} lang - Input value used by entriesFor.
  * @returns {*} The computed result or the documented side effect.
  */
 export const entriesFor = (content, lang = 'zh') => (content?.entries || content?.items || content?.events || [])
-  .filter((item) => isVisibleForLanguage(item, lang))
+  .filter((item) => isVisibleContent(item) && isVisibleForLanguage(item, lang))
 
 /**
  * Documents the itemTitle helper.
@@ -44,24 +51,13 @@ export const formatDate = (date) => {
 }
 
 /**
- * Documents the displayFieldsFor helper.
- * @param {*} item - Input value used by displayFieldsFor.
- * @returns {*} The computed result or the documented side effect.
- */
-export const displayFieldsFor = (item) => Object.entries(item).filter(([key, value]) =>
-  !['id', 'time', 'title', 'event', 'description', 'imgs', 'link', 'videos', 'extras', 'index', 'zh_only'].includes(key)
-  && value !== ''
-  && value != null
-)
-
-/**
  * Documents the visibleRowsFor helper.
  * @param {*} section - Input value used by visibleRowsFor.
  * @param {*} lang - Input value used by visibleRowsFor.
  * @returns {*} The computed result or the documented side effect.
  */
 export const visibleRowsFor = (section, lang = 'zh') => (section?.rows || [])
-  .filter((row) => isVisibleForLanguage(row, lang))
+  .filter((row) => isVisibleContent(row) && isVisibleForLanguage(row, lang))
 
 /**
  * Documents the yearLabel helper.

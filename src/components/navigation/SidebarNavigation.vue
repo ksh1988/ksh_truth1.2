@@ -35,6 +35,7 @@ const emit = defineEmits([
   'close-menu',
   'search-change',
   'submit-search',
+  'select-category',
   'select-direct-sub-tab',
   'select-sub-tab',
   'select-tab',
@@ -49,6 +50,13 @@ const emit = defineEmits([
  * @returns {*} The computed result or the documented side effect.
  */
 const forwardDirectSubTab = (tab, subTab) => emit('select-direct-sub-tab', tab, subTab)
+/**
+ * Forwards a direct category page selection from the full tree panel.
+ * @param {*} tab - Parent root tab.
+ * @param {*} category - Category object that also owns page content.
+ * @returns {void} Emits category page selection.
+ */
+const forwardCategory = (tab, category) => emit('select-category', tab, category)
 /**
  * Forwards a category sub-tab selection from the full tree panel.
  * @param {*} tab - Input value used by forwardSubTab.
@@ -81,6 +89,10 @@ const openPressConferenceVideo = (event) => {
 const selectNavigationNode = (node) => {
   if (node.kind === 'tab') {
     emit('select-tab', node.tab)
+    return
+  }
+  if (node.kind === 'category' && !node.children?.length) {
+    emit('select-category', node.tab, node.category)
     return
   }
   if (node.kind === 'subTab' && node.category) {
@@ -140,6 +152,7 @@ const selectNavigationNode = (node) => {
       v-if="sidebarVisible && treeOpen"
       :localize="localize"
       :site-data="siteData"
+      @select-category="forwardCategory"
       @select-direct-sub-tab="forwardDirectSubTab"
       @select-sub-tab="forwardSubTab"
       @select-tab="forwardTab"

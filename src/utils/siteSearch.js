@@ -1,4 +1,4 @@
-import { entriesFor, isVisibleForLanguage, visibleRowsFor } from './contentHelpers'
+import { entriesFor, isVisibleContent, isVisibleForLanguage, visibleRowsFor } from './contentHelpers'
 import { localizeValue } from './localization'
 import { searchKeyFor, searchKeyForMatrixRow } from './searchKeys'
 
@@ -198,18 +198,22 @@ export const searchSiteSections = (tabs, lang, query) => {
 
   const results = []
 
-  tabs.forEach((tab) => {
+  tabs.filter(isVisibleContent).forEach((tab) => {
     const hasNestedSections = Boolean(tab.categories?.length || tab.sub_tabs?.length)
     if (!hasNestedSections) pushContentResults({ results, tab, content: tab, lang, query })
 
-    ;(tab.categories || []).forEach((category) => {
-      ;(category.sub_tabs || []).forEach((subTab) => {
+    ;(tab.categories || []).filter(isVisibleContent).forEach((category) => {
+      if (!category.sub_tabs?.length && isVisibleContent(category)) {
+        const content = { tabLabel: tab.label, ...category }
+        pushContentResults({ results, tab, category, content, lang, query })
+      }
+      ;(category.sub_tabs || []).filter(isVisibleContent).forEach((subTab) => {
         const content = { tabLabel: tab.label, categoryLabel: category.label, ...subTab }
         pushContentResults({ results, tab, category, subTab, content, lang, query })
       })
     })
 
-    ;(tab.sub_tabs || []).forEach((subTab) => {
+    ;(tab.sub_tabs || []).filter(isVisibleContent).forEach((subTab) => {
       const content = { tabLabel: tab.label, ...subTab }
       pushContentResults({ results, tab, subTab, content, lang, query })
     })

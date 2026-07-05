@@ -11,6 +11,8 @@ export const uiText = {
     searchResultTitle: '搜索结果',
     returnPrevious: '返回上一页面',
     pressConferenceButton: '金秀贤记者会',
+    siteViewsPrefix: '本站总访问量',
+    siteViewsSuffix: '次',
   },
   ko: {
     progress: '법적 진행',
@@ -24,6 +26,8 @@ export const uiText = {
     searchResultTitle: '검색 결과',
     returnPrevious: '이전 화면으로',
     pressConferenceButton: '김수현 기자회견',
+    siteViewsPrefix: '전체 방문 수',
+    siteViewsSuffix: '회',
   },
   en: {
     progress: 'Legal progress',
@@ -37,6 +41,8 @@ export const uiText = {
     searchResultTitle: 'Search Results',
     returnPrevious: 'Back to previous view',
     pressConferenceButton: 'KSH Press Conference',
+    siteViewsPrefix: 'Total site visits',
+    siteViewsSuffix: '',
   },
 }
 
@@ -68,12 +74,4 @@ export const timelineText = {
     desc: 'Newest first',
     asc: 'Oldest first',
   },
-}
-
-export const timelineFieldLabels = {
-  nature: { zh: '进展性质', ko: '진행 성격', en: 'Nature' },
-  plaintiff: { zh: '原告 / 举报方', ko: '원고 / 신고자', en: 'Plaintiff / Reporter' },
-  defendant: { zh: '被告 / 被举报方', ko: '피고 / 신고 대상', en: 'Defendant / Reported Party' },
-  charge: { zh: '涉及事由', ko: '관련 사안', en: 'Charge / Matter' },
-  result: { zh: '处理结果', ko: '처리 결과', en: 'Result' },
 }

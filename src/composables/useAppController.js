@@ -74,6 +74,17 @@ export const useAppController = (siteData) => {
   }
 
   /**
+ * Selects a category page without child branches from the sidebar and clears jump state.
+ * @param {*} tab - Parent root tab.
+ * @param {*} category - Category object that owns page content directly.
+ * @returns {void} Activates the category page.
+ */
+  const selectCategoryFromMenu = (tab, category) => {
+    searchNavigation.resetJumpState()
+    navigation.selectCategory(tab, category)
+  }
+
+  /**
  * Selects a category leaf page from the sidebar and clears jump state.
  * @param {*} tab - Input value used by selectSubTabFromMenu.
  * @param {*} category - Input value used by selectSubTabFromMenu.
@@ -129,6 +140,7 @@ export const useAppController = (siteData) => {
     searchQuery,
     searchResults,
     setLanguage,
+    selectCategoryFromMenu,
     selectDirectSubTabFromMenu,
     selectSubTabFromMenu,
     selectTabFromMenu,

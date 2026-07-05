@@ -1,3 +1,4 @@
+import { isVisibleContent } from './contentHelpers'
 /**
  * Builds a stable navigation tree node key.
  * @param {*} ...parts - Input value used by nodeKey.
@@ -33,12 +34,14 @@ const categoryNode = ({ tab, category, level }) => ({
   label: category.label,
   tab,
   category,
-  children: (category.sub_tabs || []).map((subTab) => subTabNode({
-    tab,
-    category,
-    subTab,
-    level: level + 1,
-  })),
+  children: (category.sub_tabs || [])
+    .filter(isVisibleContent)
+    .map((subTab) => subTabNode({
+      tab,
+      category,
+      subTab,
+      level: level + 1,
+    })),
 })
 
 /**
@@ -49,15 +52,16 @@ const categoryNode = ({ tab, category, level }) => ({
 const childrenForTab = (tab) => {
   if (tab.layout !== 'two-level') return []
 
-  const categoryChildren = (tab.categories || []).flatMap((category) => {
-    const subTabs = category.sub_tabs || []
+  const categoryChildren = (tab.categories || []).filter(isVisibleContent).flatMap((category) => {
+    const subTabs = (category.sub_tabs || []).filter(isVisibleContent)
+    if (!subTabs.length) return [categoryNode({ tab, category, level: 1 })]
     if (subTabs.length === 1) {
       return [subTabNode({ tab, category, subTab: subTabs[0], level: 1 })]
     }
     return [categoryNode({ tab, category, level: 1 })]
   })
 
-  const directChildren = (tab.sub_tabs || []).map((subTab) => subTabNode({
+  const directChildren = (tab.sub_tabs || []).filter(isVisibleContent).map((subTab) => subTabNode({
     tab,
     subTab,
     level: 1,
@@ -71,7 +75,7 @@ const childrenForTab = (tab) => {
  * @param {*} siteData - Input value used by buildNavigationTree.
  * @returns {*} The computed result or the documented side effect.
  */
-export const buildNavigationTree = (siteData) => (siteData.tabs || []).map((tab, index) => ({
+export const buildNavigationTree = (siteData) => (siteData.tabs || []).filter(isVisibleContent).map((tab, index) => ({
   id: nodeKey('tab', tab.id),
   kind: 'tab',
   level: 0,
@@ -89,6 +93,11 @@ export const buildNavigationTree = (siteData) => (siteData.tabs || []).map((tab,
  */
 const matchesSelection = (node, selection) => {
   if (node.kind === 'tab' && !node.children.length) return node.tab.id === selection.tabId
+  if (node.kind === 'category' && !node.children.length) {
+    return node.tab.id === selection.tabId
+      && node.category.id === selection.categoryId
+      && !selection.subTabId
+  }
   if (node.kind !== 'subTab') return false
 
   return node.tab.id === selection.tabId
