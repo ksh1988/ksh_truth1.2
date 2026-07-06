@@ -96,6 +96,7 @@ const app = useAppController(siteData)
             v-else-if="app.activeContent.matrix_sections"
             :content="app.activeContent"
             :lang="app.lang"
+            :source-label="app.uiText[app.lang].sources"
           />
 
           <GenericTableView

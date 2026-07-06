@@ -6,10 +6,12 @@
  */
 import { visibleRowsFor } from '../utils/contentHelpers'
 import { searchKeyForMatrixRow } from '../utils/searchKeys'
+import LinkBlock from './LinkBlock.vue'
 
 const props = defineProps({
   content: { type: Object, required: true },
   lang: { type: String, required: true },
+  sourceLabel: { type: String, default: '' },
 })
 
 /**
@@ -41,8 +43,10 @@ const segments = (value) => {
  */
 const segmentClass = (segment) => ({
   'segment-red': segment.color === 'red',
+  'segment-blue': segment.color === 'blue',
   'segment-bold': segment.bold,
   'segment-italic': segment.italic,
+  'segment-underline': segment.underline,
   'segment-block': segment.block,
 })
 </script>
@@ -83,6 +87,9 @@ const segmentClass = (segment) => ({
         </section>
         <p v-if="content.matrix_conclusion" class="matrix-conclusion">{{ localize(content.matrix_conclusion) }}</p>
       </div>
+    </div>
+    <div v-if="content.link?.length" class="matrix-source-links">
+      <LinkBlock :links="content.link" :label="sourceLabel" :lang="lang" />
     </div>
   </div>
 </template>
