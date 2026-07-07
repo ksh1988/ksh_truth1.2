@@ -71,7 +71,7 @@ export const timelineText = {
     year: 'Filter by year',
     all: 'All years',
     order: 'Date order',
-    desc: 'Latest first',
-    asc: 'Earliest first',
+    desc: 'Newest First',
+    asc: 'Oldest First',
   },
 }
