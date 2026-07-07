@@ -1736,8 +1736,36 @@
           "zh_only": true
         },
         {
-          "id": "row16-3",
+          "id": "row16-12",
           "index": 2,
+          "title": {
+            "zh": "中国网友造谣金赛纶被公司逼迫陪酒才导致醉驾",
+            "en": "",
+            "ko": ""
+          },
+          "description": {
+            "zh": "",
+            "en": "",
+            "ko": ""
+          },
+          "imgs": {
+            "zh": [],
+            "ko": [],
+            "en": [],
+            "shared": []
+          },
+          "link": [],
+          "videos": [],
+          "zh_only": true,
+          "internal_link": {
+            "tab_id": "clarification",
+            "category_id": "facts",
+            "sub_tab_id": "dui"
+          }
+        },
+        {
+          "id": "row16-3",
+          "index": 3,
           "title": {
             "zh": "韩网造谣偷税漏税",
             "en": "False tax evasion allegations on Korean forums",
@@ -1775,7 +1803,7 @@
         },
         {
           "id": "row16-4",
-          "index": 3,
+          "index": 4,
           "title": {
             "zh": "营销号活体复读机搬运推特上冒充金秀贤的账号发布不当言论",
             "en": "Content farms reposted statements from an impersonation account on X",
@@ -1801,7 +1829,7 @@
         },
         {
           "id": "row16-5",
-          "index": 4,
+          "index": 5,
           "title": {
             "zh": "外网造谣金秀贤见面会期间要求拆除座位打羽毛球",
             "en": "False claim that Kim Soo-hyun ordered seats removed to play badminton during a fan meeting",
@@ -1839,7 +1867,7 @@
         },
         {
           "id": "row16-6",
-          "index": 5,
+          "index": 6,
           "title": {
             "zh": "网民造谣金秀贤经纪人是性犯罪者",
             "en": "False claim that Kim Soo-hyun’s manager was a sex offender",
@@ -1877,7 +1905,7 @@
         },
         {
           "id": "row16-7",
-          "index": 6,
+          "index": 7,
           "title": {
             "zh": "雪莉哥哥蹭热度造谣逼迫雪莉拍床戏",
             "en": "Sulli’s brother falsely claimed she was forced to film bed scenes",
@@ -1947,7 +1975,7 @@
         },
         {
           "id": "row16-8",
-          "index": 7,
+          "index": 8,
           "title": {
             "zh": "金赛纶遗属煽动网民造谣金秀贤转发金赛纶短信给记者",
             "en": "The family encouraged claims that Kim Soo-hyun forwarded Kim Sae-ron’s text messages to reporters",
@@ -1988,7 +2016,7 @@
         },
         {
           "id": "row16-9",
-          "index": 8,
+          "index": 9,
           "title": {
             "zh": "网民为了给金赛纶的赖账声明圆谎造谣金秀贤点痣",
             "en": "Rumor that Kim Soo-hyun removed a facial mole",
@@ -2023,7 +2051,7 @@
         },
         {
           "id": "row16-10",
-          "index": 9,
+          "index": 10,
           "title": {
             "zh": "网民造谣金赛纶爆照秒删的照片中的耐克T恤是2016年上市2019年再版",
             "en": "False claim that the Nike T-shirt was first released in 2016 and reissued in 2019",
@@ -2055,7 +2083,7 @@
         },
         {
           "id": "row16-11",
-          "index": 10,
+          "index": 11,
           "title": {
             "zh": "网民造谣金赛纶去世之后金秀贤立刻上传了礼物照片",
             "en": "False claim that Kim Soo-hyun uploaded gift photos immediately after Kim Sae-ron’s death",
@@ -2394,6 +2422,128 @@
               "layout": "list",
               "entries": [
                 {
+                  "id": "row10-9",
+                  "title": {
+                    "zh": "金赛纶酒驾经过",
+                    "en": "The circumstances of Kim Sae-ron’s DUI",
+                    "ko": "김새론 음주운전 경위"
+                  },
+                  "description": {
+                    "zh": "金赛纶与歌手男友分手后在酒吧找女性朋友通宵酗酒,于清晨开路虎卫士醉驾,酒精浓度0.227,撞上变压器导致街区停电,事发后逃离现场\n金赛纶和协助酒驾的女伴均被法院判罚金刑",
+                    "en": "After breaking up with her singer boyfriend, Kim Sae-ron spent the night drinking heavily with female friends at a bar. In the early morning, she drove a Land Rover Defender while intoxicated with a blood alcohol concentration of 0.227%, crashed into an electrical transformer, causing a neighborhood power outage, and fled the scene.\n\nBoth Kim Sae-ron and the female companion who assisted the DUI were later sentenced to fines by the court.",
+                    "ko": "김새론은 가수 남자친구와 결별한 뒤 여성 지인들과 술집에서 밤새 술을 마셨다. 다음 날 새벽 랜드로버 디펜더를 혈중알코올농도 0.227% 상태로 운전하다 변압기를 들이받아 일대 정전을 일으켰으며, 사고 후 현장을 이탈했다.\n\n김새론과 음주운전을 방조한 여성 동승자는 모두 법원에서 벌금형을 선고받았다."
+                  },
+                  "imgs": {
+                    "zh": [
+                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/05/17819364535967274011ab725a6e501d24bf99a2b9.jpg",
+                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/44/178193645433837c0c120071d3e7d7b756618d2e27.jpg"
+                    ],
+                    "ko": [
+                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ad/1781936452ed572b6c22807da28429f87cc8e3c2b8.jpg",
+                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/fe/17819364523f2183e309649759810e385540688017.jpg"
+                    ],
+                    "en": [
+                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/17/1781936454d298b7662c41081360b3a0f178747c56.jpg",
+                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/a1/178193645539af957848d4e2ef5b14bcc7634de364.jpg"
+                    ],
+                    "shared": []
+                  },
+                  "link": [
+                    {
+                      "title": {
+                        "zh": "金赛纶酒驾经过 - MoneyToday",
+                        "en": "Kim Sae-ron DUI case – MoneyToday",
+                        "ko": "김새론 음주운전 경위 - MoneyToday"
+                      },
+                      "url": "https://www.mt.co.kr/society/2023/03/09/2023030911451668587?utm_source=chatgpt.com"
+                    },
+                    {
+                      "title": {
+                        "zh": "金赛纶酒驾经过 - Naver comments",
+                        "en": "Kim Sae-ron DUI case – Naver Comments",
+                        "ko": "김새론 음주운전 경위 - Naver 댓글"
+                      },
+                      "url": "https://n.news.naver.com/article/comment/008/0005179475"
+                    }
+                  ],
+                  "videos": [],
+                  "zh_only": false
+                },
+                {
+                  "id": "row10-10",
+                  "title": {
+                    "zh": "金赛纶酒驾同乘女性被判刑",
+                    "en": "Female passenger convicted for assisting Kim Sae-ron’s DUI",
+                    "ko": "김새론 음주운전 방조 여성 동승자 벌금형"
+                  },
+                  "description": {
+                    "zh": "21岁素人女性协助金赛纶醉驾,被判500万罚金刑",
+                    "en": "A 21-year-old non-celebrity woman who assisted Kim Sae-ron’s DUI was sentenced to a ₩5 million fine.",
+                    "ko": "당시 21세 일반인 여성은 김새론의 음주운전을 방조한 혐의로 벌금 500만 원을 선고받았다."
+                  },
+                  "imgs": {
+                    "zh": [
+                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/78/1781936456348f93593ac13238371f1df70da88f44.jpg"
+                    ],
+                    "ko": [
+                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/75/17819364546498eb003e7256561cda5b90f17fd93f.jpg"
+                    ],
+                    "en": [
+                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/c5/17819364574dc51a394a450438e2d63a066142b40f.jpg"
+                    ],
+                    "shared": []
+                  },
+                  "link": [
+                    {
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source Link",
+                        "ko": "출처 링크"
+                      },
+                      "url": "https://www.yna.co.kr/view/AKR20230412066200004"
+                    }
+                  ],
+                  "videos": [],
+                  "zh_only": false
+                },
+                {
+                  "id": "row10-8",
+                  "title": {
+                    "zh": "金赛纶醉驾有六个律师打官司",
+                    "en": "Kim Sae-ron had six lawyers representing her DUI case",
+                    "ko": "김새론 음주운전 사건에 변호사 6명 선임"
+                  },
+                  "description": {
+                    "zh": "醉驾后六个律师打官司,其中四名律师是金牌公司提供,两个是金赛纶额外聘请",
+                    "en": "After the DUI incident, Kim Sae-ron was represented by six lawyers. Four were provided by Gold Medalist, while the other two were hired separately by Kim Sae-ron.",
+                    "ko": "김새론은 음주운전 사건 이후 총 6명의 변호사에게 변호를 받았다. 이 가운데 4명은 골드메달리스트가 지원했고, 나머지 2명은 김새론이 별도로 선임했다."
+                  },
+                  "imgs": {
+                    "zh": [
+                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/1e/17819364193387a91c23a2c281d741c0d7d0ebc27d.jpg"
+                    ],
+                    "ko": [
+                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ef/1781936417498d67cce3481b5377a7d556ff2a60d9.jpg"
+                    ],
+                    "en": [
+                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/07/1781936419f147d97dea76fe30cbbf97c6188a734d.jpg"
+                    ],
+                    "shared": []
+                  },
+                  "link": [
+                    {
+                      "title": {
+                        "zh": "来源链接",
+                        "en": "Source Link",
+                        "ko": "출처 링크"
+                      },
+                      "url": "https://m.entertain.naver.com/home/article/018/0005441900"
+                    }
+                  ],
+                  "videos": [],
+                  "zh_only": false
+                },
+                {
                   "id": "row10-3",
                   "title": {
                     "zh": "2025年男演员酒驾后自尽",
@@ -2577,130 +2727,13 @@
                   ],
                   "videos": [],
                   "zh_only": false
-                },
-                {
-                  "id": "row10-8",
-                  "title": {
-                    "zh": "金赛纶醉驾有六个律师打官司",
-                    "en": "Kim Sae-ron had six lawyers representing her DUI case",
-                    "ko": "김새론 음주운전 사건에 변호사 6명 선임"
-                  },
-                  "description": {
-                    "zh": "醉驾后六个律师打官司,其中四名律师是金牌公司提供,两个是金赛纶额外聘请",
-                    "en": "After the DUI incident, Kim Sae-ron was represented by six lawyers. Four were provided by Gold Medalist, while the other two were hired separately by Kim Sae-ron.",
-                    "ko": "김새론은 음주운전 사건 이후 총 6명의 변호사에게 변호를 받았다. 이 가운데 4명은 골드메달리스트가 지원했고, 나머지 2명은 김새론이 별도로 선임했다."
-                  },
-                  "imgs": {
-                    "zh": [
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/1e/17819364193387a91c23a2c281d741c0d7d0ebc27d.jpg"
-                    ],
-                    "ko": [
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ef/1781936417498d67cce3481b5377a7d556ff2a60d9.jpg"
-                    ],
-                    "en": [
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/07/1781936419f147d97dea76fe30cbbf97c6188a734d.jpg"
-                    ],
-                    "shared": []
-                  },
-                  "link": [
-                    {
-                      "title": {
-                        "zh": "来源链接",
-                        "en": "Source Link",
-                        "ko": "출처 링크"
-                      },
-                      "url": "https://m.entertain.naver.com/home/article/018/0005441900"
-                    }
-                  ],
-                  "videos": [],
-                  "zh_only": false
-                },
-                {
-                  "id": "row10-9",
-                  "title": {
-                    "zh": "金赛纶酒驾经过",
-                    "en": "The circumstances of Kim Sae-ron’s DUI",
-                    "ko": "김새론 음주운전 경위"
-                  },
-                  "description": {
-                    "zh": "金赛纶与歌手男友分手后在酒吧找女性朋友通宵酗酒,于清晨开路虎卫士醉驾,酒精浓度0.227,撞上变压器导致街区停电,事发后逃离现场\n金赛纶和协助酒驾的女伴均被法院判罚金刑",
-                    "en": "After breaking up with her singer boyfriend, Kim Sae-ron spent the night drinking heavily with female friends at a bar. In the early morning, she drove a Land Rover Defender while intoxicated with a blood alcohol concentration of 0.227%, crashed into an electrical transformer, causing a neighborhood power outage, and fled the scene.\n\nBoth Kim Sae-ron and the female companion who assisted the DUI were later sentenced to fines by the court.",
-                    "ko": "김새론은 가수 남자친구와 결별한 뒤 여성 지인들과 술집에서 밤새 술을 마셨다. 다음 날 새벽 랜드로버 디펜더를 혈중알코올농도 0.227% 상태로 운전하다 변압기를 들이받아 일대 정전을 일으켰으며, 사고 후 현장을 이탈했다.\n\n김새론과 음주운전을 방조한 여성 동승자는 모두 법원에서 벌금형을 선고받았다."
-                  },
-                  "imgs": {
-                    "zh": [
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/05/17819364535967274011ab725a6e501d24bf99a2b9.jpg",
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/44/178193645433837c0c120071d3e7d7b756618d2e27.jpg"
-                    ],
-                    "ko": [
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ad/1781936452ed572b6c22807da28429f87cc8e3c2b8.jpg",
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/fe/17819364523f2183e309649759810e385540688017.jpg"
-                    ],
-                    "en": [
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/17/1781936454d298b7662c41081360b3a0f178747c56.jpg",
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/a1/178193645539af957848d4e2ef5b14bcc7634de364.jpg"
-                    ],
-                    "shared": []
-                  },
-                  "link": [
-                    {
-                      "title": {
-                        "zh": "金赛纶酒驾经过 - MoneyToday",
-                        "en": "Kim Sae-ron DUI case – MoneyToday",
-                        "ko": "김새론 음주운전 경위 - MoneyToday"
-                      },
-                      "url": "https://www.mt.co.kr/society/2023/03/09/2023030911451668587?utm_source=chatgpt.com"
-                    },
-                    {
-                      "title": {
-                        "zh": "金赛纶酒驾经过 - Naver comments",
-                        "en": "Kim Sae-ron DUI case – Naver Comments",
-                        "ko": "김새론 음주운전 경위 - Naver 댓글"
-                      },
-                      "url": "https://n.news.naver.com/article/comment/008/0005179475"
-                    }
-                  ],
-                  "videos": [],
-                  "zh_only": false
-                },
-                {
-                  "id": "row10-10",
-                  "title": {
-                    "zh": "金赛纶酒驾同乘女性被判刑",
-                    "en": "Female passenger convicted for assisting Kim Sae-ron’s DUI",
-                    "ko": "김새론 음주운전 방조 여성 동승자 벌금형"
-                  },
-                  "description": {
-                    "zh": "21岁素人女性协助金赛纶醉驾,被判500万罚金刑",
-                    "en": "A 21-year-old non-celebrity woman who assisted Kim Sae-ron’s DUI was sentenced to a ₩5 million fine.",
-                    "ko": "당시 21세 일반인 여성은 김새론의 음주운전을 방조한 혐의로 벌금 500만 원을 선고받았다."
-                  },
-                  "imgs": {
-                    "zh": [
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/78/1781936456348f93593ac13238371f1df70da88f44.jpg"
-                    ],
-                    "ko": [
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/75/17819364546498eb003e7256561cda5b90f17fd93f.jpg"
-                    ],
-                    "en": [
-                      "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/c5/17819364574dc51a394a450438e2d63a066142b40f.jpg"
-                    ],
-                    "shared": []
-                  },
-                  "link": [
-                    {
-                      "title": {
-                        "zh": "来源链接",
-                        "en": "Source Link",
-                        "ko": "출처 링크"
-                      },
-                      "url": "https://www.yna.co.kr/view/AKR20230412066200004"
-                    }
-                  ],
-                  "videos": [],
-                  "zh_only": false
                 }
-              ]
+              ],
+              "intro": {
+                "zh": "2022年金赛纶与歌手男友分手后约上自己的女性朋友在酒吧通宵酗酒,于清晨8点醉驾.她撞上路边的变压器后逃逸,后拒绝普通酒精测试要求血检,测出酒精浓度高达0.227%位于韩国艺人醉驾酒精浓度第二.最终金赛纶被判2000万罚金刑,陪她喝酒和开车的女性朋友因协助醉驾被判500万罚金刑",
+                "en": "After breaking up with her singer boyfriend in 2022, Kim Sae-ron met up with a female friend and spent the entire night binge drinking at a bar. At around 8:00 a.m., she drove under the influence. After crashing into a roadside electrical transformer, she fled the scene. She then refused a standard breathalyzer test and requested a blood test instead, which revealed a blood alcohol concentration (BAC) of 0.227%, the second-highest BAC ever recorded in a DUI case involving a South Korean celebrity.In the end, Kim Sae-ron was sentenced to a fine of 20 million KRW, while the female friend who drank with her and accompanied her in the car was fined 5 million KRW for aiding and abetting her drunk driving.",
+                "ko": "2022년 김새론은 가수 남자친구와 결별한 뒤 여성 친구와 함께 술집에서 밤새 과음했고, 다음 날 오전 8시경 음주운전을 했습니다. 도로변 변압기를 들이받은 뒤 현장에서 도주했으며, 일반 음주측정을 거부하고 혈액 검사를 요구했습니다. 혈액 검사 결과 **혈중알코올농도 0.227%**가 확인되었으며, 이는 대한민국 연예인 음주운전 사례 가운데 두 번째로 높은 수치였습니다.결국 김새론은 벌금 2,000만 원을 선고받았고, 함께 술을 마시고 차량에 동승했던 여성 친구는 음주운전을 방조한 혐의로 벌금 500만 원을 선고받았습니다."
+              }
             },
             {
               "id": "lies",
@@ -2967,7 +3000,12 @@
                   "videos": [],
                   "zh_only": false
                 }
-              ]
+              ],
+              "intro": {
+                "zh": "金赛纶生前有一些自相矛盾的言论,因此可以认定为谎言,揭发BurningSun事件的记者姜京允揭发了金赛纶的谎言",
+                "en": "Kim Sae-ron made a number of self-contradictory statements during her lifetime, which can therefore be identified as falsehoods. Kang Kyung-yoon, the journalist who exposed the Burning Sun scandal, also exposed these contradictions in Kim Sae-ron’s statements.",
+                "ko": "김새론은 생전 여러 차례 서로 모순되는 발언을 했으며, 이러한 모순으로 인해 해당 발언들은 허위로 판단될 수 있습니다. 버닝썬 사건을 폭로한 강경윤 기자는 김새론의 이러한 허위 주장과 모순점을 밝혀냈습니다."
+              }
             },
             {
               "id": "deleted-posts",
@@ -3193,6 +3231,11 @@
                   "time": "20250106"
                 }
               ],
+               "intro": {
+                "zh": "金赛纶生前经常在INS爆照秒删,不止爆照秒删金秀贤一次,揭发BurningSun事件的记者姜京允调查了她爆照秒删的缘由",
+                "en": "During her lifetime, Kim Sae-ron frequently posted photos on Instagram and deleted them shortly afterward. The incident involving Kim Soo-hyun was not the only time she did so. Kang Kyung-yoon, the journalist who exposed the Burning Sun scandal, investigated the reason behind her posting and deleting those photos.",
+                "ko": "김새론은 생전 인스타그램에 사진을 올렸다가 곧바로 삭제하는 일을 자주 했으며, 김수현 관련 사진만 올렸다가 삭제한 것이 아니었습니다. 버닝썬 사건을 폭로한 강경윤 기자는 김새론이 사진을 올렸다가 곧바로 삭제한 이유를 조사했습니다."
+              },
               "show_year_filter": false
             }
           ]
@@ -5171,16 +5214,20 @@
                     ],
                     "ko": [],
                     "en": [],
-                    "shared": ["/images/姜京允BBC视频.jpg"]
+                    "shared": [
+                      "/images/姜京允BBC视频.jpg"
+                    ]
                   },
-                  "link": [{
+                  "link": [
+                    {
                       "title": {
                         "zh": "BBC纪录片记录BurningSun事件,采访姜京允记者如何在压力和威胁之下调查揭发犯罪",
                         "en": "BBC Documentary on the BurningSun Scandal Features reporter Kang Kyung-yoon, who explains how she investigated and exposed the crimes while working under intense pressure and threats.",
                         "ko": "BBC 다큐멘터리, 버닝썬 사건 기록강경윤 기자를 인터뷰하여 극심한 압박과 협박 속에서도 어떻게 사건을 취재하고 범죄를 폭로했는지를 조명했다."
                       },
                       "url": "https://youtu.be/9EEp1q_iMYc?si=LidfyKapoR1obLXs"
-                    }],
+                    }
+                  ],
                   "videos": [],
                   "zh_only": false
                 },
