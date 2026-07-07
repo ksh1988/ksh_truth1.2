@@ -5171,9 +5171,16 @@
                     ],
                     "ko": [],
                     "en": [],
-                    "shared": []
+                    "shared": ["/images/姜京允BBC视频.jpg"]
                   },
-                  "link": [],
+                  "link": [{
+                      "title": {
+                        "zh": "BBC纪录片记录BurningSun事件,采访姜京允记者如何在压力和威胁之下调查揭发犯罪",
+                        "en": "BBC Documentary on the BurningSun Scandal Features reporter Kang Kyung-yoon, who explains how she investigated and exposed the crimes while working under intense pressure and threats.",
+                        "ko": "BBC 다큐멘터리, 버닝썬 사건 기록강경윤 기자를 인터뷰하여 극심한 압박과 협박 속에서도 어떻게 사건을 취재하고 범죄를 폭로했는지를 조명했다."
+                      },
+                      "url": "https://youtu.be/9EEp1q_iMYc?si=LidfyKapoR1obLXs"
+                    }],
                   "videos": [],
                   "zh_only": false
                 },
