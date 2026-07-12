@@ -3,7 +3,7 @@ export const uiText = {
     progress: '司法进展',
     sources: '资料来源',
     details: '详细信息',
-    empty: '图片加载失败，点击打开原图',
+    empty: '图片加载失败,点击打开原图',
     openMenu: '打开菜单',
     closeMenu: '收起菜单',
     searchPlaceholder: '搜索',
