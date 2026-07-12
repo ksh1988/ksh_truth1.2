@@ -476,8 +476,10 @@ body.media-preview-open { overflow: hidden; }
 .image-error small { max-width: 420px; color: #89746d; font-size: 10px; overflow-wrap: anywhere; }
 .source-links { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: baseline; margin-top: 20px; }
 .source-links > span { color: #71879d; font-size: 10px; font-weight: 650; letter-spacing: 1.2px; text-transform: uppercase; }
-.source-links a { color: var(--blue-soft); font-size: 12px; text-decoration: none; border-bottom: 1px solid rgba(139,181,223,.3); }
-.source-links a:hover { color: #174c7b; }
+.source-links a, .source-links .source-internal-link { color: var(--blue-soft); font-size: 12px; text-decoration: none; border-bottom: 1px solid rgba(139,181,223,.3); }
+.source-links .source-internal-link { padding: 0; background: transparent; border-top: 0; border-right: 0; border-left: 0; font: inherit; font-size: 12px; cursor: pointer; }
+.source-links .source-link-text { color: #5d7287; font-size: 12px; font-weight: 650; }
+.source-links a:hover, .source-links .source-internal-link:hover { color: #174c7b; }
 
 .return-floating {
   position: fixed;

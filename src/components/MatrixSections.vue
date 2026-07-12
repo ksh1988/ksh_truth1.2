@@ -8,6 +8,8 @@ import { visibleRowsFor } from '../utils/contentHelpers'
 import { searchKeyForMatrixRow } from '../utils/searchKeys'
 import LinkBlock from './LinkBlock.vue'
 
+const emit = defineEmits(['navigate-internal'])
+
 const props = defineProps({
   content: { type: Object, required: true },
   lang: { type: String, required: true },
@@ -47,6 +49,7 @@ const segmentClass = (segment) => ({
   'segment-bold': segment.bold,
   'segment-italic': segment.italic,
   'segment-underline': segment.underline,
+  'segment-circle': segment.circle,
   'segment-block': segment.block,
 })
 </script>
@@ -77,7 +80,7 @@ const segmentClass = (segment) => ({
                 <template v-for="column in section.columns" :key="column.key">
                   <td v-if="!row.skip_cells?.includes(column.key)" :rowspan="row.rowspans?.[column.key] || 1" :class="`col-${column.key}`">
                     <template v-for="(segment, segmentIndex) in segments(row[column.key])" :key="segmentIndex">
-                      <span :class="segmentClass(segment)">{{ segment.text }}</span>
+                      <span :class="segmentClass(segment)">{{ segment.text }}<span v-if="segment.circleAfter" class="segment-circle segment-circle-inline">{{ segment.circleAfter }}</span></span>
                     </template>
                   </td>
                 </template>
@@ -89,7 +92,7 @@ const segmentClass = (segment) => ({
       </div>
     </div>
     <div v-if="content.link?.length" class="matrix-source-links">
-      <LinkBlock :links="content.link" :label="sourceLabel" :lang="lang" />
+      <LinkBlock :links="content.link" :label="sourceLabel" :lang="lang" @navigate-internal="emit('navigate-internal', $event)" />
     </div>
   </div>
 </template>

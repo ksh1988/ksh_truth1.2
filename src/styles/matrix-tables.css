@@ -34,6 +34,8 @@
 .evidence-matrix .segment-bold { font-weight: 750; }
 .evidence-matrix .segment-italic { font-style: italic; }
 .evidence-matrix .segment-underline { text-decoration: underline; text-underline-offset: 3px; }
+.evidence-matrix .segment-circle { display: inline-flex; align-items: center; justify-content: center; width: 1.45em; height: 1.45em; margin-left: 4px; border: 1.8px solid currentColor; border-radius: 999px; font-size: .82em; font-style: normal; font-weight: 850; line-height: 1; text-decoration: none; vertical-align: text-top; }
+.evidence-matrix .segment-circle-inline { color: var(--blue); }
 .evidence-matrix td:has(.segment-red) { color: #20262b; font-weight: 400; }
 .evidence-matrix td[rowspan] { background: #ffffff !important; vertical-align: middle; }
 .tone-cream .evidence-matrix tbody tr:nth-child(even) td { background: #f4f7fa; }

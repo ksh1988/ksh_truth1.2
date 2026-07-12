@@ -97,6 +97,7 @@ const app = useAppController(siteData)
             :content="app.activeContent"
             :lang="app.lang"
             :source-label="app.uiText[app.lang].sources"
+            @navigate-internal="app.openInternalLink"
           />
 
           <GenericTableView
