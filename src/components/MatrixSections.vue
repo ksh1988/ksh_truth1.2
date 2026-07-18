@@ -1,10 +1,13 @@
 <script setup>
 /**
- * Vue component that renders a focused part of the site UI.
- * @param {object} props - Component props declared below when this is a Vue component.
- * @returns {void} Renders UI or exports module helpers.
+ * Renders matrix-style evidence tables with optional source links and table-image downloads.
+ * @param {object} props - Component props declared below.
+ * @returns {void} Renders localized matrix sections for one content entity.
  */
+import { computed } from 'vue'
 import { visibleRowsFor } from '../utils/contentHelpers'
+import { downloadMedia, mediaFileName } from '../utils/mediaDownload'
+import { resolveMediaSrc } from '../utils/mediaSource'
 import { searchKeyForMatrixRow } from '../utils/searchKeys'
 import LinkBlock from './LinkBlock.vue'
 
@@ -52,10 +55,39 @@ const segmentClass = (segment) => ({
   'segment-circle': segment.circle,
   'segment-block': segment.block,
 })
+
+const matrixDownloadLabel = computed(() => ({ zh: '下载表格图片', ko: '표 이미지 다운로드', en: 'Download table image' })[props.lang] || 'Download table image')
+const matrixDownloadSrc = computed(() => resolveMediaSrc(localize(props.content.matrix_download_imgs)))
+
+/**
+ * Downloads the localized matrix image configured for the current content.
+ * @returns {Promise<void>} Resolves after the browser download or share action is triggered.
+ */
+const downloadMatrixImage = async () => {
+  const src = matrixDownloadSrc.value
+  if (!src) return
+
+  await downloadMedia({
+    src,
+    filename: mediaFileName({ item: props.content, lang: props.lang, src, index: 0 }),
+  })
+}
 </script>
 
 <template>
   <div class="matrix-sections" :class="`matrix-${content.id}`" :data-search-key="content.id">
+    <div v-if="matrixDownloadSrc" class="matrix-toolbar">
+      <button
+        class="matrix-download-button"
+        type="button"
+        :aria-label="matrixDownloadLabel"
+        :title="matrixDownloadLabel"
+        @click="downloadMatrixImage"
+      >
+        <span class="matrix-download-icon" aria-hidden="true"></span>
+        <span>{{ matrixDownloadLabel }}</span>
+      </button>
+    </div>
     <div class="matrix-scroll matrix-all-scroll" tabindex="0">
       <div class="matrix-canvas">
         <p v-if="content.matrix_intro" class="matrix-statement">{{ localize(content.matrix_intro) }}</p>

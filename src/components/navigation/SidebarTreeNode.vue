@@ -54,6 +54,7 @@ const handleClick = () => {
   <div class="sidebar-tree-node" :class="'tree-level-' + node.level">
     <button :class="buttonClass" type="button" @click="handleClick">
       <span v-if="node.kind === 'tab'" class="nav-index">{{ node.index }}</span>
+      <span v-if="node.level === 1" class="nav-level-star" aria-hidden="true">★</span>
       <span class="nav-text">{{ localize(node.label) }}</span>
       <span v-if="hasChildren" class="chevron">{{ expanded ? '-' : '+' }}</span>
     </button>

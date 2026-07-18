@@ -100,6 +100,17 @@
   border-radius: 4px;
   font-size: 12px;
   font-weight: 850;
+  line-height: 1;
+}
+
+.tree-level-star {
+  flex: 0 0 10px;
+  width: 10px;
+  color: var(--blue);
+  font-size: 9px;
+  font-weight: 850;
+  line-height: 1;
+  text-align: center;
 }
 .tree-branch,
 .tree-dot {

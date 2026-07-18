@@ -125,6 +125,8 @@ nav { flex: 1; padding: 6px 10px 24px; }
 .nav-item:hover, .nav-item.active { color: #1f5f98; background: rgba(40,106,166,.09); }
 .nav-item.active { box-shadow: inset 2px 0 var(--blue); }
 .nav-index { flex: 0 0 30px; width: 30px; height: 30px; display: inline-grid; place-items: center; color: #fff; background: var(--blue); border-radius: 3px; font-size: 14px; font-weight: 800; letter-spacing: 0; line-height: 1; }
+
+.nav-level-star { flex: 0 0 10px; width: 10px; color: #286aa6; font-size: 9px; font-weight: 850; line-height: 1; text-align: center; }
 .nav-text { flex: 1; font-size: 16px; font-weight: 650; line-height: 1.45; }
 .chevron { font-size: 16px; transition: transform .2s; }
 .chevron.rotate { transform: rotate(180deg); }
@@ -145,16 +147,6 @@ nav { flex: 1; padding: 6px 10px 24px; }
   line-height: 1.45;
   letter-spacing: .2px;
 }
-.category span:first-child::before {
-  content: "";
-  width: 7px;
-  height: 7px;
-  display: inline-block;
-  margin-right: 7px;
-  background: #286aa6;
-  clip-path: polygon(50% 0%, 61% 34%, 98% 35%, 68% 56%, 79% 91%, 50% 70%, 21% 91%, 32% 56%, 2% 35%, 39% 34%);
-  transform: translateY(-1px);
-}
 .category:hover {
   color: #245f91;
   background: rgba(40, 106, 166, .035);
@@ -170,6 +162,8 @@ nav { flex: 1; padding: 6px 10px 24px; }
 .sub-item { margin: 2px 0; padding: 10px 10px 10px 14px; color: #53687a; font-size: 14px; font-weight: 600; line-height: 1.55; border-radius: 4px; }
 .sub-item:hover, .sub-item.active { color: #215f96; background: rgba(40,106,166,.09); }
 .direct-sub-item { margin: 6px 0 3px; padding: 9px 8px 8px 10px; color: #3f6078; font-size: 15px; font-weight: 760; letter-spacing: .2px; }
+
+.tree-level-1 > .sub-item { display: flex; align-items: center; gap: 7px; }
 .category-single { margin: 6px 0 3px; padding: 9px 8px 8px 10px; color: #3f6078; font-size: 15px; font-weight: 760; letter-spacing: .2px; }
 .sidebar-toggle-button { position: sticky; bottom: 0; min-height: 51px; display: flex; align-items: center; justify-content: center; gap: 8px; color: var(--blue); background: rgba(248, 251, 253, .94);
   backdrop-filter: blur(12px); border-top: 1px solid var(--line); font-size: 12px; }

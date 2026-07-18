@@ -31,11 +31,11 @@ defineEmits(['select-category', 'select-direct-sub-tab', 'select-sub-tab', 'sele
               type="button"
               @click="$emit('select-category', tab, category)"
             >
-              <span class="tree-dot"></span>
+              <span class="tree-level-star" aria-hidden="true">★</span>
               <span>{{ localize(category.label) }}</span>
             </button>
             <div v-else class="nav-tree-label">
-              <span class="tree-branch"></span>
+              <span class="tree-level-star" aria-hidden="true">★</span>
               <span>{{ localize(category.label) }}</span>
             </div>
 
@@ -51,7 +51,7 @@ defineEmits(['select-category', 'select-direct-sub-tab', 'select-sub-tab', 'sele
 
           <li v-for="sub in (tab.sub_tabs || []).filter(isVisibleContent)" :key="sub.id" class="nav-tree-node tree-subtab direct-tree-subtab">
             <button class="nav-tree-link" @click="$emit('select-direct-sub-tab', tab, sub)">
-              <span class="tree-dot"></span>
+              <span class="tree-level-star" aria-hidden="true">★</span>
               <span>{{ localize(sub.label) }}</span>
             </button>
           </li>

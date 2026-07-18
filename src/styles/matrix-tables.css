@@ -10,6 +10,12 @@
 .table-wrap dd { margin: 3px 0 12px; white-space: pre-line; }
 
 .matrix-sections { display: block; overflow: hidden; background: var(--panel); border: 1px solid rgba(47,67,84,.18); box-shadow: var(--shadow); }
+.matrix-toolbar { display: flex; justify-content: flex-end; padding: 14px 18px 0; background: #fff; }
+.matrix-download-button { display: inline-flex; align-items: center; gap: 8px; min-height: 36px; padding: 8px 13px; color: #fff; background: var(--blue); border: 1px solid rgba(31,95,152,.18); border-radius: 4px; font-size: 14px; font-weight: 750; line-height: 1; cursor: pointer; transition: background .18s ease, color .18s ease, border-color .18s ease; }
+.matrix-download-button:hover, .matrix-download-button:focus-visible { color: var(--blue); background: #fff; border-color: rgba(31,95,152,.45); outline: none; }
+.matrix-download-icon { position: relative; flex: 0 0 14px; width: 14px; height: 15px; border-bottom: 2px solid currentColor; }
+.matrix-download-icon::before { content: ""; position: absolute; left: 6px; top: 0; width: 2px; height: 10px; background: currentColor; }
+.matrix-download-icon::after { content: ""; position: absolute; left: 3px; top: 6px; width: 7px; height: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); }
 .matrix-all-scroll { width: 100%; overflow-x: auto; scrollbar-width: thin; scrollbar-color: #5d8fb5 #e5e9eb; }
 .matrix-all-scroll::-webkit-scrollbar { height: 10px; }
 .matrix-all-scroll::-webkit-scrollbar-track { margin: 0 8px; background: #e5e9eb; border-radius: 999px; }

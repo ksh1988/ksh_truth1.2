@@ -142,9 +142,9 @@
 .facts span { display: block; margin-bottom: 5px; color: #6f879f; font-size: 10px; font-weight: 650; text-transform: uppercase; }
 .facts strong { display: block; color: #3f4b55; font-size: 13px; font-weight: 600; line-height: 1.65; white-space: pre-line; }
 .extra-facts { margin-top: 24px; }
-.internal-card-link { display: inline-flex; align-items: center; gap: 10px; padding: 0; color: #245f91; background: transparent; border: 0; border-bottom: 2px solid rgba(40,106,166,.28); font: inherit; font-weight: 750; line-height: inherit; text-align: left; cursor: pointer; }
-.internal-card-link:hover { color: #174b76; border-bottom-color: var(--blue); }
-.internal-card-link b { color: var(--blue); font-size: 22px; }
+.internal-card-link { display: inline; padding: 0; color: #245f91; background: transparent; border: 0; font: inherit; font-weight: 750; line-height: inherit; text-align: left; white-space: normal; overflow-wrap: anywhere; text-decoration-line: underline; text-decoration-color: rgba(40,106,166,.42); text-decoration-thickness: 1.7px; text-underline-offset: 4px; text-decoration-skip-ink: auto; cursor: pointer; }
+.internal-card-link:hover { color: #174b76; text-decoration-color: var(--blue); }
+.internal-card-link b { display: inline; margin-left: 8px; color: var(--blue); font-size: 22px; text-decoration: none; }
 
 .media-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 12px; margin-top: 24px; }
 .media-grid .media-item { position: relative; display: block; overflow: hidden; background: var(--panel-muted); border: 1px solid var(--line); }
@@ -476,10 +476,10 @@ body.media-preview-open { overflow: hidden; }
 .image-error small { max-width: 420px; color: #89746d; font-size: 10px; overflow-wrap: anywhere; }
 .source-links { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: baseline; margin-top: 20px; }
 .source-links > span { color: #71879d; font-size: 10px; font-weight: 650; letter-spacing: 1.2px; text-transform: uppercase; }
-.source-links a, .source-links .source-internal-link { color: var(--blue-soft); font-size: 12px; text-decoration: none; border-bottom: 1px solid rgba(139,181,223,.3); }
-.source-links .source-internal-link { padding: 0; background: transparent; border-top: 0; border-right: 0; border-left: 0; font: inherit; font-size: 12px; cursor: pointer; }
+.source-links a, .source-links .source-internal-link { color: var(--blue-soft); font-size: 12px; text-decoration-line: underline; text-decoration-color: rgba(139,181,223,.48); text-decoration-thickness: 1px; text-underline-offset: 3px; text-decoration-skip-ink: auto; white-space: normal; overflow-wrap: anywhere; }
+.source-links .source-internal-link { padding: 0; background: transparent; border: 0; font: inherit; font-size: 12px; text-align: left; cursor: pointer; }
 .source-links .source-link-text { color: #5d7287; font-size: 12px; font-weight: 650; }
-.source-links a:hover, .source-links .source-internal-link:hover { color: #174c7b; }
+.source-links a:hover, .source-links .source-internal-link:hover { color: #174c7b; text-decoration-color: var(--blue); }
 
 .return-floating {
   position: fixed;
