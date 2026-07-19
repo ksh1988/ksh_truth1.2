@@ -5670,13 +5670,12 @@
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/b8/17819364210bb119fd0a0ce2d72aa9afde542279ee.jpg"
                 ],
                 "ko": [
-                  "https://img.ltwebstatic.com/v4/p/ccc/2026/06/20/12/1781936427012c9dbbf87997dd8b2463d998228cd5.png",
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/10/1781936416659f21a93022b24d8482732521832be7.jpg"
                 ],
                 "en": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/10/1781936416659f21a93022b24d8482732521832be7.jpg"
                 ],
-                "shared": []
+                "shared": ["https://img.ltwebstatic.com/v4/p/ccc/2026/06/20/12/1781936427012c9dbbf87997dd8b2463d998228cd5.png"]
               },
               "link": [
                 {
