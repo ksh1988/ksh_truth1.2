@@ -97,9 +97,12 @@
   .matrix-statement, .matrix-conclusion { padding: 15px 16px; font-size: 15px; text-align: left; }
   .evidence-matrix th { font-size: 14px; }
   .evidence-matrix td { padding: 13px 10px; font-size: 13px; }
-  .matrix-agency-compare .matrix-canvas { width: 960px; min-width: 960px; }
-  .matrix-agency-compare .col-category { min-width: 88px !important; }
-  .matrix-agency-compare .col-yg, .matrix-agency-compare .col-gold { width: auto !important; min-width: 0 !important; }
+  .matrix-agency-compare .matrix-canvas { width: 1040px; min-width: 1040px; }
+  .matrix-agency-compare .evidence-matrix th,
+  .matrix-agency-compare .evidence-matrix td { font-size: 14px; }
+  .matrix-agency-compare .col-category { width: 96px !important; min-width: 96px !important; }
+  .matrix-agency-compare .col-yg { width: 350px !important; min-width: 350px !important; }
+  .matrix-agency-compare .col-gold { width: 594px !important; min-width: 594px !important; }
   .matrix-case-essence .matrix-canvas { width: 1280px; min-width: 1280px; }
   .matrix-case-essence .col-year,
   .matrix-case-essence .col-perpetrator,
