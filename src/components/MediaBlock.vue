@@ -6,7 +6,7 @@
  */
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { downloadMedia, mediaFileName, shouldUsePreviewSaveFallback } from '../utils/mediaDownload'
-import { resolveMediaSrc } from '../utils/mediaSource'
+import { visibleMediaSources } from '../utils/mediaSource'
 
 const props = defineProps({
   item: { type: Object, required: true },
@@ -24,10 +24,10 @@ const previewZoomed = ref(false)
 const touchStartX = ref(0)
 let observer
 
-const images = computed(() => [
+const images = computed(() => visibleMediaSources([
   ...(props.item.imgs?.[props.lang] || []),
   ...(props.item.imgs?.shared || []),
-].map(resolveMediaSrc).filter(Boolean))
+]))
 const loadingText = computed(() => ({ zh: 'Images load as you scroll', ko: 'Images load as you scroll', en: 'Images load as you scroll' })[props.lang] || 'Images load as you scroll')
 const downloadLabel = computed(() => ({ zh: '保存图片', ko: 'Save image', en: 'Save image' })[props.lang] || 'Save image')
 const closeLabel = computed(() => ({ zh: 'Close image preview', ko: 'Close image preview', en: 'Close image preview' })[props.lang] || 'Close image preview')

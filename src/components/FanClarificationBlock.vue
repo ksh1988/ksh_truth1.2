@@ -6,6 +6,7 @@
  */
 import { computed } from 'vue'
 import { localizedHtml, localizeValue } from '../utils/localization'
+import { visibleMediaSources } from '../utils/mediaSource'
 import LinkBlock from './LinkBlock.vue'
 import MediaBlock from './MediaBlock.vue'
 import VideoBlock from './VideoBlock.vue'
@@ -29,7 +30,10 @@ function hasFanItemContent(item) {
   if (!item) return false
   const hasText = Boolean(localizeValue(item.description, props.lang))
   const images = item.imgs || {}
-  const hasImages = Boolean((images[props.lang] || []).length || (images.shared || []).length)
+  const hasImages = Boolean(visibleMediaSources([
+    ...(images[props.lang] || []),
+    ...(images.shared || []),
+  ]).length)
   const hasLinks = Boolean((item.link || []).length)
   const videos = item.videos || []
   const localizedVideos = item.videos?.[props.lang] || []

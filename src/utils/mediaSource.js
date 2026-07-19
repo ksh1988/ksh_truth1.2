@@ -1,3 +1,12 @@
+const HIDDEN_MEDIA_PREFIX = 'hidden-'
+
+/**
+ * Checks whether a media source is marked as hidden in site_data.json.
+ * @param {string} src - Raw media source from site_data.json.
+ * @returns {boolean} True when the source should not be rendered, previewed, or downloaded.
+ */
+export const isHiddenMediaSrc = (src) => String(src || '').trim().startsWith(HIDDEN_MEDIA_PREFIX)
+
 /**
  * Checks whether a media source is already an external or browser-native URL.
  * @param {string} src - Raw media source from site_data.json.
@@ -29,6 +38,7 @@ const withBasePath = (path) => {
  */
 export const resolveMediaSrc = (rawSrc) => {
   const src = normalizeSlashes(rawSrc)
+  if (isHiddenMediaSrc(src)) return ''
   if (!src || isExternalSource(src)) return src
 
   const withoutDot = src.replace(/^\.\//, '')
@@ -42,3 +52,10 @@ export const resolveMediaSrc = (rawSrc) => {
   if (publicPath.startsWith('/')) return withBasePath(publicPath)
   return withBasePath('/images/' + publicPath)
 }
+
+/**
+ * Resolves a list of JSON media values while removing hidden or empty entries.
+ * @param {Array<string>} rawSources - Raw image or video sources from site_data.json.
+ * @returns {Array<string>} Browser-loadable sources that should be visible.
+ */
+export const visibleMediaSources = (rawSources = []) => rawSources.map(resolveMediaSrc).filter(Boolean)
