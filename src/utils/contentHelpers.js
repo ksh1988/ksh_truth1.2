@@ -11,9 +11,9 @@ export const isVisibleForLanguage = (item, lang) => lang === 'zh' || item?.zh_on
 /**
  * Checks whether a content node should be rendered in navigation and search.
  * @param {object} item - Content node from site_data.json.
- * @returns {boolean} True unless the node explicitly sets visible to false.
+ * @returns {boolean} True when visible is omitted for old data, or explicitly set to true.
  */
-export const isVisibleContent = (item) => item?.visible !== false
+export const isVisibleContent = (item) => item?.visible === undefined || item.visible === true
 
 /**
  * Documents the entriesFor helper.

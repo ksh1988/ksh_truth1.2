@@ -40,6 +40,14 @@
 .evidence-matrix .segment-bold { font-weight: 750; }
 .evidence-matrix .segment-italic { font-style: italic; }
 .evidence-matrix .segment-underline { text-decoration: underline; text-underline-offset: 3px; }
+.evidence-matrix .matrix-segment-link { padding: 0; color: inherit; background: transparent; border: 0; font: inherit; text-align: inherit; text-decoration: none; cursor: pointer; }
+.evidence-matrix .matrix-segment-link:hover, .evidence-matrix .matrix-segment-link:focus-visible { text-decoration-color: currentColor; outline: none; }
+.evidence-matrix .matrix-segment-link.segment-red { color: #e1261c; }
+.evidence-matrix .matrix-segment-link.segment-blue { color: var(--blue); }
+.evidence-matrix .matrix-column-link { padding: 0; color: inherit; background: transparent; border: 0; font: inherit; font-weight: inherit; line-height: inherit; text-align: inherit; text-decoration: none; cursor: pointer; }
+.evidence-matrix .matrix-column-link:hover, .evidence-matrix .matrix-column-link:focus-visible { color: inherit; text-decoration-color: currentColor; outline: none; }
+.evidence-matrix .matrix-link-text { text-decoration-line: underline; text-decoration-color: currentColor; text-decoration-thickness: 1.5px; text-underline-offset: 4px; text-decoration-skip-ink: auto; }
+.evidence-matrix .matrix-link-arrow { display: inline-block; margin-left: 4px; color: currentColor; font-weight: 850; text-decoration: none; }
 .evidence-matrix .segment-circle { display: inline-flex; align-items: center; justify-content: center; width: 1.45em; height: 1.45em; margin-left: 4px; border: 1.8px solid currentColor; border-radius: 999px; font-size: .82em; font-style: normal; font-weight: 850; line-height: 1; text-decoration: none; vertical-align: text-top; }
 .evidence-matrix .segment-circle-inline { color: var(--blue); }
 .evidence-matrix td:has(.segment-red) { color: #20262b; font-weight: 400; }

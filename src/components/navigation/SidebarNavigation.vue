@@ -10,7 +10,7 @@ import NavigationTreePanel from './NavigationTreePanel.vue'
 import SidebarTreeNode from './SidebarTreeNode.vue'
 
 const treeOpen = ref(false)
-const pressConferenceVideoUrl = 'images/金秀贤记者会节选.mp4'
+const pressConferenceVideoUrl = 'https://video.ltwebstatic.com/video/2026/07/19/17844256013748481883.mp4'
 
 const props = defineProps({
   activeNavigationNodeId: { type: String, default: '' },

@@ -59,7 +59,7 @@ const highlightedParts = (value) => {
     <div class="search-results-heading">
       <span class="eyebrow">SEARCH</span>
       <h1>搜索结果</h1>
-      <p>关键词：<strong>{{ query }}</strong></p>
+      <p>关键词:<strong>{{ query }}</strong></p>
       <p>共 {{ results.length }} 条</p>
     </div>
 

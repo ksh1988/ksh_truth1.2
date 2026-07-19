@@ -40,19 +40,19 @@
               "id": "row8-1",
               "time": "20260623",
               "event": {
-                "zh": "检方认定金赛纶遗属代理人金世义涉嫌诽谤、性暴力、跟踪骚扰等罪名,以拘留状态提起公诉",
+                "zh": "检方认定金赛纶遗属代理人金世义涉嫌诽谤,性暴力,跟踪骚扰等罪名,以拘留状态提起公诉",
                 "en": "Prosecutors determined that Kim Se-ui, the representative of Kim Sae-ron's bereaved family, was suspected of crimes including defamation, violations of sexual crime laws, stalking offenses, attempted coercion, and intimidation, and indicted him while in custody.",
                 "ko": "검찰, '김새론 유족 대리인' 김세의 명예훼손·성폭력·스토킹 혐의 구속 기소"
               },
               "imgs": {
                 "zh": [
-                  "/images/623金世义被检方提起公诉.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/e9/17843846581741fb211787d8a0fa98cc080940dae4.jpg"
                 ],
                 "ko": [
-                  "/images/623检方起诉韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/3c/1784384652590ebd4bd0f31cb7ceaf66db8c381f11.jpg"
                 ],
                 "en": [
-                  "/images/623金世义被检方公诉 英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/95/1784384654753cf731bf5894a0b90a0ec58d875eec.jpg"
                 ],
                 "shared": []
               },
@@ -73,9 +73,9 @@
               "id": "row8-2",
               "time": "20260604",
               "event": {
-                "zh": "警方认定金世义诽谤、性暴力、恐吓、强迫未遂等嫌疑成立,以拘留状态移交给检察机关",
+                "zh": "警方认定金世义诽谤,性暴力,恐吓,强迫未遂等嫌疑成立,以拘留状态移交给检察机关",
                 "en": "The police determined that Kim Se-ui was guilty of defamation, violations of sexual crime laws, intimidation, attempted coercion, etc., and transferred him to the prosecutor's office in custody.",
-                "ko": "경찰, 김세의 명예훼손·성폭력·협박·강요미수 등 혐의 인정… 구속 송치"
+                "ko": "경찰, 김세의 명예훼손·성폭력·협박·강요미수 등 혐의 인정... 구속 송치"
               },
               "imgs": {
                 "zh": [
@@ -174,7 +174,7 @@
               "event": {
                 "zh": "韩警方检方认定未成年交往以及逼债致死均为恶意诽谤,遗属方伪造聊天记录,AI模拟语音,犯下恶意诽谤罪行\n警方申请逮捕令经检方通过,向法院申请逮捕金赛纶遗属代理人金世义",
                 "en": "South Korean police and prosecutors concluded that the allegations of underage dating and debt-related extortion leading to Kim Sae-ron's death constituted malicious defamation. They further concluded that forged chat records and AI-generated voice recordings were used to spread defamatory claims about actor Kim Soo-hyun. Following the police investigation, prosecutors sought an arrest warrant for Kim Se-ui, which was approved by the court.",
-                "ko": "경찰·검찰, 미성년자 교제 및 채무 독촉 사망 의혹 모두 악의적 허위사실로 판단… 유족 측 대화 조작·AI 음성 위조 확인, 김새론 유족 측 대리인 김세의 구속영장 청구"
+                "ko": "경찰·검찰, 미성년자 교제 및 채무 독촉 사망 의혹 모두 악의적 허위사실로 판단... 유족 측 대화 조작·AI 음성 위조 확인, 김새론 유족 측 대리인 김세의 구속영장 청구"
               },
               "imgs": {
                 "zh": [
@@ -205,8 +205,8 @@
               "id": "row8-6",
               "time": "20260409",
               "event": {
-                "zh": "金赛纶遗属代理律师因在夜店等场所进行律师宣传(包括播放金赛纶遗属记者会视频）被法务部律师惩戒委员会惩戒\n金赛纶遗属代理律师不服惩戒提出上诉,被法院驳回",
-                "en": "Attorney representing Kim Sae-ron’s bereaved family was disciplined by the Ministry of Justice’s Attorney Disciplinary Committee for promoting his legal services at venues such as nightclubs, including playing videos of the bereaved family’s press conference. He appealed the disciplinary action, but the court dismissed his appeal.",
+                "zh": "金赛纶遗属代理律师因在夜店等场所进行律师宣传(包括播放金赛纶遗属记者会视频)被法务部律师惩戒委员会惩戒\n金赛纶遗属代理律师不服惩戒提出上诉,被法院驳回",
+                "en": "Attorney representing Kim Sae-ron's bereaved family was disciplined by the Ministry of Justice's Attorney Disciplinary Committee for promoting his legal services at venues such as nightclubs, including playing videos of the bereaved family's press conference. He appealed the disciplinary action, but the court dismissed his appeal.",
                 "ko": "김새론 가족을 대리하는 변호사는 나이트클럽 등에서 변호사를 홍보한 혐의(김새론 가족의 기자회견 영상 방송 등)로 법무부 변호사징계위원회로부터 징계를 받았다.\n김새론 가족을 대리한 변호사는 형벌을 받아들이지 않고 항소했지만 법원은 항소를 기각했다."
               },
               "imgs": {
@@ -248,7 +248,7 @@
               "time": "20260226",
               "event": {
                 "zh": "韩警方受理金赛纶在RUN公司的经纪人起诉金赛纶遗属代理人权英灿造谣诬陷其贪污医疗费,并且将金赛纶遗属代理人权英灿移交检方",
-                "en": "Korean police accepted a complaint filed by Kim Sae-ron’s manager at RUN Company against the representative of the bereaved family, Kwon Young-chan, for allegedly spreading false claims that the manager had embezzled Kim Sae-ron’s medical expenses. Police subsequently referred Kwon Young-chan to prosecutors.",
+                "en": "Korean police accepted a complaint filed by Kim Sae-ron's manager at RUN Company against the representative of the bereaved family, Kwon Young-chan, for allegedly spreading false claims that the manager had embezzled Kim Sae-ron's medical expenses. Police subsequently referred Kwon Young-chan to prosecutors.",
                 "ko": "한국 경찰, 김새론 소속사 런 엔터테인먼트 매니저가 김새론 유족 대리인 권영찬을 상대로 허위 사실 유포 및 의료비 횡령 혐의로 제기한 고소를 접수하고, 권영찬 씨를 검찰에 송치했습니다."
               },
               "imgs": {
@@ -314,7 +314,7 @@
               "time": "20260107",
               "event": {
                 "zh": "韩警方将金赛纶遗属代理人金世义起诉金秀贤粉丝联盟诽谤置为'无嫌疑'结案",
-                "en": "Korean police concluded with “no suspicion” (no charges) the defamation complaint filed by Kim Se-ui, representative of Kim Sae-ron’s bereaved family, against the Kim Soo-hyun Fans Alliance.",
+                "en": "Korean police concluded with \"no suspicion\" (no charges) the defamation complaint filed by Kim Se-ui, representative of Kim Sae-ron's bereaved family, against the Kim Soo-hyun Fans Alliance.",
                 "ko": "한국 경찰, 김새론 유족 대리인 김세의가 김수현 팬 연합을 상대로 제기한 명예훼손 고소를 '혐의 없음'으로 종결."
               },
               "imgs": {
@@ -347,7 +347,7 @@
               "time": "20251129",
               "event": {
                 "zh": "城东税务局驳回韩国黑粉对金秀贤公司偷税漏税的举报",
-                "en": "The Seongdong District Tax Office dismissed a report filed by online antis against Kim Soo-hyun’s agency alleging tax evasion.",
+                "en": "The Seongdong District Tax Office dismissed a report filed by online antis against Kim Soo-hyun's agency alleging tax evasion.",
                 "ko": "성동세무서, 김수현 소속사의 탈세 혐의와 관련해 안티팬이 제기한 신고를 각하했습니다."
               },
               "imgs": {
@@ -379,8 +379,8 @@
               "id": "row8-11",
               "time": "20250821",
               "event": {
-                "zh": "韩警方将金赛纶遗属代理人权英灿起诉金赛纶在RUN公司的经纪人贪污医疗费置为“无嫌疑”结案",
-                "en": "Korean police concluded with “no suspicion” (no charges) the complaint filed by Kwon Young-chan, the representative of the bereaved family, accusing Kim Sae-ron’s manager at RUN Company of embezzling her medical expenses.",
+                "zh": "韩警方将金赛纶遗属代理人权英灿起诉金赛纶在RUN公司的经纪人贪污医疗费置为\"无嫌疑\"结案",
+                "en": "Korean police concluded with \"no suspicion\" (no charges) the complaint filed by Kwon Young-chan, the representative of the bereaved family, accusing Kim Sae-ron's manager at RUN Company of embezzling her medical expenses.",
                 "ko": "한국 경찰, 김새론 유족 대리인 권영찬이 김새론 소속 런 엔터테인먼트 매니저를 상대로 제기한 의료비 횡령 고소를 '혐의 없음'으로 종결."
               },
               "imgs": {
@@ -414,7 +414,7 @@
               "event": {
                 "zh": "韩国驻美大使馆辟谣\"买凶杀人\"不存在",
                 "en": "The Embassy of the Republic of Korea in the United States debunked the rumor that there had been a murder-for-hire plot.",
-                "ko": "주미 한국대사관, “청부살인 존재하지 않아” 사실무근 해명."
+                "ko": "주미 한국대사관, \"청부살인 존재하지 않아\" 사실무근 해명."
               },
               "imgs": {
                 "zh": [
@@ -446,8 +446,8 @@
               "time": "20250509",
               "event": {
                 "zh": "元彬本人辟谣称\"没有给金赛纶钱\"\"没有在买凶杀人案中帮助金赛纶录音举报人\"",
-                "en": "Won Bin personally denied the rumors, stating that he “did not give Kim Sae-ron any money” and “did not assist the alleged whistleblower in the supposed murder-for-hire case by recording any audio.”",
-                "ko": "원빈 측, “김새론에게 돈을 준 적 없다”“청부살인 사건에서 녹음 제보자를 도운 적 없다”고 해명."
+                "en": "Won Bin personally denied the rumors, stating that he \"did not give Kim Sae-ron any money\" and \"did not assist the alleged whistleblower in the supposed murder-for-hire case by recording any audio.\"",
+                "ko": "원빈 측, \"김새론에게 돈을 준 적 없다\"\"청부살인 사건에서 녹음 제보자를 도운 적 없다\"고 해명."
               },
               "imgs": {
                 "zh": [
@@ -465,8 +465,8 @@
               "link": [
                 {
                   "title": {
-                    "zh": "元彬方面回应：“‘除参加金赛纶葬礼外,与此案并无其他关联’……就意外被卷入作出回应",
-                    "en": "Won Bin’s agency: “Other than attending Kim Sae-ron’s funeral, he has no connection to this case,” responding after he was unexpectedly drawn into the controversy",
+                    "zh": "元彬方面回应:\"'除参加金赛纶葬礼外,与此案并无其他关联'...就意外被卷入作出回应",
+                    "en": "Won Bin's agency: \"Other than attending Kim Sae-ron's funeral, he has no connection to this case,\" responding after he was unexpectedly drawn into the controversy",
                     "ko": "원빈 측은 김새론의 장례식에 참석한 것 외에는 이 사건과 아무 관련이 없다며, 뜻밖에 사건에 휘말린 데 대해 입장을 밝혔다."
                   },
                   "url": "https://m.entertain.naver.com/article/311/0001862873"
@@ -498,7 +498,7 @@
               "id": "evidence-photo-official-red-down",
               "title": {
                 "zh": "金秀贤公司官方澄清",
-                "en": "Gold Medalist’s official clarification",
+                "en": "Gold Medalist's official clarification",
                 "ko": "김수현 소속사 공식 해명"
               },
               "description": {
@@ -508,13 +508,13 @@
               },
               "imgs": {
                 "zh": [
-                  "images/伪证之照片-红色羽绒服.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/48/178438468897dbf08cc5169b10771239987b5ad76a.jpg"
                 ],
                 "ko": [
-                  "images/伪证之照片-红羽绒服韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/ae/1784384686270f8ebe6d4ebaf5b0c344ee70f3ac52.jpg"
                 ],
                 "en": [
-                  "images/伪造之照片-红色羽绒服英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/e8/178438470228bde93f387b2b7bb5a5f8c1c27d5ff2.jpg"
                 ],
                 "shared": []
               },
@@ -523,7 +523,7 @@
                   "title": {
                     "zh": "官方澄清",
                     "en": "Official statement",
-                    "ko": "출처 링크 1"
+                    "ko": "공식 해명"
                   },
                   "url": "https://news.nate.com/view/20250402n35269"
                 }
@@ -537,7 +537,7 @@
                 },
                 "description": {
                   "zh": "金秀贤公司公开红色羽绒服照片拍摄时间后,遗属方并未做出任何反驳,只公开下一张照片引导网暴.然而金赛纶遗属另一个代理人权英灿在直播中泄露了金赛纶手机中的另一张红色羽绒服同场景照片,当时金赛纶拿着2019年底上市的苹果11pro.",
-                  "en": "After Gold Medalist disclosed when the photo of the red puffer jacket was taken, Kim Sae-ron’s family did not respond or refute the evidence. Instead, they simply released another photo to continue fueling online harassment.\n\nHowever, Kwon Young-chan, another representative for Kim Sae-ron’s family, later revealed during a livestream another photo from Kim Sae-ron’s phone taken in the same setting. In that photo, Kim Sae-ron was holding an iPhone 11 Pro, which was released in late 2019.",
+                  "en": "After Gold Medalist disclosed when the photo of the red puffer jacket was taken, Kim Sae-ron's family did not respond or refute the evidence. Instead, they simply released another photo to continue fueling online harassment.\n\nHowever, Kwon Young-chan, another representative for Kim Sae-ron's family, later revealed during a livestream another photo from Kim Sae-ron's phone taken in the same setting. In that photo, Kim Sae-ron was holding an iPhone 11 Pro, which was released in late 2019.",
                   "ko": "김수현 소속사가 빨간 패딩 사진의 촬영 시점을 공개한 뒤, 유족 측은 이에 대해 아무런 반박도 하지 않은 채 다음 사진만 공개하며 온라인 공격을 유도했다. 그러나 김새론 유족 측의 또 다른 대리인 권영찬은 라이브 방송에서 김새론의 휴대전화에 있던 같은 장소에서 촬영된 또 다른 빨간 패딩 사진을 공개했고, 해당 사진에서 김새론은 2019년 말 출시된 아이폰 11 프로를 들고 있었다."
                 },
                 "list": [
@@ -564,7 +564,7 @@
                         "title": {
                           "zh": "红羽绒服照片拿着苹果11pro",
                           "en": "Photo with the red puffer jacket showing an iPhone 11 Pro",
-                          "ko": "출처 링크 1"
+                          "ko": "빨간 패딩 사진에서 아이폰 11 Pro를 들고 있음"
                         },
                         "url": "https://www.mt.co.kr/society/2025/05/28/2025052805073498368"
                       }
@@ -580,7 +580,7 @@
               "id": "evidence-photo-official-elevator",
               "title": {
                 "zh": "金秀贤公司官方澄清",
-                "en": "Gold Medalist’s official clarification",
+                "en": "Gold Medalist's official clarification",
                 "ko": "김수현 소속사 공식 해명"
               },
               "description": {
@@ -590,13 +590,13 @@
               },
               "imgs": {
                 "zh": [
-                  "images/伪证之照片-电梯口.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/e2/17843846803a7000a0acd8d8cfe9ce468a8a5b8d04.jpg"
                 ],
                 "ko": [
-                  "images/伪证之照片-电梯口韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/1a/178438468131064d2facaac952e9cd032e97b8fe0d.jpg"
                 ],
                 "en": [
-                  "images/伪造之照片-电梯口英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/a7/1784384699246e5e89988f38d66da4896d16c55a9c.jpg"
                 ],
                 "shared": []
               },
@@ -605,7 +605,7 @@
                   "title": {
                     "zh": "官方澄清",
                     "en": "Official statement",
-                    "ko": "출처 링크 1"
+                    "ko": "공식 해명"
                   },
                   "url": "https://news.nate.com/view/20250402n35269"
                 }
@@ -619,7 +619,7 @@
                 },
                 "description": {
                   "zh": "高糊背影图根本无法确定是金秀贤,而且网民指认高糊背影是金秀贤的原因是红色羽绒服,金赛纶遗属曝光的红色羽绒服照片其实是2019年以后拍摄的,拿着苹果11pro.",
-                  "en": "The extremely blurry back-view photo cannot identify the person as Kim Soo-hyun.\n\nThe only reason many internet users assumed it was Kim Soo-hyun was the red puffer jacket. However, the red puffer jacket photos released by Kim Sae-ron’s family were actually taken after 2019, as Kim Sae-ron was holding an iPhone 11 Pro.",
+                  "en": "The extremely blurry back-view photo cannot identify the person as Kim Soo-hyun.\n\nThe only reason many internet users assumed it was Kim Soo-hyun was the red puffer jacket. However, the red puffer jacket photos released by Kim Sae-ron's family were actually taken after 2019, as Kim Sae-ron was holding an iPhone 11 Pro.",
                   "ko": "흐릿한 뒷모습 사진만으로는 그 인물이 김수현이라고 단정할 수 없다. 네티즌들이 그 흐릿한 뒷모습을 김수현이라고 지목한 이유는 주로 빨간 패딩 때문이었지만, 김새론 유족이 공개한 빨간 패딩 사진은 실제로 2019년 이후 촬영된 것이며 김새론은 아이폰 11 프로를 들고 있었다."
                 },
                 "list": [
@@ -647,7 +647,7 @@
               "id": "evidence-photo-official-dishwashing",
               "title": {
                 "zh": "金秀贤公司官方澄清",
-                "en": "Gold Medalist’s official clarification",
+                "en": "Gold Medalist's official clarification",
                 "ko": "김수현 소속사 공식 해명"
               },
               "description": {
@@ -657,13 +657,13 @@
               },
               "imgs": {
                 "zh": [
-                  "images/伪证之照片-洗碗照.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/13/1784384673c3b646adf47b51774d8ed10a2f27d46a.jpg"
                 ],
                 "ko": [
-                  "images/伪证之照片-洗碗韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/ca/178438467565a76398099f300c5bf7d4caec336206.jpg"
                 ],
                 "en": [
-                  "images/伪造之照片-洗碗英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/ff/1784384695ec6fed34755ebb8bb6c77948d2a47c36.jpg"
                 ],
                 "shared": []
               },
@@ -672,7 +672,7 @@
                   "title": {
                     "zh": "官方澄清",
                     "en": "Official statement",
-                    "ko": "출처 링크 1"
+                    "ko": "공식 해명"
                   },
                   "url": "https://news.nate.com/view/20250402n35269"
                 }
@@ -686,7 +686,7 @@
                 },
                 "description": {
                   "zh": "韩国警方对金赛纶遗属代理人金世义的逮捕令中明确指出,这是2020.4.4拍摄的照片,且并未裸体.而且这张照片位于金牌公司给金赛纶租赁的160平米大平层宿舍中,金赛纶在2020年出演TVN综艺展示过.由于金牌公司于2020年成立,因此房屋租赁于金赛纶成年后.",
-                  "en": "The arrest warrant issued by the Korean police against Kim Sae-ron’s family representative Kim Se-ui explicitly states that this photo was taken on April 4, 2020, and that Kim Soo-hyun was not nude.\n\nThe photo was taken inside the 160㎡ apartment provided by Gold Medalist for Kim Sae-ron. She later showed this residence on a tvN variety show in 2020.\n\nSince Gold Medalist was founded in 2020, the apartment was rented after Kim Sae-ron had already reached adulthood.",
+                  "en": "The arrest warrant issued by the Korean police against Kim Sae-ron's family representative Kim Se-ui explicitly states that this photo was taken on April 4, 2020, and that Kim Soo-hyun was not nude.\n\nThe photo was taken inside the 160㎡ apartment provided by Gold Medalist for Kim Sae-ron. She later showed this residence on a tvN variety show in 2020.\n\nSince Gold Medalist was founded in 2020, the apartment was rented after Kim Sae-ron had already reached adulthood.",
                   "ko": "한국 경찰이 김새론 유족 대리인 김세의에 대해 신청한 구속영장에는 해당 사진이 2020년 4월 4일 촬영된 것이며, 나체 사진이 아니라고 명시되어 있다. 또한 이 사진은 골드메달리스트가 김새론에게 제공한 160㎡(약 48평) 규모의 사원 숙소에서 촬영되었으며, 김새론은 2020년 tvN 예능 프로그램 <온앤오프>를 통해 해당 숙소를 공개한 바 있다. 골드메달리스트는 2020년에 설립되었으므로, 이 숙소는 김새론이 성인이 된 이후에 임차된 것이다."
                 },
                 "list": [
@@ -698,16 +698,16 @@
                     },
                     "imgs": {
                       "zh": [
-                        "images/逮捕令1.jpg",
-                        "images/逮捕令2.jpg"
+                        "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/14/1784384764bdac67b84be7be4f5e2835bef065e928.jpg",
+                        "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/89/1784384767438009252133c093ebbeda6e6819e3d9.jpg"
                       ],
                       "ko": [
-                        "images/逮捕令1.jpg",
-                        "images/逮捕令2.jpg"
+                        "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/14/1784384764bdac67b84be7be4f5e2835bef065e928.jpg",
+                        "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/89/1784384767438009252133c093ebbeda6e6819e3d9.jpg"
                       ],
                       "en": [
-                        "images/逮捕令英1.jpg",
-                        "images/逮捕令英2.jpg"
+                        "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/9b/1784384771a8f9ba818496b0ee4a892ec76c0bafaa.jpg",
+                        "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/e1/1784384774d2582f6709c0de2a2f713c6c3b4b4343.jpg"
                       ],
                       "shared": []
                     },
@@ -722,11 +722,11 @@
                     },
                     "imgs": {
                       "zh": [
-                        "images/金赛纶员工宿舍豪宅.jpg",
+                        "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/b0/17843847884ba85ad7379c7222b044b9fbe3566a6f.jpg",
                         "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/1e/17819364193387a91c23a2c281d741c0d7d0ebc27d.jpg"
                       ],
                       "ko": [
-                        "images/金赛纶员工宿舍豪宅韩.jpg",
+                        "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/9e/178438479162e760c67dd3ab633bc99d9a10cc9234.jpg",
                         "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ef/1781936417498d67cce3481b5377a7d556ff2a60d9.jpg"
                       ],
                       "en": [
@@ -740,7 +740,7 @@
                         "title": {
                           "zh": "金赛纶在金牌公司期间住在160平豪宅中",
                           "en": "Kim Sae-ron lived in a 160㎡ luxury apartment while at Gold Medalist",
-                          "ko": "출처 링크 1"
+                          "ko": "김새론은 골드메달리스트 소속 당시 160㎡ 고급 아파트에 거주했다"
                         },
                         "url": "https://realty.chosun.com/site/data/html_dir/2022/05/22/2022052200136.html"
                       },
@@ -748,7 +748,7 @@
                         "title": {
                           "zh": "金赛纶醉驾后律师解释豪宅其实是金牌公司提供的员工宿舍",
                           "en": "Lawyer explains after the DUI that the luxury apartment was company housing provided by Gold Medalist",
-                          "ko": "출처 링크 1"
+                          "ko": "음주운전 이후 변호사는 해당 고급 아파트가 골드메달리스트가 제공한 직원 숙소였다고 설명했다"
                         },
                         "url": "https://m.entertain.naver.com/home/article/018/0005441900"
                       }
@@ -764,7 +764,7 @@
               "id": "evidence-photo-official-kiss",
               "title": {
                 "zh": "金秀贤公司官方澄清",
-                "en": "Gold Medalist’s official clarification",
+                "en": "Gold Medalist's official clarification",
                 "ko": "김수현 소속사 공식 해명"
               },
               "description": {
@@ -774,13 +774,13 @@
               },
               "imgs": {
                 "zh": [
-                  "images/伪证之照片-亲吻照.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/a0/17843846715ad5b95b013e45517f695959cf54eb98.jpg"
                 ],
                 "ko": [
-                  "images/伪造之照片-亲吻韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/a6/1784384693b5cacb17b97cdf4b32ce14615c8a738d.jpg"
                 ],
                 "en": [
-                  "images/伪造之照片-亲吻英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/f1/1784384692b5c1b57d1277f914bf9682f4e3b898cf.jpg"
                 ],
                 "shared": []
               },
@@ -789,7 +789,7 @@
                   "title": {
                     "zh": "官方澄清",
                     "en": "Official statement",
-                    "ko": "출처 링크 1"
+                    "ko": "공식 해명"
                   },
                   "url": "https://news.nate.com/view/20250402n35269"
                 }
@@ -802,9 +802,9 @@
                   "ko": "추가 사항"
                 },
                 "description": {
-                  "zh": "金秀贤公开拍摄时间反驳遗属主张后,遗属不进行回应,只是继续曝光下一张照片引导网暴.",
-                  "en": "After Kim Soo-hyun publicly disclosed the actual date the photo was taken and refuted the family’s claim, the family did not respond. Instead, they simply released another photo to continue fueling online harassment.",
-                  "ko": "김수현이 촬영 시점을 공개하며 유족 측의 주장을 반박했음에도, 유족 측은 이에 대해 어떤 해명도 내놓지 않은 채 또 다른 사진을 연이어 공개하며 여론을 악용한 공격을 이어갔다."
+                  "zh": "金秀贤公开拍摄时间反驳遗属主张后,遗属不进行回应,只是继续曝光下一张照片引导网暴.金赛纶发型发色和2020年一致.",
+                  "en": "After Kim Soo-hyun publicly disclosed the actual date the photo was taken and refuted the family's claim, the family did not respond. Instead, they simply released another photo to continue fueling online harassment. Kim Sae-ron's hairstyle and hair color are consistent with her appearance in 2020.",
+                  "ko": "김수현이 사진의 실제 촬영 시점을 공개하며 유족 측의 주장을 반박했지만, 유족 측은 이에 대해 답하지 않고 또 다른 사진만 공개하며 온라인 공격을 유도했다. 김새론의 헤어스타일과 머리 색도 2020년 모습과 일치한다."
                 },
                 "list": [
                   {
@@ -814,16 +814,30 @@
                       "ko": ""
                     },
                     "imgs": {
-                      "zh": [],
-                      "ko": [],
-                      "en": [],
+                      "zh": [
+                        "https://img.ltwebstatic.com/v4/j/ccc/2026/07/19/9e/17844259838224544a6334aa90dd3b516d36728ef4.jpg"
+                      ],
+                      "ko": [
+                        "images/20年发型韩.jpg"
+                      ],
+                      "en": [
+                        "images/20年发型英.jpg"
+                      ],
                       "shared": []
                     },
                     "link": [],
                     "videos": [],
                     "zh_only": false
                   }
-                ]
+                ],
+                "imgs": {
+                  "zh": [
+                    "https://img.ltwebstatic.com/v4/j/ccc/2026/07/19/9e/17844259838224544a6334aa90dd3b516d36728ef4.jpg"
+                  ],
+                  "ko": [],
+                  "en": [],
+                  "shared": []
+                }
               },
               "zh_only": false
             },
@@ -831,7 +845,7 @@
               "id": "evidence-photo-official-skiing",
               "title": {
                 "zh": "金秀贤公司官方澄清",
-                "en": "Gold Medalist’s official clarification",
+                "en": "Gold Medalist's official clarification",
                 "ko": "김수현 소속사 공식 해명"
               },
               "description": {
@@ -841,13 +855,13 @@
               },
               "imgs": {
                 "zh": [
-                  "images/伪证之照片-滑雪照.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/a0/1784384676ea2db876341001d5953fbb3f77826b22.jpg"
                 ],
                 "ko": [
-                  "images/伪证之照片-滑雪照韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/11/1784384678452616b01b08e210f9877d34bbf8e2ee.jpg"
                 ],
                 "en": [
-                  "images/伪造之照片-滑雪照英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/d3/1784384697654c21a69868eb2d23dbe1e952295e3f.jpg"
                 ],
                 "shared": []
               },
@@ -856,7 +870,7 @@
                   "title": {
                     "zh": "官方澄清",
                     "en": "Official statement",
-                    "ko": "출처 링크 1"
+                    "ko": "공식 해명"
                   },
                   "url": "https://news.nate.com/view/20250402n35269"
                 }
@@ -898,7 +912,7 @@
               "id": "evidence-photo-official-deleted-selfie",
               "title": {
                 "zh": "金秀贤公司官方澄清",
-                "en": "Gold Medalist’s official clarification",
+                "en": "Gold Medalist's official clarification",
                 "ko": "김수현 소속사 공식 해명"
               },
               "description": {
@@ -908,13 +922,13 @@
               },
               "imgs": {
                 "zh": [
-                  "images/伪证之照片-秒删合照.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/55/1784384683f236080d50d50b367e588537db5c6432.jpg"
                 ],
                 "ko": [
-                  "images/伪证之照片-秒删合照韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/33/1784384684a30b65dfa3fdcd8082d821a7d679394f.jpg"
                 ],
                 "en": [
-                  "images/伪造之照片-秒删合照英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/a0/1784384700f557272614c1aa8f6462aa958352c846.jpg"
                 ],
                 "shared": []
               },
@@ -923,7 +937,7 @@
                   "title": {
                     "zh": "官方澄清",
                     "en": "Official statement",
-                    "ko": "출처 링크 1"
+                    "ko": "공식 해명"
                   },
                   "url": "https://news.nate.com/view/20250402n35269"
                 }
@@ -974,7 +988,7 @@
               "id": "evidence-photo-official-meal-2018",
               "title": {
                 "zh": "金秀贤公司官方澄清",
-                "en": "Gold Medalist’s official clarification",
+                "en": "Gold Medalist's official clarification",
                 "ko": "김수현 소속사 공식 해명"
               },
               "description": {
@@ -984,13 +998,13 @@
               },
               "imgs": {
                 "zh": [
-                  "images/伪证之照片-18年吃饭.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/48/1784384668d90c18fe34f2d4eb963277d34ff170f6.jpg"
                 ],
                 "ko": [
-                  "images/伪证之照片-18年吃饭韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/3e/1784384669cfaf360dbcb5ed6b5960860b4f56db4e.jpg"
                 ],
                 "en": [
-                  "images/伪造之照片-18年吃饭英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/7a/178438469042cd464085dbfac2820d51fe358141ac.jpg"
                 ],
                 "shared": []
               },
@@ -999,7 +1013,7 @@
                   "title": {
                     "zh": "官方澄清",
                     "en": "Official statement",
-                    "ko": "출처 링크 1"
+                    "ko": "공식 해명"
                   },
                   "url": "https://news.nate.com/view/20250402n35269"
                 }
@@ -1041,7 +1055,7 @@
           "intro": {
             "zh": "金赛纶遗属故意只曝光照片本身,却不曝光照片的拍摄时间,引导网友造谣图片拍摄时间,所有能代表两人处于恋爱关系的亲密合照均为成年后.",
             "ko": "김새론 유족은 사진 자체만 공개하고 촬영 시점은 공개하지 않아 네티즌들이 사진 촬영 시기에 대해 허위 사실을 유포하도록 유도했다. 두 사람이 연인 관계였음을 보여주는 모든 친밀한 사진은 김새론이 성인이 된 이후에 촬영된 것으로 확인됐다.",
-            "en": "Kim Sae-ron’s family deliberately released only the photos themselves while withholding the dates they were taken, leading the public to speculate about the timeline. Every intimate photo that can reasonably indicate a romantic relationship between Kim Soo-hyun and Kim Sae-ron was taken after both were adults."
+            "en": "Kim Sae-ron's family deliberately released only the photos themselves while withholding the dates they were taken, leading the public to speculate about the timeline. Every intimate photo that can reasonably indicate a romantic relationship between Kim Soo-hyun and Kim Sae-ron was taken after both were adults."
           }
         },
         {
@@ -1057,12 +1071,12 @@
               "id": "evidence-chat-court",
               "title": {
                 "zh": "司法机关认定遗属将金赛纶与未知对象聊天记录安上金秀贤头像曝光",
-                "en": "Judicial authorities determined that the family replaced the original chat partner’s profile picture with Kim Soo-hyun’s",
+                "en": "Judicial authorities determined that the family replaced the original chat partner's profile picture with Kim Soo-hyun's",
                 "ko": "사법 기관은 유족이 김새론과 알 수 없는 상대방의 대화 내용을 김수현의 프로필 사진을 붙여 공개한 것으로 확인했다."
               },
               "description": {
                 "zh": "",
-                "en": "Judicial authorities concluded that Kim Sae-ron’s family publicly released chat records after replacing the original chat partner’s profile picture with Kim Soo-hyun’s, even though the conversations were with an unknown individual.",
+                "en": "Judicial authorities concluded that Kim Sae-ron's family publicly released chat records after replacing the original chat partner's profile picture with Kim Soo-hyun's, even though the conversations were with an unknown individual.",
                 "ko": ""
               },
               "imgs": {
@@ -1094,12 +1108,12 @@
               "id": "evidence-chat-row3-4",
               "title": {
                 "zh": "金赛纶遗属将多人与金赛纶的对话后期合成金秀贤头像曝光",
-                "en": "The family combined conversations with multiple different people and replaced them with Kim Soo-hyun’s profile picture",
+                "en": "The family combined conversations with multiple different people and replaced them with Kim Soo-hyun's profile picture",
                 "ko": "김새론 유족이 여러 명과 김새론의 대화를 편집해 김수현의 프로필 사진을 합성한 뒤 공개했다."
               },
               "description": {
                 "zh": "参考金赛纶遗属直播间中公开的聊天记录原件,可以看出这些聊天记录的对象并不相同.",
-                "en": "By comparing the original chat records shown during the family’s livestream with the versions they later released, it can be seen that the conversations were with different individuals, but were later edited by replacing the profile pictures with Kim Soo-hyun’s before being made public.",
+                "en": "By comparing the original chat records shown during the family's livestream with the versions they later released, it can be seen that the conversations were with different individuals, but were later edited by replacing the profile pictures with Kim Soo-hyun's before being made public.",
                 "ko": "유족 측 라이브 방송에서 공개된 원본 채팅 기록을 보면, 이 채팅들의 상대가 서로 다른 사람이라는 점을 확인할 수 있다."
               },
               "imgs": {
@@ -1116,12 +1130,85 @@
               },
               "videos": [],
               "zh_only": false
+            },
+            {
+              "id": "evidence-chat-2018-miss-you-military-phone",
+              "title": {
+                "zh": "金赛纶遗属将18年其他男人对金赛纶说\"我想你\"的聊天记录安上金秀贤头像曝光,其实当天金秀贤在军队里没有手机.",
+                "en": "Kim Sae-ron's bereaved family released a 2018 chat record in which another man told Kim Sae-ron \"I miss you\" after replacing the profile image with Kim Soo-hyun's. In fact, Kim Soo-hyun was serving in the military that day and did not have a phone.",
+                "ko": "김새론 유족은 2018년 다른 남성이 김새론에게 \"보고 싶다\"고 말한 대화 기록에 김수현의 프로필 사진을 붙여 공개했다. 그러나 실제로 그날 김수현은 군 복무 중이어서 휴대전화를 가지고 있지 않았다."
+              },
+              "description": {
+                "zh": "",
+                "en": "",
+                "ko": ""
+              },
+              "imgs": {
+                "zh": [
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/19/ff/1784425984bf00156e27ec9b7a625482d755c88ff3.jpg"
+                ],
+                "ko": [
+                  "images/金秀贤18年前线韩.jpg"
+                ],
+                "en": [
+                  "images/金秀贤18年前线英.jpg"
+                ],
+                "shared": []
+              },
+              "link": [
+                {
+                  "title": {
+                    "zh": "金秀贤2018年4月4日仍然在部队里拒绝采访,部队里没有手机",
+                    "en": "Kim Soo-hyun was still serving in the military on April 4, 2018 and declined interviews; phones were not allowed in the unit",
+                    "ko": "김수현은 2018년 4월 4일에도 군 복무 중이었고 인터뷰를 거절했으며, 부대 내에서는 휴대전화를 사용할 수 없었다"
+                  },
+                  "url": "https://www.news2day.co.kr/101839"
+                },
+                {
+                  "title": {
+                    "zh": "金赛纶遗属曝光的聊天记录与金秀贤入伍日期,入伍时日记相悖",
+                    "en": "The chat records released by Kim Sae-ron's bereaved family contradict Kim Soo-hyun's enlistment date and his diary from the time of enlistment",
+                    "ko": "김새론 유족이 공개한 대화 기록은 김수현의 입대일 및 입대 당시 일기와 맞지 않는다"
+                  },
+                  "url": "https://n.news.naver.com/article/008/0005260144?sid=102"
+                }
+              ],
+              "videos": [],
+              "zh_only": false
+            },
+            {
+              "id": "evidence-chat-timestamp-tampering",
+              "title": {
+                "zh": "金赛纶遗属为了避免当时金秀贤在军队里随意篡改了虚假聊天记录的时间.",
+                "en": "Kim Sae-ron's bereaved family arbitrarily altered the date of a chat record. The same chat record was dated April 2 in the livestream image, but April 9 in the Excel-format chat log released by the family, apparently to avoid the fact that Kim Soo-hyun was in the military at the time.",
+                "ko": "김새론 유족은 대화 기록의 날짜를 임의로 조작했다. 같은 대화 기록이 라이브 방송 이미지에서는 4월 2일로 되어 있었지만, 유족이 직접 공개한 엑셀 버전 대화 기록에서는 4월 9일로 되어 있었다. 이는 당시 김수현이 군 복무 중이었다는 사실을 피하기 위해 시간을 바꾼 것으로 보인다."
+              },
+              "description": {
+                "zh": "上图是2025年12月金赛纶遗属交给记者曝光的excel版本聊天记录,下图是2025年3月金赛纶遗属在横竖研直播间自爆的聊天记录截图.相同的两句话,聊天记录图片时间是2018年4月2日,在excel表格中变成了2018年4月9日.金赛纶遗属为了避开金秀贤明确在军队中的日期篡改了虚假聊天记录的日期",
+                "en": "The image above is the Excel-format chat log that Kim Sae-ron's bereaved family gave to reporters for publication in December 2025. The image below is a screenshot of the chat record that the family themselves revealed during a HoverLab livestream in March 2025. The same two lines of conversation appear with the date April 2, 2018 in the screenshot, but become April 9, 2018 in the Excel sheet. The family altered the date of the fabricated chat record to avoid the date when Kim Soo-hyun was clearly serving in the military.",
+                "ko": "위 이미지는 2025년 12월 김새론 유족이 기자에게 전달해 공개한 엑셀 버전 대화 기록이고, 아래 이미지는 2025년 3월 유족이 가로세로연구소 라이브 방송에서 직접 공개한 대화 기록 캡처다. 같은 두 문장의 대화가 캡처 이미지에서는 2018년 4월 2일로 되어 있지만, 엑셀 표에서는 2018년 4월 9일로 바뀌어 있다. 유족은 김수현이 명확히 군 복무 중이었던 날짜를 피하기 위해 조작된 대화 기록의 날짜를 변경했다."
+              },
+              "imgs": {
+                "zh": [
+                  "images/篡改聊天记录时间中.jpg"
+                ],
+                "ko": [
+                  "images/篡改聊天记录时间韩.jpg"
+                ],
+                "en": [
+                  "images/篡改聊天记录时间英.jpg"
+                ],
+                "shared": []
+              },
+              "link": [],
+              "videos": [],
+              "zh_only": false
             }
           ],
           "intro": {
             "zh": "金赛纶遗属将金赛纶与多人的聊天记录后期合成安上金秀贤头像曝光.",
             "ko": "김새론 유족은 김새론과 여러 사람의 채팅 기록을 편집해 김수현의 프로필 사진을 붙인 뒤 공개했다.",
-            "en": "Kim Sae-ron’s family allegedly edited Kim Sae-ron’s conversations with multiple different people by replacing the original profile photos with Kim Soo-hyun’s profile picture before releasing them publicly."
+            "en": "Kim Sae-ron's family allegedly edited Kim Sae-ron's conversations with multiple different people by replacing the original profile photos with Kim Soo-hyun's profile picture before releasing them publicly."
           }
         },
         {
@@ -1137,23 +1224,23 @@
               "id": "evidence-letter-row11-5",
               "title": {
                 "zh": "将2019年恋爱时期的'我爱你'嫁接到2018年普通朋友之间的信旁",
-                "en": "“I love you” from a 2019 postcard was attached to a 2018 letter exchanged between ordinary friends",
+                "en": "\"I love you\" from a 2019 postcard was attached to a 2018 letter exchanged between ordinary friends",
                 "ko": "2019년 연애 시기에 작성된 엽서의 '사랑해'라는 문구를 캡처해 2018년 군대 편지 옆에 이어 붙였다."
               },
               "description": {
                 "zh": "金秀贤2018年信件写错金赛纶昵称,两处昵称全部写错第一个字,将새写成세,2019年明信片是对的.",
-                "en": "The 2018 military letter written by Kim Soo-hyun misspelled Kim Sae-ron’s nickname. In both occurrences, the first syllable was written incorrectly, with “새” mistakenly written as “세.”\n\nBy contrast, the nickname was written correctly in the 2019 postcard, which was written while they were in a romantic relationship.",
+                "en": "The 2018 military letter written by Kim Soo-hyun misspelled Kim Sae-ron's nickname. In both occurrences, the first syllable was written incorrectly, with \"새\" mistakenly written as \"세.\"\n\nBy contrast, the nickname was written correctly in the 2019 postcard, which was written while they were in a romantic relationship.",
                 "ko": "김수현의 2018년 편지에는 김새론의 별명이 잘못 기재되어 있었으며, 두 곳 모두 별명의 첫 글자인 '새'를 '세'로 잘못 썼다. 반면 2019년 엽서에서는 정확하게 적혀 있었다."
               },
               "imgs": {
                 "zh": [
-                  "/images/信件中.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/f4/17843847055c382bea08fe4cbdd8e8651c51dd4c22.jpg"
                 ],
                 "ko": [
-                  "/images/信件英文.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/ed/1784384707a646be2a04817d07791e0278fccdbf44.jpg"
                 ],
                 "en": [
-                  "/images/信件英文.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/ed/1784384707a646be2a04817d07791e0278fccdbf44.jpg"
                 ],
                 "shared": []
               },
@@ -1164,7 +1251,7 @@
           "intro": {
             "zh": "金赛纶遗属将2019年恋爱时期明信片中写的'我爱你'截图嫁接到2018年军队信件旁,军队信件中金赛纶的昵称全部写错.",
             "ko": "김새론 유족은 2019년 연애 시기에 작성된 엽서의 '사랑해'라는 문구를 캡처해 2018년 군대 편지 옆에 이어 붙였고, 해당 군대 편지에는 김새론의 별명이 모두 잘못 기재되어 있었다.",
-            "en": "Kim Sae-ron’s family allegedly took a screenshot of the words “I love you” from a 2019 postcard written during the couple’s relationship and placed it next to a 2018 military letter to create the misleading impression that they belonged to the same letter. In the 2018 military letter, Kim Sae-ron’s nickname was misspelled throughout."
+            "en": "Kim Sae-ron's family allegedly took a screenshot of the words \"I love you\" from a 2019 postcard written during the couple's relationship and placed it next to a 2018 military letter to create the misleading impression that they belonged to the same letter. In the 2018 military letter, Kim Sae-ron's nickname was misspelled throughout."
           }
         },
         {
@@ -1212,7 +1299,7 @@
               },
               "details": {
                 "zh": "2025年5月7日金赛纶遗属公开AI录音后,金秀贤公司立刻发声明打假.",
-                "en": "After Kim Sae-ron’s family released the alleged AI recording on May 7, 2025, Gold Medalist immediately issued a statement disputing its authenticity.",
+                "en": "After Kim Sae-ron's family released the alleged AI recording on May 7, 2025, Gold Medalist immediately issued a statement disputing its authenticity.",
                 "ko": "2025년 5월 7일 김새론 유족이 AI 녹음을 공개한 뒤, 김수현 소속사는 즉시 이를 반박하는 입장을 냈다."
               }
             },
@@ -1246,11 +1333,11 @@
               "event": {
                 "zh": "编记者协助杀人被起诉",
                 "en": "Reporter sued over fabricated murder-for-hire story",
-                "ko": "‘기자가 살인을 도왔다’는 허위사실 유포로 피소"
+                "ko": "'기자가 살인을 도왔다'는 허위사실 유포로 피소"
               },
               "details": {
                 "zh": "金赛纶遗属购买AI录音同时编造姜京允出境前往新泽西协助买凶杀人,被姜京允起诉.",
-                "en": "While presenting the alleged AI recording, Kim Sae-ron’s family falsely claimed that reporter Kang Kyung-yoon had traveled to New Jersey to assist in a murder-for-hire plot. Kang Kyung-yoon filed a lawsuit.",
+                "en": "While presenting the alleged AI recording, Kim Sae-ron's family falsely claimed that reporter Kang Kyung-yoon had traveled to New Jersey to assist in a murder-for-hire plot. Kang Kyung-yoon filed a lawsuit.",
                 "ko": "김새론 유족은 AI 녹음을 구매하면서도 강경윤 기자가 청부살인을 돕기 위해 뉴저지로 출국했다는 이야기를 조작했고, 강경윤 기자는 이들을 고소했다."
               }
             },
@@ -1288,7 +1375,7 @@
               },
               "details": {
                 "zh": "金赛纶遗属代理人拿网络上的伤口图冒充金秀贤买凶杀人导致的伤口.",
-                "en": "The family’s representative used an injury image taken from the internet and falsely presented it as evidence of injuries allegedly caused by a murder-for-hire attempt ordered by Kim Soo-hyun.",
+                "en": "The family's representative used an injury image taken from the internet and falsely presented it as evidence of injuries allegedly caused by a murder-for-hire attempt ordered by Kim Soo-hyun.",
                 "ko": "김새론 유족 대리인은 인터넷에서 퍼온 타인의 상처 사진을 마치 김수현의 청부살인으로 인해 발생한 상처인 것처럼 조작·제시했다."
               }
             },
@@ -1335,7 +1422,7 @@
               },
               "details": {
                 "zh": "金赛纶遗属编造的元彬帮助录音举报人故事被元彬本人打假.",
-                "en": "Won Bin personally denied the family’s claim that he had assisted the alleged audio whistleblower.",
+                "en": "Won Bin personally denied the family's claim that he had assisted the alleged audio whistleblower.",
                 "ko": "김새론 유족이 원빈이 제보자 녹음을 도왔다고 조작한 이야기는 원빈 본인의 직접적인 해명으로 사실무근임이 확인됐다."
               }
             },
@@ -1411,7 +1498,7 @@
               },
               "details": {
                 "zh": "韩国驻美大使馆辟谣没有买凶杀人案件.",
-                "en": "The Embassy stated that no murder-for-hire case existed, contradicting the family’s allegations.",
+                "en": "The Embassy stated that no murder-for-hire case existed, contradicting the family's allegations.",
                 "ko": "주미 한국대사관은 청부살인 사건은 없었다고 밝혔다."
               }
             },
@@ -1419,16 +1506,16 @@
               "id": "evidence-ai-kim-se-ui-prevention-law-petition",
               "imgs": {
                 "zh": [
-                  "images/金世义防治法1.jpg",
-                  "images/金世义防治法2.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/85/1784384776b886ee83a0fc722aa95ddd9c1352b3e1.jpg",
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/d4/178438477994e501a2e78f69111546de863d21f816.jpg"
                 ],
                 "ko": [
-                  "images/金世义防治法1.jpg",
-                  "images/金世义防治法2.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/85/1784384776b886ee83a0fc722aa95ddd9c1352b3e1.jpg",
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/d4/178438477994e501a2e78f69111546de863d21f816.jpg"
                 ],
                 "en": [
-                  "images/金世义防治法1.jpg",
-                  "images/金世义防治法2.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/85/1784384776b886ee83a0fc722aa95ddd9c1352b3e1.jpg",
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/d4/178438477994e501a2e78f69111546de863d21f816.jpg"
                 ],
                 "shared": []
               },
@@ -1436,7 +1523,7 @@
                 {
                   "title": {
                     "zh": "金世义防治法请愿报道",
-                    "en": "Report on the “Kim Se-ui Prevention Act” petition",
+                    "en": "Report on the \"Kim Se-ui Prevention Act\" petition",
                     "ko": "김세의 방지법 청원 보도"
                   },
                   "url": "https://www.topstarnews.net/news/articleView.html?idxno=15706344"
@@ -1455,12 +1542,12 @@
               "time": "20250622",
               "event": {
                 "zh": "金世义防治法请愿7万人参与",
-                "en": "“Kim Se-ui Prevention Act” petition reached 70,000 participants",
+                "en": "\"Kim Se-ui Prevention Act\" petition reached 70,000 participants",
                 "ko": "김세의 방지법 청원에 7만 명 참여"
               },
               "details": {
                 "zh": "因为AI录音和买凶杀人被当场揭穿,韩国民众从2025年5月22日发起金世义防治法请愿,最终有7万人参与请愿.",
-                "en": "After the AI recording and murder-for-hire allegations were publicly challenged, members of the Korean public launched a petition for legislation informally known as the “Kim Se-ui Prevention Act” on May 22, 2025. The petition ultimately received 70,000 participants.",
+                "en": "After the AI recording and murder-for-hire allegations were publicly challenged, members of the Korean public launched a petition for legislation informally known as the \"Kim Se-ui Prevention Act\" on May 22, 2025. The petition ultimately received 70,000 participants.",
                 "ko": "AI 녹음과 청부살인 이야기가 허위로 밝혀진 뒤, 한국 국민들은 2025년 5월 22일부터 김세의 방지법 청원을 시작했고, 최종적으로 7만 명이 청원에 참여했다."
               }
             },
@@ -1468,13 +1555,13 @@
               "id": "evidence-ai-mbc-four-recording-versions",
               "imgs": {
                 "zh": [
-                  "images/四个版本录音中.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/9f/1784384716a8097a748cc324291873faeab99e396e.jpg"
                 ],
                 "ko": [
-                  "images/四个版本录音韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/30/1784384721e2971446997b3fe93dc4874c9d0c81e7.jpg"
                 ],
                 "en": [
-                  "images/四个版本录音英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/b8/1784384719ff157f995b38bccf48c4578d96517e2c.jpg"
                 ],
                 "shared": []
               },
@@ -1498,7 +1585,7 @@
               },
               "details": {
                 "zh": "2026年6月15日,MBC节目报道金赛纶遗属代理人公开的录音实际上存在四个版本.",
-                "en": "On June 15, 2026, an MBC program reported that four different versions of the recording released by the family’s representative had existed.",
+                "en": "On June 15, 2026, an MBC program reported that four different versions of the recording released by the family's representative had existed.",
                 "ko": "2026년 6월 15일, MBC 프로그램은 김새론 유가족 대리인이 공개한 녹음 파일이 실제로 네 가지 버전으로 존재했다고 보도했다."
               }
             },
@@ -1506,13 +1593,13 @@
               "id": "evidence-ai-prosecutors-debunk-recording",
               "imgs": {
                 "zh": [
-                  "images/626检察院打假录音中.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/27/1784384661ac79181a777a653bac6fa30092350192.jpg"
                 ],
                 "ko": [
-                  "images/626检察院打假录音韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/f5/1784384666d0f68634be71d09257e31f28d8ec99a3.jpg"
                 ],
                 "en": [
-                  "images/626检察院打假录音英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/8a/178438466346ae8ec1a8cc3820bbbe7a01b016f591.jpg"
                 ],
                 "shared": []
               },
@@ -1536,15 +1623,15 @@
               },
               "details": {
                 "zh": "2026年6月26日,检察院相关报道对金赛纶遗属代理人公开的录音内容进行打假.",
-                "en": "On June 26, 2026, prosecution-related reports challenged the authenticity and content of the recording released by the family’s representative.",
-                "ko": "2026년 6월 26일, 검찰 관련 보도는 김새론 유가족 대리인이 공개한 녹음 내용에 대한 조작 의혹을 반박했다."
+                "en": "On June 26, 2026, prosecution-related reports challenged the authenticity and content of the recording released by the family's representative.",
+                "ko": "2026년 6월 26일, 검찰 관련 보도에서 김새론 유족 대리인이 공개한 녹음 내용이 허위 및 조작된 것임이 지적됐다."
               }
             }
           ],
           "intro": {
             "zh": "2025年5月7日,遗属召开第三次记者会曝光AI录音,并捏造金秀贤买凶杀人抢夺录音的故事.金秀贤公司当场发声明打假AI,因为遗属公开的录音据说是在新泽西咖啡馆中录制的,恰好之前有一个自称掌握了成年后交往录音的人联系金牌公司要出售录音,录音提供者也提供了一段在新泽西咖啡馆录音的试听,被金牌公司认为是AI录音拒绝购买.因此金牌公司认为是同一个AI录音诈骗犯编造了不同版本的录音要出售给不同的人.甚至元彬也回应称从未帮助所谓的录音举报人,随后韩国驻美大使馆也打假了遗属编造的买凶杀人故事,被金赛纶遗属编入买凶杀人抢夺AI录音的其他四个人也都起诉了遗属代理人.最后因翻车得太厉害韩国人发起金赛纶遗属代理人防治法,在2025年6月23日时有七万人参与请愿.2026年5月20日,韩国警方认定录音是AI合成,申请逮捕金赛纶遗属代理人,大检察厅科学搜查部认为录音是单独录制的女声和另一名男声拼接剪辑营造出在同一空间交谈的假象.",
-            "ko": "2025년 5월 7일 유족은 세 번째 기자회견을 열어 AI 녹음을 공개하고, 김수현이 청부살인을 사주해 녹음을 빼앗으려 했다는 이야기를 조작했다. 김수현 소속사는 현장에서 즉시 해당 녹음이 AI 합성이라는 입장을 밝혔다. 유족이 공개한 녹음은 뉴저지의 한 카페에서 녹음됐다고 주장됐는데, 이전에도 성인이 된 이후의 교제 녹음을 갖고 있다고 주장한 사람이 골드메달리스트에 연락해 녹음을 팔려고 했고, 뉴저지의 한 카페에서 녹음했다는 샘플도 제공한 적이 있었다. 골드메달리스트는 이를 AI 녹음으로 판단해 구매를 거절했다. 따라서 소속사는 같은 AI 녹음 사기범이 서로 다른 사람에게 팔기 위해 다른 버전의 녹음을 만들어낸 것으로 보았다. 원빈 역시 이른바 녹음 제보자를 도운 적이 없다고 밝혔다. 이후 주미 한국대사관도 유족이 조작한 청부살인 이야기를 반박했고, 청부살인으로 AI 녹음을 빼앗으려 했다는 이야기와 관련해 언급된 다른 네 명도 유족 대리인을 고소했다. 이야기가 너무 크게 무너지자 한국에서는 ‘김새론 유족 대리인 방지법’ 청원이 제기됐고, 2025년 6월 23일에는 7만 명이 참여했다. 2026년 5월 20일 한국 경찰은 해당 녹음이 AI 합성이라고 판단하고 유족 대리인에 대한 구속영장을 신청했다. 대검찰청 과학수사부는 따로 녹음된 여성의 음성과 다른 남성의 음성을 이어 붙여 같은 공간에서 대화한 것처럼 꾸민 것이라고 판단했다.",
-            "en": "On May 7, 2025, Kim Sae-ron’s family held their third press conference, where they released an alleged audio recording and claimed it proved misconduct by Kim Soo-hyun. They also alleged that Kim Soo-hyun had hired someone to seize the recording and murder the whistleblower.\n\nGold Medalist immediately issued a statement denying the recording’s authenticity, stating that it was AI-generated.\n\nAccording to the family’s claim, the recording had been made in a coffee shop in New Jersey. However, before the press conference, a person claiming to possess a recording proving that Kim Soo-hyun and Kim Sae-ron dated as adults had already contacted Gold Medalist, attempting to sell the recording. The seller also provided a sample allegedly recorded in a New Jersey coffee shop. Gold Medalist concluded that the sample was AI-generated and refused to purchase it.\n\nGold Medalist therefore believed that the same AI recording scammer had created multiple versions of fabricated recordings and attempted to sell different versions to different people.\n\nActor Won Bin later publicly denied ever assisting the alleged whistleblower. The Embassy of the Republic of Korea in the United States also refuted the family’s allegation that a murder-for-hire incident had occurred. The other four individuals whom the family had incorporated into the alleged murder-for-hire story subsequently filed lawsuits against the family’s representative.\n\nFollowing the controversy, members of the Korean public launched a petition calling for legislation informally referred to as the “Kim Se-ui Prevention Act.” By June 23, 2025, the petition had gathered more than 70,000 participants.\n\nOn May 20, 2026, the Korean police concluded that the recording had been generated using AI and applied for an arrest warrant for the family’s representative. The Forensic Science Division of the Supreme Prosecutors’ Office concluded that the recording had been fabricated by combining a separately recorded female voice with another male voice, creating the false impression that the two speakers were conversing in the same location."
+            "ko": "2025년 5월 7일 유족은 세 번째 기자회견을 열어 AI 음성을 공개하고, 김수현이 청부살인을 사주해 녹음을 빼앗으려 했다는 이야기를 조작했다. 김수현 소속사는 현장에서 즉시 해당 음성이 AI 합성이라고 반박했다. 유족이 공개한 녹음은 뉴저지의 한 카페에서 녹음됐다고 주장됐는데, 이전에도 성인이 된 이후의 교제 녹음을 갖고 있다고 주장한 사람이 골드메달리스트에 연락해 녹음을 팔려고 했고, 뉴저지의 한 카페에서 녹음했다는 샘플도 제공한 적이 있었다. 골드메달리스트는 이를 AI 음성으로 판단해 구매를 거절했다. 따라서 소속사는 같은 AI 음성 사기범이 서로 다른 사람에게 팔기 위해 다른 버전의 녹음을 조작한 것으로 보았다. 원빈 역시 이른바 녹음 제보자를 도운 적이 없다고 밝혔다. 이후 주미 한국대사관도 유족이 조작한 청부살인 이야기가 사실이 아니라고 밝혔다. 유족이 청부살인으로 AI 녹음을 빼앗으려 했다는 이야기에 끌어들인 다른 네 명도 유족 대리인을 고소했다. 조작이 너무 크게 드러나자 한국에서는 김새론 유족 대리인 방지법 청원이 제기됐고, 2025년 6월 23일에는 7만 명이 참여했다. 2026년 5월 20일 한국 경찰은 해당 녹음이 AI 합성이라고 판단하고 유족 대리인에 대한 구속영장을 신청했다. 대검찰청 과학수사부는 따로 녹음된 여성의 음성과 다른 남성의 음성을 이어 붙여 같은 공간에서 대화한 것처럼 꾸민 것이라고 판단했다.",
+            "en": "On May 7, 2025, the family held their third press conference, released AI-generated audio, and fabricated a story that Kim Soo-hyun had hired someone to murder the informant and seize the recording. Gold Medalist immediately issued a statement exposing the audio as AI-generated. The family claimed the audio had been recorded in a New Jersey coffee shop. Before that, a person claiming to possess a recording of an adult relationship had contacted Gold Medalist to sell a recording, and also provided a sample said to have been recorded in a New Jersey coffee shop. Gold Medalist judged it to be AI-generated audio and refused to buy it. Gold Medalist therefore believed that the same AI-audio scammer had fabricated different versions of recordings to sell to different people. Won Bin also stated that he had never helped the so-called audio informant. The Korean Embassy in the United States later debunked the family's fabricated murder-for-hire story, and the other four people whom the family dragged into the story of murder-for-hire and seizing the AI audio also sued the family's representative. Because the fabrication collapsed so badly, Korean citizens launched a petition for a Kim Se-ui prevention law; by June 23, 2025, 70,000 people had joined the petition. On May 20, 2026, Korean police determined that the recording was AI-generated and applied for an arrest warrant for the family's representative. The Forensic Science Division of the Supreme Prosecutors' Office concluded that the recording was fabricated by splicing a separately recorded female voice with another male voice to create the false impression that they were speaking in the same space."
           }
         },
         {
@@ -1559,14 +1646,14 @@
             {
               "id": "evidence-contradiction-row4-2",
               "title": {
-                "zh": "“否认未成年交往“被造谣成“否认交往”",
-                "en": "“Denied dating as a minor” was misrepresented as “denied dating”",
+                "zh": "\"否认未成年交往\"被造谣成\"否认交往\"",
+                "en": "\"Denied dating as a minor\" was misrepresented as \"denied dating\"",
                 "ko": "'미성년 교제 사실을 부인했다'는 주장이 '교제 자체를 부인했다'로 왜곡됐다."
               },
               "description": {
-                "zh": "金秀贤2025年仅仅否认过“未成年交往”,从未否认过“交往”,然而在每次金秀贤否认“未成年交往”时,遗属方都会造谣声称“金秀贤撒谎,否认交往”然后放出亲密合照“打脸”,给公众塑造金秀贤撒谎精不可信任形象.",
-                "en": "In 2025, Kim Soo-hyun only denied having dated Kim Sae-ron while she was a minor. He never denied that they had dated.\n\nHowever, every time Kim Soo-hyun denied the allegation of dating a minor, Kim Sae-ron’s family claimed that “Kim Soo-hyun lied and denied the relationship.” They then released intimate photos as supposed “proof” to portray him as someone who had been caught lying and therefore could not be trusted.",
-                "ko": "2025년 김수현이 부인한 것은 오직 ‘미성년자와의 교제’뿐이었으며, 교제 자체를 부인한 적은 한 번도 없었다. 그러나 김수현이 미성년자 교제를 부인할 때마다 유족 측은 “김수현이 교제 자체를 부인하며 거짓말을 했다”는 허위 주장을 퍼뜨린 뒤, 친밀한 사진을 공개해 이를 ‘반박’하는 방식으로 김수현이 거짓말을 하는 사람인 것처럼 여론을 몰아갔다."
+                "zh": "金秀贤2025年仅仅否认过\"未成年交往\",从未否认过\"交往\",然而在每次金秀贤否认\"未成年交往\"时,遗属方都会造谣声称\"金秀贤撒谎,否认交往\"然后放出亲密合照\"打脸\",给公众塑造金秀贤撒谎精不可信任形象.",
+                "en": "In 2025, Kim Soo-hyun only denied having dated Kim Sae-ron while she was a minor. He never denied that they had dated.\n\nHowever, every time Kim Soo-hyun denied the allegation of dating a minor, Kim Sae-ron's family claimed that \"Kim Soo-hyun lied and denied the relationship.\" They then released intimate photos as supposed \"proof\" to portray him as someone who had been caught lying and therefore could not be trusted.",
+                "ko": "2025년 김수현이 부인한 것은 오직 '미성년자와의 교제'뿐이었으며, 교제 자체를 부인한 적은 한 번도 없었다. 그러나 김수현이 미성년자 교제를 부인할 때마다 유족 측은 \"김수현이 교제 자체를 부인하며 거짓말을 했다\"는 허위 주장을 퍼뜨린 뒤, 친밀한 사진을 공개해 이를 '반박'하는 방식으로 김수현이 거짓말을 하는 사람인 것처럼 여론을 몰아갔다."
               },
               "imgs": {
                 "zh": [
@@ -1597,13 +1684,13 @@
               "id": "evidence-contradiction-row4-3",
               "title": {
                 "zh": "曲解未成年住处声明",
-                "en": "Statement about Kim Sae-ron’s home as a minor was taken out of context",
+                "en": "Statement about Kim Sae-ron's home as a minor was taken out of context",
                 "ko": "미성년 시절 거주지 관련 발언 왜곡"
               },
               "description": {
-                "zh": "遗属将2015年金赛纶和其他人在公寓电梯口照片栽赃给金秀贤,金秀贤说“从未去过金赛纶未成年时期的家”,遗属春秋笔法造谣声称“金秀贤不承认去过金赛纶家”,然后放出金赛纶成年后在金牌公司租的千万豪宅大平层员工宿舍中的场景“打脸”,给公众塑造金秀贤撒谎精不可信任形象.",
-                "en": "The family falsely claimed that a 2015 photo of Kim Sae-ron with other people at the elevator of an apartment building showed Kim Soo-hyun.\n\nKim Soo-hyun stated that he had never been to Kim Sae-ron’s home while she was a minor.\n\nThe family then reframed his statement as if he had claimed he had never been to Kim Sae-ron’s home at all, before releasing photos taken after Kim Sae-ron became an adult inside the luxury employee apartment rented for her by Gold Medalist, portraying them as evidence that he had lied.\n\nThis presentation created the impression that Kim Soo-hyun had been exposed as dishonest, despite the difference between the two statements.",
-                "ko": "유족 측은 2015년 김새론이 다른 사람들과 함께 아파트 엘리베이터 앞에서 찍은 사진을 마치 김수현과 함께 찍은 사진인 것처럼 몰아갔다. 이에 김수현은“김새론의 미성년 시절 집에 간 적은 단 한 번도 없다”고 밝혔지만, 유족 측은 이를 “김수현이 김새론의 집에 간 적 자체를 부인했다”는 식으로 왜곡해 허위사실을 퍼뜨렸다. 이후 김새론이 성인이 된 뒤 골드메달리스트가 임대한 고급 직원 숙소에서 촬영된 장면을 공개하며 김수현의 발언을 “반박”했다고 주장했고, 이를 통해 대중에게 김수현을 믿을 수 없는 거짓말쟁이인 것처럼 인식시키려 했다."
+                "zh": "遗属将2015年金赛纶和其他人在公寓电梯口照片栽赃给金秀贤,金秀贤说\"从未去过金赛纶未成年时期的家\",遗属春秋笔法造谣声称\"金秀贤不承认去过金赛纶家\",然后放出金赛纶成年后在金牌公司租的千万豪宅大平层员工宿舍中的场景\"打脸\",给公众塑造金秀贤撒谎精不可信任形象.",
+                "en": "The family falsely claimed that a 2015 photo of Kim Sae-ron with other people at the elevator of an apartment building showed Kim Soo-hyun.\n\nKim Soo-hyun stated that he had never been to Kim Sae-ron's home while she was a minor.\n\nThe family then reframed his statement as if he had claimed he had never been to Kim Sae-ron's home at all, before releasing photos taken after Kim Sae-ron became an adult inside the luxury employee apartment rented for her by Gold Medalist, portraying them as evidence that he had lied.\n\nThis presentation created the impression that Kim Soo-hyun had been exposed as dishonest, despite the difference between the two statements.",
+                "ko": "유족 측은 2015년 김새론이 다른 사람들과 함께 아파트 엘리베이터 앞에서 찍은 사진을 마치 김수현과 함께 찍은 사진인 것처럼 몰아갔다. 이에 김수현은\"김새론의 미성년 시절 집에 간 적은 단 한 번도 없다\"고 밝혔지만, 유족 측은 이를 \"김수현이 김새론의 집에 간 적 자체를 부인했다\"는 식으로 왜곡해 허위사실을 퍼뜨렸다. 이후 김새론이 성인이 된 뒤 골드메달리스트가 임대한 고급 직원 숙소에서 촬영된 장면을 공개하며 김수현의 발언을 \"반박\"했다고 주장했고, 이를 통해 대중에게 김수현을 믿을 수 없는 거짓말쟁이인 것처럼 인식시키려 했다."
               },
               "imgs": {
                 "zh": [
@@ -1635,12 +1722,12 @@
               "title": {
                 "zh": "遗属承认金赛纶已婚但自己不知道",
                 "en": "The family acknowledged Kim Sae-ron was married but claimed they did not know",
-                "ko": "유족, “김새론 결혼 사실 인정… 그러나 몰랐다”"
+                "ko": "유족, \"김새론 결혼 사실 인정... 그러나 몰랐다\""
               },
               "description": {
-                "zh": "金赛纶遗属翻遍了金赛纶手机,却声称自己不知道金赛纶已婚,在遗属2025年3月27日记者会上,金赛纶遗属律师回答记者问“为什么不知道金赛纶结婚了”,回答说\"金赛纶故意隐瞒\".\n其实就算金赛纶隐瞒了,翻遍手机的遗属也会知道一切,遗属是故意隐瞒金赛纶除了金秀贤之外的全部人生,给公众塑造出金赛纶人生只有金秀贤的印象.",
-                "en": "Although Kim Sae-ron’s family stated that they had thoroughly examined her phone, they claimed they had been unaware that she had been married.\n\nAt the family’s press conference on March 27, 2025, when asked why they had not known about the marriage, the family’s attorney answered:\n\n“Kim Sae-ron deliberately kept it hidden.”\n\nThe criticism presented here is that, if the family had thoroughly examined the contents of her phone, they would have been aware of her marriage regardless of whether she had tried to conceal it.\n\nIt further argues that the family omitted much of Kim Sae-ron’s life outside of Kim Soo-hyun, creating the impression that Kim Soo-hyun was the only significant person in her life.",
-                "ko": "김새론 유족은 김새론의 휴대전화를 샅샅이 뒤졌으면서도, 정작 김새론의 결혼 사실은 몰랐다고 주장했다. 2025년 3월 27일 유족 측 기자회견에서 유족 측 변호사는 “왜 김새론의 결혼 사실을 몰랐느냐”는 기자의 질문에 “김새론이 의도적으로 숨겼기 때문”이라고 답변했다.\n그러나 김새론이 아무리 숨겼더라도, 휴대전화를 샅샅이 뒤진 유족 측이 모를 리가 없었다. 유족 측은 김새론의 삶 중 김수현과 관련된 부분 외에는 의도적으로 배제·은폐하며, 대중에게 김새론의 인생이 오직 김수현뿐이었던 것처럼 왜곡한 정황이 확인됐다."
+                "zh": "金赛纶遗属翻遍了金赛纶手机,却声称自己不知道金赛纶已婚,在遗属2025年3月27日记者会上,金赛纶遗属律师回答记者问\"为什么不知道金赛纶结婚了\",回答说\"金赛纶故意隐瞒\".\n其实就算金赛纶隐瞒了,翻遍手机的遗属也会知道一切,遗属是故意隐瞒金赛纶除了金秀贤之外的全部人生,给公众塑造出金赛纶人生只有金秀贤的印象.",
+                "en": "Kim Sae-ron's bereaved family searched through her phone, yet claimed they did not know she had been married. At the family's press conference on March 27, 2025, when a reporter asked why they did not know Kim Sae-ron had married, the family's attorney answered, \"Kim Sae-ron deliberately hid it.\"\nEven if Kim Sae-ron had hidden it, a family that had searched through her phone would have known everything. The family deliberately concealed Kim Sae-ron's entire life outside Kim Soo-hyun, creating the impression for the public that Kim Soo-hyun was the only person in Kim Sae-ron's life.",
+                "ko": "김새론 유족은 김새론의 휴대전화를 샅샅이 뒤졌으면서도 김새론이 결혼했다는 사실을 몰랐다고 주장했다. 2025년 3월 27일 유족 측 기자회견에서 기자가 \"왜 김새론이 결혼한 사실을 몰랐느냐\"고 묻자, 유족 측 변호사는 \"김새론이 의도적으로 숨겼다\"고 답했다.\n설령 김새론이 숨겼다 하더라도 휴대전화를 샅샅이 뒤진 유족이라면 모든 것을 알고 있었을 것이다. 유족은 김수현 외의 김새론의 모든 삶을 의도적으로 숨기고, 대중에게 김새론의 인생에는 김수현밖에 없었다는 인상을 만들었다."
               },
               "imgs": {
                 "zh": [],
@@ -1670,18 +1757,18 @@
               },
               "description": {
                 "zh": "金牌公司2024年在金赛纶爆照秒删后发送的第二封函中,从未要求金赛纶赔偿眼泪女王损失,从未威胁金赛纶,仅仅请求金赛纶不要和公司艺人沟通公司债务问题,而不是阻断金赛纶和公司艺人其他方面的社交行为.\n被遗属恶意曲解为:禁止金赛纶与公司艺人社交和威胁金赛纶赔偿眼泪女王损失.",
-                "en": "The second legal notice sent by Gold Medalist in 2024, after Kim Sae-ron uploaded and quickly deleted the photo, did not demand compensation for the losses related to Queen of Tears and did not threaten Kim Sae-ron.\n\nThe notice merely requested that she not discuss the company’s debt-related matters with the agency’s artists. It did not prohibit her from maintaining other personal or social contact with those artists.\n\nThe family nevertheless characterized the notice as:\n• prohibiting Kim Sae-ron from interacting with Gold Medalist artists altogether; and\n• threatening her with liability for damages related to Queen of Tears.",
-                "ko": "김새론이 사진을 올렸다가 곧 삭제한 뒤, 2024년 골드메달리스트가 보낸 두 번째 내용증명에는 김새론에게 ‘눈물의 여왕’의 손해를 배상하라고 요구한 내용도, 김새론을 협박한 내용도 전혀 없었다. 회사는 단지 김새론에게 회사의 채무 문제를 소속 아티스트들과 논의하지 말아 달라고 요청했을 뿐이며, 김새론과 회사 소속 아티스트들의 다른 사회적 교류를 금지하거나 차단한 것도 아니었다. 그러나 유족 측은 이를 악의적으로 왜곡해 회사가 김새론의 소속 아티스트들과의 교류를 금지했고, ‘눈물의 여왕’의 손해를 배상하라고 협박했다는 허위사실을 퍼뜨렸다."
+                "en": "The second legal notice sent by Gold Medalist in 2024, after Kim Sae-ron uploaded and quickly deleted the photo, did not demand compensation for the losses related to Queen of Tears and did not threaten Kim Sae-ron.\n\nThe notice merely requested that she not discuss the company's debt-related matters with the agency's artists. It did not prohibit her from maintaining other personal or social contact with those artists.\n\nThe family nevertheless characterized the notice as:\n• prohibiting Kim Sae-ron from interacting with Gold Medalist artists altogether; and\n• threatening her with liability for damages related to Queen of Tears.",
+                "ko": "김새론이 사진을 올렸다가 곧 삭제한 뒤, 2024년 골드메달리스트가 보낸 두 번째 내용증명에는 김새론에게 '눈물의 여왕'의 손해를 배상하라고 요구한 내용도, 김새론을 협박한 내용도 전혀 없었다. 회사는 단지 김새론에게 회사의 채무 문제를 소속 아티스트들과 논의하지 말아 달라고 요청했을 뿐이며, 김새론과 회사 소속 아티스트들의 다른 사회적 교류를 금지하거나 차단한 것도 아니었다. 그러나 유족 측은 이를 악의적으로 왜곡해 회사가 김새론의 소속 아티스트들과의 교류를 금지했고, '눈물의 여왕'의 손해를 배상하라고 협박했다는 허위사실을 퍼뜨렸다."
               },
               "imgs": {
                 "zh": [
-                  "images/第二封内容证明中.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/1e/178438475771aea07b4aed901aa69e5553d48140cb.jpg"
                 ],
                 "ko": [
-                  "images/第二封内容证明韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/13/1784384761c2abd25433235fc28bb872150f3abbbd.jpg"
                 ],
                 "en": [
-                  "images/第二封内容证明英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/00/1784384759cd5ce5a0d3928051ce928cd18d77d79a.jpg"
                 ]
               },
               "link": [
@@ -1719,13 +1806,13 @@
             "ko": "[중국어권 한정 루머] 도우반의 루머 계정들이 성동일의 말을 김수현이 한 말처럼 둔갑시켜, 김수현이 설리를 우회적으로 비꼰 것처럼 모함했고 이 루머는 빠르게 웨이보 실시간 검색어에 올랐다"
           },
           "description": {
-            "zh": "【中文圈限定谣言】豆瓣谣棍将成东日说的话移花接木安到金秀贤头上栽赃金秀贤阴阳雪莉,迅速登上微博热搜.",
-            "en": "[Rumor limited to the Chinese-speaking community] Rumor accounts on Douban took words spoken by Sung Dong-il, falsely attributed them to Kim Soo-hyun, and framed him as making veiled insinuations about Sulli. The rumor quickly reached Weibo’s trending list.",
+            "zh": "[中文圈限定谣言]豆瓣谣棍将成东日说的话移花接木安到金秀贤头上栽赃金秀贤阴阳雪莉,迅速登上微博热搜.",
+            "en": "[Rumor limited to the Chinese-speaking community] Rumor accounts on Douban took words spoken by Sung Dong-il, falsely attributed them to Kim Soo-hyun, and framed him as making veiled insinuations about Sulli. The rumor quickly reached Weibo's trending list.",
             "ko": "[중국어권 한정 루머] 도우반의 루머 계정들이 성동일의 말을 김수현이 한 말처럼 둔갑시켜, 김수현이 설리를 우회적으로 비꼰 것처럼 모함했고 이 루머는 빠르게 웨이보 실시간 검색어에 올랐다."
           },
           "imgs": {
             "zh": [
-              "images/阴阳雪莉.jpg"
+              "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/ca/1784384796e163f595ad7e70a9905dd9e9cb97d91a.jpg"
             ],
             "ko": [],
             "en": [],
@@ -1734,7 +1821,7 @@
           "link": [
             {
               "title": {
-                "zh": "雪莉粉丝辟谣：",
+                "zh": "雪莉粉丝辟谣:",
                 "en": "Sulli fans refuted rumors:",
                 "ko": "설리 팬들은 루머에 대해 반박했다."
               },
@@ -1797,7 +1884,7 @@
                 "en": "",
                 "ko": ""
               },
-              "src": "images/金秀贤记者会节选.mp4"
+              "src": "https://video.ltwebstatic.com/video/2026/07/19/17844256013748481883.mp4"
             }
           ],
           "zh_only": true
@@ -1816,7 +1903,7 @@
           },
           "imgs": {
             "zh": [
-              "images/元彬辟谣.jpg"
+              "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/56/1784384709aa8f9bc440b2ce218e3b2e90e706d26d.jpg"
             ],
             "ko": [],
             "en": [],
@@ -1883,8 +1970,8 @@
           },
           "description": {
             "zh": "金秀贤没有推特账号,有人在推特上冒充金秀贤发布不当言论,昵称随时都可以改,当时临时改成了金秀贤.",
-            "en": "Kim Soo-hyun does not have an X (formerly Twitter) account.\n\nSomeone impersonated him on X and posted inappropriate statements. While the display name can be changed at any time,it was temporarily changed to “Kim Soo-hyun”.",
-            "ko": "김수현은 공식 트위터 계정을 보유하고 있지 않다. 그러나 누군가가 트위터에서 김수현을 사칭해 부적절한 게시물을 올린 것으로 확인됐다. 트위터는 닉네임을 수시로 변경할 수 있지만(해당 계정은 당시 임시로 ‘김수현’으로 변경한 상태였다)."
+            "en": "Kim Soo-hyun does not have an X (formerly Twitter) account.\n\nSomeone impersonated him on X and posted inappropriate statements. While the display name can be changed at any time,it was temporarily changed to \"Kim Soo-hyun\".",
+            "ko": "김수현은 공식 트위터 계정을 보유하고 있지 않다. 그러나 누군가가 트위터에서 김수현을 사칭해 부적절한 게시물을 올린 것으로 확인됐다. 트위터는 닉네임을 수시로 변경할 수 있지만(해당 계정은 당시 임시로 '김수현'으로 변경한 상태였다)."
           },
           "imgs": {
             "zh": [
@@ -1905,7 +1992,7 @@
           "title": {
             "zh": "外网造谣金秀贤见面会期间要求拆除座位打羽毛球",
             "en": "False claim that Kim Soo-hyun ordered seats removed to play badminton during a fan meeting",
-            "ko": "해외에서 김수현 “팬미팅 중 배드민턴 치려 좌석 철거 요구” 루머 유포"
+            "ko": "해외에서 김수현 \"팬미팅 중 배드민턴 치려 좌석 철거 요구\" 루머 유포"
           },
           "description": {
             "zh": "被主办方官方辟谣.",
@@ -1942,12 +2029,12 @@
           "index": 6,
           "title": {
             "zh": "网民造谣金秀贤经纪人是性犯罪者",
-            "en": "False claim that Kim Soo-hyun’s manager was a sex offender",
+            "en": "False claim that Kim Soo-hyun's manager was a sex offender",
             "ko": "김수현 매니저가 성범죄자라는 루머 유포"
           },
           "description": {
             "zh": "2012年钥匙公司负责其他艺人的经纪人涉嫌犯罪,被张冠李戴成负责金秀贤的经纪人.",
-            "en": "A manager at KeyEast who handled other artists was investigated in 2012 over a criminal case.\n\nOnline rumors later incorrectly identified that individual as Kim Soo-hyun’s manager, even though they were not responsible for managing him.",
+            "en": "A manager at KeyEast who handled other artists was investigated in 2012 over a criminal case.\n\nOnline rumors later incorrectly identified that individual as Kim Soo-hyun's manager, even though they were not responsible for managing him.",
             "ko": "2012년 키이스트에서 김수현이 아닌 다른 연예인을 담당하던 매니저가 과거 범죄 혐의를 받은 사실이 있었으나, 루머 유포자들은 이를 김수현의 담당 매니저였던 것처럼 왜곡·확대 재생산하며 퍼뜨렸다."
           },
           "imgs": {
@@ -1980,13 +2067,13 @@
           "index": 7,
           "title": {
             "zh": "雪莉哥哥蹭热度造谣逼迫雪莉拍床戏",
-            "en": "Sulli’s brother falsely claimed she was forced to film bed scenes",
+            "en": "Sulli's brother falsely claimed she was forced to film bed scenes",
             "ko": "설리 오빠, 관심을 끌기 위해 설리에게 베드신을 강요했다는 허위 주장"
           },
           "description": {
-            "zh": "电影Real剧组在2015年招募演员时就明确告知需要拍摄大尺度戏份并且出了新闻,剧组副导演、剧本统筹实名作证不存在逼迫,雪莉哥哥滑跪承认不存在强迫.",
-            "en": "When the film Real recruited actors in 2015, production notices publicly stated in advance that the role involved explicit scenes.\n\nThe film’s assistant director and script supervisor later testified under their real names that no one was forced to film the bed scenes, and the storyboard also supported their statements.\n\nSulli’s brother later acknowledged that there had been no coercion.",
-            "ko": "영화 〈리얼〉 제작진은 2015년 배우를 모집할 당시부터 고수위 노출 및 베드신 촬영이 있다는 사실을 명확히 공지했고, 관련 내용은 당시 기사로도 보도되었습니다. 현장 부감독과 시나리오 슈퍼바이저가 실명으로 강요가 없었다고 증언했으며, 설리 오빠는 곧바로 강요 사실이 없음을 인정하며 입장을 번복했습니다."
+            "zh": "电影Real剧组在2015年招募演员时就明确告知需要拍摄大尺度戏份并且出了新闻,剧组副导演,剧本统筹实名作证不存在逼迫,雪莉哥哥滑跪承认不存在强迫.",
+            "en": "When the film Real recruited actors in 2015, production notices publicly stated in advance that the role involved explicit scenes.\n\nThe film's assistant director and script supervisor later testified under their real names that no one was forced to film the bed scenes, and the storyboard also supported their statements.\n\nSulli's brother later acknowledged that there had been no coercion.",
+            "ko": "영화 《리얼》 제작진은 2015년 배우를 모집할 당시부터 고수위 노출 및 베드신 촬영이 있다는 사실을 명확히 공지했고, 관련 내용은 당시 기사로도 보도되었습니다. 현장 부감독과 시나리오 슈퍼바이저가 실명으로 강요가 없었다고 증언했으며, 설리 오빠는 곧바로 강요 사실이 없음을 인정하며 입장을 번복했습니다."
           },
           "imgs": {
             "zh": [
@@ -2012,7 +2099,7 @@
             {
               "title": {
                 "zh": "雪莉哥哥滑跪",
-                "en": "Sulli’s brother acknowledged there was no coercion",
+                "en": "Sulli's brother acknowledged there was no coercion",
                 "ko": "설리 오빠의 입장 번복"
               },
               "url": "https://m.news.nate.com/view/20250403n04236&&mid=e01"
@@ -2036,7 +2123,7 @@
             {
               "title": {
                 "zh": "雪莉哥哥在2025年雪莉祭日纪念美国右翼引发争议",
-                "en": "Controversy surrounding Sulli’s brother’s 2025 memorial post",
+                "en": "Controversy surrounding Sulli's brother's 2025 memorial post",
                 "ko": "2025년 설리 기일에 미국 극우 관련 게시물로 논란이 된 설리 오빠"
               },
               "url": "https://www.chosun.com/english/kpop-culture-en/2025/10/14/CFHLA2XTR5ASBL6HW4TKEDHMMI/?utm_source=chatgpt.com"
@@ -2050,26 +2137,26 @@
           "index": 8,
           "title": {
             "zh": "金赛纶遗属煽动网民造谣金秀贤转发金赛纶短信给记者",
-            "en": "The family encouraged claims that Kim Soo-hyun forwarded Kim Sae-ron’s text messages to reporters",
-            "ko": "김새론 유족, 네티즌을 선동해 “김수현이 김새론의 문자를 기자에게 전달했다”는 허위 주장 확산"
+            "en": "The family encouraged claims that Kim Soo-hyun forwarded Kim Sae-ron's text messages to reporters",
+            "ko": "김새론 유족, 네티즌을 선동해 \"김수현이 김새론의 문자를 기자에게 전달했다\"는 허위 주장 확산"
           },
           "description": {
             "zh": "金秀贤没有动机自爆与金赛纶的关系,而且接到短信的记者承认并不是从金秀贤那里收来的,揭发李胜利的姜京允记者调查后发现是金秀贤截图转发给金牌公司之后,公司拿去咨询他人的时候被背刺泄露.",
-            "en": "Kim Soo-hyun had no apparent reason to reveal evidence of his own relationship with Kim Sae-ron.\n\nThe reporter who received the text messages stated that they did not receive them from Kim Soo-hyun.\n\nAccording to reporter Kang Kyung-yoon’s investigation, Kim Soo-hyun had forwarded screenshots to Gold Medalist, and the materials were later leaked when the company sought advice from another party.",
+            "en": "Kim Soo-hyun had no apparent reason to reveal evidence of his own relationship with Kim Sae-ron.\n\nThe reporter who received the text messages stated that they did not receive them from Kim Soo-hyun.\n\nAccording to reporter Kang Kyung-yoon's investigation, Kim Soo-hyun had forwarded screenshots to Gold Medalist, and the materials were later leaked when the company sought advice from another party.",
             "ko": "김수현이 스스로 김새론과의 관계를 폭로할 이유는 없었습니다. 또한 해당 문자를 받은 기자도 김수현으로부터 받은 것이 아니라고 직접 밝혔습니다. 버닝썬 사건을 취재했던 강경윤 기자의 조사 결과, 김수현이 캡처본을 골드메달리스트에 전달했고, 회사가 이를 외부에 자문하는 과정에서 유출된 것으로 확인됐습니다."
           },
           "imgs": {
             "zh": [
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/57/178193639951fab7c8019e0ef480746c1b69f1a84c.jpg",
-              "/images/短信泄露中.jpg"
+              "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/73/1784384752bf140ab027a57890f1bf1070f1cbdea0.jpg"
             ],
             "ko": [
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/27/178193640042acc17a8bc8ea53577acf87efed567c.jpg",
-              "/images/短信泄露英韩.jpg"
+              "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/05/17843847544ac1fde67607a79e6ff6f81635908613.jpg"
             ],
             "en": [
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/0f/17819364014efaa7686435da1a3fb2f433c02573e6.jpg",
-              "/images/短信泄露英韩.jpg"
+              "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/05/17843847544ac1fde67607a79e6ff6f81635908613.jpg"
             ],
             "shared": []
           },
@@ -2077,7 +2164,7 @@
             {
               "title": {
                 "zh": "姜京允记者博客",
-                "en": "Reporter Kang Kyung-yoon’s blog",
+                "en": "Reporter Kang Kyung-yoon's blog",
                 "ko": "강경윤 기자 블로그"
               },
               "url": "https://m.blog.naver.com/PostView.naver?blogId=strongyoun-now&logNo=223912652394&navType=by"
@@ -2092,11 +2179,11 @@
           "title": {
             "zh": "网民为了给金赛纶的赖账声明圆谎造谣金秀贤点痣",
             "en": "Rumor that Kim Soo-hyun removed a facial mole",
-            "ko": "김새론의 채무 불이행 관련 입장을 옹호하기 위해 일부 네티즌이 “김수현이 점을 뺐다”고 허위 주장"
+            "ko": "김새론의 채무 불이행 관련 입장을 옹호하기 위해 일부 네티즌이 \"김수현이 점을 뺐다\"고 허위 주장"
           },
           "description": {
             "zh": "从来没有点过痣.",
-            "en": "Some internet users claimed Kim Soo-hyun had removed a facial mole in an attempt to explain inconsistencies in Kim Sae-ron’s statement.\n\nAccording to this claim, he has never had a mole removed.",
+            "en": "Some internet users claimed Kim Soo-hyun had removed a facial mole in an attempt to explain inconsistencies in Kim Sae-ron's statement.\n\nAccording to this claim, he has never had a mole removed.",
             "ko": "김수현은 점을 뺀 적이 없습니다."
           },
           "imgs": {
@@ -2127,11 +2214,11 @@
           "title": {
             "zh": "网民造谣金赛纶爆照秒删的照片中的耐克T恤是2016年上市2019年再版",
             "en": "False claim that the Nike T-shirt was first released in 2016 and reissued in 2019",
-            "ko": "김새론이 올렸다가 바로 삭제한 사진 속 나이키 티셔츠가 “2016년 출시, 2019년 재출시”라는 허위 주장"
+            "ko": "김새론이 올렸다가 바로 삭제한 사진 속 나이키 티셔츠가 \"2016년 출시, 2019년 재출시\"라는 허위 주장"
           },
           "description": {
             "zh": "造谣者拿着AI回复造谣T恤上市时间,按货号搜索和询问客服的结果是中日韩2019年上市.",
-            "en": "Some internet users claimed that the Nike T-shirt in Kim Sae-ron’s deleted photo was originally released in 2016 and reissued in 2019.\n\nThe rumor relied on AI-generated responses. However, searches using the product number and confirmation from customer service indicated that the shirt was released in 2019 in China, Japan, and South Korea.",
+            "en": "Some internet users claimed that the Nike T-shirt in Kim Sae-ron's deleted photo was originally released in 2016 and reissued in 2019.\n\nThe rumor relied on AI-generated responses. However, searches using the product number and confirmation from customer service indicated that the shirt was released in 2019 in China, Japan, and South Korea.",
             "ko": "허위 주장 유포자들은 AI 답변을 근거로 티셔츠의 출시 시기를 왜곡했습니다. 그러나 해당 제품을 품번으로 조회하고 나이키 고객센터에 문의한 결과, 이 제품은 중국·한국·일본에서는 2019년에."
           },
           "imgs": {
@@ -2158,12 +2245,12 @@
           "index": 11,
           "title": {
             "zh": "网民造谣金赛纶去世之后金秀贤立刻上传了礼物照片",
-            "en": "False claim that Kim Soo-hyun uploaded gift photos immediately after Kim Sae-ron’s death",
-            "ko": "네티즌이 “김새론 사망 직후 김수현이 곧바로 선물 사진을 올렸다”고 허위 주장"
+            "en": "False claim that Kim Soo-hyun uploaded gift photos immediately after Kim Sae-ron's death",
+            "ko": "네티즌이 \"김새론 사망 직후 김수현이 곧바로 선물 사진을 올렸다\"고 허위 주장"
           },
           "description": {
             "zh": "金秀贤早上感谢粉丝,晚上8点50新闻通报金赛纶下午5时左右被发现去世的消息.",
-            "en": "Kim Soo-hyun posted a message thanking his fans earlier that morning.\n\nNews reports announcing Kim Sae-ron’s death were first published at approximately 8:50 p.m., reporting that she had been found deceased at around 5:00 p.m. that afternoon.",
+            "en": "Kim Soo-hyun posted a message thanking his fans earlier that morning.\n\nNews reports announcing Kim Sae-ron's death were first published at approximately 8:50 p.m., reporting that she had been found deceased at around 5:00 p.m. that afternoon.",
             "ko": "김수현은 오전에 팬들에게 감사 인사를 전했으며, 오후 8시 50분경 언론을 통해 김새론이 오후 5시경 사망한 채 발견됐다는 소식이 처음 보도되었습니다."
           },
           "imgs": {
@@ -2190,7 +2277,7 @@
             {
               "title": {
                 "zh": "naver按时间搜索最早的金赛纶死亡新闻",
-                "en": "Earliest Naver news reports about Kim Sae-ron’s death",
+                "en": "Earliest Naver news reports about Kim Sae-ron's death",
                 "ko": "네이버 시간순 검색 기준 최초 김새론 사망 보도"
               },
               "url": "https://n.news.naver.com/article/018/0005944671?sid=102"
@@ -2223,7 +2310,7 @@
               "id": "row5-3",
               "title": {
                 "zh": "0利息借出7亿,三年收回0元",
-                "en": "₩700 million loaned at 0% interest — ₩0 recovered after three years",
+                "en": "₩700 million loaned at 0% interest - ₩0 recovered after three years",
                 "ko": "무이자 7억 대여, 3년 동안 회수액 0원"
               },
               "description": {
@@ -2250,7 +2337,7 @@
                 {
                   "title": {
                     "zh": "金赛纶遗属自爆,姜京允记者博客",
-                    "en": "Statements by Kim Sae-ron’s family; Reporter Kang Kyung-yoon’s blog",
+                    "en": "Statements by Kim Sae-ron's family; Reporter Kang Kyung-yoon's blog",
                     "ko": "김새론 유족 측 공개 자료; 강경윤 기자 블로그"
                   },
                   "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
@@ -2273,13 +2360,13 @@
               },
               "imgs": {
                 "zh": [
-                  "images/坏账中.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/48/17843847294f650077b91cb2d8f3a0a31afc043e0a.jpg"
                 ],
                 "ko": [
-                  "images/坏账韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/f8/1784384732afa344a9b4135abc832451612fffb6d7.jpg"
                 ],
                 "en": [
-                  "images/坏账英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/b9/1784384731ed43417e7a4ed1203b1558d9e6e9812e.jpg"
                 ],
                 "shared": []
               },
@@ -2305,7 +2392,7 @@
               },
               "description": {
                 "zh": "金赛纶找其他多人借钱,记者调查至少5亿韩元.",
-                "en": "Kim Sae-ron borrowed money from multiple individuals. According to a reporter’s investigation, the total amounted to at least ₩500 million.",
+                "en": "Kim Sae-ron borrowed money from multiple individuals. According to a reporter's investigation, the total amounted to at least ₩500 million.",
                 "ko": "김새론은 여러 사람에게 추가로 돈을 빌렸으며, 기자의 조사 결과 최소 5억 원에 달했다."
               },
               "imgs": {
@@ -2332,7 +2419,7 @@
                 {
                   "title": {
                     "zh": "姜京允记者博客",
-                    "en": "Reporter Kang Kyung-yoon’s blog",
+                    "en": "Reporter Kang Kyung-yoon's blog",
                     "ko": "강경윤 기자 블로그"
                   },
                   "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
@@ -2369,7 +2456,7 @@
                 {
                   "title": {
                     "zh": "姜京允记者博客",
-                    "en": "Reporter Kang Kyung-yoon’s blog",
+                    "en": "Reporter Kang Kyung-yoon's blog",
                     "ko": "강경윤 기자 블로그"
                   },
                   "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
@@ -2395,7 +2482,7 @@
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/c6/1781936478c8f75993ea995de2add3dc382ad203cc.jpg"
                 ],
                 "ko": [
-                  "/images/金赛纶声明爆照目的韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/48/17843847935a7a1bbf5c7d2c2a073debdf4cdf7175.jpg"
                 ],
                 "en": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/d9/17819364786e03c636a992a241846aa1d0333700d1.jpg"
@@ -2406,7 +2493,7 @@
                 {
                   "title": {
                     "zh": "姜京允记者博客",
-                    "en": "Reporter Kang Kyung-yoon’s blog",
+                    "en": "Reporter Kang Kyung-yoon's blog",
                     "ko": "강경윤 기자 블로그"
                   },
                   "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
@@ -2419,7 +2506,7 @@
               "id": "row5-7",
               "title": {
                 "zh": "韩国赠与税",
-                "en": "South Korea’s gift tax",
+                "en": "South Korea's gift tax",
                 "ko": "대한민국 증여세"
               },
               "description": {
@@ -2437,8 +2524,8 @@
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/d0/17819364799e6823da66726a566485e27502ca1fa0.jpg"
                 ],
                 "en": [
-                  "/images/国税厅英2.jpg",
-                  "/images/国税厅英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/38/17843847272a3d59df06fd8d94d2634c01cb6ed5bc.jpg",
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/f4/17843847244efbdaa87b5a0e8f4b02799266942cd2.jpg"
                 ],
                 "shared": []
               },
@@ -2460,22 +2547,22 @@
               "title": {
                 "zh": "金牌公司在金赛纶爆照秒删次日再次发函",
                 "en": "Gold Medalist sent another legal notice the day after the photo incident",
-                "ko": "골드메달리스트, 김새론 ‘사진 게시-삭제’ 다음 날 재차 내용증명 발송"
+                "ko": "골드메달리스트, 김새론 '사진 게시-삭제' 다음 날 재차 내용증명 발송"
               },
               "description": {
-                "zh": "金牌公司在2025年3月25日金赛纶爆照秒删次日,发函告知金赛纶是为了防止法人渎职迫不得已才发函,低声下气请求谅解.",
+                "zh": "金牌公司在2024年3月25日金赛纶爆照秒删次日,发函告知金赛纶是为了防止法人渎职迫不得已才发函,低声下气请求谅解.",
                 "en": "On March 25, 2024, the day after Kim Sae-ron uploaded and deleted the photo, Gold Medalist sent her another legal notice explaining that the previous notice had been issued only because the company was legally obligated to avoid breach of fiduciary duty, and respectfully asked for her understanding.",
-                "ko": "골드메달리스트는 2025년 3월 25일, 김새론이 사진을 게시했다가 곧바로 삭제한 다음 날 다시 내용증명을 발송했다. 해당 내용증명에서 골드메달리스트는 “법인의 업무상 배임을 방지하기 위해 불가피하게 내용증명을 보낼 수밖에 없었다”고 설명하며, 김새론 측에 정중히 양해를 구했다."
+                "ko": "골드메달리스트는 2024년 3월 25일, 김새론이 사진을 게시했다가 곧바로 삭제한 다음 날 다시 내용증명을 발송했다. 해당 내용증명에서 골드메달리스트는 \"법인의 업무상 배임을 방지하기 위해 불가피하게 내용증명을 보낼 수밖에 없었다\"고 설명하며, 김새론 측에 정중히 양해를 구했다."
               },
               "imgs": {
                 "zh": [
-                  "images/第二封内容证明中.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/1e/178438475771aea07b4aed901aa69e5553d48140cb.jpg"
                 ],
                 "ko": [
-                  "images/第二封内容证明韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/13/1784384761c2abd25433235fc28bb872150f3abbbd.jpg"
                 ],
                 "en": [
-                  "images/第二封内容证明英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/00/1784384759cd5ce5a0d3928051ce928cd18d77d79a.jpg"
                 ]
               },
               "link": [
@@ -2493,9 +2580,9 @@
             }
           ],
           "intro": {
-            "zh": "2022年金赛纶醉驾后猎犬剧组索赔7亿韩元,金牌公司垫付后,与金赛纶签了0利息的借贷合同,三年时间,金赛纶一分没还.\n2024年金牌公司为防止法人渎职和金赛纶被追缴1.5亿韩元赠与税,向金赛纶发函,被金赛纶报复威胁.金赛纶表面上发短信求救“哥哥救救我”,后来在已经得知不需要担心还钱的情况下,背地里要让金秀贤去死爆照秒删,[[deleted-posts-history]]秒删次日编造了15岁恋爱发给表姐,17岁恋爱发给经纪人.后得知金牌公司仅为走形式,确实不需要还钱,金赛纶又写信欺骗金秀贤“哥哥是我的初恋绝恋”“联系不上才爆照”.\n金赛纶醉驾后还找其他人借5亿,三年全部花完.",
-            "en": "After Kim Sae-ron’s DUI accident in 2022, the production team of Bloodhounds sought approximately ₩700 million in damages. Gold Medalist paid the amount on her behalf and signed a 0% interest loan agreement with her. Over the next three years, Kim Sae-ron did not repay a single won.\n\nIn 2024, to avoid breach of fiduciary duty as a corporation and to prevent Kim Sae-ron from being assessed approximately ₩150 million in gift tax, Gold Medalist sent her a formal legal notice. Kim Sae-ron responded by retaliating and making threats.\n\nOn the surface, she sent Kim Soo-hyun a text message saying, “Oppa, please save me.” However, after she had already been informed that she did not need to worry about repaying the debt, she allegedly told her manager that she wanted Kim Soo-hyun to “die,” uploaded a photo implying a relationship, and deleted it within minutes.\n\n[[deleted-posts-history]] The day after the photo incident, she allegedly created two different versions of the same story:\n• claiming she had dated Kim Soo-hyun since age 15 in a statement sent to her cousin;\n• claiming she had dated him since age 17 in a statement sent to her manager.\n\nAfter learning that Gold Medalist’s legal notice was merely a procedural formality and that repayment would not actually be demanded, she later wrote Kim Soo-hyun a letter claiming:\n• “Oppa, you were my first love and my last love.”\n• “I only posted the photo because I couldn’t reach you.”\n\nIn addition, after her DUI, Kim Sae-ron borrowed another ₩500 million from multiple other individuals, and according to reports, the entire amount was spent within three years.",
-            "ko": "2022년 김새론의 음주운전 사고 이후, 드라마 <사냥개들> 제작진은 약 7억 원의 손해배상을 청구했다. 골드메달리스트는 이를 먼저 변제한 뒤 김새론과 무이자 대여 계약을 체결했다. 그러나 3년 동안 김새론은 단 한 푼도 상환하지 않았다.\n\n2024년 골드메달리스트는 법인의 배임을 방지하고, 김새론이 약 1억 5천만 원의 증여세를 추징당하는 것을 막기 위해 내용증명을 발송했다. 그러나 김새론은 이를 계기로 보복성 협박을 했다.\n\n겉으로는 김수현에게 “오빠 살려줘요.”라는 문자로 동정을 호소했지만, 이미 돈을 갚지 않아도 된다는 사실을 알고 난 뒤에는 뒤에서 김수현을 죽게 만들겠다며 사진을 공개했다가 즉시 삭제했다.\n\n[[deleted-posts-history]] 사진을 올렸다 삭제한 다음 날에는 사촌언니에게는 ‘15살부터 교제했다’는 내용, 매니저에게는 ‘17살부터 교제했다’는 내용으로 서로 다른 두 가지 버전의 입장문을 작성해 전달했다.\n\n이후 골드메달리스트가 실제로는 형식적인 절차만 진행한 것이며, 자신이 돈을 갚지 않아도 된다는 사실을 확인한 뒤에는 다시 김수현에게 편지를 보내 “오빠는 나의 첫사랑이자 마지막 사랑이다.”, “연락이 닿지 않아 어쩔 수 없이 사진을 올렸다.”며 사실과 다른 내용을 적었다.\n\n또한 김새론은 음주운전 이후에도 여러 사람에게 추가로 약 5억 원을 빌렸으며, 그 돈 역시 3년 만에 모두 사용했다."
+            "zh": "2022年金赛纶醉驾后猎犬剧组索赔7亿韩元,金牌公司垫付后,与金赛纶签了0利息的借贷合同,三年时间,金赛纶一分没还.\n2024年金牌公司为防止法人渎职和金赛纶被追缴1.5亿韩元赠与税,向金赛纶发函,被金赛纶报复威胁.金赛纶表面上发短信求救\"哥哥救救我\",后来在已经得知不需要担心还钱的情况下,背地里要让金秀贤去死爆照秒删,[[deleted-posts-history]]秒删次日编造了15岁恋爱发给表姐,17岁恋爱发给经纪人.后得知金牌公司仅为走形式,确实不需要还钱,金赛纶又写信欺骗金秀贤\"哥哥是我的初恋绝恋\"\"联系不上才爆照\".\n金赛纶醉驾后还找其他人借5亿,三年全部花完.",
+            "en": "After Kim Sae-ron's DUI accident in 2022, the production team of Bloodhounds sought approximately ₩700 million in damages. Gold Medalist paid the amount on her behalf and signed a 0% interest loan agreement with her. Over the next three years, Kim Sae-ron did not repay a single won.\n\nIn 2024, to avoid breach of fiduciary duty as a corporation and to prevent Kim Sae-ron from being assessed approximately ₩150 million in gift tax, Gold Medalist sent her a formal legal notice. Kim Sae-ron responded by retaliating and making threats.\n\nOn the surface, she sent Kim Soo-hyun a text message saying, \"Oppa, please save me.\" However, after she had already been informed that she did not need to worry about repaying the debt, she allegedly told her manager that she wanted Kim Soo-hyun to \"die,\" uploaded a photo implying a relationship, and deleted it within minutes.\n\n[[deleted-posts-history]] The day after the photo incident, she allegedly created two different versions of the same story:\n• claiming she had dated Kim Soo-hyun since age 15 in a statement sent to her cousin;\n• claiming she had dated him since age 17 in a statement sent to her manager.\n\nAfter learning that Gold Medalist's legal notice was merely a procedural formality and that repayment would not actually be demanded, she later wrote Kim Soo-hyun a letter claiming:\n• \"Oppa, you were my first love and my last love.\"\n• \"I only posted the photo because I couldn't reach you.\"\n\nIn addition, after her DUI, Kim Sae-ron borrowed another ₩500 million from multiple other individuals, and according to reports, the entire amount was spent within three years.",
+            "ko": "2022년 김새론의 음주운전 사고 이후, 드라마 <사냥개들> 제작진은 약 7억 원의 손해배상을 청구했다. 골드메달리스트는 이를 먼저 변제한 뒤 김새론과 무이자 대여 계약을 체결했다. 그러나 3년 동안 김새론은 단 한 푼도 상환하지 않았다.\n\n2024년 골드메달리스트는 법인의 배임을 방지하고, 김새론이 약 1억 5천만 원의 증여세를 추징당하는 것을 막기 위해 내용증명을 발송했다. 그러나 김새론은 이를 계기로 보복성 협박을 했다.\n\n겉으로는 김수현에게 \"오빠 살려줘요.\"라는 문자로 동정을 호소했지만, 이미 돈을 갚지 않아도 된다는 사실을 알고 난 뒤에는 뒤에서 김수현을 죽게 만들겠다며 사진을 공개했다가 즉시 삭제했다.\n\n[[deleted-posts-history]] 사진을 올렸다 삭제한 다음 날에는 사촌언니에게는 '15살부터 교제했다'는 내용, 매니저에게는 '17살부터 교제했다'는 내용으로 서로 다른 두 가지 버전의 입장문을 작성해 전달했다.\n\n이후 골드메달리스트가 실제로는 형식적인 절차만 진행한 것이며, 자신이 돈을 갚지 않아도 된다는 사실을 확인한 뒤에는 다시 김수현에게 편지를 보내 \"오빠는 나의 첫사랑이자 마지막 사랑이다.\", \"연락이 닿지 않아 어쩔 수 없이 사진을 올렸다.\"며 사실과 다른 내용을 적었다.\n\n또한 김새론은 음주운전 이후에도 여러 사람에게 추가로 약 5억 원을 빌렸으며, 그 돈 역시 3년 만에 모두 사용했다."
           },
           "intro_links": [
             {
@@ -2525,7 +2612,7 @@
               "id": "row10-9",
               "title": {
                 "zh": "金赛纶酒驾经过",
-                "en": "The circumstances of Kim Sae-ron’s DUI",
+                "en": "The circumstances of Kim Sae-ron's DUI",
                 "ko": "김새론 음주운전 사건 전말"
               },
               "description": {
@@ -2573,12 +2660,12 @@
               "id": "row10-10",
               "title": {
                 "zh": "金赛纶酒驾同乘女性被判刑",
-                "en": "Female passenger convicted for assisting Kim Sae-ron’s DUI",
+                "en": "Female passenger convicted for assisting Kim Sae-ron's DUI",
                 "ko": "김새론 음주운전 방조 여성 동승자 벌금형"
               },
               "description": {
                 "zh": "21岁素人女性协助金赛纶醉驾,被判500万罚金刑.",
-                "en": "A 21-year-old non-celebrity woman who assisted Kim Sae-ron’s DUI was sentenced to a ₩5 million fine.",
+                "en": "A 21-year-old non-celebrity woman who assisted Kim Sae-ron's DUI was sentenced to a ₩5 million fine.",
                 "ko": "당시 21세 일반인 여성은 김새론의 음주운전을 방조한 혐의로 벌금 500만 원을 선고받았다."
               },
               "imgs": {
@@ -2852,9 +2939,9 @@
                 "ko": "2024년 9월 자살 시도와 유서"
               },
               "description": {
-                "zh": "金赛纶2024年9月8日尝试自尽,当时发INS限时动态当做遗书,被朋友看到后救下,她当时的遗书内容是：“我的酒精浓度是0,也没有导致停电”.",
-                "en": "On September 8, 2024, Kim Sae-ron attempted suicide. She posted an Instagram Story as a farewell message, but a friend saw it in time and rescued her. The message read:\n\n“My blood alcohol level was 0, and I did not cause a power outage.”",
-                "ko": "김새론은 2024년 9월 8일 극단적 선택을 시도했다. 당시 인스타그램 스토리에 유서를 남겼고, 이를 친구가 발견해 구조됐다. 유서에는 “내 혈중알코올농도는 0이었고, 정전도 유발하지 않았다”고 적혀 있었다"
+                "zh": "金赛纶2024年9月8日尝试自尽,当时发INS限时动态当做遗书,被朋友看到后救下,她当时的遗书内容是:\"我的酒精浓度是0,也没有导致停电\".",
+                "en": "On September 8, 2024, Kim Sae-ron attempted suicide. She posted an Instagram Story as a farewell message, but a friend saw it in time and rescued her. The message read:\n\n\"My blood alcohol level was 0, and I did not cause a power outage.\"",
+                "ko": "김새론은 2024년 9월 8일 극단적 선택을 시도했다. 당시 인스타그램 스토리에 유서를 남겼고, 이를 친구가 발견해 구조됐다. 유서에는 \"내 혈중알코올농도는 0이었고, 정전도 유발하지 않았다\"고 적혀 있었다"
               },
               "imgs": {
                 "zh": [
@@ -2885,12 +2972,12 @@
               "id": "row11-3",
               "title": {
                 "zh": "金赛纶秒删历史",
-                "en": "Kim Sae-ron’s Deleted Posts Timeline",
+                "en": "Kim Sae-ron's Deleted Posts Timeline",
                 "ko": "김새론 게시물 삭제(빛삭) 기록"
               },
               "description": {
                 "zh": "金赛纶秒删历史.",
-                "en": "Kim Sae-ron’s Deleted Posts Timeline",
+                "en": "Kim Sae-ron's Deleted Posts Timeline",
                 "ko": "김새론 게시물 삭제 기록"
               },
               "imgs": {
@@ -2911,7 +2998,7 @@
               "id": "row11-4",
               "title": {
                 "zh": "2个版本未成年恋爱声明",
-                "en": "Two Different Versions of the “Minor Relationship” Statement",
+                "en": "Two Different Versions of the \"Minor Relationship\" Statement",
                 "ko": "미성년 교제 주장문 두 가지 버전"
               },
               "description": {
@@ -2935,7 +3022,7 @@
                 {
                   "title": {
                     "zh": "姜京允记者博客",
-                    "en": "Journalist Kang Kyung-yoon’s blog",
+                    "en": "Journalist Kang Kyung-yoon's blog",
                     "ko": "강경윤 기자 블로그"
                   },
                   "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
@@ -2953,8 +3040,8 @@
               },
               "description": {
                 "zh": "金赛纶爆照秒删真实目的以及她写给金秀贤的信件对比.",
-                "en": "A comparison between the actual motive for Kim Sae-ron’s photo upload-and-deletion and the letter she later wrote to Kim Soo-hyun.",
-                "ko": "김새론 ‘사진 게시-삭제’ 실제 목적 vs 김수현에 보낸 편지 내용 비교"
+                "en": "A comparison between the actual motive for Kim Sae-ron's photo upload-and-deletion and the letter she later wrote to Kim Soo-hyun.",
+                "ko": "김새론 '사진 게시-삭제' 실제 목적 vs 김수현에 보낸 편지 내용 비교"
               },
               "imgs": {
                 "zh": [
@@ -2975,7 +3062,7 @@
                 {
                   "title": {
                     "zh": "姜京允记者博客",
-                    "en": "Journalist Kang Kyung-yoon’s blog",
+                    "en": "Journalist Kang Kyung-yoon's blog",
                     "ko": "강경윤 기자 블로그"
                   },
                   "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
@@ -2993,18 +3080,18 @@
               },
               "description": {
                 "zh": "金赛纶的对表姐编造的15岁恋爱声明中还捏造了做视觉指导没有得到报酬的故事,被早已离职的金牌公司前视觉指导打假,她发INS说金牌公司当时的所有视觉指导工作都是她做的,金赛纶没有参与,后来也去警察局作证了.",
-                "en": "In the “age-15 relationship” statement that Kim Sae-ron allegedly told her cousin, she also claimed that she had worked as a visual director without receiving any compensation.\n\nA former visual director of Gold Medalist, who had already left the company, publicly refuted this claim. The former employee stated on Instagram that all visual direction work at Gold Medalist during that period was handled by her, and that Kim Sae-ron was never involved. She later also testified to the police.",
-                "ko": "김새론은 사촌에게 전달한 ‘15세 교제’ 주장문에서 자신이 비주얼 디렉팅 업무를 무보수로 했다고 주장했습니다.\n\n그러나 이미 퇴사한 골드메달리스트 전 비주얼 디렉터는 이를 공개적으로 반박했습니다. 그녀는 인스타그램을 통해 당시 골드메달리스트의 모든 비주얼 디렉팅 업무는 자신이 담당했으며 김새론은 참여하지 않았다고 밝혔고, 이후 경찰에서도 같은 취지로 진술했습니다."
+                "en": "In the \"age-15 relationship\" statement that Kim Sae-ron allegedly told her cousin, she also claimed that she had worked as a visual director without receiving any compensation.\n\nA former visual director of Gold Medalist, who had already left the company, publicly refuted this claim. The former employee stated on Instagram that all visual direction work at Gold Medalist during that period was handled by her, and that Kim Sae-ron was never involved. She later also testified to the police.",
+                "ko": "김새론은 사촌에게 전달한 '15세 교제' 주장문에서 자신이 비주얼 디렉팅 업무를 무보수로 했다고 주장했습니다.\n\n그러나 이미 퇴사한 골드메달리스트 전 비주얼 디렉터는 이를 공개적으로 반박했습니다. 그녀는 인스타그램을 통해 당시 골드메달리스트의 모든 비주얼 디렉팅 업무는 자신이 담당했으며 김새론은 참여하지 않았다고 밝혔고, 이후 경찰에서도 같은 취지로 진술했습니다."
               },
               "imgs": {
                 "zh": [
-                  "images/无偿视觉指导中.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/6a/178438473820a20ffa7ef7664df0dea70536f39918.jpg"
                 ],
                 "ko": [
-                  "images/无偿视觉指导韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/25/17843847433f54db67df6d28e3f853b26e596761f6.jpg"
                 ],
                 "en": [
-                  "images/无偿视觉指导英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/e3/1784384741a879de41835cbba37c6f99f0bc749edd.jpg"
                 ],
                 "shared": []
               },
@@ -3015,14 +3102,14 @@
             {
               "id": "row11-6",
               "title": {
-                "zh": "“哥哥是我的初恋”",
-                "en": "“Oppa Was My First Love”",
-                "ko": "“오빠는 내 첫사랑이었다”"
+                "zh": "\"哥哥是我的初恋\"",
+                "en": "\"Oppa Was My First Love\"",
+                "ko": "\"오빠는 내 첫사랑이었다\""
               },
               "description": {
-                "zh": "金赛纶遗属自爆金赛纶2017年备忘录并谎称备忘录是写给金秀贤的,备忘录中金赛纶写到“受到前任伤害“.\n按遗属说法备忘录是写给金秀贤的,则说明金秀贤并非金赛纶的初恋,金赛纶在撒谎欺骗金秀贤是她的初恋.\n实际上备忘录并非写给金秀贤的,金秀贤也不是金赛纶的初恋.",
-                "en": "Kim Sae-ron’s family released one of her 2017 memos and claimed it had been written to Kim Soo-hyun. However, the memo itself states that she had been hurt by an ex-boyfriend.\n\nIf the family’s claim were true, it would mean Kim Soo-hyun was not Kim Sae-ron’s first love, contradicting the claim that he was.\n\nIn reality, the memo was not written to Kim Soo-hyun, and Kim Soo-hyun was not Kim Sae-ron’s first love.",
-                "ko": "김새론 유족은 2017년 메모를 공개하며 해당 메모가 김수현에게 쓴 것이라고 주장했습니다. 그러나 메모에는 김새론이 전 남자친구에게 상처를 받았다는 내용이 적혀 있습니다.\n\n유족의 주장대로라면 김수현은 김새론의 첫사랑이 아니었다는 의미가 되어, ‘첫사랑’이라는 주장과 모순됩니다.\n\n실제로 해당 메모는 김수현에게 쓴 것이 아니며, 김수현 역시 김새론의 첫사랑이 아니었습니다."
+                "zh": "金赛纶遗属自爆金赛纶2017年备忘录并谎称备忘录是写给金秀贤的,备忘录中金赛纶写到\"受到前任伤害\".\n按遗属说法备忘录是写给金秀贤的,则说明金秀贤并非金赛纶的初恋,金赛纶在撒谎欺骗金秀贤是她的初恋.\n实际上备忘录并非写给金秀贤的,金秀贤也不是金赛纶的初恋.",
+                "en": "Kim Sae-ron's family released one of her 2017 memos and claimed it had been written to Kim Soo-hyun. However, the memo itself states that she had been hurt by an ex-boyfriend.\n\nIf the family's claim were true, it would mean Kim Soo-hyun was not Kim Sae-ron's first love, contradicting the claim that he was.\n\nIn reality, the memo was not written to Kim Soo-hyun, and Kim Soo-hyun was not Kim Sae-ron's first love.",
+                "ko": "김새론 유족은 2017년 메모를 공개하며 해당 메모가 김수현에게 쓴 것이라고 주장했습니다. 그러나 메모에는 김새론이 전 남자친구에게 상처를 받았다는 내용이 적혀 있습니다.\n\n유족의 주장대로라면 김수현은 김새론의 첫사랑이 아니었다는 의미가 되어, '첫사랑'이라는 주장과 모순됩니다.\n\n실제로 해당 메모는 김수현에게 쓴 것이 아니며, 김수현 역시 김새론의 첫사랑이 아니었습니다."
               },
               "imgs": {
                 "zh": [
@@ -3049,19 +3136,20 @@
                 }
               ],
               "videos": [],
-              "zh_only": false
+              "zh_only": false,
+              "visible": true
             },
             {
               "id": "row11-7",
               "title": {
-                "zh": "“哥哥是我最后的爱情”",
-                "en": "“Oppa Was My Last Love”",
-                "ko": "“오빠는 내 마지막 사랑이었다”"
+                "zh": "\"哥哥是我最后的爱情\"",
+                "en": "\"Oppa Was My Last Love\"",
+                "ko": "\"오빠는 내 마지막 사랑이었다\""
               },
               "description": {
-                "zh": "金赛纶在爆照秒删后写信给金秀贤谎称联系不上才爆照,因此写信时间在2024年3月之后.\n但是记者曝光她在当时有男友,且2024年2月还在叫经纪人买避孕药,金赛纶2022年醉驾时的男友也被韩媒曝光.\n因此信中“金秀贤是最后的爱情”是金赛纶欺骗金秀贤.",
-                "en": "After posting and deleting the photo, Kim Sae-ron wrote a letter to Kim Soo-hyun claiming she had uploaded the photo only because she had no other way to contact him. Therefore, the letter must have been written after March 2024.\n\nHowever, a journalist later revealed that she was in a relationship with another man at the time. In addition, chat records showed that in February 2024 she asked her manager to buy emergency contraception, and Korean media had previously reported on the boyfriend she had when she was involved in the 2022 DUI incident.\n\nTherefore, the statement in the letter that “Kim Soo-hyun was my last love” was not consistent with those reports.",
-                "ko": "김새론은 사진을 올렸다가 삭제한 뒤 김수현에게 편지를 보내 “연락이 되지 않아 사진을 올렸다”고 주장했습니다. 따라서 해당 편지는 2024년 3월 이후 작성된 것입니다.\n\n그러나 기자의 보도에 따르면 당시 김새론에게는 다른 남자친구가 있었으며, 2024년 2월에는 매니저에게 피임약 구매를 부탁한 대화 내용도 공개되었습니다. 또한 2022년 음주운전 사고 당시의 남자친구 역시 한국 언론을 통해 보도되었습니다.\n\n따라서 편지 속 “김수현은 내 마지막 사랑이었다”는 내용은 이러한 보도 내용과 일치하지 않습니다."
+                "zh": "金赛纶在爆照秒删后写信给金秀贤谎称联系不上才爆照,因此写信时间在2024年3月之后.\n但是记者曝光她在当时有男友,且2024年2月还在叫经纪人买避孕药,金赛纶2022年醉驾时的男友也被韩媒曝光.\n因此信中\"金秀贤是最后的爱情\"是金赛纶欺骗金秀贤.",
+                "en": "After posting and deleting the photo, Kim Sae-ron wrote a letter to Kim Soo-hyun falsely claiming that she had uploaded the photo only because she could not contact him. Therefore, the letter must have been written after March 2024.\n\nHowever, a journalist later revealed that she had a boyfriend at the time. In addition, in February 2024, she asked her manager to buy emergency contraception, and Korean media had also exposed the boyfriend she had at the time of her 2022 DUI.\n\nTherefore, the claim in the letter that \"Kim Soo-hyun was my last love\" was Kim Sae-ron deceiving Kim Soo-hyun.",
+                "ko": "김새론은 사진을 올렸다가 삭제한 뒤 김수현에게 편지를 보내 연락이 되지 않아 사진을 올렸다고 거짓말했다. 따라서 해당 편지는 2024년 3월 이후 작성된 것이다.\n\n그러나 기자는 당시 김새론에게 남자친구가 있었다고 폭로했고, 2024년 2월에는 김새론이 매니저에게 응급피임약을 사 달라고 부탁한 사실도 공개됐다. 또한 김새론이 2022년 음주운전 당시 교제하던 남자친구도 한국 언론을 통해 보도된 바 있다.\n\n따라서 편지 속 \"김수현은 내 마지막 사랑이었다\"는 말은 김새론이 김수현을 속인 것이었다."
               },
               "imgs": {
                 "zh": [
@@ -3082,7 +3170,7 @@
                 {
                   "title": {
                     "zh": "姜京允记者博客\n曝光金赛纶和经纪人聊天记录",
-                    "en": "Journalist Kang Kyung-yoon’s blog – Chat records between Kim Sae-ron and her manager",
+                    "en": "Journalist Kang Kyung-yoon's blog – Chat records between Kim Sae-ron and her manager",
                     "ko": "강경윤 기자 블로그 – 김새론과 매니저의 대화 공개"
                   },
                   "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
@@ -3097,11 +3185,12 @@
                 }
               ],
               "videos": [],
-              "zh_only": false
+              "zh_only": false,
+              "visible": true
             }
           ],
           "intro": {
-            "zh": "金赛纶生前有一些自相矛盾、与客观事实不符的言论,因此可以认定为谎言,揭发BurningSun事件的记者姜京允揭发了金赛纶的谎言.",
+            "zh": "金赛纶生前有一些自相矛盾,与客观事实不符的言论,因此可以认定为谎言,揭发BurningSun事件的记者姜京允揭发了金赛纶的谎言.",
             "en": "During her lifetime, Kim Sae-ron made a number of statements that were self-contradictory and inconsistent with objectively verifiable facts. These statements can therefore be identified as falsehoods. Kang Kyung-yoon, the journalist who exposed the BurningSun scandal, exposed these false statements made by Kim Sae-ron.",
             "ko": "김새론은 생전에 자신의 발언과 모순되거나 객관적 사실과 배치되는 주장을 여러 차례 한 것으로 확인됐다. 이에 따라 해당 주장들은 허위로 판단될 수 있다. 버닝썬 사건을 폭로한 강경윤 기자는 김새론의 이러한 허위 주장들을 공개적으로 짚어냈다."
           }
@@ -3111,7 +3200,7 @@
           "label": {
             "zh": "金赛纶秒删历史",
             "ko": "김새론 인스타그램 삭제 이력",
-            "en": "Kim Sae-ron’s History of Deleted Instagram Posts"
+            "en": "Kim Sae-ron's History of Deleted Instagram Posts"
           },
           "layout": "timeline",
           "entries": [
@@ -3120,12 +3209,12 @@
               "time": "20240324",
               "title": {
                 "zh": "INS爆照秒删与金秀贤贴脸照,和经纪人解释说因为债务问题精神高度紧张要让金秀贤去死",
-                "en": "Posted and quickly deleted a close-up photo with Kim Soo-hyun on Instagram; later told her manager that, because of extreme stress over her debt, she wanted Kim Soo-hyun “to die.”",
-                "ko": "김수현과 얼굴을 맞댄 사진을 인스타그램에 올렸다가 곧 삭제했으며, 이후 매니저에게 채무 문제로 극심한 스트레스를 받아 “김수현을 죽게 하고 싶었다”고 말함"
+                "en": "Posted and quickly deleted a close-up photo with Kim Soo-hyun on Instagram; later told her manager that, because of extreme stress over her debt, she wanted Kim Soo-hyun \"to die.\"",
+                "ko": "김수현과 얼굴을 맞댄 사진을 인스타그램에 올렸다가 곧 삭제했으며, 이후 매니저에게 채무 문제로 극심한 스트레스를 받아 \"김수현을 죽게 하고 싶었다\"고 말함"
               },
               "description": {
                 "zh": "2024年3月24日,金赛纶爆照后秒删.后续公开资料显示,她曾对经纪人称要让金秀贤去死,因此爆照秒删.",
-                "en": "On March 24, 2024, Kim Sae-ron posted a close-up photo with Kim Soo-hyun and deleted it shortly afterward. According to subsequently disclosed materials, she later told her manager that she posted and deleted the photo because she wanted Kim Soo-hyun “to die” amid severe stress over her debt.",
+                "en": "On March 24, 2024, Kim Sae-ron posted a close-up photo with Kim Soo-hyun and deleted it shortly afterward. According to subsequently disclosed materials, she later told her manager that she posted and deleted the photo because she wanted Kim Soo-hyun \"to die\" amid severe stress over her debt.",
                 "ko": "2024년 3월 24일, 김새론은 김수현과 얼굴을 맞댄 사진을 게시한 뒤 곧 삭제했다. 이후 공개된 자료에 따르면, 그녀는 채무 문제로 극심한 스트레스를 받아 김수현을 죽게 하고 싶다는 생각으로 해당 사진을 올렸다가 삭제했다고 매니저에게 설명했다."
               },
               "imgs": {
@@ -3144,7 +3233,7 @@
                 {
                   "title": {
                     "zh": "姜京允记者博客",
-                    "en": "Reporter Kang Kyung-yoon’s blog",
+                    "en": "Reporter Kang Kyung-yoon's blog",
                     "ko": "강경윤 기자 블로그"
                   },
                   "url": "https://m.blog.naver.com/strongyoun-now/223912652394"
@@ -3297,13 +3386,13 @@
               },
               "imgs": {
                 "zh": [
-                  "/images/25秒删甩锅老公全中.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/f3/17843846463db90602eaab31725f49a9286cb36d40.jpg"
                 ],
                 "ko": [
-                  "/images/25甩锅老公全韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/47/1784384643f100ab711a64819ea2511d3fcc0fe5cf.jpg"
                 ],
                 "en": [
-                  "/images/25秒删甩锅老公全英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/ab/178438464966db57c465d6973a5b9cfcda219fe5dd.jpg"
                 ],
                 "shared": []
               },
@@ -3318,9 +3407,9 @@
                 },
                 {
                   "title": {
-                    "zh": "金赛纶秒删和老公合照韩网：",
+                    "zh": "金赛纶秒删和老公合照韩网:",
                     "en": "Korean online discussion on Kim Sae-ron deleting photos with her husband",
-                    "ko": "김새론 남편과의 사진 빛삭… 한국 온라인 커뮤니티"
+                    "ko": "김새론 남편과의 사진 빛삭... 한국 온라인 커뮤니티"
                   },
                   "url": "https://biz.chosun.com/entertainment/enter_general/2025/01/08/MN6OL4EUPVFP5ZUJA2CLFHPCZQ/"
                 }
@@ -3342,13 +3431,13 @@
           "label": {
             "zh": "金赛纶死因",
             "ko": "김새론 사망 원인",
-            "en": "Factors behind Kim Sae-ron’s death"
+            "en": "Factors behind Kim Sae-ron's death"
           },
           "layout": "list",
           "intro": {
-            "zh": "金赛纶的悲剧并非单一因素导致，是原生家庭从小到大长期的情感漠视与经济压榨，醉驾后过于严苛的舆论环境，一蹶不振的事业以及破裂的婚姻等多重因素叠加而成。金赛纶的死因和0利息借出7亿帮助她偿还猎犬剧组索赔，并且早已做坏账处理三年时间一分没收回的金牌公司没有任何关系，而且金秀贤还是她情绪不稳定之后爆照诬陷的被害者。",
-            "en": "Kim Sae-ron’s tragedy was not caused by any single factor. It was the result of multiple overlapping pressures: long-term emotional neglect and financial exploitation by her family from childhood onward, the excessively harsh public-opinion climate after her DUI, a career that failed to recover, and a broken marriage. Her death had nothing to do with Gold Medalist, which lent her ₩700 million interest-free to help her repay the damages claimed by the Bloodhounds production team, had already written the debt off as bad debt, and had not recovered a single won over three years. Kim Soo-hyun, meanwhile, was the victim falsely accused after she posted and deleted a photo during a period of emotional instability.",
-            "ko": "김새론의 비극은 단 하나의 요인으로 발생한 일이 아니다. 어린 시절부터 이어진 원가정의 장기적인 정서적 방임과 경제적 착취, 음주운전 이후 지나치게 가혹했던 여론 환경, 회복하지 못한 커리어, 파탄 난 결혼 등 여러 요인이 겹친 결과였다. 김새론의 사망 원인은 <사냥개들> 제작진의 손해배상금을 갚도록 0% 이자로 7억 원을 빌려주고, 이미 대손 처리까지 했으며, 3년 동안 단 한 푼도 회수하지 못한 골드메달리스트와 아무 관련이 없다. 오히려 김수현은 김새론이 정서적으로 불안정해진 뒤 사진을 올렸다가 삭제하며 허위 의혹을 제기한 사건의 피해자였다."
+            "zh": "金赛纶的悲剧并非单一因素导致,是原生家庭从小到大长期的情感漠视与经济压榨,醉驾后过于严苛的舆论环境,一蹶不振的事业以及破裂的婚姻等多重因素叠加而成.金赛纶的死因和0利息借出7亿帮助她偿还猎犬剧组索赔,并且早已做坏账处理三年时间一分没收回的金牌公司没有任何关系,而且金秀贤还是她情绪不稳定之后爆照诬陷的被害者.",
+            "en": "Kim Sae-ron's tragedy was not caused by any single factor. It was the result of multiple overlapping pressures: long-term emotional neglect and financial exploitation by her family from childhood onward, the excessively harsh public-opinion climate after her DUI, a career that failed to recover, and a broken marriage. Her death had nothing to do with Gold Medalist, which lent her ₩700 million interest-free to help her repay the damages claimed by the Bloodhounds production team, had already written the debt off as bad debt, and had not recovered a single won over three years. Kim Soo-hyun, meanwhile, was the victim falsely accused after she posted and deleted a photo during a period of emotional instability.",
+            "ko": "김새론의 비극은 단 하나의 요인만으로 생겨난 일이 아니다. 어린 시절부터 이어진 원가정의 장기적인 정서적 방임과 경제적 착취, 음주운전 이후 지나치게 가혹했던 여론 환경, 회복하지 못한 커리어, 파탄 난 결혼 등 여러 요인이 겹친 결과였다. 김새론의 사망 원인은 <사냥개들> 제작진의 손해배상금을 갚도록 0% 이자로 7억 원을 빌려주고, 이미 대손 처리까지 했으며, 3년 동안 단 한 푼도 회수하지 못한 골드메달리스트와 아무런 관련이 없다. 오히려 김수현은 김새론이 정서적으로 불안정해진 뒤 사진을 올렸다가 삭제하며 허위 의혹을 제기한 사건의 피해자였다."
           },
           "entries": [
             {
@@ -3356,7 +3445,7 @@
               "title": {
                 "zh": "金赛纶的原生家庭",
                 "ko": "김새론의 원가정",
-                "en": "Kim Sae-ron’s family of origin"
+                "en": "Kim Sae-ron's family of origin"
               },
               "internal_link": {
                 "tab_id": "background",
@@ -3367,7 +3456,7 @@
             {
               "id": "death-cause-dui-career",
               "title": {
-                "zh": "金赛纶醉驾后作品下车，事业停摆",
+                "zh": "金赛纶醉驾后作品下车,事业停摆",
                 "ko": "김새론은 음주운전 이후 작품에서 하차했고, 활동이 사실상 중단되었다",
                 "en": "After her DUI, Kim Sae-ron was removed from projects and her career came to a halt"
               },
@@ -3380,8 +3469,8 @@
             {
               "id": "death-cause-broken-marriage",
               "title": {
-                "zh": "25年1月金赛纶与老公在美国结婚后，被老公发现与前男友仍在联系，二人婚姻破裂",
-                "ko": "2025년 1월 김새론이 미국에서 남편과 결혼한 뒤, 남편이 그녀가 전 남자친구와 계속 연락하고 있었다는 사실을 알게 되면서 두 사람의 결혼 생활은 파탄 났다",
+                "zh": "25年1月金赛纶与老公在美国结婚后,被老公发现与前男友仍在联系,二人婚姻破裂",
+                "ko": "2025년 1월 김새론이 미국에서 남편과 결혼한 뒤, 남편이 김새론이 전 남자친구와 계속 연락하고 있었다는 사실을 알게 되면서 두 사람의 결혼 생활은 파탄 났다",
                 "en": "In January 2025, after Kim Sae-ron married her husband in the United States, he discovered she was still in contact with her ex-boyfriend, and the marriage broke down"
               },
               "internal_link": {
@@ -3393,7 +3482,7 @@
             {
               "id": "death-cause-debt-no-repayment",
               "title": {
-                "zh": "金赛纶早已得知不需要偿还7亿债务，事实上一分没还",
+                "zh": "金赛纶早已得知不需要偿还7亿债务,事实上一分没还",
                 "ko": "김새론은 이미 7억 원 채무를 갚지 않아도 된다는 사실을 알고 있었고, 실제로 단 한 푼도 갚지 않았다",
                 "en": "Kim Sae-ron had already learned that she did not need to repay the ₩700 million debt, and in reality she did not repay a single won"
               },
@@ -3429,12 +3518,12 @@
               "id": "row12-6",
               "title": {
                 "zh": "老公晒出金赛纶手写信",
-                "en": "Husband Released Kim Sae-ron’s Handwritten Letter",
+                "en": "Husband Released Kim Sae-ron's Handwritten Letter",
                 "ko": "미국인 남편이 김새론의 자필 편지를 공개"
               },
               "description": {
                 "zh": "美国老公没出席葬礼,但晒出金赛纶写的信,信中金赛纶为自己和前男友藕断丝连道歉,并表达了对美国老公的爱意.\n金赛纶2025年1月6日秒删与老公合照,对外谎称老公上号秒删.",
-                "en": "Kim Sae-ron’s American husband did not attend her funeral, but later released a handwritten letter she had written to him. In the letter, Kim Sae-ron apologized for remaining emotionally involved with her ex-boyfriend and expressed her love for her husband.\n\nOn January 6, 2025, Kim Sae-ron posted photos with her husband on Instagram and deleted them shortly afterward. She later claimed that her husband had logged into her Instagram account, posted the photos, and then deleted them.",
+                "en": "Kim Sae-ron's American husband did not attend her funeral, but later released a handwritten letter she had written to him. In the letter, Kim Sae-ron apologized for remaining emotionally involved with her ex-boyfriend and expressed her love for her husband.\n\nOn January 6, 2025, Kim Sae-ron posted photos with her husband on Instagram and deleted them shortly afterward. She later claimed that her husband had logged into her Instagram account, posted the photos, and then deleted them.",
                 "ko": "김새론의 미국인 남편은 장례식에는 참석하지 않았지만, 이후 김새론이 자신에게 쓴 자필 편지를 공개했다. 편지에서 김새론은 전 남자친구와의 관계를 완전히 정리하지 못한 것에 대해 사과하며, 미국인 남편에 대한 사랑을 표현했다.\n\n2025년 1월 6일 김새론은 남편과 함께 찍은 사진을 인스타그램에 올렸다가 곧 삭제했다. 이후 그녀는 남편이 자신의 인스타그램 계정에 로그인해 사진을 올렸다가 삭제했다고 설명했다."
               },
               "member": [
@@ -3442,7 +3531,7 @@
                   "name": "金赛纶美国老公",
                   "description": {
                     "zh": "金赛纶的现任丈夫,美国人,曾在韩国留学,后在美国工作.两人于2024年结婚,但婚姻关系一直备受争议和质疑.",
-                    "en": "Kim Sae-ron’s current husband is an American. He studied in South Korea and later worked in the United States. The two got married in 2024, but their marriage relationship has been controversial and questioned.",
+                    "en": "Kim Sae-ron's current husband is an American. He studied in South Korea and later worked in the United States. The two got married in 2024, but their marriage relationship has been controversial and questioned.",
                     "ko": "김새론의 현재 남편은 미국인이다. 그는 한국에서 공부하고 나중에 미국에서 일했습니다. 두 사람은 2024년 결혼했으나 결혼 관계에 대해 논란이 일고 있다."
                   }
                 }
@@ -3480,13 +3569,13 @@
               "id": "row12-9",
               "title": {
                 "zh": "练习生前任晒出金赛纶聊天记录",
-                "en": "Former Trainee Boyfriend Released Kim Sae-ron’s Chat Records",
+                "en": "Former Trainee Boyfriend Released Kim Sae-ron's Chat Records",
                 "ko": "연습생 시절 전 남자친구가 김새론의 대화 내용을 공개"
               },
               "description": {
-                "zh": "前男友指控美国老公家暴金赛纶,并且晒出金赛纶的聊天记录,在聊天记录中金赛纶为自己“因被家暴被迫和美国老公在一起”向前男友道歉,且表达了对前男友的爱意.\n金赛纶老公还曾登录金赛纶个人私密INS辱骂前男友,让前男友不要插足婚姻.",
-                "en": "Kim Sae-ron’s former boyfriend from her trainee days alleged that her American husband had physically abused her. He also released chat records in which Kim Sae-ron apologized for “being forced to stay with her American husband because of domestic abuse” and expressed her love for her ex-boyfriend.\n\nAccording to the former boyfriend, Kim Sae-ron’s husband also logged into her private Instagram account and sent insulting messages to him, telling him not to interfere in their marriage.",
-                "ko": "김새론의 연습생 시절 전 남자친구는 미국인 남편이 김새론에게 가정폭력을 행사했다고 주장하며, 김새론과의 대화 내용을 공개했다. 공개된 대화에서 김새론은 “가정폭력 때문에 어쩔 수 없이 미국인 남편과 함께 지내고 있다”며 전 남자친구에게 사과했고, 전 남자친구에 대한 애정을 표현했다.\n\n또한 김새론의 남편이 김새론의 비공개 인스타그램 계정에 로그인해 전 남자친구를 향해 욕설을 퍼부으며 “결혼 생활에 개입하지 말라”고 경고한 것으로 전해졌다."
+                "zh": "前男友指控美国老公家暴金赛纶,并且晒出金赛纶的聊天记录,在聊天记录中金赛纶为自己\"因被家暴被迫和美国老公在一起\"向前男友道歉,且表达了对前男友的爱意.\n金赛纶老公还曾登录金赛纶个人私密INS辱骂前男友,让前男友不要插足婚姻.",
+                "en": "Kim Sae-ron's former boyfriend from her trainee days alleged that her American husband had physically abused her. He also released chat records in which Kim Sae-ron apologized for \"being forced to stay with her American husband because of domestic abuse\" and expressed her love for her ex-boyfriend.\n\nAccording to the former boyfriend, Kim Sae-ron's husband also logged into her private Instagram account and sent insulting messages to him, telling him not to interfere in their marriage.",
+                "ko": "김새론의 연습생 시절 전 남자친구는 미국인 남편이 김새론에게 가정폭력을 행사했다고 주장하며, 김새론과의 대화 내용을 공개했다. 공개된 대화에서 김새론은 \"가정폭력 때문에 어쩔 수 없이 미국인 남편과 함께 지내고 있다\"며 전 남자친구에게 사과했고, 전 남자친구에 대한 애정을 표현했다.\n\n또한 김새론의 남편이 김새론의 비공개 인스타그램 계정에 로그인해 전 남자친구를 향해 욕설을 퍼부으며 \"결혼 생활에 개입하지 말라\"고 경고한 것으로 전해졌다."
               },
               "member": [
                 {
@@ -3504,21 +3593,21 @@
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/8d/1781936433e2d2a417a9f51cbb67dd3c5a99d91d47.jpg",
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/2b/178193643349b4da669eff323b6bd2d10f75383e67.jpg",
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/d3/1781936435aa7c14a9fd1b6f98eee2312adecf6c4b.jpg",
-                  "/images/前任保证书中.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/de/178438471178acafd494d8d8187c2b5cc37c0b56d8.jpg"
                 ],
                 "ko": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/4d/1781936434982c5d7419a8c74f0356ca42495d37ba.jpg",
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/e0/178193643413c021c6a82ecd938778158a12ca1a54.jpg",
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/db/178193643565630bc622a27b7e3b95641e4820c203.jpg",
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/b2/1781936435a1b719a7965b12a9d3e03a43d484e73f.jpg",
-                  "/images/前任保证书韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/11/178438471427fb55acc89448289da51eeaa8539cf3.jpg"
                 ],
                 "en": [
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/f6/1781936436b6c87889a12c4c4f977ead4f3caff970.jpg",
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/fa/17819364362627cf2341dfd6a2320aff8d098d603e.jpg",
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/52/1781936437d03bcf152c943b56528e11351321d349.jpg",
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/35/17819364379b60bd0ea499690ec9593f5b4aeb3218.jpg",
-                  "/images/前任保证书英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/84/17843847138ba20ed76ce8c1e11845828e8c33241a.jpg"
                 ],
                 "shared": []
               },
@@ -3534,6 +3623,43 @@
               ],
               "videos": [],
               "zh_only": false
+            },
+            {
+              "id": "kim-saeron-2018-real-boyfriend-idol",
+              "title": {
+                "zh": "金赛纶18年真正的男友是某组合的年长爱豆",
+                "en": "Kim Sae-ron's actual boyfriend in 2018 was an older idol from a music group",
+                "ko": "2018년 김새론의 실제 남자친구는 한 그룹의 연상 아이돌이었다"
+              },
+              "description": {
+                "zh": "",
+                "en": "",
+                "ko": ""
+              },
+              "imgs": {
+                "zh": [
+                  "images/18年男友中.jpg"
+                ],
+                "en": [
+                  "images/18年男友英.jpg"
+                ],
+                "ko": [
+                  "images/18年男友韩.jpg"
+                ],
+                "shared": []
+              },
+              "link": [
+                {
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "출처 링크"
+                  },
+                  "url": "https://n.news.naver.com/article/008/0005196931?sid=102"
+                }
+              ],
+              "videos": [],
+              "zh_only": false
             }
           ]
         },
@@ -3542,7 +3668,7 @@
           "label": {
             "zh": "金赛纶真实生活",
             "ko": "김새론의 실제 생활",
-            "en": "Kim Sae-ron’s Real Life"
+            "en": "Kim Sae-ron's Real Life"
           },
           "layout": "list",
           "entries": [
@@ -3660,8 +3786,8 @@
                 {
                   "title": {
                     "zh": "醉驾后六个律师打官司 - Kookmin Ilbo",
-                    "en": "Six lawyers after the drunk-driving case — Kookmin Ilbo",
-                    "ko": "음주운전 이후 변호사 6명 선임 — 국민일보"
+                    "en": "Six lawyers after the drunk-driving case - Kookmin Ilbo",
+                    "ko": "음주운전 이후 변호사 6명 선임 - 국민일보"
                   },
                   "url": "https://www.kmib.co.kr/article/view.asp?arcid=0018037940&utm_source=chatgpt.com"
                 },
@@ -3771,7 +3897,7 @@
               },
               "description": {
                 "zh": "醉驾后金赛纶身穿2023年最新款miumiu在加州迪士尼.",
-                "en": "After her drunk-driving case, Kim Sae-ron was seen at Disneyland in California wearing Miu Miu’s latest 2023 collection.",
+                "en": "After her drunk-driving case, Kim Sae-ron was seen at Disneyland in California wearing Miu Miu's latest 2023 collection.",
                 "ko": "음주운전 사건 이후 김새론은 2023년 최신 미우미우 제품을 입고 미국 캘리포니아 디즈니랜드에 방문했다."
               },
               "imgs": {
@@ -3890,9 +4016,9 @@
           },
           "layout": "comparison",
           "matrix_download_imgs": {
-            "zh": "images/金牌YG资源对比中.png",
-            "en": "images/金牌YG资源对比英.png",
-            "ko": "images/金牌YG资源对比韩.png"
+            "zh": "https://img.ltwebstatic.com/v4/p/ccc/2026/07/18/4f/178438478131b68e16e962f855071157c8f9f2885a.png",
+            "en": "https://img.ltwebstatic.com/v4/p/ccc/2026/07/18/59/17843847835879c607fc0e369ff0f02e38a19a4155.png",
+            "ko": "https://img.ltwebstatic.com/v4/p/ccc/2026/07/18/bf/178438478554aded7a8cbc198c0b624ef4b199103d.png"
           },
           "matrix_sections": [
             {
@@ -4023,12 +4149,12 @@
                   "yg": {
                     "zh": "韩国最大的娱乐经纪公司之一",
                     "ko": "대한민국 최대 엔터테인먼트 회사 중 하나",
-                    "en": "One of South Korea’s largest entertainment agencies"
+                    "en": "One of South Korea's largest entertainment agencies"
                   },
                   "gold": {
                     "zh": [
                       {
-                        "text": "2020年成立、员工仅有20余名的小型公司",
+                        "text": "2020年成立,员工仅有20余名的小型公司",
                         "circleAfter": "3"
                       }
                     ],
@@ -4103,7 +4229,7 @@
                         "circleAfter": "4"
                       },
                       {
-                        "text": "She showcased the apartment on tvN’s ON&OFF.",
+                        "text": "She showcased the apartment on tvN's ON&OFF.",
                         "block": true
                       },
                       {
@@ -4122,14 +4248,14 @@
                     "en": "Projects & Endorsements"
                   },
                   "yg": {
-                    "zh": "影视资源：\n2018 电影《邻里的人们》女主\n2019 Playlist 网剧《恋爱播放列表4》女二\n2019 TV朝鲜电视剧《欺骗操作团》女二\n\n代言：Senka 洁面乳",
+                    "zh": "影视资源:\n2018 电影《邻里的人们》女主\n2019 Playlist 网剧《恋爱播放列表4》女二\n2019 TV朝鲜电视剧《欺骗操作团》女二\n\n代言:Senka 洁面乳",
                     "ko": "작품\n• 2018 영화 《동네 사람들》 주연\n• 2019 Playlist 웹드라마 《연애플레이리스트 시즌4》 서브 여주인공\n• 2019 TV조선 드라마 《레버리지: 사기조작단》 서브 여주인공\n\n광고\n• 센카 폼클렌징",
-                    "en": "Film & TV\n• 2018 The Neighbors — Lead Actress\n• 2019 Love Playlist 4 (Playlist) — Second Female Lead\n• 2019 TV Chosun drama Leverage — Second Female Lead\n\nEndorsement\n• Senka Facial Cleanser"
+                    "en": "Film & TV\n• 2018 The Neighbors - Lead Actress\n• 2019 Love Playlist 4 (Playlist) - Second Female Lead\n• 2019 TV Chosun drama Leverage - Second Female Lead\n\nEndorsement\n• Senka Facial Cleanser"
                   },
                   "gold": {
                     "zh": [
                       {
-                        "text": "影视资源：",
+                        "text": "影视资源:",
                         "bold": true,
                         "block": true
                       },
@@ -4146,7 +4272,7 @@
                         "block": true
                       },
                       {
-                        "text": "2022 SBS电视剧《Trolley：命运交叉点》 "
+                        "text": "2022 SBS电视剧《Trolley:命运交叉点》 "
                       },
                       {
                         "text": "开拍前三天酒驾下车",
@@ -4183,7 +4309,7 @@
                         "block": true
                       },
                       {
-                        "text": "代言：理肤泉、FILA",
+                        "text": "代言:理肤泉,FILA",
                         "bold": true,
                         "block": true
                       }
@@ -4264,19 +4390,19 @@
                         "block": true
                       },
                       {
-                        "text": "• 2020 SBS Nobody Knows — Child version of the lead character",
+                        "text": "• 2020 SBS Nobody Knows - Child version of the lead character",
                         "block": true
                       },
                       {
-                        "text": "• 2021 KakaoTV The Great Shaman Ga Doo-shim — Lead Actress",
+                        "text": "• 2021 KakaoTV The Great Shaman Ga Doo-shim - Lead Actress",
                         "block": true
                       },
                       {
-                        "text": "• 2021 KBS Drama Special She — Lead Actress",
+                        "text": "• 2021 KBS Drama Special She - Lead Actress",
                         "block": true
                       },
                       {
-                        "text": "• 2022 SBS Trolley — "
+                        "text": "• 2022 SBS Trolley - "
                       },
                       {
                         "text": "Withdrew three days before filming due to DUI",
@@ -4286,7 +4412,7 @@
                         "circleAfter": "5"
                       },
                       {
-                        "text": "• 2022 Netflix Bloodhounds — "
+                        "text": "• 2022 Netflix Bloodhounds - "
                       },
                       {
                         "text": "Withdrew after DUI",
@@ -4295,7 +4421,7 @@
                         "block": true
                       },
                       {
-                        "text": "• 2022 Film Us, Day by Day — "
+                        "text": "• 2022 Film Us, Day by Day - "
                       },
                       {
                         "text": "Release postponed after DUI",
@@ -4304,7 +4430,7 @@
                         "block": true
                       },
                       {
-                        "text": "• The Great Shaman Ga Doo-shim Season 2 — "
+                        "text": "• The Great Shaman Ga Doo-shim Season 2 - "
                       },
                       {
                         "text": "Canceled after DUI",
@@ -4344,12 +4470,12 @@
                   "gold": {
                     "zh": [
                       {
-                        "text": "金赛纶与某歌手分手后心情不好,通宵饮酒后于清晨驾驶路虎卫士醉驾逃逸.酒精浓度0.227,被法院判处2000万韩元罚金；同车21岁女性友人被判500万韩元罚金.",
+                        "text": "金赛纶与某歌手分手后心情不好,通宵饮酒后于清晨驾驶路虎卫士醉驾逃逸.酒精浓度0.227,被法院判处2000万韩元罚金;同车21岁女性友人被判500万韩元罚金.",
                         "block": true,
                         "circleAfter": "6"
                       },
                       {
-                        "text": "醉驾逃逸后,金牌公司与《猎犬》剧组协商将违约金降低至7亿韩元,并先行垫付；为金赛纶找了 "
+                        "text": "醉驾逃逸后,金牌公司与《猎犬》剧组协商将违约金降低至7亿韩元,并先行垫付;为金赛纶找了 "
                       },
                       {
                         "text": "四名律师",
@@ -4378,7 +4504,7 @@
                         "bold": true
                       },
                       {
-                        "text": "；直到金赛纶去世,"
+                        "text": ";直到金赛纶去世,"
                       },
                       {
                         "text": "3年时间一分未收回",
@@ -4470,7 +4596,7 @@
                         "bold": true
                       },
                       {
-                        "text": ". Until Kim Sae-ron’s death, "
+                        "text": ". Until Kim Sae-ron's death, "
                       },
                       {
                         "text": "no repayment was recovered over a period of three years.",
@@ -4542,7 +4668,7 @@
             },
             {
               "title": {
-                "zh": "5 金赛纶醉驾导致《Trolley》开拍前三天下车",
+                "zh": "5 金赛纶醉驾导致\"Trolley\"开拍前三天下车",
                 "en": "5 Kim Sae-ron withdrew from Trolley three days before filming due to DUI",
                 "ko": "5 김새론, 음주운전으로 《트롤리》 촬영 사흘 전 하차"
               },
@@ -4575,7 +4701,7 @@
             },
             {
               "title": {
-                "zh": "8 0利息借款、坏账处理与三年未收回",
+                "zh": "8 0利息借款,坏账处理与三年未收回",
                 "en": "8 0% interest loan, bad-debt writeoff, and no repayment over three years",
                 "ko": "8 무이자 차용, 대손 처리, 3년간 미회수"
               },
@@ -4592,7 +4718,7 @@
           "label": {
             "zh": "金赛纶原生家庭",
             "ko": "김새론의 원가정",
-            "en": "Kim Sae-ron’s Family Background"
+            "en": "Kim Sae-ron's Family Background"
           },
           "layout": "list",
           "entries": [
@@ -4600,12 +4726,12 @@
               "id": "row15-2",
               "title": {
                 "zh": "父亲在金赛纶去世后立刻去取租房保证金",
-                "en": "Father attempted to retrieve the rental security deposit immediately after Kim Sae-ron’s death",
+                "en": "Father attempted to retrieve the rental security deposit immediately after Kim Sae-ron's death",
                 "ko": "김새론 사망 직후 아버지가 전세보증금을 찾으러 감"
               },
               "description": {
                 "zh": "父亲在金赛纶去世后立刻去取租房保证金,发现不是金赛纶付的保证金,是其他人帮金赛纶垫付的,取不出来.",
-                "en": "After Kim Sae-ron’s death, her father immediately went to collect the security deposit for her rental home. He discovered that the deposit had not been paid by Kim Sae-ron herself but had been advanced by another person, so he was unable to claim it.",
+                "en": "After Kim Sae-ron's death, her father immediately went to collect the security deposit for her rental home. He discovered that the deposit had not been paid by Kim Sae-ron herself but had been advanced by another person, so he was unable to claim it.",
                 "ko": "김새론의 사망 직후 아버지는 임대주택의 전세보증금을 찾으러 갔으나, 해당 보증금이 김새론이 낸 것이 아니라 다른 사람이 대신 마련한 것이어서 돌려받지 못했다."
               },
               "imgs": {
@@ -4707,7 +4833,7 @@
               },
               "description": {
                 "zh": "金赛纶的童演作品多是19禁电影,因为大部分家长不愿意让孩子从小接触黑暗血腥暴力色情,但是金赛纶父母并不介意.",
-                "en": "Many of Kim Sae-ron’s child acting roles were in R-rated films. While many parents prefer not to expose children to themes involving violence, crime, horror, or sexual content at an early age, her parents reportedly did not object.",
+                "en": "Many of Kim Sae-ron's child acting roles were in R-rated films. While many parents prefer not to expose children to themes involving violence, crime, horror, or sexual content at an early age, her parents reportedly did not object.",
                 "ko": "김새론의 아역 시절 작품 가운데 상당수는 청소년관람불가(19금) 영화였다. 많은 부모들이 어린 자녀가 폭력·범죄·공포·성인 장르를 일찍 접하는 것을 꺼리는 반면, 김새론의 부모는 이에 크게 개의치 않았다고 전해졌다."
               },
               "imgs": {
@@ -4729,14 +4855,14 @@
             {
               "id": "row15-6",
               "title": {
-                "zh": "金赛纶是“少女家长”吗？",
-                "en": "Was Kim Sae-ron the family’s primary breadwinner as a minor?",
-                "ko": "김새론은 ‘소녀 가장’이었나?"
+                "zh": "金赛纶是\"少女家长\"吗?",
+                "en": "Was Kim Sae-ron the family's primary breadwinner as a minor?",
+                "ko": "김새론은 '소녀 가장'이었나?"
               },
               "description": {
                 "zh": "金赛纶醉驾后请的律师在酒驾庭审中说金赛纶作为少女家长要养活一家人,金赛纶父母在她去世后否认金赛纶是少女家长.",
-                "en": "During the DUI trial, Kim Sae-ron’s attorney argued that she had supported her family as a child breadwinner. After her death, however, her parents denied that Kim Sae-ron had been the family’s primary provider.",
-                "ko": "음주운전 재판에서 김새론 측 변호인은 김새론이 가족을 부양하는 ‘소녀 가장’이었다고 주장했다. 그러나 김새론 사망 이후 부모는 김새론이 소녀 가장이었다는 사실을 부인했다."
+                "en": "During the DUI trial, Kim Sae-ron's attorney argued that she had supported her family as a child breadwinner. After her death, however, her parents denied that Kim Sae-ron had been the family's primary provider.",
+                "ko": "음주운전 재판에서 김새론 측 변호인은 김새론이 가족을 부양하는 '소녀 가장'이었다고 주장했다. 그러나 김새론 사망 이후 부모는 김새론이 소녀 가장이었다는 사실을 부인했다."
               },
               "imgs": {
                 "zh": [
@@ -4750,24 +4876,24 @@
                   "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/5e/17819364124eca8d7a1ee47ecab507daab24af6bcc.jpg"
                 ],
                 "en": [
-                  "/images/少女家长对比英文.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/b9/17843847363b2d63bec81a45e85d80842b94f6e325.jpg"
                 ],
                 "shared": []
               },
               "link": [
                 {
                   "title": {
-                    "zh": "金赛纶是“少女家长”吗？ - Kookmin Ilbo",
-                    "en": "Was Kim Sae-ron a “child breadwinner”? — Kookmin Ilbo",
-                    "ko": "「김새론은 ‘소녀 가장’이었나?」 — 국민일보"
+                    "zh": "金赛纶是\"少女家长\"吗? - Kookmin Ilbo",
+                    "en": "Was Kim Sae-ron a \"child breadwinner\"? - Kookmin Ilbo",
+                    "ko": "\"김새론은 '소녀 가장'이었나?\" - 국민일보"
                   },
                   "url": "https://www.kmib.co.kr/article/view.asp?arcid=0018030242&utm_source=chatgpt.com"
                 },
                 {
                   "title": {
-                    "zh": "金赛纶是“少女家长”吗？ - NoCutNews",
-                    "en": "Was Kim Sae-ron a “child breadwinner”? — NoCut News",
-                    "ko": "「김새론은 ‘소녀 가장’이었나?」 — 노컷뉴스"
+                    "zh": "金赛纶是\"少女家长\"吗? - NoCutNews",
+                    "en": "Was Kim Sae-ron a \"child breadwinner\"? - NoCut News",
+                    "ko": "\"김새론은 '소녀 가장'이었나?\" - 노컷뉴스"
                   },
                   "url": "https://m.nocutnews.co.kr/news/6308467?utm_source=chatgpt.com"
                 }
@@ -4783,9 +4909,9 @@
                 "ko": "유족은 김새론의 결혼 사실을 몰랐다고 인정"
               },
               "description": {
-                "zh": "金赛纶遗属翻遍了金赛纶手机,却声称自己不知道金赛纶已婚,在遗属2025年3月27日记者会上,金赛纶遗属律师回答记者问“为什么不知道金赛纶结婚了”,回答说\"金赛纶故意隐瞒\".\n其实就算金赛纶隐瞒了,翻遍手机的遗属也会知道一切,遗属是故意隐瞒金赛纶除了金秀贤之外的全部人生,给公众塑造出金赛纶人生只有金秀贤的印象.",
-                "en": "The bereaved family stated that they had thoroughly examined Kim Sae-ron’s phone, yet claimed they had not known she was married. During the family’s press conference on March 27, 2025, when asked why they were unaware of her marriage, the family’s attorney answered that “Kim Sae-ron deliberately hid it.” Reports from that press conference recorded the lawyer giving that explanation.\n\nAccording to this account, despite claiming that Kim Sae-ron had concealed her marriage, the family had access to her phone. The interpretation that the family intentionally omitted aspects of her life other than Kim Soo-hyun reflects a viewpoint rather than an independently established fact.",
-                "ko": "유족은 김새론의 휴대전화를 확인했음에도 김새론이 결혼한 사실을 몰랐다고 주장했다. 2025년 3월 27일 기자회견에서 “왜 결혼 사실을 몰랐느냐”는 질문에 유족 측 변호인은 “김새론이 의도적으로 숨겼다”고 답했다. 해당 답변은 당시 기자회견 보도를 통해 알려졌다.\n\n다만, 유족이 김수현 외의 삶을 의도적으로 숨겨 대중에게 특정한 인상을 주려 했다는 내용은 사실로 확정된 사항이 아니라 하나의 해석 또는 주장에 해당한다."
+                "zh": "金赛纶遗属翻遍了金赛纶手机,却声称自己不知道金赛纶已婚,在遗属2025年3月27日记者会上,金赛纶遗属律师回答记者问\"为什么不知道金赛纶结婚了\",回答说\"金赛纶故意隐瞒\".\n其实就算金赛纶隐瞒了,翻遍手机的遗属也会知道一切,遗属是故意隐瞒金赛纶除了金秀贤之外的全部人生,给公众塑造出金赛纶人生只有金秀贤的印象.",
+                "en": "Kim Sae-ron's bereaved family searched through her phone, yet claimed they did not know she had been married. At the family's press conference on March 27, 2025, when a reporter asked why they did not know Kim Sae-ron had married, the family's attorney answered, \"Kim Sae-ron deliberately hid it.\"\nEven if Kim Sae-ron had hidden it, a family that had searched through her phone would have known everything. The family deliberately concealed Kim Sae-ron's entire life outside Kim Soo-hyun, creating the impression for the public that Kim Soo-hyun was the only person in Kim Sae-ron's life.",
+                "ko": "김새론 유족은 김새론의 휴대전화를 샅샅이 뒤졌으면서도 김새론이 결혼했다는 사실을 몰랐다고 주장했다. 2025년 3월 27일 유족 측 기자회견에서 기자가 \"왜 김새론이 결혼한 사실을 몰랐느냐\"고 묻자, 유족 측 변호사는 \"김새론이 의도적으로 숨겼다\"고 답했다.\n설령 김새론이 숨겼다 하더라도 휴대전화를 샅샅이 뒤진 유족이라면 모든 것을 알고 있었을 것이다. 유족은 김수현 외의 김새론의 모든 삶을 의도적으로 숨기고, 대중에게 김새론의 인생에는 김수현밖에 없었다는 인상을 만들었다."
               },
               "imgs": {
                 "zh": [],
@@ -4798,7 +4924,7 @@
                 {
                   "title": {
                     "zh": "金赛纶遗属记者会承认已婚",
-                    "en": "Bereaved family’s press conference acknowledging the marriage",
+                    "en": "Bereaved family's press conference acknowledging the marriage",
                     "ko": "유족 기자회견에서 결혼 사실 관련 발언"
                   },
                   "src": "https://video.ltwebstatic.com/video/2026/06/28/1782648836939078685.mp4"
@@ -4824,7 +4950,7 @@
           "label": {
             "zh": "金赛纶遗属代理人犯罪史",
             "ko": "김새론 유족 측 대리인의 범죄 이력",
-            "en": "Criminal History of Kim Se-ui (Attorney for Kim Sae-ron’s Bereaved Family)"
+            "en": "Criminal history of Kim Se-ui, representative of Kim Sae-ron's bereaved family"
           },
           "layout": "list",
           "entries": [
@@ -4863,6 +4989,37 @@
                 }
               ],
               "videos": [],
+              "zh_only": false
+            },
+            {
+              "id": "row2-18",
+              "title": {
+                "zh": "造谣金赛纶通过猎犬复出",
+                "en": "Spread False Claims That Kim Sae-ron Returned Through Bloodhounds",
+                "ko": "김새론이 <사냥개들>로 복귀했다는 허위 주장"
+              },
+              "description": {
+                "zh": "金赛纶去世前,在直播中造谣金赛纶酒驾后通过猎犬复出.",
+                "en": "Before Kim Sae-ron's death, Kim Se-ui claimed during a livestream that she had resumed her acting career through Bloodhounds after her DUI incident.",
+                "ko": "김새론 사망 전, 김세의는 라이브 방송에서 김새론이 음주운전 이후 <사냥개들>을 통해 복귀했다고 주장했다."
+              },
+              "imgs": {
+                "zh": [],
+                "ko": [],
+                "en": [],
+                "shared": []
+              },
+              "link": [],
+              "videos": [
+                {
+                  "title": {
+                    "zh": "金世义造谣网暴金赛纶",
+                    "en": "Kim Se-ui spread false claims and incited online harassment against Kim Sae-ron",
+                    "ko": "김세의가 김새론에 대한 허위 주장을 퍼뜨리고 온라인 공격을 선동함"
+                  },
+                  "src": "https://video.ltwebstatic.com/video/2026/06/28/17826503101439367516.mp4"
+                }
+              ],
               "zh_only": false
             },
             {
@@ -4906,7 +5063,7 @@
                     "en": "Video of Kim Se-ui provoking the police",
                     "ko": "김세의 경찰 도발 영상"
                   },
-                  "src": "images/金世义挑衅威胁警察.mp4"
+                  "src": "https://video.ltwebstatic.com/video/2026/07/19/17844253383824851612.mp4"
                 }
               ],
               "zh_only": false
@@ -4952,7 +5109,7 @@
               "id": "row2-5",
               "title": {
                 "zh": "2023年将女性照片谎称为裸照被判刑",
-                "en": "Ordered to Pay Damages in 2023 for Falsely Claiming a Female Politician’s Photo Was a Nude Image",
+                "en": "Ordered to Pay Damages in 2023 for Falsely Claiming a Female Politician's Photo Was a Nude Image",
                 "ko": "2023년 여성 정치인 사진을 나체 사진이라고 주장해 손해배상 판결"
               },
               "description": {
@@ -4993,9 +5150,9 @@
                 "ko": "버닝썬 공익신고자 신원 공개 및 명예훼손 혐의로 기소"
               },
               "description": {
-                "zh": "2025年金世义因直播公开burningSun事件(李胜利、郑俊英被判刑)公益举报人身份,并且造谣污蔑对方,涉嫌违反《公益举报人保护法》被检方提起公诉,审判进行中.",
-                "en": "In 2025, Kim Se-ui publicly revealed the identity of the public-interest whistleblower in the Burning Sun case (which resulted in the convictions of Seungri and Jung Joon-young) during a livestream and allegedly spread false statements about the individual. He was indicted for alleged violations of the Public Interest Whistleblower Protection Act, and the trial is ongoing.",
-                "ko": "2025년 김세의는 라이브 방송에서 버닝썬 사건(이승리·정준영 사건) 공익신고자의 신원을 공개하고 허위 사실을 유포한 혐의로 「공익신고자 보호법」 위반 혐의로 기소됐으며 현재 재판이 진행 중이다."
+                "zh": "2025年金世义因直播公开burningSun事件(李胜利,郑俊英被判刑)公益举报人身份,并且造谣污蔑对方,涉嫌违反\"公益举报人保护法\"被检方提起公诉,审判进行中.",
+                "en": "In 2025, during a livestream, Kim Se-ui publicly revealed the identity of the public-interest whistleblower in the Burning Sun case (which resulted in the convictions of Seungri and Jung Joon-young), spread false claims about the person, and smeared them. He was indicted by prosecutors on suspicion of violating the Public Interest Whistleblower Protection Act, and the trial is ongoing.",
+                "ko": "2025년 김세의는 라이브 방송에서 버닝썬 사건(이승리와 정준영이 유죄 판결을 받은 사건) 공익신고자의 신원을 공개하고, 상대방에 대한 허위 주장을 퍼뜨리며 음해했다. 그는 \"공익신고자 보호법\" 위반 혐의로 검찰에 기소됐으며 현재 재판이 진행 중이다."
               },
               "imgs": {
                 "zh": [
@@ -5023,7 +5180,7 @@
                 {
                   "title": {
                     "zh": "BurningSun事件公益举报人控诉金赛纶遗属代理人",
-                    "en": "Burning Sun whistleblower’s statement regarding Kim Se-ui",
+                    "en": "Burning Sun whistleblower's statement regarding Kim Se-ui",
                     "ko": "버닝썬 공익신고자의 김세의 관련 증언"
                   },
                   "src": "https://video.ltwebstatic.com/video/2026/06/28/1782650335744257311.mp4"
@@ -5336,8 +5493,8 @@
               },
               "description": {
                 "zh": "2025年阴谋论造谣李在明害死油管主大图书馆.",
-                "en": "In 2025, Kim Se-ui spread conspiracy theories alleging that Lee Jae-myung was responsible for the death of YouTuber “Daedoseogwan” (Great Library).",
-                "ko": "2025년 김세의는 유튜버 ‘대도서관’의 죽음이 이재명 때문이라는 음모론을 퍼뜨렸다."
+                "en": "In 2025, Kim Se-ui spread conspiracy theories alleging that Lee Jae-myung was responsible for the death of YouTuber \"Daedoseogwan\" (Great Library).",
+                "ko": "2025년 김세의는 유튜버 '대도서관'의 죽음이 이재명 때문이라는 음모론을 퍼뜨렸다."
               },
               "imgs": {
                 "zh": [
@@ -5428,37 +5585,6 @@
               ],
               "videos": [],
               "zh_only": false
-            },
-            {
-              "id": "row2-18",
-              "title": {
-                "zh": "造谣金赛纶通过猎犬复出",
-                "en": "Spread False Claims That Kim Sae-ron Returned Through Bloodhounds",
-                "ko": "김새론이 <사냥개들>로 복귀했다는 허위 주장"
-              },
-              "description": {
-                "zh": "金赛纶去世前,在直播中造谣金赛纶酒驾后通过猎犬复出.",
-                "en": "Before Kim Sae-ron’s death, Kim Se-ui claimed during a livestream that she had resumed her acting career through Bloodhounds after her DUI incident.",
-                "ko": "김새론 사망 전, 김세의는 라이브 방송에서 김새론이 음주운전 이후 <사냥개들>을 통해 복귀했다고 주장했다."
-              },
-              "imgs": {
-                "zh": [],
-                "ko": [],
-                "en": [],
-                "shared": []
-              },
-              "link": [],
-              "videos": [
-                {
-                  "title": {
-                    "zh": "金世义造谣网暴金赛纶",
-                    "en": "Kim Se-ui’s remarks about Kim Sae-ron",
-                    "ko": "김세의의 김새론 관련 방송"
-                  },
-                  "src": "https://video.ltwebstatic.com/video/2026/06/28/17826503101439367516.mp4"
-                }
-              ],
-              "zh_only": false
             }
           ]
         },
@@ -5480,8 +5606,8 @@
               },
               "description": {
                 "zh": "金赛纶遗属代理人金世义因姜京允等人揭发李胜利burningSun事件怀恨在心,数年来不断折磨诬陷姜京允记者和李胜利事件的公益举报人.",
-                "en": "Kim Se-ui, the representative for Kim Sae-ron’s bereaved family, allegedly held a grudge against reporter Kang Kyung-yoon and others for exposing the Burning Sun scandal involving Seungri. For years, he has repeatedly targeted and made allegations against Kang Kyung-yoon and the public-interest whistleblower connected to the Burning Sun case.",
-                "ko": "김새론 유족 측 대리인 김세의는 이승리의 버닝썬 사건을 폭로한 강경윤 기자 등에게 앙심을 품고, 수년간 강경윤 기자와 버닝썬 사건 공익신고자를 상대로 반복적으로 괴롭힘과 허위 주장을 이어왔다는 의혹을 받고 있다."
+                "en": "Kim Se-ui, the representative for Kim Sae-ron's bereaved family, held a grudge against reporter Kang Kyung-yoon and others because they exposed Seungri's Burning Sun case. For years, he repeatedly harassed and falsely accused reporter Kang Kyung-yoon and the public-interest whistleblower in the Seungri case.",
+                "ko": "김새론 유족 측 대리인 김세의는 이승리의 버닝썬 사건을 폭로한 강경윤 기자 등에게 앙심을 품고, 수년간 강경윤 기자와 이승리 사건 공익신고자를 반복적으로 괴롭히고 허위 주장을 퍼뜨렸다."
               },
               "imgs": {
                 "zh": [
@@ -5490,7 +5616,7 @@
                 "ko": [],
                 "en": [],
                 "shared": [
-                  "/images/姜京允BBC视频.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/07/18/c5/178438473401c387bd7f499e51f68720dc9fcc0f97.jpg"
                 ]
               },
               "link": [
@@ -5514,9 +5640,9 @@
                 "ko": "버닝썬 공익신고자 괴롭힘 혐의로 기소"
               },
               "description": {
-                "zh": "金赛纶遗属代理人金世义骚扰曝光burningSun事件匿名举报人,检方以金世义涉嫌违反《公益举报人保护法》提起公诉,审判进行中.",
-                "en": "Kim Se-ui, the representative for Kim Sae-ron’s bereaved family, allegedly harassed the anonymous whistleblower who exposed the Burning Sun scandal. Prosecutors indicted him for alleged violations of the Public Interest Whistleblower Protection Act, and the case is currently on trial.",
-                "ko": "김새론 유족 측 대리인 김세의는 버닝썬 사건을 폭로한 익명의 공익신고자를 괴롭힌 혐의로 「공익신고자 보호법」 위반 혐의로 검찰에 기소됐으며, 현재 재판이 진행 중이다."
+                "zh": "金赛纶遗属代理人金世义骚扰曝光burningSun事件匿名举报人,检方以金世义涉嫌违反\"公益举报人保护法\"提起公诉,审判进行中.",
+                "en": "Kim Se-ui, the representative for Kim Sae-ron's bereaved family, harassed the anonymous whistleblower who exposed the Burning Sun case. Prosecutors indicted Kim Se-ui on suspicion of violating the Public Interest Whistleblower Protection Act, and the trial is ongoing.",
+                "ko": "김새론 유족 측 대리인 김세의는 버닝썬 사건을 폭로한 익명의 공익신고자를 괴롭혔다. 검찰은 김세의를 \"공익신고자 보호법\" 위반 혐의로 기소했으며, 현재 재판이 진행 중이다."
               },
               "imgs": {},
               "videos": [],
@@ -5531,12 +5657,12 @@
               "id": "row6-4",
               "title": {
                 "zh": "金赛纶去世新闻通报1小时后将死亡武器化",
-                "en": "Weaponized Kim Sae-ron’s Death Within One Hour of the First News Reports",
+                "en": "Weaponized Kim Sae-ron's Death Within One Hour of the First News Reports",
                 "ko": "김새론 사망 보도 1시간 만에 죽음을 이용한 주장 제기"
               },
               "description": {
-                "zh": "金赛纶遗属代理人在金赛纶去世被报道（晚上8点50分）仅仅1小时后（晚上10点）就公开直播诬陷姜京允记者,声称由于姜京允报道过金赛纶的酒驾事故,造成金赛纶精神紧张,间接导致了金赛纶的死亡.",
-                "en": "Only about one hour after the first news reports of Kim Sae-ron’s death (reported at approximately 8:50 p.m., livestream at approximately 10:00 p.m.), Kim Se-ui went live and accused reporter Kang Kyung-yoon. He claimed that Kang’s previous reporting on Kim Sae-ron’s DUI case had caused Kim severe psychological distress and had indirectly contributed to her death.",
+                "zh": "金赛纶遗属代理人在金赛纶去世被报道(晚上8点50分)仅仅1小时后(晚上10点)就公开直播诬陷姜京允记者,声称由于姜京允报道过金赛纶的酒驾事故,造成金赛纶精神紧张,间接导致了金赛纶的死亡.",
+                "en": "Only about one hour after the first news reports of Kim Sae-ron's death (reported at approximately 8:50 p.m., livestream at approximately 10:00 p.m.), Kim Se-ui went live and accused reporter Kang Kyung-yoon. He claimed that Kang's previous reporting on Kim Sae-ron's DUI case had caused Kim severe psychological distress and had indirectly contributed to her death.",
                 "ko": "김새론의 사망 소식이 처음 보도된 오후 8시 50분경으로부터 약 1시간 뒤(오후 10시경), 김세의는 라이브 방송을 진행하며 강경윤 기자를 공개적으로 비난했다. 그는 강경윤 기자가 과거 김새론의 음주운전 사건을 보도한 것이 김새론에게 정신적 부담을 주었고, 결과적으로 사망에 간접적인 영향을 미쳤다고 주장했다."
               },
               "imgs": {
@@ -5556,7 +5682,7 @@
                 {
                   "title": {
                     "zh": "naver按时间搜索最早的金赛纶死亡新闻",
-                    "en": "Naver chronological search for the earliest reports of Kim Sae-ron’s death",
+                    "en": "Naver chronological search for the earliest reports of Kim Sae-ron's death",
                     "ko": "네이버 시간순 검색 기준 최초 김새론 사망 보도"
                   },
                   "url": "https://n.news.naver.com/article/018/0005944671?sid=102"
@@ -5573,8 +5699,8 @@
                 "ko": "청부살인 음모론에 강경윤 기자를 연루시킴"
               },
               "description": {
-                "zh": "金世义在2025年5月7日记者会上,公开诬陷姜京允记者出国前往新泽西帮助金秀贤买凶杀害“录音举报人”,姜京允记者晒出从未在当时出境的记录,并且向警察局提起刑事诉讼.\n金秀贤买凶杀人也被韩国驻美大使馆打假.",
-                "en": "At a press conference on May 7, 2025, Kim Se-ui publicly accused reporter Kang Kyung-yoon of traveling to New Jersey to help Kim Soo-hyun arrange the murder of an alleged “audio recording informant.” In response, Kang Kyung-yoon released official immigration records showing that she had never left South Korea during the relevant period and filed a criminal complaint with the police against Kim Se-ui.\n\nClaims that Kim Soo-hyun had hired someone to commit murder were also publicly denied by the Consulate General of the Republic of Korea in New York.",
+                "zh": "金世义在2025年5月7日记者会上,公开诬陷姜京允记者出国前往新泽西帮助金秀贤买凶杀害\"录音举报人\",姜京允记者晒出从未在当时出境的记录,并且向警察局提起刑事诉讼.\n金秀贤买凶杀人也被韩国驻美大使馆打假.",
+                "en": "At a press conference on May 7, 2025, Kim Se-ui publicly accused reporter Kang Kyung-yoon of traveling to New Jersey to help Kim Soo-hyun arrange the murder of an alleged \"audio recording informant.\" In response, Kang Kyung-yoon released official immigration records showing that she had never left South Korea during the relevant period and filed a criminal complaint with the police against Kim Se-ui.\n\nClaims that Kim Soo-hyun had hired someone to commit murder were also publicly denied by the Consulate General of the Republic of Korea in New York.",
                 "ko": "김세의는 2025년 5월 7일 기자회견에서 강경윤 기자가 미국 뉴저지로 출국해 김수현의 청부살인을 도왔다는 취지의 허위 주장을 공개적으로 제기했다. 이에 강경윤 기자는 해당 기간 출입국 기록이 전혀 없음을 증명하는 자료를 공개하고, 김세의를 경찰에 형사 고소했다. 또한 김수현의 청부살인 의혹은 주뉴욕 대한민국 총영사관을 통해 사실무근임이 확인됐다."
               },
               "imgs": {
@@ -5623,14 +5749,14 @@
       },
       "layout": "matrix",
       "matrix_download_imgs": {
-        "zh": "images/案件本质中.png",
-        "en": "images/案件本质英.png",
-        "ko": "images/案件本质韩.png"
+        "zh": "https://img.ltwebstatic.com/v4/p/ccc/2026/07/18/fc/1784384745f1a0bbc9d2a1de35edcf9cef3057a14f.png",
+        "en": "https://img.ltwebstatic.com/v4/p/ccc/2026/07/18/1c/1784384748f9ca4e534d7b84f72707c2ee22abfc17.png",
+        "ko": "https://img.ltwebstatic.com/v4/p/ccc/2026/07/18/37/1784384750fbcef72f0c34294fd837fb9c1d441df0.png"
       },
       "matrix_intro": {
         "zh": "金赛纶是家庭长期剥削利用的被害者,也是为了赖账威胁诬陷金秀贤的加害者.",
         "ko": "김새론은 오랫동안 가족에게 착취와 이용을 당한 피해자이면서도, 빚을 갚지 않기 위해 김수현을 협박과 모함한 가해자이기도 하다.",
-        "en": "Kim Sae-ron was both a victim of long-term exploitation by her family and, according to this account, a perpetrator who threatened and falsely accused Kim Soo-hyun in an attempt to avoid repaying debt."
+        "en": "Kim Sae-ron was both a victim of long-term exploitation by her family and a perpetrator who threatened and falsely accused Kim Soo-hyun in an attempt to avoid repaying debt."
       },
       "matrix_sections": [
         {
@@ -5724,7 +5850,7 @@
                 ],
                 "en": [
                   {
-                    "text": "To avoid repaying the KRW 700 million interest-free loan from Kim Soo-hyun’s agency",
+                    "text": "To avoid repaying the KRW 700 million interest-free loan from Kim Soo-hyun's agency",
                     "bold": true,
                     "italic": true
                   }
@@ -5753,9 +5879,9 @@
                 ]
               },
               "public": {
-                "zh": "发送“哥哥救救我”短信",
-                "ko": "“오빠 살려주세요”라는 문자를 보냄",
-                "en": "Sent the message, “Oppa, please save me.”"
+                "zh": "发送\"哥哥救救我\"短信",
+                "ko": "\"오빠 살려주세요\"라는 문자를 보냄",
+                "en": "Sent the message, \"Oppa, please save me.\""
               },
               "behind": {
                 "zh": [
@@ -5764,60 +5890,105 @@
                     "color": "red",
                     "bold": true,
                     "italic": true,
-                    "block": true
+                    "block": true,
+                    "internal_link": {
+                      "tab_id": "facts",
+                      "sub_tab_id": "deleted-posts",
+                      "entry_id": "row7-1"
+                    }
                   },
                   {
                     "text": "向经纪人编造17岁恋爱声明.",
                     "color": "red",
                     "bold": true,
                     "italic": true,
-                    "block": true
+                    "block": true,
+                    "internal_link": {
+                      "tab_id": "facts",
+                      "sub_tab_id": "debt-truth",
+                      "entry_id": "row5-6"
+                    }
                   },
                   {
                     "text": "向表姐编造15岁恋爱声明.",
-                    "block": true
+                    "block": true,
+                    "internal_link": {
+                      "tab_id": "facts",
+                      "sub_tab_id": "debt-truth",
+                      "entry_id": "row5-6"
+                    }
                   }
                 ],
                 "ko": [
                   {
-                    "text": "매니저에게 “김수현을 죽게 하고 싶었다”고 말하며 사진을 올렸다가 바로 삭제했다.",
+                    "text": "매니저에게 \"김수현을 죽게 하고 싶었다\"고 말하며 사진을 올렸다가 바로 삭제했다.",
                     "color": "red",
                     "bold": true,
                     "italic": true,
-                    "block": true
+                    "block": true,
+                    "internal_link": {
+                      "tab_id": "facts",
+                      "sub_tab_id": "deleted-posts",
+                      "entry_id": "row7-1"
+                    }
                   },
                   {
-                    "text": "매니저에게는 “17세부터 교제했다”는 거짓 진술을 만들었다.",
+                    "text": "매니저에게는 \"17세부터 교제했다\"는 거짓 진술을 만들었다.",
                     "color": "red",
                     "bold": true,
                     "italic": true,
-                    "block": true
+                    "block": true,
+                    "internal_link": {
+                      "tab_id": "facts",
+                      "sub_tab_id": "debt-truth",
+                      "entry_id": "row5-6"
+                    }
                   },
                   {
-                    "text": "사촌언니에게는 “15세부터 교제했다”는 다른 버전의 진술을 말했다.",
+                    "text": "사촌언니에게는 \"15세부터 교제했다\"는 다른 버전의 진술을 말했다.",
                     "italic": true,
-                    "block": true
+                    "block": true,
+                    "internal_link": {
+                      "tab_id": "facts",
+                      "sub_tab_id": "debt-truth",
+                      "entry_id": "row5-6"
+                    }
                   }
                 ],
                 "en": [
                   {
-                    "text": "Told her manager that she wanted Kim Soo-hyun “to die,” then posted and quickly deleted the photo.",
+                    "text": "Told her manager that she wanted Kim Soo-hyun \"to die,\" then posted and quickly deleted the photo.",
                     "color": "red",
                     "bold": true,
                     "italic": true,
-                    "block": true
+                    "block": true,
+                    "internal_link": {
+                      "tab_id": "facts",
+                      "sub_tab_id": "deleted-posts",
+                      "entry_id": "row7-1"
+                    }
                   },
                   {
                     "text": "Fabricated a statement for her manager claiming they began dating when she was 17.",
                     "color": "red",
                     "bold": true,
                     "italic": true,
-                    "block": true
+                    "block": true,
+                    "internal_link": {
+                      "tab_id": "facts",
+                      "sub_tab_id": "debt-truth",
+                      "entry_id": "row5-6"
+                    }
                   },
                   {
                     "text": "Told her cousin a different version claiming they began dating when she was 15.",
                     "italic": true,
-                    "block": true
+                    "block": true,
+                    "internal_link": {
+                      "tab_id": "facts",
+                      "sub_tab_id": "debt-truth",
+                      "entry_id": "row5-6"
+                    }
                   }
                 ]
               },
@@ -5885,7 +6056,7 @@
                 ],
                 "en": [
                   {
-                    "text": "To avoid repaying the KRW 700 million interest-free loan from Kim Soo-hyun’s agency",
+                    "text": "To avoid repaying the KRW 700 million interest-free loan from Kim Soo-hyun's agency",
                     "bold": true,
                     "italic": true
                   }
@@ -5914,16 +6085,21 @@
                 ]
               },
               "public": {
-                "zh": "写信给金秀贤,谎称“哥哥是我的初恋绝恋”“联系不上才爆照”.",
-                "ko": "김수현에게 편지를 보내 “오빠는 나의 첫사랑이자 마지막 사랑이었다”, “연락이 되지 않아 사진을 올렸다”고 주장",
-                "en": "Wrote a letter to Kim Soo-hyun claiming, “Oppa was my first love and my only true love,” and that she posted the photo only because she could not contact him."
+                "zh": "写信给金秀贤,谎称\"哥哥是我的初恋绝恋\"\"联系不上才爆照\".",
+                "ko": "김수현에게 편지를 보내 \"오빠는 나의 첫사랑이자 마지막 사랑이었다\", \"연락이 되지 않아 사진을 올렸다\"고 주장",
+                "en": "Wrote a letter to Kim Soo-hyun claiming, \"Oppa was my first love and my only true love,\" and that she posted the photo only because she could not contact him."
               },
               "behind": {
                 "zh": [
                   {
                     "text": "与此同时,她正与现任男友交往,并请经纪人购买紧急避孕药.",
                     "color": "red",
-                    "block": true
+                    "block": true,
+                    "internal_link": {
+                      "tab_id": "facts",
+                      "sub_tab_id": "lies",
+                      "entry_id": "row11-7"
+                    }
                   }
                 ],
                 "ko": [
@@ -5932,7 +6108,12 @@
                     "color": "red",
                     "bold": true,
                     "italic": true,
-                    "block": true
+                    "block": true,
+                    "internal_link": {
+                      "tab_id": "facts",
+                      "sub_tab_id": "lies",
+                      "entry_id": "row11-7"
+                    }
                   }
                 ],
                 "en": [
@@ -5941,7 +6122,12 @@
                     "color": "red",
                     "bold": true,
                     "italic": true,
-                    "block": true
+                    "block": true,
+                    "internal_link": {
+                      "tab_id": "facts",
+                      "sub_tab_id": "lies",
+                      "entry_id": "row11-7"
+                    }
                   }
                 ]
               },
@@ -5997,6 +6183,10 @@
                 "zh": "伪证之照片",
                 "ko": "위조된 사진 증거",
                 "en": "Alleged Fabricated Photo Evidence"
+              },
+              "internal_link": {
+                "tab_id": "rights",
+                "sub_tab_id": "evidence-photo-metadata"
               }
             },
             {
@@ -6005,6 +6195,10 @@
                 "zh": "伪证之聊天记录",
                 "ko": "위조된 카톡 대화 증거",
                 "en": "Alleged Fabricated Chat Records"
+              },
+              "internal_link": {
+                "tab_id": "rights",
+                "sub_tab_id": "evidence-chat-fabrication"
               }
             },
             {
@@ -6013,6 +6207,10 @@
                 "zh": "伪证之信件",
                 "ko": "편지 증거 조작",
                 "en": "Alleged Fabricated Letters"
+              },
+              "internal_link": {
+                "tab_id": "rights",
+                "sub_tab_id": "evidence-two-letters"
               }
             },
             {
@@ -6021,6 +6219,10 @@
                 "zh": "伪证之语音",
                 "ko": "음성 증거 조작",
                 "en": "Alleged Fabricated Audio"
+              },
+              "internal_link": {
+                "tab_id": "rights",
+                "sub_tab_id": "evidence-ai-voice-timeline"
               }
             }
           ],
@@ -6035,7 +6237,7 @@
               "perpetrator": {
                 "zh": "金赛纶遗属",
                 "ko": "김새론 유족",
-                "en": "Kim Sae-ron’s bereaved family"
+                "en": "Kim Sae-ron's bereaved family"
               },
               "purpose": {
                 "zh": [
@@ -6067,7 +6269,7 @@
                     "block": true
                   },
                   {
-                    "text": "“15岁交往”版本包装为遗书公开",
+                    "text": "\"15岁交往\"版本包装为遗书公开",
                     "bold": true,
                     "italic": true,
                     "block": true
@@ -6079,13 +6281,13 @@
                 ],
                 "ko": [
                   {
-                    "text": "이 서술에 따르면 김새론이 2024년 채무를 피하기 위해 작성했던 ‘15세 교제’ 버전의 진술을 유서처럼 공개",
+                    "text": "김새론이 2024년 빚을 피하고 김수현을 모함하기 위해 조작했던 \"15세 교제\" 버전의 진술을 유서처럼 공개.\n증거 조작.",
                     "block": true
                   }
                 ],
                 "en": [
                   {
-                    "text": "Publicized the version of Kim Sae-ron’s 2024 statement claiming she began dating at age 15, which, according to this account, had originally been created to avoid repaying debt, and presented it as her final message.",
+                    "text": "Publicized as a suicide note the \"dating at age 15\" version of the statement Kim Sae-ron had fabricated in 2024 to falsely accuse Kim Soo-hyun and avoid repaying debt.\nFabricated evidence.",
                     "block": true
                   }
                 ]
@@ -6099,7 +6301,7 @@
                     "block": true
                   },
                   {
-                    "text": "煽动、引导网友造谣图片日期.",
+                    "text": "煽动,引导网友造谣图片日期.",
                     "block": true
                   }
                 ],
@@ -6135,7 +6337,7 @@
                 ],
                 "en": [
                   {
-                    "text": "Replaced the profile photos in chat records with Kim Soo-hyun’s profile image and released them while alleging they involved him.",
+                    "text": "Replaced the profile photos in chat records with Kim Soo-hyun's profile image and released them while alleging they involved him.",
                     "block": true
                   }
                 ]
@@ -6143,35 +6345,35 @@
               "letter": {
                 "zh": [
                   {
-                    "text": "将2019年信件中的“我爱你”截图嫁接到2018年军队信旁,引导网友误以为2018年信件中有“我爱你”.",
+                    "text": "将2019年信件中的\"我爱你\"截图嫁接到2018年军队信旁,引导网友误以为2018年信件中有\"我爱你\".",
                     "bold": true,
                     "italic": true,
                     "block": true
                   },
                   {
-                    "text": "2018年军队信中没有“我爱你”,金赛纶的昵称被多次写错.该军队信只是金秀贤写给多位普通朋友的许多信件之一.",
+                    "text": "2018年军队信中没有\"我爱你\",金赛纶的昵称被多次写错.该军队信只是金秀贤写给多位普通朋友的许多信件之一.",
                     "block": true
                   },
                   {
-                    "text": "“我爱你”只出现在2019年11月恋爱时期的明信片中.",
+                    "text": "\"我爱你\"只出现在2019年11月恋爱时期的明信片中.",
                     "block": true
                   }
                 ],
                 "ko": [
                   {
-                    "text": "2019년 편지의 “사랑해” 부분을 잘라 2018년 군대 편지 옆에 붙여, 마치 2018년 편지에도 “사랑해”가 있었던 것처럼 보이게 했다고 주장한다.",
+                    "text": "2019년 편지의 \"사랑해\" 부분을 잘라 2018년 군대 편지 옆에 붙여, 마치 2018년 편지에도 \"사랑해\"가 있었던 것처럼 보이게 했다고 주장한다.",
                     "bold": true,
                     "italic": true,
                     "block": true
                   },
                   {
-                    "text": "이 서술에 따르면 2018년 군대 편지에는 “사랑해”가 없었고, 김새론의 별명도 여러 차례 잘못 적혀 있었다. 해당 편지는 김수현이 군 복무 중 여러 지인에게 보낸 평범한 편지 가운데 하나였다.",
+                    "text": "이 서술에 따르면 2018년 군대 편지에는 \"사랑해\"가 없었고, 김새론의 별명도 여러 차례 잘못 적혀 있었다. 해당 편지는 김수현이 군 복무 중 여러 지인에게 보낸 평범한 편지 가운데 하나였다.",
                     "bold": true,
                     "italic": true,
                     "block": true
                   },
                   {
-                    "text": "“사랑해”라는 표현은 2019년 11월 교제 당시 주고받은 엽서에만 등장했다고 한다.",
+                    "text": "\"사랑해\"라는 표현은 2019년 11월 교제 당시 주고받은 엽서에만 등장했다고 한다.",
                     "bold": true,
                     "italic": true,
                     "block": true
@@ -6179,19 +6381,19 @@
                 ],
                 "en": [
                   {
-                    "text": "Attached a cropped “I love you” image from a 2019 letter to a 2018 military letter, leading people to believe the 2018 letter contained the words “I love you.”",
+                    "text": "Attached a cropped \"I love you\" image from a 2019 letter to a 2018 military letter, leading people to believe the 2018 letter contained the words \"I love you.\"",
                     "bold": true,
                     "italic": true,
                     "block": true
                   },
                   {
-                    "text": "In fact, according to this account, the 2018 military letter did not contain those words, and Kim Sae-ron’s nickname was misspelled multiple times. It was one of many ordinary letters Kim Soo-hyun wrote to friends during his military service.",
+                    "text": "In fact, according to this account, the 2018 military letter did not contain those words, and Kim Sae-ron's nickname was misspelled multiple times. It was one of many ordinary letters Kim Soo-hyun wrote to friends during his military service.",
                     "bold": true,
                     "italic": true,
                     "block": true
                   },
                   {
-                    "text": "The phrase “I love you” appeared only in a postcard exchanged while they were dating in November 2019.",
+                    "text": "The phrase \"I love you\" appeared only in a postcard exchanged while they were dating in November 2019.",
                     "bold": true,
                     "italic": true,
                     "block": true
@@ -6201,7 +6403,7 @@
               "audio": {
                 "zh": [
                   {
-                    "text": "向他人购买AI语音,并造谣金秀贤买凶杀人、抢夺录音,当场被韩国驻美大使馆辟谣.",
+                    "text": "向他人购买AI语音,并造谣金秀贤买凶杀人,抢夺录音,当场被韩国驻美大使馆辟谣.",
                     "block": true
                   },
                   {
@@ -6211,21 +6413,21 @@
                 ],
                 "ko": [
                   {
-                    "text": "다른 사람에게 AI 음성을 구입한 뒤 김수현이 청부살인을 하고 녹음을 빼앗으려 했다고 주장했으나, 이 서술에 따르면 해당 주장은 주미 대한민국 공관에서 사실이 아니라고 밝혔다.",
+                    "text": "타인에게서 AI 음성을 구입하고, 김수현이 청부살인을 사주해 녹음을 빼앗으려 했다는 허위 주장을 퍼뜨렸으며, 주미 한국대사관에 의해 즉시 사실이 아님이 밝혀졌다.",
                     "block": true
                   },
                   {
-                    "text": "이어 원빈이 녹음 제보자를 도왔다는 주장도 했으나 원빈 측이 이를 부인했다고 한다.",
+                    "text": "또 원빈이 녹음 제보자를 도왔다는 허위 주장을 퍼뜨렸고, 원빈 본인이 직접 반박했다.",
                     "block": true
                   }
                 ],
                 "en": [
                   {
-                    "text": "Purchased an AI-generated audio recording from another person and alleged that Kim Soo-hyun had hired someone to commit murder and seize the recording. According to this account, those claims were publicly denied by the Korean Consulate in the United States.",
+                    "text": "Purchased AI-generated audio from another person, spread the false rumor that Kim Soo-hyun had hired someone to commit murder and seize the recording, and was debunked on the spot by the Korean Embassy in the United States.",
                     "block": true
                   },
                   {
-                    "text": "They also claimed that Won Bin had helped the audio informant, which Won Bin later denied.",
+                    "text": "They also spread the false rumor that Won Bin had helped the audio informant, which Won Bin personally debunked.",
                     "block": true
                   }
                 ]
@@ -6238,7 +6440,7 @@
       "matrix_conclusion": {
         "zh": "金赛纶遗属吸血金赛纶整个人生,还要利用金赛纶的死亡对无辜者谋财害命,是纯粹的加害者.",
         "ko": "김새론 유족이 김새론의 삶 전체를 이용했을 뿐만 아니라, 그녀의 죽음까지 이용해 무고한 사람에게 피해를 주고 경제적 이익을 얻으려 했다고 한다.",
-        "en": "According to this account, Kim Sae-ron’s bereaved family exploited every aspect of her life and further used her death to seek financial gain while harming innocent people."
+        "en": "According to this account, Kim Sae-ron's bereaved family exploited every aspect of her life and further used her death to seek financial gain while harming innocent people."
       },
       "visible": true
     }
