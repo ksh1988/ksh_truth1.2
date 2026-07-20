@@ -104,8 +104,8 @@
   .matrix-agency-compare .evidence-matrix th *,
   .matrix-agency-compare .evidence-matrix td * { font-size: inherit !important; line-height: inherit; }
   .matrix-agency-compare .col-category { width: 96px !important; min-width: 96px !important; }
-  .matrix-agency-compare .col-yg { width: 390px !important; min-width: 390px !important; }
-  .matrix-agency-compare .col-gold { width: 554px !important; min-width: 554px !important; }
+  .matrix-agency-compare .col-yg { width: 330px !important; min-width: 330px !important; }
+  .matrix-agency-compare .col-gold { width: 614px !important; min-width: 614px !important; }
   .matrix-case-essence .matrix-canvas { width: 1280px; min-width: 1280px; }
   .matrix-case-essence .col-year,
   .matrix-case-essence .col-perpetrator,
