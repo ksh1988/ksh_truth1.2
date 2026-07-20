@@ -98,11 +98,14 @@
   .evidence-matrix th { font-size: 14px; }
   .evidence-matrix td { padding: 13px 10px; font-size: 13px; }
   .matrix-agency-compare .matrix-canvas { width: 1040px; min-width: 1040px; }
+  .matrix-agency-compare .evidence-matrix { width: 1040px; min-width: 1040px; table-layout: fixed; }
   .matrix-agency-compare .evidence-matrix th,
-  .matrix-agency-compare .evidence-matrix td { font-size: 14px; }
+  .matrix-agency-compare .evidence-matrix td { font-size: 14px !important; line-height: 1.72; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  .matrix-agency-compare .evidence-matrix th *,
+  .matrix-agency-compare .evidence-matrix td * { font-size: inherit !important; line-height: inherit; }
   .matrix-agency-compare .col-category { width: 96px !important; min-width: 96px !important; }
-  .matrix-agency-compare .col-yg { width: 350px !important; min-width: 350px !important; }
-  .matrix-agency-compare .col-gold { width: 594px !important; min-width: 594px !important; }
+  .matrix-agency-compare .col-yg { width: 390px !important; min-width: 390px !important; }
+  .matrix-agency-compare .col-gold { width: 554px !important; min-width: 554px !important; }
   .matrix-case-essence .matrix-canvas { width: 1280px; min-width: 1280px; }
   .matrix-case-essence .col-year,
   .matrix-case-essence .col-perpetrator,
