@@ -4,7 +4,7 @@
   .sidebar-toggle-button { display: none; }
   .main, .main.sidebar-hidden { margin-left: 0; }
   .scrim { position: fixed; z-index: 25; inset: 0; display: block; background: rgba(36,43,49,.35); backdrop-filter: blur(2px); }
-  .mobile-menu { display: block; }
+  .mobile-menu { display: inline-flex; }
   .breadcrumb { display: none; }
   .topbar { min-height: 64px; padding: 0 5%; }
   .languages { margin-left: auto; }

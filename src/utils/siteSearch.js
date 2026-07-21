@@ -2,7 +2,33 @@ import { entriesFor, isVisibleContent, isVisibleForLanguage, visibleRowsFor } fr
 import { localizeValue } from './localization'
 import { searchKeyFor, searchKeyForMatrixRow } from './searchKeys'
 
-const SKIPPED_KEYS = new Set(['imgs', 'url', 'src', 'link', 'internal_link', 'zh_only'])
+const SKIPPED_KEYS = new Set([
+  'id',
+  'key',
+  'kind',
+  'index',
+  'level',
+  'imgs',
+  'url',
+  'src',
+  'link',
+  'internal_link',
+  'zh_only',
+  'show',
+  'show_year_filter',
+  'matrix_download_imgs',
+  'rowspans',
+  'skip_cells',
+  'color',
+  'bold',
+  'italic',
+  'underline',
+  'circle',
+  'circleAfter',
+  'block',
+  'tone',
+  'layout',
+])
 const LOCALIZED_KEYS = new Set(['zh', 'ko', 'en', 'shared'])
 
 /**

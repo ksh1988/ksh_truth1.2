@@ -6,6 +6,8 @@
  */
 import { languageNames } from '../../config/uiText'
 
+const menuLabels = { zh: '目录', en: 'Menu', ko: '목차' }
+
 defineProps({
   activeTab: { type: Object, required: true },
   lang: { type: String, required: true },
@@ -25,9 +27,12 @@ defineEmits(['open-menu', 'update:lang'])
       :aria-label="ui[lang].openMenu"
       @click="$emit('open-menu')"
     >
-      <span></span>
-      <span></span>
-      <span></span>
+      <span class="mobile-menu-icon" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <span class="mobile-menu-text">{{ menuLabels[lang] || menuLabels.en }}</span>
     </button>
 
     <div class="breadcrumb">

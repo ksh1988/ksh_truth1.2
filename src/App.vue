@@ -67,6 +67,7 @@ const app = useAppController(siteData)
           :lang="app.lang"
           :query="app.activeSearchQuery"
           :results="app.searchResults"
+          :ui="app.uiText"
           @open-result="app.openSearchResult"
         />
 

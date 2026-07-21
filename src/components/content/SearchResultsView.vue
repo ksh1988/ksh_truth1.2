@@ -4,6 +4,7 @@
  * @param {object} props - Component props declared below when this is a Vue component.
  * @returns {void} Renders UI or exports module helpers.
  */
+import { computed } from 'vue'
 import MediaBlock from '../MediaBlock.vue'
 import VideoBlock from '../VideoBlock.vue'
 
@@ -12,9 +13,17 @@ const props = defineProps({
   lang: { type: String, required: true },
   query: { type: String, required: true },
   results: { type: Array, required: true },
+  ui: { type: Object, required: true },
 })
 
 defineEmits(['open-result'])
+
+/**
+ * Selects localized labels for the search results page.
+ * @param {void} none - Uses component props as its source.
+ * @returns {object} Current-language UI labels with English and Chinese fallbacks.
+ */
+const labels = computed(() => props.ui[props.lang] || props.ui.en || props.ui.zh || {})
 
 /**
  * Removes lightweight formatting marks from text before display or search.
@@ -57,10 +66,10 @@ const highlightedParts = (value) => {
 <template>
   <section class="search-results-page">
     <div class="search-results-heading">
-      <span class="eyebrow">SEARCH</span>
-      <h1>搜索结果</h1>
-      <p>关键词:<strong>{{ query }}</strong></p>
-      <p>共 {{ results.length }} 条</p>
+      <span class="eyebrow">{{ labels.searchEyebrow || labels.searchPlaceholder }}</span>
+      <h1>{{ labels.searchResultTitle }}</h1>
+      <p>{{ labels.searchKeyword }}:<strong>{{ query }}</strong></p>
+      <p>{{ labels.searchCountPrefix }} {{ results.length }} {{ labels.searchCountSuffix }}</p>
     </div>
 
     <div v-if="results.length" class="search-result-list">
@@ -105,7 +114,7 @@ const highlightedParts = (value) => {
     </div>
 
     <div v-else class="search-result-empty">
-      没有找到相关内容
+      {{ labels.searchEmptyContent || labels.searchNoResults }}
     </div>
   </section>
 </template>
