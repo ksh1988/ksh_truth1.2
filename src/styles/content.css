@@ -368,8 +368,9 @@
   position: fixed;
   left: 50%;
   bottom: max(18px, env(safe-area-inset-bottom));
-  z-index: 224;
+  z-index: 260;
   transform: translateX(-50%);
+  pointer-events: none;
   padding: 6px 12px;
   color: #fff;
   background: rgba(25, 54, 80, .82);

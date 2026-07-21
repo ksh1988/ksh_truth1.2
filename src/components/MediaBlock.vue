@@ -224,6 +224,7 @@ const markFailed = (src) => { failed.value = new Set([...failed.value, src]) }
         <button type="button" class="media-preview-zoom" :class="{ active: previewZoomed }" :aria-label="zoomLabel" @click="togglePreviewZoom"></button>
         <button type="button" class="media-preview-close" :aria-label="closeLabel" @click="closePreview"></button>
       </div>
+      <div v-if="previewOpen && hasMultipleImages" class="media-preview-count" aria-live="polite">{{ previewIndex + 1 }} / {{ images.length }}</div>
       <div
         v-if="previewOpen"
         :class="{ zoomed: previewZoomed }"
@@ -238,7 +239,6 @@ const markFailed = (src) => { failed.value = new Set([...failed.value, src]) }
         <div v-if="saveHintVisible" class="media-save-hint">{{ saveHintLabel }}</div>
         <figure class="media-preview-frame" :class="{ zoomed: previewZoomed }">
           <img :src="previewSrc" alt="" class="media-preview-image" :class="{ zoomed: previewZoomed }" referrerpolicy="no-referrer" @click.stop="togglePreviewZoom">
-          <figcaption v-if="hasMultipleImages" class="media-preview-count">{{ previewIndex + 1 }} / {{ images.length }}</figcaption>
         </figure>
         <button v-if="hasMultipleImages" type="button" class="media-preview-nav next" :aria-label="nextLabel" @click="movePreview(1)"></button>
       </div>
