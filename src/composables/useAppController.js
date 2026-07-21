@@ -57,9 +57,10 @@ export const useAppController = (siteData) => {
  * @param {*} tab - Input value used by selectTabFromMenu.
  * @returns {*} The computed result or the documented side effect.
  */
-  const selectTabFromMenu = (tab) => {
+  const selectTabFromMenu = async (tab) => {
     searchNavigation.resetJumpState()
     navigation.selectTab(tab)
+    await navigation.scrollToTopAfterRender()
   }
 
   /**
@@ -68,9 +69,10 @@ export const useAppController = (siteData) => {
  * @param {*} subTab - Input value used by selectDirectSubTabFromMenu.
  * @returns {*} The computed result or the documented side effect.
  */
-  const selectDirectSubTabFromMenu = (tab, subTab) => {
+  const selectDirectSubTabFromMenu = async (tab, subTab) => {
     searchNavigation.resetJumpState()
     navigation.selectDirectSubTab(tab, subTab)
+    await navigation.scrollToTopAfterRender()
   }
 
   /**
@@ -79,9 +81,10 @@ export const useAppController = (siteData) => {
  * @param {*} category - Category object that owns page content directly.
  * @returns {void} Activates the category page.
  */
-  const selectCategoryFromMenu = (tab, category) => {
+  const selectCategoryFromMenu = async (tab, category) => {
     searchNavigation.resetJumpState()
     navigation.selectCategory(tab, category)
+    await navigation.scrollToTopAfterRender()
   }
 
   /**
@@ -91,9 +94,10 @@ export const useAppController = (siteData) => {
  * @param {*} subTab - Input value used by selectSubTabFromMenu.
  * @returns {*} The computed result or the documented side effect.
  */
-  const selectSubTabFromMenu = (tab, category, subTab) => {
+  const selectSubTabFromMenu = async (tab, category, subTab) => {
     searchNavigation.resetJumpState()
     navigation.selectSubTab(tab, category, subTab)
+    await navigation.scrollToTopAfterRender()
   }
 
   /**

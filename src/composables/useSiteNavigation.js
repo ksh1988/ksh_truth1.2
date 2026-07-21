@@ -98,6 +98,18 @@ export const useSiteNavigation = (siteData, lang) => {
   }
 
   /**
+ * Scrolls to the top again after Vue has rendered the selected page.
+ * @param {void} none - Uses the current document as the scroll target.
+ * @returns {Promise<void>} Resolves after the post-render scroll reset finishes.
+ */
+  const scrollToTopAfterRender = async () => {
+    scrollToTop()
+    await nextTick()
+    await waitForRender()
+    scrollToTop()
+  }
+
+  /**
  * Applies a page selection and performs shared navigation side effects.
  * @param {*} nextSelection - Input value used by activateSelection.
  * @returns {*} The computed result or the documented side effect.
@@ -266,6 +278,7 @@ export const useSiteNavigation = (siteData, lang) => {
     navigateInternal,
     navigationTree,
     pageTitle,
+    scrollToTopAfterRender,
     selectCategory,
     selectDirectSubTab,
     selectSubTab,
