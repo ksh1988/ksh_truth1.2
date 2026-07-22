@@ -49,25 +49,6 @@ const loadNow = () => {
 }
 
 /**
- * Checks whether this media block appears before a search target.
- * @param {Element} target - Search focus target element.
- * @returns {boolean} True when this block is before the target.
- */
-const isBeforeTarget = (target) => {
-  if (!container.value || !target) return false
-  return Boolean(container.value.compareDocumentPosition(target) & Node.DOCUMENT_POSITION_FOLLOWING)
-}
-
-/**
- * Loads media before the target used by search positioning.
- * @param {CustomEvent} event - Search preload event.
- * @returns {void} Loads images when needed.
- */
-const forceLoadBeforeSearchTarget = (event) => {
-  if (isBeforeTarget(event.detail?.target)) loadNow()
-}
-
-/**
  * Handles media download button clicks.
  * @param {MouseEvent} event - Button click event.
  * @param {string} src - Image URL to download.
@@ -165,7 +146,6 @@ const handleTouchEnd = (event) => {
 }
 
 onMounted(() => {
-  window.addEventListener('search-load-media-before-target', forceLoadBeforeSearchTarget)
   window.addEventListener('keydown', handlePreviewKeydown)
 
   if (!('IntersectionObserver' in window)) {
@@ -180,7 +160,6 @@ onMounted(() => {
 
 onBeforeUnmount(() => {
   observer?.disconnect()
-  window.removeEventListener('search-load-media-before-target', forceLoadBeforeSearchTarget)
   window.removeEventListener('keydown', handlePreviewKeydown)
   document.body.classList.remove('media-preview-open')
 })

@@ -129,7 +129,7 @@ const selectNavigationNode = (node) => {
     </div>
 
     <form v-if="sidebarVisible" class="site-search" role="search" @submit.prevent="$emit('submit-search')">
-      <label class="site-search-box">
+      <label class="site-search-box" :class="{ 'has-query': searchQuery }">
         <input
           :value="searchQuery"
           type="search"
@@ -138,6 +138,15 @@ const selectNavigationNode = (node) => {
           enterkeyhint="search"
           @input="$emit('search-change', $event.target.value)"
         >
+        <button
+          v-if="searchQuery"
+          class="search-clear"
+          type="button"
+          :aria-label="ui[lang].clearSearch"
+          @click="$emit('search-change', '')"
+        >
+          <span aria-hidden="true"></span>
+        </button>
         <button
           class="search-submit"
           type="submit"

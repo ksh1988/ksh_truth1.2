@@ -1,5 +1,5 @@
 import { nextTick } from 'vue'
-import { wait, waitForImagesBeforeTarget, waitForRender, scrollToCenter } from '../utils/domPosition'
+import { scrollToCenter, scrollToCenterStable, wait, waitForRender } from '../utils/domPosition'
 import { cssEscape } from '../utils/searchKeys'
 
 /**
@@ -88,8 +88,6 @@ export const useSearchFocus = () => {
     const scope = await waitForTarget(root, focusKey)
     if (!scope) return false
 
-    await waitForImagesBeforeTarget(root, scope)
-
     if (scope !== root) {
       scope.classList.add('search-focus-scope')
       scrollToCenter(scope)
@@ -110,8 +108,7 @@ export const useSearchFocus = () => {
     const mark = document.createElement('mark')
     mark.className = 'search-focus-hit'
     range.surroundContents(mark)
-    await waitForImagesBeforeTarget(root, mark)
-    scrollToCenter(mark)
+    scrollToCenterStable(mark)
     return true
   }
 

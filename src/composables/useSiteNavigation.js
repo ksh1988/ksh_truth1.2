@@ -2,7 +2,7 @@ import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue'
 import { localizeValue } from '../utils/localization'
 import { entriesFor, isVisibleContent } from '../utils/contentHelpers'
 import { buildNavigationTree, expandedIdsForPath, navigationPathForSelection } from '../utils/navigationTree'
-import { scrollToCenter, waitForImagesBeforeTarget, waitForRender } from '../utils/domPosition'
+import { scrollToCenterStable, waitForRender } from '../utils/domPosition'
 import { cssEscape } from '../utils/searchKeys'
 
 /**
@@ -189,9 +189,7 @@ export const useSiteNavigation = (siteData, lang) => {
       return
     }
 
-    const root = document.querySelector('.content') || document.body
-    await waitForImagesBeforeTarget(root, target)
-    scrollToCenter(target)
+    scrollToCenterStable(target)
   }
 
   /**

@@ -7,6 +7,7 @@
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { nodesForContent } from '../../utils/pageNodes'
 import { cssEscape } from '../../utils/searchKeys'
+import { scrollToCenterStable } from '../../utils/domPosition'
 
 const props = defineProps({
   content: { type: Object, required: true },
@@ -109,7 +110,7 @@ const toggleNavigator = () => {
 const scrollToNode = (node) => {
   mobileActive.value = true
   activeKey.value = node.key
-  targetFor(node.key)?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  scrollToCenterStable(targetFor(node.key))
 }
 
 watch(

@@ -1,5 +1,5 @@
 import { computed, nextTick, ref } from 'vue'
-import { scrollToCenter, waitForImagesBeforeTarget, waitForRender } from '../utils/domPosition'
+import { scrollToCenterStable, waitForRender } from '../utils/domPosition'
 import { cssEscape } from '../utils/searchKeys'
 
 /**
@@ -16,9 +16,7 @@ const scrollToSearchResult = async (resultKey, fallbackY = 0) => {
     const selector = '[data-search-result-key="' + cssEscape(resultKey) + '"]'
     const target = document.querySelector(selector)
     if (target) {
-      const root = document.querySelector('.content') || document.body
-      await waitForImagesBeforeTarget(root, target)
-      scrollToCenter(target)
+      scrollToCenterStable(target)
       return
     }
   }
