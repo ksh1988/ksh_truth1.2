@@ -29,7 +29,7 @@ onMounted(initializeVisitorCounter)
   <footer class="site-footer" aria-label="Site statistics">
     <span id="busuanzi_container_site_pv" class="site-views">
       <span>{{ ui[lang].siteViewsPrefix }}</span>
-      <span id="busuanzi_value_site_pv" aria-live="polite">...</span>
+      <span id="busuanzi_site_pv" aria-live="polite">...</span>
       <span v-if="ui[lang].siteViewsSuffix">{{ ui[lang].siteViewsSuffix }}</span>
     </span>
   </footer>
