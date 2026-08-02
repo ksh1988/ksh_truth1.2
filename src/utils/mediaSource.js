@@ -1,4 +1,9 @@
 const HIDDEN_MEDIA_PREFIX = 'hidden-'
+const LOCAL_IMAGE_MODULES = import.meta.globEager('/src/images/*')
+const LOCAL_IMAGE_URLS = Object.fromEntries(Object.entries(LOCAL_IMAGE_MODULES).map(([path, module]) => [
+  path.split('/').pop(),
+  module.default,
+]))
 
 /**
  * Checks whether a media source is marked as hidden in site_data.json.
@@ -22,6 +27,16 @@ const isExternalSource = (src) => /^(https?:)?\/\//i.test(src) || /^(data|blob):
 const normalizeSlashes = (src) => String(src || '').trim().replace(/\\/g, '/')
 
 /**
+ * Resolves an image stored in src/images through Vite's generated asset URL.
+ * @param {string} src - Normalized local image path or filename from site_data.json.
+ * @returns {string} Bundled image URL, or an empty string when no matching file exists.
+ */
+const bundledImageUrl = (src) => {
+  const filename = src.split('/').pop()
+  return LOCAL_IMAGE_URLS[filename] || ''
+}
+
+/**
  * Prefixes a public asset path with the Vite base path.
  * @param {string} path - Public asset path beginning with a slash.
  * @returns {string} Runtime URL that works with the current Vite base setting.
@@ -40,6 +55,9 @@ export const resolveMediaSrc = (rawSrc) => {
   const src = normalizeSlashes(rawSrc)
   if (isHiddenMediaSrc(src)) return ''
   if (!src || isExternalSource(src)) return src
+
+  const localImageUrl = bundledImageUrl(src)
+  if (localImageUrl) return localImageUrl
 
   const withoutDot = src.replace(/^\.\//, '')
   const publicPath = withoutDot

@@ -37,6 +37,39 @@
           "layout": "timeline",
           "items": [
             {
+              "id": "legal-kim-soo-hyun-no-suspicion-20260729",
+              "time": "20260729",
+              "event": {
+                "zh": "韩国城东警察局认定金秀贤不存在遗属方起诉的儿童福利法以及诬告嫌疑，不移交至检察院，做出结案处理",
+                "en": "Seoul Seongdong Police Station found no grounds to suspect Kim Soo-hyun of violating the Child Welfare Act or filing a false complaint, as alleged by the bereaved family, and closed both cases without referring them to prosecutors",
+                "ko": "서울 성동경찰서는 유족 측이 고소한 김수현의 아동복지법 위반 및 무고 혐의에 대해 혐의가 없다고 판단해 검찰에 송치하지 않고 사건을 종결했다"
+              },
+              "imgs": {
+                "zh": [
+                  "src/images/729金秀贤无嫌疑中.jpg"
+                ],
+                "ko": [
+                  "src/images/729金秀贤无嫌疑韩.jpg"
+                ],
+                "en": [
+                  "src/images/729金秀贤无嫌疑英.jpg"
+                ],
+                "shared": []
+              },
+              "link": [
+                {
+                  "title": {
+                    "zh": "原文链接",
+                    "en": "Original report",
+                    "ko": "원문 기사"
+                  },
+                  "url": "https://m.entertain.naver.com/home/article/433/0000129339"
+                }
+              ],
+              "videos": [],
+              "zh_only": false
+            },
+            {
               "id": "row8-1",
               "time": "20260623",
               "event": {
@@ -478,6 +511,39 @@
                     "ko": "원빈은 이른바 김새론 녹음 제보자를 만난 적이 없으며, 왜 자신에게 감사한다는 것인지 모르겠다고 직접 반박했다."
                   },
                   "url": "https://n.news.naver.com/article/008/0005191719"
+                }
+              ],
+              "videos": [],
+              "zh_only": false
+            },
+            {
+              "id": "legal-kim-soo-hyun-defamation-civil-lawsuit-20250331",
+              "time": "20250331",
+              "event": {
+                "zh": "金秀贤针对金赛纶遗属方提起刑事控告诽谤和120亿韩元民事诉讼",
+                "en": "Kim Soo-hyun filed a criminal complaint for defamation against Kim Sae-ron's bereaved family and brought a KRW 12 billion civil damages lawsuit",
+                "ko": "김수현은 김새론 유족 측을 상대로 명예훼손 혐의로 형사 고소하고 120억 원 규모의 민사소송을 제기했다"
+              },
+              "imgs": {
+                "zh": [
+                  "src/images/331起诉诽谤中.jpg"
+                ],
+                "ko": [
+                  "src/images/331起诉诽谤韩.jpg"
+                ],
+                "en": [
+                  "src/images/331起诉诽谤英.jpg"
+                ],
+                "shared": []
+              },
+              "link": [
+                {
+                  "title": {
+                    "zh": "原文链接",
+                    "en": "Original report",
+                    "ko": "원문 기사"
+                  },
+                  "url": "https://m.entertain.naver.com/home/article/477/0000542351"
                 }
               ],
               "videos": [],
@@ -1756,7 +1822,7 @@
                 "ko": "<눈물의 여왕>손해배상을 강요했다는 허위 주장"
               },
               "description": {
-                "zh": "2024年金赛纶爆照秒删的次日，金牌公司发送第二封内容证明，第二封内容证明从未要求金赛纶赔偿眼泪女王损失，从未威胁金赛纶，仅仅请求金赛纶不要和公司艺人沟通公司债务问题，而不是阻断金赛纶和公司艺人其他方面的社交行为。\n但被遗属恶意歪曲为：禁止金赛纶与公司艺人社交和威胁金赛纶赔偿眼泪女王损失。",
+                "zh": "2024年金赛纶爆照秒删的次日，也就是3月25日，金牌公司发送第二封内容证明，第二封内容证明从未要求金赛纶赔偿眼泪女王损失，从未威胁金赛纶，仅仅请求金赛纶不要和公司艺人沟通公司债务问题，而不是阻断金赛纶和公司艺人其他方面的社交行为。\n但被遗属恶意歪曲为：禁止金赛纶与公司艺人社交和威胁金赛纶赔偿眼泪女王损失。",
                 "en": "The second legal notice sent by Gold Medalist in 2024, after Kim Sae-ron uploaded and quickly deleted the photo, did not demand compensation for the losses related to Queen of Tears and did not threaten Kim Sae-ron.\n\nThe notice merely requested that she not discuss the company's debt-related matters with the agency's artists. It did not prohibit her from maintaining other personal or social contact with those artists.\n\nThe bereaved family group maliciously distorted the notice as:\n• prohibiting Kim Sae-ron from interacting with Gold Medalist artists altogether; and\n• threatening her with liability for damages related to Queen of Tears.",
                 "ko": "김새론이 사진을 올렸다가 곧 삭제한 뒤, 2024년 골드메달리스트가 보낸 두 번째 내용증명에는 김새론에게 '눈물의 여왕'의 손해를 배상하라고 요구한 내용도, 김새론을 협박한 내용도 전혀 없었다. 회사는 단지 김새론에게 회사의 채무 문제를 소속 아티스트들과 논의하지 말아 달라고 요청했을 뿐이며, 김새론과 회사 소속 아티스트들의 다른 사회적 교류를 금지하거나 차단한 것도 아니었다. 그러나 유족 측은 이를 악의적으로 왜곡해 회사가 김새론의 소속 아티스트들과의 교류를 금지했고, '눈물의 여왕'의 손해를 배상하라고 협박했다는 허위사실을 퍼뜨렸다."
               },
@@ -2170,7 +2236,16 @@
               "url": "https://m.blog.naver.com/PostView.naver?blogId=strongyoun-now&logNo=223912652394&navType=by"
             }
           ],
-          "videos": [],
+          "videos": [
+            {
+              "title": {
+                "zh": "金赛纶遗属代理人直播连线记者，获取短信的记者否认短信由金秀贤泄露",
+                "en": "During a livestream call with Kim Sae-ron's bereaved family group's representative, the reporter who obtained the text messages denied that Kim Soo-hyun had leaked them",
+                "ko": "김새론 유족 측 대리인이 라이브 방송에서 기자와 통화했고, 해당 문자를 입수한 기자는 김수현이 문자를 유출한 것이 아니라고 밝혔다"
+              },
+              "src": "src/images/记者否认短信泄露中英视频.mp4"
+            }
+          ],
           "zh_only": false
         },
         {
