@@ -46,13 +46,13 @@
               },
               "imgs": {
                 "zh": [
-                  "src/images/729金秀贤无嫌疑中.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/08/03/27/178568801217b6bd668a81963e443be7c4ef482f23.jpg"
                 ],
                 "ko": [
-                  "src/images/729金秀贤无嫌疑韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/08/03/ec/1785688010357f0d073d04d8d33b88a512cf87db97.jpg"
                 ],
                 "en": [
-                  "src/images/729金秀贤无嫌疑英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/08/03/6f/1785688012b902413bb93ddf782fdc53bfeaf78fc3.jpg"
                 ],
                 "shared": []
               },
@@ -526,13 +526,13 @@
               },
               "imgs": {
                 "zh": [
-                  "src/images/331起诉诽谤中.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/08/03/d8/17856880138c8d136ea9f6f85605a080f3fa2adeb8.jpg"
                 ],
                 "ko": [
-                  "src/images/331起诉诽谤韩.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/08/03/4c/1785688010dd7d5a6c48a23cbb6380fae69427f853.jpg"
                 ],
                 "en": [
-                  "src/images/331起诉诽谤英.jpg"
+                  "https://img.ltwebstatic.com/v4/j/ccc/2026/08/03/5c/17856880135354a968b40d41971dbaa21eeb564cc9.jpg"
                 ],
                 "shared": []
               },
@@ -2243,7 +2243,7 @@
                 "en": "During a livestream call with Kim Sae-ron's bereaved family group's representative, the reporter who obtained the text messages denied that Kim Soo-hyun had leaked them",
                 "ko": "김새론 유족 측 대리인이 라이브 방송에서 기자와 통화했고, 해당 문자를 입수한 기자는 김수현이 문자를 유출한 것이 아니라고 밝혔다"
               },
-              "src": "src/images/记者否认短信泄露中英视频.mp4"
+              "src": "https://video.ltwebstatic.com/video/2026/08/03/17856880462310495124.mp4"
             }
           ],
           "zh_only": false

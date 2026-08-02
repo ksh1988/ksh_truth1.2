@@ -50,7 +50,10 @@
   border: 1px solid rgba(47, 67, 84, .1);
   border-radius: 999px;
 }
-#busuanzi_site_pv {
+.busuanzi-counter-source {
+  display: none;
+}
+.site-views-count {
   color: #245f91;
   font-weight: 900;
 }
