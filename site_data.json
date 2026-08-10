@@ -70,6 +70,39 @@
               "zh_only": false
             },
             {
+              "id": "legal-kwon-young-chan-defamation-referral-20260722",
+              "time": "20260722",
+              "event": {
+                "zh": "金赛纶遗属代理人、自称反自杀协会会长的权英灿被金秀贤粉丝联盟起诉，首尔瑞草警察署认定权英灿刑事诽谤金秀贤的嫌疑成立，并以不拘留状态移送检方",
+                "en": "The Kim Soo-hyun Fans Alliance filed a criminal complaint against Kwon Young-chan, a representative of Kim Sae-ron's bereaved family group who describes himself as the president of a suicide-prevention association; Seoul Seocho Police Station found sufficient grounds to suspect him of criminally defaming Kim Soo-hyun and referred the case to prosecutors without detention",
+                "ko": "김수현 한국 및 글로벌 팬 연합은 김새론 유족 측 대리인이자 자신을 자살예방협회 회장이라고 소개해 온 권영찬을 명예훼손 혐의로 고발했다. 서울 서초경찰서는 권씨가 김수현의 명예를 훼손한 혐의가 인정된다고 판단해 정보통신망법 위반(명예훼손) 혐의로 서울중앙지검에 불구속 송치했다"
+              },
+              "imgs": {
+                "zh": [
+                  "/images/722送检绿蛙中.jpg"
+                ],
+                "ko": [
+                  "/images/722送检绿蛙韩.jpg"
+                ],
+                "en": [
+                  "/images/722送检绿蛙英.jpg"
+                ],
+                "shared": []
+              },
+              "link": [
+                {
+                  "title": {
+                    "zh": "原文链接",
+                    "en": "Original report",
+                    "ko": "원문 기사"
+                  },
+                  "url": "https://n.news.naver.com/article/008/0005397892?sid=102"
+                }
+              ],
+              "videos": [],
+              "zh_only": false
+            },
+            {
               "id": "row8-1",
               "time": "20260623",
               "event": {
