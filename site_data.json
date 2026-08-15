@@ -59,9 +59,9 @@
               "link": [
                 {
                   "title": {
-                    "zh": "原文链接",
-                    "en": "Original report",
-                    "ko": "원문 기사"
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "출처 링크"
                   },
                   "url": "https://m.entertain.naver.com/home/article/433/0000129339"
                 }
@@ -92,9 +92,9 @@
               "link": [
                 {
                   "title": {
-                    "zh": "原文链接",
-                    "en": "Original report",
-                    "ko": "원문 기사"
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "출처 링크"
                   },
                   "url": "https://n.news.naver.com/article/008/0005397892?sid=102"
                 }
@@ -572,9 +572,9 @@
               "link": [
                 {
                   "title": {
-                    "zh": "原文链接",
-                    "en": "Original report",
-                    "ko": "원문 기사"
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "출처 링크"
                   },
                   "url": "https://m.entertain.naver.com/home/article/477/0000542351"
                 }
@@ -1344,7 +1344,43 @@
                 "shared": []
               },
               "videos": [],
-              "zh_only": false
+              "zh_only": false,
+              "fan_clarification": {
+                "title": {
+                  "zh": "补充",
+                  "en": "Additional information",
+                  "ko": "추가 사항"
+                },
+                "description": {
+                  "zh": "金赛纶遗属在直播间自爆了金赛纶18年要求金秀贤存下自己号码的短信，短信收件人是金秀贤88，说明金秀贤2018年还没有金赛纶手机号。",
+                  "en": "During a livestream, Kim Sae-ron's bereaved family group revealed a 2018 text message in which Kim Sae-ron asked Kim Soo-hyun to save her phone number. The recipient was labeled \"Kim Soo-hyun 88,\" indicating that Kim Soo-hyun did not yet have Kim Sae-ron's phone number in 2018.",
+                  "ko": "김새론 유족 측은 라이브 방송에서 김새론이 2018년 김수현에게 자신의 전화번호를 저장해 달라고 요청한 문자 메시지를 스스로 공개했다. 메시지 수신인은 \"김수현88\"로 표시되어 있으며, 이는 2018년 당시 김수현이 아직 김새론의 휴대전화 번호를 저장해 두지 않았음을 보여준다."
+                },
+                "list": [
+                  {
+                    "description": {
+                      "zh": "",
+                      "en": "",
+                      "ko": ""
+                    },
+                    "imgs": {
+                      "zh": [
+                        "/images/18没号码中.jpg"
+                      ],
+                      "ko": [
+                        "/images/18没号码韩.jpg"
+                      ],
+                      "en": [
+                        "/images/18没号码英.jpg"
+                      ],
+                      "shared": []
+                    },
+                    "link": [],
+                    "videos": [],
+                    "zh_only": false
+                  }
+                ]
+              }
             }
           ],
           "intro": {
