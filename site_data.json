@@ -37,6 +37,44 @@
           "layout": "timeline",
           "items": [
             {
+              "id": "legal-kim-soo-hyun-mido-endorsement-fee-lawsuit-win-20260827",
+              "time": "20260827",
+              "event": {
+                "zh": "法院判定金秀贤公司对广告商MIDO的代言费返还诉讼胜诉",
+                "en": "Court rules in favor of Kim Soo-hyun's agency in MIDO's lawsuit seeking the return of endorsement fees",
+                "ko": "법원, MIDO의 광고계약금 반환 청구 소송에서 김수현 소속사 승소 판결"
+              },
+              "details": {
+                "zh": "法院认为广告商解除合同的理由不存在，驳回MIDO的起诉。",
+                "en": "The court found that MIDO had no valid grounds to terminate the endorsement contract and dismissed its claim.",
+                "ko": "법원은 MIDO가 주장한 계약 해지 사유가 인정되지 않는다고 판단해 청구를 기각했다."
+              },
+              "imgs": {
+                "zh": [
+                  "/images/0827广告胜诉mido中.jpg"
+                ],
+                "ko": [
+                  "/images/0827广告胜诉mido韩.jpg"
+                ],
+                "en": [
+                  "/images/0827广告胜诉mido英.jpg"
+                ],
+                "shared": []
+              },
+              "link": [
+                {
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "출처 링크"
+                  },
+                  "url": "https://m.entertain.naver.com/home/article/108/0003465830"
+                }
+              ],
+              "videos": [],
+              "zh_only": false
+            },
+            {
               "id": "legal-kim-soo-hyun-no-suspicion-20260729",
               "time": "20260729",
               "event": {
@@ -2202,29 +2240,32 @@
           "index": 7,
           "title": {
             "zh": "雪莉哥哥借事件热度散布\"雪莉被迫拍摄床戏\"的不实说法",
-            "en": "Sulli's brother falsely claimed she was forced to film bed scenes",
-            "ko": "설리 오빠, 관심을 끌기 위해 설리에게 베드신을 강요했다는 허위 주장"
+            "en": "Sulli's brother capitalized on the controversy to spread the false claim that Sulli had been forced to film a bed scene",
+            "ko": "설리 오빠, 사건의 화제성을 이용해 \"설리가 베드신 촬영을 강요당했다\"는 허위 주장 유포"
           },
           "description": {
-            "zh": "电影Real剧组在2015年招募演员时就明确告知需要拍摄大尺度戏份并且出了新闻，剧组副导演与剧本统筹均实名作证不存在逼迫。雪莉哥哥随后承认并不存在强迫拍摄情形。",
-            "en": "When the film Real recruited actors in 2015, production notices publicly stated in advance that the role involved explicit scenes.\n\nThe film's assistant director and script supervisor later testified under their real names that no one was forced to film the bed scenes, and the storyboard also supported their statements.\n\nSulli's brother later acknowledged that there had been no coercion.",
-            "ko": "영화 《리얼》 제작진은 2015년 배우를 모집할 당시부터 고수위 노출 및 베드신 촬영이 있다는 사실을 명확히 공지했고, 관련 내용은 당시 기사로도 보도됐다. 현장 부감독과 시나리오 슈퍼바이저가 실명으로 강요가 없었다고 증언했으며, 설리 오빠는 곧바로 강요 사실이 없음을 인정하며 입장을 번복했다."
+            "zh": "电影Real剧组在2015年招募演员时就明确告知需要拍摄大尺度戏份并且出了新闻，剧组副导演与剧本统筹均实名作证不存在逼迫。雪莉哥哥随后承认并不存在强迫拍摄情形。其实早在2020年雪莉哥哥就因造谣雪莉朋友发文道歉，并且承认早已与雪莉断交。",
+            "en": "When the film Real recruited actors in 2015, the production team explicitly disclosed that the role required filming explicit scenes, and this was reported in the press. The film's assistant director and script supervisor both testified under their real names that no coercion had occurred. Sulli's brother subsequently acknowledged that she had not been forced to film the scenes. In fact, as early as 2020, he published an apology for spreading false claims about Sulli's friends and admitted that he and Sulli had already become estranged.",
+            "ko": "영화 《리얼》 제작진은 2015년 배우 모집 당시 고수위 장면 촬영이 필요하다는 사실을 명확히 고지했고, 관련 내용은 기사로도 보도됐다. 영화 부감독과 시나리오 슈퍼바이저는 모두 실명으로 촬영 강요가 없었다고 증언했다. 이후 설리 오빠도 강요 촬영은 없었다고 인정했다. 사실 설리 오빠는 이미 2020년 설리의 지인들에 대한 허위 주장을 퍼뜨린 데 대해 사과문을 올렸고, 설리와 오래전부터 관계를 끊은 상태였다고 인정한 바 있다."
           },
           "imgs": {
             "zh": [
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/e3/178193639403e77016b1f8f2b1f758a1779b639dcd.jpg",
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/2f/178193639586a9854beac8a475b5604e4f945cfc88.jpg",
-              "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/28/1781936396731aa7b8a6e966c4999978a808872bf3.jpg"
+              "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/28/1781936396731aa7b8a6e966c4999978a808872bf3.jpg",
+              "/images/雪莉哥哥20年道歉中.jpg"
             ],
             "ko": [
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/fd/1781936396b1655089053e3ba2d6a0f04d675e747b.jpg",
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/ab/17819363966b3793c17d44bac161ceff4d4b2a8b5f.jpg",
-              "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/e1/178193639742292351abc0dde52c17a23ef1bc3f08.jpg"
+              "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/e1/178193639742292351abc0dde52c17a23ef1bc3f08.jpg",
+                "/images/雪莉哥哥20年道歉韩.jpg"
             ],
             "en": [
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/11/1781936398f8c46fa53fc92ad4586688d0644098a5.jpg",
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/33/1781936398a0f78b81bba39f6b3b4ec3e3955e33e0.jpg",
-              "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/56/1781936398e0246e84cbc3aeade6bc81991ea3ea9a.jpg"
+              "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/56/1781936398e0246e84cbc3aeade6bc81991ea3ea9a.jpg",
+              "/images/雪莉哥哥20年道歉英.jpg"
             ],
             "shared": [
               "https://img.ltwebstatic.com/v4/j/ccc/2026/06/20/55/178193639947242166d733d874a0dc9c231b2ad608.jpg"
@@ -2262,6 +2303,14 @@
                 "ko": "2025년 설리 기일에 미국 극우 관련 게시물로 논란이 된 설리 오빠"
               },
               "url": "https://www.chosun.com/english/kpop-culture-en/2025/10/14/CFHLA2XTR5ASBL6HW4TKEDHMMI/?utm_source=chatgpt.com"
+            },
+            {
+              "title": {
+                "zh": "雪莉哥哥在2020年为造谣雪莉朋友道歉,并承认早已与雪莉断交",
+                "en": "Sulli's brother apologized in 2020 for spreading false claims about Sulli's friends and acknowledged that he had already become estranged from Sulli",
+                "ko": "설리 오빠, 2020년 설리 지인들에 대한 허위 주장에 사과하고 오래전부터 설리와 관계를 끊었다고 인정"
+              },
+              "url": "https://sports.khan.co.kr/article/202009140948003?utm_source=chatgpt.com#ENT"
             }
           ],
           "videos": [],
