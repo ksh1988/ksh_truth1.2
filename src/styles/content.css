@@ -217,6 +217,19 @@
   border-radius: 999px;
 }
 
+.image-download-button.image-download-text {
+  width: auto;
+  padding: 0 12px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+}
+.image-download-button.image-download-text::after {
+  content: none;
+}
+
 .media-grid.compact { grid-template-columns: repeat(2, minmax(110px, 1fr)); min-width: 260px; }
 .media-grid.compact img { max-height: 260px; }
 .media-preview-button {

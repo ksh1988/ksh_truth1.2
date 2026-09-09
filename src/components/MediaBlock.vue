@@ -29,7 +29,7 @@ const images = computed(() => visibleMediaSources([
   ...(props.item.imgs?.shared || []),
 ]))
 const loadingText = computed(() => ({ zh: 'Images load as you scroll', ko: 'Images load as you scroll', en: 'Images load as you scroll' })[props.lang] || 'Images load as you scroll')
-const downloadLabel = computed(() => ({ zh: '保存图片', ko: 'Save image', en: 'Save image' })[props.lang] || 'Save image')
+const downloadLabel = computed(() => ({ zh: '下载', ko: '다운로드', en: 'Download' })[props.lang] || 'Download')
 const closeLabel = computed(() => ({ zh: 'Close image preview', ko: 'Close image preview', en: 'Close image preview' })[props.lang] || 'Close image preview')
 const previousLabel = computed(() => ({ zh: 'Previous image', ko: 'Previous image', en: 'Previous image' })[props.lang] || 'Previous image')
 const nextLabel = computed(() => ({ zh: 'Next image', ko: 'Next image', en: 'Next image' })[props.lang] || 'Next image')
@@ -184,13 +184,13 @@ const markFailed = (src) => { failed.value = new Set([...failed.value, src]) }
         </button>
         <button
           v-if="!failed.has(src)"
-          class="image-download-button"
+          class="image-download-button image-download-text"
           type="button"
           :aria-label="downloadLabel"
           :title="downloadLabel"
           @click="downloadImage($event, src, index)"
         >
-          <span aria-hidden="true"></span>
+          {{ downloadLabel }}
         </button>
         <span v-else class="image-error">{{ emptyText }}<small>{{ src }}</small></span>
       </div>
