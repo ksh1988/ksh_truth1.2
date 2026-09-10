@@ -56,7 +56,7 @@ const segmentClass = (segment) => ({
   'segment-block': segment.block,
 })
 
-const matrixDownloadLabel = computed(() => ({ zh: '下载表格图片', ko: '표 이미지 다운로드', en: 'Download table image' })[props.lang] || 'Download table image')
+const matrixDownloadLabel = computed(() => ({ zh: '下载', ko: '다운로드', en: 'Download' })[props.lang] || 'Download')
 const matrixDownloadSrc = computed(() => resolveMediaSrc(localize(props.content.matrix_download_imgs)))
 
 /**
@@ -118,7 +118,6 @@ const shouldShowLinkArrow = (segmentList, segmentIndex) => {
         :title="matrixDownloadLabel"
         @click="downloadMatrixImage"
       >
-        <span class="matrix-download-icon" aria-hidden="true"></span>
         <span>{{ matrixDownloadLabel }}</span>
       </button>
     </div>

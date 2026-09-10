@@ -52,7 +52,7 @@ const videos = computed(() => {
  */
 const videoTitle = (video, index) => video.title || 'Video ' + (index + 1)
 
-const downloadLabel = computed(() => ({ zh: '下载视频', ko: 'Download video', en: 'Download video' })[props.lang] || 'Download video')
+const downloadLabel = computed(() => ({ zh: '下载', ko: '다운로드', en: 'Download' })[props.lang] || 'Download')
 
 /**
  * Downloads one video file from the card action button.
@@ -80,13 +80,13 @@ const downloadVideo = async (event, video, index) => {
     <figure v-for="(video, index) in videos" :key="video.src + '-' + index" class="video-card">
       <figcaption>{{ videoTitle(video, index) }}</figcaption>
       <button
-        class="video-download-button image-download-button"
+        class="video-download-button image-download-button image-download-text"
         type="button"
         :aria-label="downloadLabel"
         :title="downloadLabel"
         @click="downloadVideo($event, video, index)"
       >
-        <span aria-hidden="true"></span>
+        {{ downloadLabel }}
       </button>
       <video
         :src="video.src"
