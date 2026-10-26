@@ -18,6 +18,7 @@ export const uiText = {
     returnPrevious: '返回上一页面',
     pressConferenceButton: '金秀贤记者会',
     siteViewsPrefix: '本站总访问量',
+    siteViewsUnavailable: '暂时无法获取',
     siteViewsSuffix: '次',
   },
   ko: {
@@ -39,6 +40,7 @@ export const uiText = {
     returnPrevious: '이전 화면으로',
     pressConferenceButton: '김수현 기자회견',
     siteViewsPrefix: '전체 방문 수',
+    siteViewsUnavailable: '일시적으로 조회할 수 없습니다',
     siteViewsSuffix: '회',
   },
   en: {
@@ -60,6 +62,7 @@ export const uiText = {
     returnPrevious: 'Back to previous view',
     pressConferenceButton: 'KSH Press Conference',
     siteViewsPrefix: 'Total site visits',
+    siteViewsUnavailable: 'Temporarily unavailable',
     siteViewsSuffix: '',
   },
 }

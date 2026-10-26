@@ -37,6 +37,38 @@
           "layout": "timeline",
           "items": [
             {
+              "id": "legal-bereaved-family-four-referred-20261026",
+              "time": "20261026",
+              "event": {
+                "zh": "金赛纶母亲、假姨妈、律师夫志硕及代理人权英灿四人因涉嫌诽谤、违反性暴力犯罪处罚相关法律、强迫未遂等，被警方移送至首尔中央地方公诉厅",
+                "en": "Police refer Kim Sae-ron's mother, a woman posing as her aunt, lawyer Bu Ji-seok and representative Kwon Young-chan to the Seoul Central District Public Prosecution Office over allegations including defamation, violations of sexual violence legislation and attempted coercion",
+                "ko": "경찰, 김새론 모친·이모 사칭 인물·부지석 변호사·대리인 권영찬 등 4명을 명예훼손·성폭력처벌법 위반·강요미수 등 혐의로 서울중앙지방공소청에 송치"
+              },
+              "details": {
+                "zh": "金赛纶母亲及冒充其姨妈的人物涉嫌散布虚假事实诽谤、违反性暴力犯罪处罚相关法律（传播利用摄像设备等拍摄的影像）、强迫未遂等。律师夫志硕涉嫌刑法上的诽谤及通过信息通信网络散布虚假事实诽谤；权英灿涉嫌违反性暴力犯罪处罚相关法律（传播利用摄像设备等拍摄的影像）,以上四人已被警方移送至首尔中央地方检察厅",
+                "en": "Kim Sae-ron's mother and the person posing as her aunt are suspected of offenses including defamation by spreading false information, violations of legislation on the punishment of sexual crimes (distribution of images recorded using cameras or similar devices), and attempted coercion. Lawyer Bu Ji-seok is suspected of defamation under the Criminal Act and defamation by spreading false information through information and communications networks; Kwon Young-chan is suspected of violating legislation on the punishment of sexual crimes (distribution of images recorded using cameras or similar devices). Police have referred all four to the Seoul Central District Prosecutors' Office.",
+                "ko": "김새론의 모친과 이모를 사칭한 인물은 허위사실 적시에 의한 명예훼손, 성폭력처벌법 위반(카메라 등을 이용한 촬영물 반포), 강요미수 등의 혐의를 받고 있다. 부지석 변호사는 형법상 명예훼손 및 정보통신망을 통한 허위사실 적시에 의한 명예훼손 혐의를, 권영찬은 성폭력처벌법 위반(카메라 등을 이용한 촬영물 반포) 혐의를 받고 있다. 경찰은 이들 네 사람을 서울중앙지방검찰청에 송치했다."
+              },
+              "imgs": {
+                "zh": ["/images/1026遗属送检中.jpg"],
+                "ko": ["/images/1026遗属送检韩.jpg"],
+                "en": ["/images/1026遗属送检英.jpg"],
+                "shared": []
+              },
+              "link": [
+                {
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "출처 링크"
+                  },
+                  "url": "https://n.news.naver.com/article/001/0016400526"
+                }
+              ],
+              "videos": [],
+              "zh_only": false
+            },
+            {
               "id": "legal-kim-soo-hyun-child-welfare-case-records-returned-20260903",
               "time": "20260903",
               "event": {
@@ -3367,8 +3399,7 @@
                 }
               ],
               "videos": [],
-              "zh_only": false,
-              "visible": false
+              "zh_only": false
             },
             {
               "id": "row11-7",
@@ -3416,8 +3447,7 @@
                 }
               ],
               "videos": [],
-              "zh_only": false,
-              "visible": false
+              "zh_only": false
             }
           ],
           "intro": {
@@ -5995,9 +6025,9 @@
         "ko": "https://img.ltwebstatic.com/v4/p/ccc/2026/07/18/37/1784384750fbcef72f0c34294fd837fb9c1d441df0.png"
       },
       "matrix_intro": {
-        "zh": "金赛纶是家庭长期剥削利用的被害者，也是为了逃避债务威胁诬陷金秀贤的加害者。",
-        "ko": "김새론은 오랫동안 가족에게 착취와 이용을 당한 피해자이면서도, 빚을 갚지 않기 위해 김수현을 협박과 모함한 가해자이기도 하다.",
-        "en": "Kim Sae-ron was both a victim of long-term exploitation by her family and a perpetrator who threatened and falsely accused Kim Soo-hyun in an attempt to avoid repaying debt."
+        "zh": "金赛纶是家庭长期剥削利用的被害者，也是为了逃避债务威胁诬陷金秀贤的加害者",
+        "ko": "김새론은 오랫동안 가족에게 착취와 이용을 당한 피해자이면서도, 빚을 갚지 않기 위해 김수현을 협박과 모함한 가해자이기도 하다",
+        "en": "Kim Sae-ron was both a victim of long-term exploitation by her family and a perpetrator who threatened and falsely accused Kim Soo-hyun in an attempt to avoid repaying debt"
       },
       "matrix_sections": [
         {
@@ -6122,12 +6152,12 @@
               "public": {
                 "zh": "发送\"哥哥救救我\"短信",
                 "ko": "\"오빠 살려주세요\"라는 문자를 보냄",
-                "en": "Sent the message, \"Oppa, please save me.\""
+                "en": "Sent the message, \"Oppa, please save me\""
               },
               "behind": {
                 "zh": [
                   {
-                    "text": "对经纪人说要让金秀贤去死，因此爆照秒删。",
+                    "text": "对经纪人说要让金秀贤去死，因此爆照秒删",
                     "color": "red",
                     "bold": true,
                     "italic": true,
@@ -6139,7 +6169,7 @@
                     }
                   },
                   {
-                    "text": "向经纪人编造17岁恋爱声明。",
+                    "text": "向经纪人编造17岁恋爱声明",
                     "color": "red",
                     "bold": true,
                     "italic": true,
@@ -6151,7 +6181,7 @@
                     }
                   },
                   {
-                    "text": "向表姐编造15岁恋爱声明。",
+                    "text": "向表姐编造15岁恋爱声明",
                     "block": true,
                     "internal_link": {
                       "tab_id": "facts",
@@ -6162,7 +6192,7 @@
                 ],
                 "ko": [
                   {
-                    "text": "매니저에게 \"김수현을 죽게 하고 싶었다\"고 말하며 사진을 올렸다가 바로 삭제했다.",
+                    "text": "매니저에게 \"김수현을 죽게 하고 싶었다\"고 말하며 사진을 올렸다가 바로 삭제했다",
                     "color": "red",
                     "bold": true,
                     "italic": true,
@@ -6174,7 +6204,7 @@
                     }
                   },
                   {
-                    "text": "매니저에게는 \"17세부터 교제했다\"는 거짓 진술을 만들었다.",
+                    "text": "매니저에게는 \"17세부터 교제했다\"는 거짓 진술을 만들었다",
                     "color": "red",
                     "bold": true,
                     "italic": true,
@@ -6186,7 +6216,7 @@
                     }
                   },
                   {
-                    "text": "사촌언니에게는 \"15세부터 교제했다\"는 다른 버전의 진술을 말했다.",
+                    "text": "사촌언니에게는 \"15세부터 교제했다\"는 다른 버전의 진술을 말했다",
                     "italic": true,
                     "block": true,
                     "internal_link": {
@@ -6198,7 +6228,7 @@
                 ],
                 "en": [
                   {
-                    "text": "Told her manager that she wanted Kim Soo-hyun \"to die,\" then posted and quickly deleted the photo.",
+                    "text": "Told her manager that she wanted Kim Soo-hyun \"to die,\" then posted and quickly deleted the photo",
                     "color": "red",
                     "bold": true,
                     "italic": true,
@@ -6210,7 +6240,7 @@
                     }
                   },
                   {
-                    "text": "Fabricated a statement for her manager claiming they began dating when she was 17.",
+                    "text": "Fabricated a statement for her manager claiming they began dating when she was 17",
                     "color": "red",
                     "bold": true,
                     "italic": true,
@@ -6222,7 +6252,7 @@
                     }
                   },
                   {
-                    "text": "Told her cousin a different version claiming they began dating when she was 15.",
+                    "text": "Told her cousin a different version claiming they began dating when she was 15",
                     "italic": true,
                     "block": true,
                     "internal_link": {
@@ -6236,14 +6266,14 @@
               "notes": {
                 "zh": [
                   {
-                    "text": "红色文字由揭发李胜利的记者姜京允于2025年6月在个人博客曝光。",
+                    "text": "红色文字由揭发李胜利的记者姜京允于2025年6月在个人博客曝光",
                     "color": "red",
                     "block": true
                   }
                 ],
                 "ko": [
                   {
-                    "text": "붉은 글씨 부분은 버닝썬 사건을 폭로한 강경윤 기자가 2025년 6월 개인 블로그를 통해 공개했다.",
+                    "text": "붉은 글씨 부분은 버닝썬 사건을 폭로한 강경윤 기자가 2025년 6월 개인 블로그를 통해 공개했다",
                     "color": "red",
                     "bold": true,
                     "italic": true,
@@ -6252,7 +6282,7 @@
                 ],
                 "en": [
                   {
-                    "text": "The statements highlighted in red were disclosed by reporter Kang Kyung-yoon, who exposed the Burning Sun scandal, on her personal blog in June 2025.",
+                    "text": "The statements highlighted in red were disclosed by reporter Kang Kyung-yoon, who exposed the Burning Sun scandal, on her personal blog in June 2025",
                     "color": "red",
                     "bold": true,
                     "italic": true,
@@ -6326,14 +6356,14 @@
                 ]
               },
               "public": {
-                "zh": "写信给金秀贤，谎称\"哥哥是我的初恋绝恋\"\"联系不上才爆照\"。",
+                "zh": "写信给金秀贤，谎称\"哥哥是我的初恋绝恋\"\"联系不上才爆照\"",
                 "ko": "김수현에게 편지를 보내 \"오빠는 나의 첫사랑이자 마지막 사랑이었다\", \"연락이 되지 않아 사진을 올렸다\"고 거짓 주장",
-                "en": "Wrote a letter to Kim Soo-hyun and falsely claimed, \"Oppa was my first love and my only true love,\" and that she posted the photo only because she could not contact him."
+                "en": "Wrote a letter to Kim Soo-hyun and falsely claimed, \"Oppa was my first love and my only true love,\" and that she posted the photo only because she could not contact him"
               },
               "behind": {
                 "zh": [
                   {
-                    "text": "与此同时，她正与现任男友交往，并请经纪人购买紧急避孕药。",
+                    "text": "与此同时，她正与现任男友交往，并请经纪人购买紧急避孕药",
                     "color": "red",
                     "block": true,
                     "internal_link": {
@@ -6345,7 +6375,7 @@
                 ],
                 "ko": [
                   {
-                    "text": "동시에 당시 남자친구와 교제 중이었으며, 매니저에게 응급피임약 구매를 부탁했다.",
+                    "text": "동시에 당시 남자친구와 교제 중이었으며, 매니저에게 응급피임약 구매를 부탁했다",
                     "color": "red",
                     "bold": true,
                     "italic": true,
@@ -6359,7 +6389,7 @@
                 ],
                 "en": [
                   {
-                    "text": "At the same time, she was dating her current boyfriend and asked her manager to purchase emergency contraception.",
+                    "text": "At the same time, she was dating her current boyfriend and asked her manager to purchase emergency contraception",
                     "color": "red",
                     "bold": true,
                     "italic": true,
@@ -6522,13 +6552,13 @@
                 ],
                 "ko": [
                   {
-                    "text": "김새론이 2024년 빚을 피하고 김수현을 모함하기 위해 조작했던 \"15세 교제\" 버전의 진술을 유서처럼 공개.\n증거 조작.",
+                    "text": "김새론이 2024년 빚을 피하고 김수현을 모함하기 위해 조작했던 \"15세 교제\" 버전의 진술을 유서처럼 공개\n증거 조작",
                     "block": true
                   }
                 ],
                 "en": [
                   {
-                    "text": "Publicized as a suicide note the \"dating at age 15\" version of the statement Kim Sae-ron had fabricated in 2024 to falsely accuse Kim Soo-hyun and avoid repaying debt.\nFabricated evidence.",
+                    "text": "Publicized as a suicide note the \"dating at age 15\" version of the statement Kim Sae-ron had fabricated in 2024 to falsely accuse Kim Soo-hyun and avoid repaying debt\nFabricated evidence",
                     "block": true
                   }
                 ]
@@ -6542,7 +6572,7 @@
                     "block": true
                   },
                   {
-                    "text": "煽动，引导网友造谣图片日期。",
+                    "text": "煽动，引导网友造谣图片日期",
                     "block": true
                   }
                 ],
@@ -6556,7 +6586,7 @@
                 ],
                 "en": [
                   {
-                    "text": "Released only the photos without disclosing when they were taken, while encouraging online speculation about the dates.",
+                    "text": "Released only the photos without disclosing when they were taken, while encouraging online speculation about the dates",
                     "bold": true,
                     "italic": true,
                     "block": true
@@ -6566,19 +6596,19 @@
               "chat": {
                 "zh": [
                   {
-                    "text": "将金赛纶与多个真正未成年男友的聊天记录换上金秀贤头像后曝光。",
+                    "text": "将金赛纶与多个真正未成年男友的聊天记录换上金秀贤头像后曝光",
                     "block": true
                   }
                 ],
                 "ko": [
                   {
-                    "text": "김새론이 실제로 교제했던 여러 미성년 남자친구와의 대화에서 프로필 사진만 김수현의 것으로 바꾸어 공개했다.",
+                    "text": "김새론이 실제로 교제했던 여러 미성년 남자친구와의 대화에서 프로필 사진만 김수현의 것으로 바꾸어 공개했다",
                     "block": true
                   }
                 ],
                 "en": [
                   {
-                    "text": "The bereaved family group replaced the original profile photos in chat records between Kim Sae-ron and multiple actual underage boyfriends with Kim Soo-hyun's profile image, then released the records.",
+                    "text": "The bereaved family group replaced the original profile photos in chat records between Kim Sae-ron and multiple actual underage boyfriends with Kim Soo-hyun's profile image, then released the records",
                     "block": true
                   }
                 ]
@@ -6586,35 +6616,35 @@
               "letter": {
                 "zh": [
                   {
-                    "text": "将2019年信件中的\"我爱你\"截图嫁接到2018年军队信旁，引导网友误以为2018年信件中有\"我爱你\"。",
+                    "text": "将2019年信件中的\"我爱你\"截图嫁接到2018年军队信旁，引导网友误以为2018年信件中有\"我爱你\"",
                     "bold": true,
                     "italic": true,
                     "block": true
                   },
                   {
-                    "text": "2018年军队信中没有\"我爱你\"，金赛纶的昵称被多次写错。该军队信只是金秀贤写给多位普通朋友的许多信件之一。",
+                    "text": "2018年军队信中没有\"我爱你\"，金赛纶的昵称被多次写错。该军队信只是金秀贤写给多位普通朋友的许多信件之一",
                     "block": true
                   },
                   {
-                    "text": "\"我爱你\"只出现在2019年11月恋爱时期的明信片中。",
+                    "text": "\"我爱你\"只出现在2019年11月恋爱时期的明信片中",
                     "block": true
                   }
                 ],
                 "ko": [
                   {
-                    "text": "2019년 편지의 \"사랑해\" 부분을 잘라 2018년 군대 편지 옆에 붙여, 마치 2018년 편지에도 \"사랑해\"가 있었던 것처럼 보이게 했다고 주장한다.",
+                    "text": "2019년 편지의 \"사랑해\" 부분을 잘라 2018년 군대 편지 옆에 붙여, 마치 2018년 편지에도 \"사랑해\"가 있었던 것처럼 보이게 했다고 주장한다",
                     "bold": true,
                     "italic": true,
                     "block": true
                   },
                   {
-                    "text": "이 서술에 따르면 2018년 군대 편지에는 \"사랑해\"가 없었고, 김새론의 별명도 여러 차례 잘못 적혀 있었다. 해당 편지는 김수현이 군 복무 중 여러 지인에게 보낸 평범한 편지 가운데 하나였다.",
+                    "text": "이 서술에 따르면 2018년 군대 편지에는 \"사랑해\"가 없었고, 김새론의 별명도 여러 차례 잘못 적혀 있었다. 해당 편지는 김수현이 군 복무 중 여러 지인에게 보낸 평범한 편지 가운데 하나였다",
                     "bold": true,
                     "italic": true,
                     "block": true
                   },
                   {
-                    "text": "\"사랑해\"라는 표현은 2019년 11월 교제 당시 주고받은 엽서에만 등장했다고 한다.",
+                    "text": "\"사랑해\"라는 표현은 2019년 11월 교제 당시 주고받은 엽서에만 등장했다고 한다",
                     "bold": true,
                     "italic": true,
                     "block": true
@@ -6622,19 +6652,19 @@
                 ],
                 "en": [
                   {
-                    "text": "Attached a cropped \"I love you\" image from a 2019 letter to a 2018 military letter, leading people to believe the 2018 letter contained the words \"I love you.\"",
+                    "text": "Attached a cropped \"I love you\" image from a 2019 letter to a 2018 military letter, leading people to believe the 2018 letter contained the words \"I love you\"",
                     "bold": true,
                     "italic": true,
                     "block": true
                   },
                   {
-                    "text": "In fact, the 2018 military letter did not contain those words, and Kim Sae-ron's nickname was misspelled multiple times. It was one of many ordinary letters Kim Soo-hyun wrote to friends during his military service.",
+                    "text": "In fact, the 2018 military letter did not contain those words, and Kim Sae-ron's nickname was misspelled multiple times. It was one of many ordinary letters Kim Soo-hyun wrote to friends during his military service",
                     "bold": true,
                     "italic": true,
                     "block": true
                   },
                   {
-                    "text": "The phrase \"I love you\" appeared only in a postcard exchanged while they were dating in November 2019.",
+                    "text": "The phrase \"I love you\" appeared only in a postcard exchanged while they were dating in November 2019",
                     "bold": true,
                     "italic": true,
                     "block": true
@@ -6644,31 +6674,31 @@
               "audio": {
                 "zh": [
                   {
-                    "text": "向他人购买AI语音，并散布金秀贤买凶杀人、抢夺录音的不实说法，该说法随后被韩国驻美国大使馆否认。",
+                    "text": "向他人购买AI语音，并散布金秀贤买凶杀人、抢夺录音的不实说法，该说法随后被韩国驻美国大使馆否认",
                     "block": true
                   },
                   {
-                    "text": "又散布元彬帮助录音举报人的不实说法，后被元彬本人否认。",
+                    "text": "又散布元彬帮助录音举报人的不实说法，后被元彬本人否认",
                     "block": true
                   }
                 ],
                 "ko": [
                   {
-                    "text": "타인에게서 AI 음성을 구입하고, 김수현이 청부살인을 사주해 녹음을 빼앗으려 했다는 허위 주장을 퍼뜨렸으며, 주미 한국대사관에 의해 즉시 사실이 아님이 밝혀졌다.",
+                    "text": "타인에게서 AI 음성을 구입하고, 김수현이 청부살인을 사주해 녹음을 빼앗으려 했다는 허위 주장을 퍼뜨렸으며, 주미 한국대사관에 의해 즉시 사실이 아님이 밝혀졌다",
                     "block": true
                   },
                   {
-                    "text": "또 원빈이 녹음 제보자를 도왔다는 허위 주장을 퍼뜨렸고, 원빈 본인이 직접 반박했다.",
+                    "text": "또 원빈이 녹음 제보자를 도왔다는 허위 주장을 퍼뜨렸고, 원빈 본인이 직접 반박했다",
                     "block": true
                   }
                 ],
                 "en": [
                   {
-                    "text": "Purchased AI-generated audio from another person, spread the false rumor that Kim Soo-hyun had hired someone to commit murder and seize the recording, and was debunked on the spot by the Korean Embassy in the United States.",
+                    "text": "Purchased AI-generated audio from another person, spread the false rumor that Kim Soo-hyun had hired someone to commit murder and seize the recording, and was debunked on the spot by the Korean Embassy in the United States",
                     "block": true
                   },
                   {
-                    "text": "They also spread the false rumor that Won Bin had helped the audio informant, which Won Bin personally debunked.",
+                    "text": "They also spread the false rumor that Won Bin had helped the audio informant, which Won Bin personally debunked",
                     "block": true
                   }
                 ]
@@ -6679,11 +6709,10 @@
         }
       ],
       "matrix_conclusion": {
-        "zh": "金赛纶遗属长期利用金赛纶的人生，还试图利用金赛纶的死亡对无辜者谋财害命，是纯粹的加害者。",
-        "ko": "김새론 유족은 김새론의 삶 전체를 오랫동안 이용했을 뿐만 아니라, 그녀의 죽음까지 이용해 무고한 사람에게 피해를 주고 경제적 이익을 얻으려 한 순전한 가해자다.",
-        "en": "Kim Sae-ron's bereaved family exploited every aspect of her life and further used her death to seek financial gain while harming innocent people."
-      },
-      "visible": false
+        "zh": "金赛纶遗属长期利用金赛纶的人生，还试图利用金赛纶的死亡对无辜者谋财害命，是纯粹的加害者",
+        "ko": "김새론 유족은 김새론의 삶 전체를 오랫동안 이용했을 뿐만 아니라, 그녀의 죽음까지 이용해 무고한 사람에게 피해를 주고 경제적 이익을 얻으려 한 순전한 가해자다",
+        "en": "Kim Sae-ron's bereaved family exploited every aspect of her life and further used her death to seek financial gain while harming innocent people"
+      }
     }
   ]
 }
