@@ -69,6 +69,44 @@
               "zh_only": false
             },
             {
+              "id": "legal-kim-se-ui-criminal-proceeds-freeze-20260915",
+              "time": "20260915",
+              "event": {
+                "zh": "检方申请保全金世义诽谤金秀贤案的犯罪所得，法院批准冻结约1.7亿韩元资产",
+                "en": "Court approves freeze of approximately KRW 170 million in Kim Se-ui's assets in Kim Soo-hyun defamation case",
+                "ko": "법원, 김세의의 김수현 명예훼손 사건에서 약 1억 7천만 원 상당 자산에 대한 추징보전 청구 인용"
+              },
+              "details": {
+                "zh": "检方查明，金世义通过诽谤金秀贤的YouTube内容获得捐款和广告收益合计约1.7亿韩元。法院批准检方的追征保全申请后，检方冻结了相应价值的资产。",
+                "en": "Prosecutors found that Kim Se-ui earned approximately KRW 170 million in donations and advertising revenue from YouTube content that defamed Kim Soo-hyun. After the court granted their application to preserve assets for possible recovery of the proceeds, prosecutors froze assets of corresponding value.",
+                "ko": "검찰은 김세의가 김수현의 명예를 훼손한 유튜브 콘텐츠를 통해 후원금과 광고 수익으로 총 약 1억 7천만 원을 벌어들인 것으로 파악했다. 법원이 검찰의 추징보전 청구를 인용한 뒤 검찰은 해당 금액 상당의 자산을 동결했다."
+              },
+              "imgs": {
+                "zh": [
+                  "/images/915收缴犯罪所得中.jpg"
+                ],
+                "ko": [
+                  "/images/915收缴犯罪所得韩.jpg"
+                ],
+                "en": [
+                  "/images/915收缴犯罪所得英.jpg"
+                ],
+                "shared": []
+              },
+              "link": [
+                {
+                  "title": {
+                    "zh": "来源链接",
+                    "en": "Source link",
+                    "ko": "출처 링크"
+                  },
+                  "url": "https://n.news.naver.com/mnews/article/001/0016312304?sid=102"
+                }
+              ],
+              "videos": [],
+              "zh_only": false
+            },
+            {
               "id": "legal-kim-soo-hyun-child-welfare-case-records-returned-20260903",
               "time": "20260903",
               "event": {
@@ -2581,6 +2619,44 @@
                 "ko": "네이버 시간순 검색 기준 최초 김새론 사망 보도"
               },
               "url": "https://n.news.naver.com/article/018/0005944671?sid=102"
+            }
+          ],
+          "videos": [],
+          "zh_only": false
+        },
+        {
+          "id": "rumor-kim-sae-ron-contract-expiry",
+          "index": 12,
+          "title": {
+            "zh": "金赛纶并非被金牌公司解约，是合约到期不续约",
+            "en": "Gold Medalist did not terminate Kim Sae-ron's contract early; it was not renewed upon expiry",
+            "ko": "김새론은 골드메달리스트와 계약이 해지된 것이 아니라 계약 만료 후 재계약하지 않은 것"
+          },
+          "description": {
+            "zh": "金赛纶22年5月发生醉驾事故，公司并未第一时间和金赛纶解约，而是12月合同到期后不续约。",
+            "en": "After Kim Sae-ron's drunk-driving accident in May 2022, the agency did not immediately terminate her contract. Instead, it did not renew the contract when it expired in December.",
+            "ko": "김새론이 2022년 5월 음주운전 사고를 냈을 당시, 소속사는 곧바로 계약을 해지하지 않았다. 대신 12월 계약이 만료된 뒤 재계약하지 않았다."
+          },
+          "imgs": {
+            "zh": [
+              "/images/解约辟谣中.jpg"
+            ],
+            "en": [
+              "/images/解约辟谣英.jpg"
+            ],
+            "ko": [
+              "/images/解约辟谣韩.jpg"
+            ],
+            "shared": []
+          },
+          "link": [
+            {
+              "title": {
+                "zh": "来源链接",
+                "en": "Source link",
+                "ko": "출처 링크"
+              },
+              "url": "https://www.hankookilbo.com/news/article/A2022120113080005339"
             }
           ],
           "videos": [],
